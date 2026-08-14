@@ -8,6 +8,14 @@ let satisLinkleri = {};
 
 const $ = s => document.querySelector(s);
 
+/* Dış metin veridir: kaynak sitelerden gelen etiket/URL/başlık HTML'e
+   basılmadan önce her zaman kaçışlanır. */
+function kacar(s) {
+  return String(s ?? '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 async function api(yol, govde) {
   const r = await fetch(yol, govde
     ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(govde) }
@@ -36,10 +44,10 @@ function havuzCiz() {
     const el = document.createElement('div');
     el.className = 'aday' + (secim.has(a.id) ? ' secili' : '');
     el.innerHTML = `
-      <img src="${onizlemeUrl(a)}" loading="lazy" alt="">
+      <img src="${kacar(onizlemeUrl(a))}" loading="lazy" alt="">
       <div class="alt">
-        <span class="kaynak">${a.kaynak}</span>
-        ${a.durum === 'hata' ? '<span class="hata-isareti" title="' + (a.hata || '') + '">⚠</span>' : ''}
+        <span class="kaynak">${kacar(a.kaynak)}</span>
+        ${a.durum === 'hata' ? '<span class="hata-isareti" title="' + kacar(a.hata || '') + '">⚠</span>' : ''}
       </div>
       <span class="sil" title="havuzdan sil">✕</span>`;
     el.addEventListener('click', e => {
@@ -65,7 +73,7 @@ function secimCiz() {
   cubuk.classList.remove('gizli');
   $('#secim-sayi').textContent = secim.size + ' seçili';
   const sec = $('#secim-hedef-set');
-  sec.innerHTML = setler.map(s => `<option value="${s.id}">${s.ad}</option>`).join('')
+  sec.innerHTML = setler.map(s => `<option value="${s.id}">${kacar(s.ad)}</option>`).join('')
     || '<option value="">önce set aç</option>';
 }
 
@@ -105,15 +113,16 @@ function setCiz() {
     el.className = 'set';
     el.innerHTML = `
       <div class="set-ust">
-        <b>${s.ad}</b>
+        <b>${kacar(s.ad)}</b>
         <span class="rozet ${s.durum}">${s.durum}</span>
         <span class="rozet">${uyeler.length} üye</span>
         <span class="rozet">${s.olusturan}</span>
+        ${s.kapak ? '<span class="rozet">kapak: ' + kacar(s.kapak.tur) + '</span>' : ''}
       </div>
       <div class="set-uyeler">
         ${uyeler.map(a => `
           <span class="uye ${s.tepsi === a.id ? 'tepsi' : ''}" data-id="${a.id}" title="tepsi ikonu yapmak için tıkla">
-            <img src="${onizlemeUrl(a)}" loading="lazy">
+            <img src="${kacar(onizlemeUrl(a))}" loading="lazy">
             <span class="cikar" title="setten çıkar">✕</span>
           </span>`).join('')}
       </div>
@@ -123,6 +132,10 @@ function setCiz() {
         <button class="kucuk" data-is="uret" data-hedef="zip">ZIP üret</button>
         <button class="kucuk ikincil" data-is="teslimat">Teslimat sayfası</button>
         <button class="kucuk ikincil" data-is="vitrin">Vitrin görseli</button>
+        <button class="kucuk ikincil" data-is="kapak-secili" title="havuzda seçili ilk görseli kapak yap">Kapak: seçiliden</button>
+        <button class="kucuk ikincil" data-is="kapak-dosya" title="bilgisayardan görsel yükle">Kapak: dosyadan</button>
+        ${s.kapak ? '<button class="kucuk ikincil" data-is="kapak-sifirla">Kapak: otomatik</button>' : ''}
+        <button class="kucuk ikincil" data-is="kapak-ai" disabled title="Görsel üretim API'si bağlanınca açılır — paralı servis, karar kullanıcının (ofis/gorsel-uret.js emsali)">Kapak: AI üret</button>
         <button class="kucuk ikincil" data-is="satis-linki">Satış linki</button>
         <select class="kucuk" data-is="durum">
           ${['taslak', 'onayli', 'yayinda'].map(d =>
@@ -166,6 +179,16 @@ function setCiz() {
           await api(`/api/set/${s.id}/vitrin`, {});
         }
         if (is === 'satis-linki') await api(`/api/set/${s.id}/satis-linki`, {});
+        if (is === 'kapak-secili') {
+          if (!secim.size) throw new Error('önce havuzdan bir görsel seç');
+          await api(`/api/set/${s.id}/kapak`, { adayId: [...secim][0] });
+        }
+        if (is === 'kapak-sifirla') await api(`/api/set/${s.id}/kapak`, { sifirla: true });
+        if (is === 'kapak-dosya') {
+          const girdi = $('#kapak-dosya-girdi');
+          girdi.dataset.setId = s.id;
+          girdi.click();
+        }
         if (is === 'sil' && confirm(`"${s.ad}" silinsin mi?`)) {
           await api(`/api/set/${s.id}/sil`, {});
         }
@@ -217,6 +240,25 @@ $('#ai-taslak').addEventListener('submit', async e => {
     sonucEl.className = 'ai-sonuc hata';
     sonucEl.textContent = h.message;
   }
+  yenile();
+});
+
+$('#kapak-dosya-girdi').addEventListener('change', async e => {
+  const dosya = e.target.files[0];
+  const setId = e.target.dataset.setId;
+  if (!dosya || !setId) return;
+  try {
+    const r = await fetch(`/api/set/${setId}/kapak-yukle`, {
+      method: 'POST',
+      headers: { 'Content-Type': dosya.type },
+      body: dosya
+    });
+    const veri = await r.json();
+    if (!r.ok) throw new Error(veri.hata || r.status);
+  } catch (h) {
+    alert('Kapak yüklenemedi: ' + h.message);
+  }
+  e.target.value = '';
   yenile();
 });
 

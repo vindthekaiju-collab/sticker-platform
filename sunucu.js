@@ -190,6 +190,41 @@ const sunucu = http.createServer(async (req, res) => {
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/vitrin$/))) {
         return json(res, 200, await vitrin.vitrinUret(m[1]));
       }
+      if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/kapak$/))) {
+        const g = await govdeOku(req);
+        if (g.sifirla) {
+          depo.setGuncelle(m[1], { kapak: null });
+        } else {
+          if (!depo.adayBul(g.adayId)) throw new Error('aday yok: ' + g.adayId);
+          await indir.adayIndir(g.adayId).catch(() => {});
+          depo.setGuncelle(m[1], { kapak: { tur: 'aday', adayId: g.adayId } });
+        }
+        return json(res, 200, await vitrin.vitrinUret(m[1]));
+      }
+      if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/kapak-yukle$/))) {
+        // Ham ikili gövde: bilgisayardan kapak yükleme. 10MB tavan.
+        const setId = m[1];
+        if (!depo.setBul(setId)) throw new Error('set yok: ' + setId);
+        const tur = (req.headers['content-type'] || '').split(';')[0].trim();
+        const uzanti = { 'image/png': '.png', 'image/jpeg': '.jpg', 'image/webp': '.webp', 'image/gif': '.gif' }[tur];
+        if (!uzanti) throw new Error('desteklenmeyen görsel türü: ' + tur);
+        const parcalar = [];
+        let toplam = 0;
+        await new Promise((resolve, reject) => {
+          req.on('data', p => {
+            toplam += p.length;
+            if (toplam > 10 * 1024 * 1024) { req.destroy(); return reject(new Error('dosya çok büyük (>10MB)')); }
+            parcalar.push(p);
+          });
+          req.on('end', resolve);
+          req.on('error', reject);
+        });
+        const gorece = 'veri/medya/kapak-' + setId + uzanti;
+        fs.mkdirSync(path.join(__dirname, 'veri', 'medya'), { recursive: true });
+        fs.writeFileSync(path.join(__dirname, gorece), Buffer.concat(parcalar));
+        depo.setGuncelle(setId, { kapak: { tur: 'dosya', dosya: gorece } });
+        return json(res, 200, await vitrin.vitrinUret(setId));
+      }
       if (yol === '/api/webhook/gumroad') {
         const g = await govdeOku(req);
         return json(res, 200, satis.gumroadIsle(g));

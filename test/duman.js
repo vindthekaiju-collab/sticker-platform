@@ -140,6 +140,14 @@ function esit(ad, kosul) {
   const vitrinMeta = await sharp(vitrinTam).metadata();
   esit('vitrin 1200×630 PNG', vitrinMeta.width === 1200 && vitrinMeta.height === 630);
 
+  console.log('— özel kapak (havuzdan seçilen)');
+  depo.setGuncelle(set.id, { kapak: { tur: 'aday', adayId: adayIdler[1] } });
+  const v2 = await vitrin.vitrinUret(set.id);
+  esit('özel kapak kaynağı aday', v2.kaynak === 'aday');
+  const v2meta = await sharp(path.join(depo.KOK, v2.dosya.replace(/^\//, ''))).metadata();
+  esit('özel kapak 1200×630', v2meta.width === 1200 && v2meta.height === 630);
+  depo.setGuncelle(set.id, { kapak: null });
+
   console.log('— satış linki + gumroad benzetimi');
   const elle = satis.tokenUret(set.id, 'elle');
   const acilis = satis.tokenAc(elle.token);
