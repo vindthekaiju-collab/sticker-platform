@@ -179,9 +179,24 @@ function esit(ad, kosul) {
   let paddleRed = false;
   try { satis.paddleIsle(paddleGovde, `ts=${ts};h1=${'0'.repeat(64)}`); } catch { paddleRed = true; }
   esit('paddle bozuk imza reddedildi', paddleRed);
-  const p2 = satis.paddleIsle(JSON.stringify({ event_type: 'subscription.created', data: {} }),
-    `ts=${ts};h1=${crypto.createHmac('sha256', 'test-sirri').update(ts + ':' + JSON.stringify({ event_type: 'subscription.created', data: {} })).digest('hex')}`);
-  esit('ilgisiz olay atlandı', p2.atlandi === 'subscription.created');
+  const p2 = satis.paddleIsle(JSON.stringify({ event_type: 'invoice.paid', data: {} }),
+    `ts=${ts};h1=${crypto.createHmac('sha256', 'test-sirri').update(ts + ':' + JSON.stringify({ event_type: 'invoice.paid', data: {} })).digest('hex')}`);
+  esit('ilgisiz olay atlandı', p2.atlandi === 'invoice.paid');
+  const abone = require('../lib/abone');
+  const imzala = (govde) =>
+    `ts=${ts};h1=${crypto.createHmac('sha256', 'test-sirri').update(ts + ':' + govde).digest('hex')}`;
+  const aktifOlay = JSON.stringify({
+    event_type: 'subscription.activated',
+    data: { id: 'sub_duman1', customer_id: 'ctm_x' }
+  });
+  const a1 = satis.paddleIsle(aktifOlay, imzala(aktifOlay));
+  esit('abonelik aktive edildi', a1.abonelik === 'sub_duman1' && abone.aktifMi('sub_duman1'));
+  const iptalOlay = JSON.stringify({
+    event_type: 'subscription.canceled',
+    data: { id: 'sub_duman1' }
+  });
+  satis.paddleIsle(iptalOlay, imzala(iptalOlay));
+  esit('abonelik iptali işlendi', !abone.aktifMi('sub_duman1'));
   delete process.env.PADDLE_WEBHOOK_SECRET;
 
   console.log('— indirme doğrulaması (kılık değiştirmiş dosya)');
