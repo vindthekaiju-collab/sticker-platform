@@ -207,6 +207,20 @@ function esit(ad, kosul) {
   esit('görsel olmayan içerik reddedildi', yakalandi);
   esit('sahte dosya diskten silindi', !fs.existsSync(sahte));
 
+  console.log('— canlı paket sayfası + mağaza');
+  const canli = satis.tokenAc(elle.token);
+  esit('canlı sayfada paylaşılabilir sticker ızgarası var', canli.govde.includes('class="stk"'));
+  const magaza = require('../lib/magaza');
+  depo.setGuncelle(set.id, { durum: 'yayinda' });
+  const mg = magaza.sayfaUret();
+  const magazaGovde = fs.readFileSync(path.join(depo.KOK, 'cikti', 'magaza.html'), 'utf8');
+  esit('mağaza yayındaki seti listeliyor', mg.yayinda >= 1 && magazaGovde.includes(set.ad));
+  esit('satış linki yokken "Yakında" görünüyor', magazaGovde.includes('Yakında'));
+  depo.setGuncelle(set.id, { satisUrl: 'https://ornek.paddle.com/checkout/x' });
+  magaza.sayfaUret();
+  esit('satış linki bağlanınca düğme çıkıyor',
+    fs.readFileSync(path.join(depo.KOK, 'cikti', 'magaza.html'), 'utf8').includes('Satın al'));
+
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
     setAdi: set.ad, botKullaniciAdi: 'ornek_bot',

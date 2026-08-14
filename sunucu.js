@@ -34,6 +34,7 @@ const teslimat = require('./lib/teslimat');
 const kurator = require('./lib/kurator');
 const satis = require('./lib/satis');
 const vitrin = require('./lib/vitrin');
+const magaza = require('./lib/magaza');
 
 const PORT = Number(process.env.PORT || 47411);
 const UI = path.join(__dirname, 'ui');
@@ -120,6 +121,10 @@ const sunucu = http.createServer(async (req, res) => {
       }
       if (yol.startsWith('/cikti/')) {
         return dosyaSun(res, path.join(__dirname, 'cikti'), decodeURIComponent(yol.slice(7)));
+      }
+      if (yol === '/magaza') {
+        magaza.sayfaUret();
+        return dosyaSun(res, path.join(__dirname, 'cikti'), 'magaza.html');
       }
       if (yol === '/api/health') return json(res, 200, { ok: true });
       if (yol === '/api/durum') {
