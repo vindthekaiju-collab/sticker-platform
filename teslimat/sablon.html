@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{SET_ADI}} — sticker seti</title>
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: #12141a; color: #e8eaf0;
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .kart { max-width: 420px; width: 100%; }
+  h1 { font-size: 24px; margin-bottom: 6px; }
+  .aciklama { color: #8a91a5; margin-bottom: 24px; }
+  .tesekkur { color: #33c6b5; font-size: 14px; margin-bottom: 18px; }
+  .kanal {
+    display: block; background: #1c1f28; border: 1px solid #333849;
+    border-radius: 14px; padding: 16px 18px; margin-bottom: 12px;
+    color: #e8eaf0; text-decoration: none; font-weight: 600; font-size: 17px;
+  }
+  .kanal span { display: block; font-weight: 400; font-size: 13px; color: #8a91a5; margin-top: 3px; }
+  .kanal.telegram { border-color: #2ea6da; }
+  .kanal.whatsapp { border-color: #35c25e; }
+  .kanal.bekliyor { opacity: .6; }
+  .kanal:active { transform: scale(.98); }
+  footer { margin-top: 24px; font-size: 12px; color: #8a91a5; }
+</style>
+</head>
+<body>
+<div class="kart">
+  <div class="tesekkur">✓ Satın alımın için teşekkürler</div>
+  <h1>{{SET_ADI}}</h1>
+  <div class="aciklama">{{SET_ACIKLAMA}}</div>
+  {{KARTLAR}}
+  <footer>Sorun mu var? Bu sayfanın linkiyle bize yaz — düzeltelim.</footer>
+</div>
+</body>
+</html>

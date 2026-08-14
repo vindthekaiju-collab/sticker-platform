@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sticker Atölyesi</title>
+<link rel="stylesheet" href="/ui/stil.css">
+</head>
+<body>
+<header>
+  <h1>🏭 Sticker Atölyesi</h1>
+  <div id="durum" class="durum">—</div>
+</header>
+
+<main>
+  <section id="havuz-bolum">
+    <div class="bolum-baslik">
+      <h2>Havuz <span id="havuz-sayi"></span></h2>
+      <form id="elle-ekle">
+        <input type="url" id="elle-url" placeholder="Medya URL'si yapıştır (gif/png/webp)" required>
+        <input type="text" id="elle-etiket" placeholder="etiketler (virgülle)">
+        <button type="submit">＋ Havuza at</button>
+      </form>
+    </div>
+    <div id="havuz" class="izgara"></div>
+  </section>
+
+  <section id="set-bolum">
+    <div class="bolum-baslik">
+      <h2>Setler</h2>
+      <form id="set-ac">
+        <input type="text" id="set-ad" placeholder="Yeni set adı" required>
+        <button type="submit">＋ Set aç</button>
+      </form>
+    </div>
+    <div id="set-liste"></div>
+  </section>
+</main>
+
+<div id="secim-cubugu" class="gizli">
+  <span id="secim-sayi"></span>
+  <select id="secim-hedef-set"></select>
+  <button id="secim-ekle">Sete ekle</button>
+  <button id="secim-birak" class="ikincil">Bırak</button>
+</div>
+
+<script src="/ui/uygulama.js"></script>
+</body>
+</html>

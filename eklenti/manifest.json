@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Sticker Havuzu Toplayıcı",
+  "version": "0.1.0",
+  "description": "Giphy ve Pinterest'te gördüğün görseli tek tıkla sticker havuzuna at.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://127.0.0.1:47411/*",
+    "http://localhost:47411/*"
+  ],
+  "background": { "service_worker": "arkaplan.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://giphy.com/*", "https://*.giphy.com/*"],
+      "js": ["ortak.js", "giphy.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://*.pinterest.com/*", "https://tr.pinterest.com/*"],
+      "js": ["ortak.js", "pinterest.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "acilir.html",
+    "default_title": "Sticker Havuzu"
+  }
+}
