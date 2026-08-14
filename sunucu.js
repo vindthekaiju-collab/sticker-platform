@@ -32,6 +32,8 @@ const uret = require('./lib/uret');
 const donustur = require('./lib/donustur');
 const teslimat = require('./lib/teslimat');
 const kurator = require('./lib/kurator');
+const satis = require('./lib/satis');
+const vitrin = require('./lib/vitrin');
 
 const PORT = Number(process.env.PORT || 47411);
 const UI = path.join(__dirname, 'ui');
@@ -66,7 +68,14 @@ function govdeOku(req) {
       if (g.length > 1e6) { reject(new Error('gövde çok büyük')); req.destroy(); }
     });
     req.on('end', () => {
-      try { resolve(g ? JSON.parse(g) : {}); } catch (e) { reject(e); }
+      try {
+        // Gumroad webhook'u form-encoded gönderir; geri kalan her şey JSON.
+        const tur = (req.headers['content-type'] || '').split(';')[0].trim();
+        if (tur === 'application/x-www-form-urlencoded') {
+          return resolve(Object.fromEntries(new URLSearchParams(g)));
+        }
+        resolve(g ? JSON.parse(g) : {});
+      } catch (e) { reject(e); }
     });
     req.on('error', reject);
   });
@@ -124,6 +133,16 @@ const sunucu = http.createServer(async (req, res) => {
       }
       if (yol === '/api/aday') return json(res, 200, depo.havuzListe());
       if (yol === '/api/set') return json(res, 200, depo.setListe());
+      if (yol === '/api/teslimatlar') return json(res, 200, satis.liste());
+
+      let mt;
+      if ((mt = yol.match(/^\/t\/([a-f0-9]+)$/))) {
+        const sonuc = satis.tokenAc(mt[1]);
+        if (!sonuc) return json(res, 404, { hata: 'geçersiz teslimat linki' });
+        const g = Buffer.from(sonuc.govde, 'utf8');
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': g.length });
+        return res.end(g);
+      }
     }
 
     /* ---- yazma uçları ---- */
@@ -163,6 +182,17 @@ const sunucu = http.createServer(async (req, res) => {
       }
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/teslimat$/))) {
         return json(res, 200, teslimat.sayfaUret(m[1]));
+      }
+      if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/satis-linki$/))) {
+        const kayit = satis.tokenUret(m[1], 'elle');
+        return json(res, 201, { token: kayit.token, url: '/t/' + kayit.token });
+      }
+      if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/vitrin$/))) {
+        return json(res, 200, await vitrin.vitrinUret(m[1]));
+      }
+      if (yol === '/api/webhook/gumroad') {
+        const g = await govdeOku(req);
+        return json(res, 200, satis.gumroadIsle(g));
       }
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)$/))) {
         const g = await govdeOku(req);

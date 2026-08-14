@@ -4,6 +4,7 @@
 const secim = new Set();
 let havuz = [];
 let setler = [];
+let satisLinkleri = {};
 
 const $ = s => document.querySelector(s);
 
@@ -121,6 +122,8 @@ function setCiz() {
         <button class="kucuk" data-is="uret" data-hedef="wastickers">WhatsApp üret</button>
         <button class="kucuk" data-is="uret" data-hedef="zip">ZIP üret</button>
         <button class="kucuk ikincil" data-is="teslimat">Teslimat sayfası</button>
+        <button class="kucuk ikincil" data-is="vitrin">Vitrin görseli</button>
+        <button class="kucuk ikincil" data-is="satis-linki">Satış linki</button>
         <select class="kucuk" data-is="durum">
           ${['taslak', 'onayli', 'yayinda'].map(d =>
             `<option value="${d}" ${s.durum === d ? 'selected' : ''}>${d}</option>`).join('')}
@@ -130,6 +133,8 @@ function setCiz() {
       <div class="set-rapor">
         ${raporSatiri(s, 'telegram')}${raporSatiri(s, 'wastickers')}${raporSatiri(s, 'zip')}
         ${s.ciktilar.teslimatSayfa ? `<div><a href="${s.ciktilar.teslimatSayfa}" target="_blank">teslimat sayfası ↗</a></div>` : ''}
+        ${s.ciktilar.vitrin ? `<div><a href="${s.ciktilar.vitrin}" target="_blank">vitrin görseli ↗</a></div>` : ''}
+        ${(satisLinkleri[s.id] || []).map(t => `<div>satış linki: <a href="/t/${t.token}" target="_blank">/t/${t.token}</a> · ${t.acilis} açılış · ${t.kaynak}</div>`).join('')}
       </div>`;
 
     el.querySelector('.set-uyeler').addEventListener('click', async e => {
@@ -156,6 +161,11 @@ function setCiz() {
           const sonuc = await api(`/api/set/${s.id}/teslimat`, {});
           await api('/api/set/' + s.id, { ciktilar: { teslimatSayfa: sonuc.dosya } });
         }
+        if (is === 'vitrin') {
+          e.target.disabled = true;
+          await api(`/api/set/${s.id}/vitrin`, {});
+        }
+        if (is === 'satis-linki') await api(`/api/set/${s.id}/satis-linki`, {});
         if (is === 'sil' && confirm(`"${s.ad}" silinsin mi?`)) {
           await api(`/api/set/${s.id}/sil`, {});
         }
@@ -213,7 +223,12 @@ $('#ai-taslak').addEventListener('submit', async e => {
 /* ---------- Döngü ---------- */
 
 async function yenile() {
-  [havuz, setler] = await Promise.all([api('/api/aday'), api('/api/set')]);
+  let teslimatlar;
+  [havuz, setler, teslimatlar] = await Promise.all([
+    api('/api/aday'), api('/api/set'), api('/api/teslimatlar')
+  ]);
+  satisLinkleri = {};
+  for (const t of teslimatlar) (satisLinkleri[t.setId] = satisLinkleri[t.setId] || []).push(t);
   const durum = await api('/api/durum');
   $('#durum').innerHTML =
     `havuz ${durum.havuz} · indirilen ${durum.indirilen} · set ${durum.setler}` +

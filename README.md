@@ -44,6 +44,15 @@ düğmesi çıkar. Sunucu kapalıysa kuyruğa yazar, açılınca boşaltır.
 | `eklenti/` | Chrome MV3 toplayıcı |
 | `test/duman.js` | Ağsız uçtan uca test |
 
+## Satış akışı (F1)
+
+1. Atölyede seti üret (Telegram/WhatsApp/ZIP) → **Vitrin görseli** ile kapak al.
+2. **Satış linki** → `/t/<token>` teslimat linki; alıcıya ödeme sonrası bu
+   link verilir (Gumroad "content" alanına da bu konur).
+3. Gumroad webhook'u `/api/webhook/gumroad`'a bağlanınca token otomatik
+   üretilir; ürün→set eşlemesi `veri/urunler.json`:
+   `{ "<product_permalink>": "<setId>" }`.
+
 ## Bilinenler
 
 - `.wastickers` düzeni üçüncü parti gelenek, **telefonda doğrulanmadı** —

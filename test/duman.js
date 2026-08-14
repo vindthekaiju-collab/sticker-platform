@@ -20,6 +20,8 @@ const sinirlar = require('../lib/sinirlar');
 const teslimat = require('../lib/teslimat');
 const telegram = require('../lib/telegram');
 const kurator = require('../lib/kurator');
+const satis = require('../lib/satis');
+const vitrin = require('../lib/vitrin');
 
 const RENKLER = [
   { r: 232, g: 176, b: 75 },
@@ -131,6 +133,26 @@ function esit(ad, kosul) {
   esit('taslak set kuruldu, olusturan=ai', taslak.olusturan === 'ai' && taslak.durum === 'taslak');
   esit('taslakta en az 3 üye (' + taslak.uyeler.length + ')', taslak.uyeler.length >= 3);
   esit('rapor baraj bilgisi taşıyor', rapor.barajGecen >= taslak.uyeler.length);
+
+  console.log('— vitrin görseli');
+  const v = await vitrin.vitrinUret(set.id);
+  const vitrinTam = path.join(depo.KOK, v.dosya.replace(/^\//, ''));
+  const vitrinMeta = await sharp(vitrinTam).metadata();
+  esit('vitrin 1200×630 PNG', vitrinMeta.width === 1200 && vitrinMeta.height === 630);
+
+  console.log('— satış linki + gumroad benzetimi');
+  const elle = satis.tokenUret(set.id, 'elle');
+  const acilis = satis.tokenAc(elle.token);
+  esit('elle token teslimat sayfası döndürüyor', acilis && acilis.govde.includes(set.ad));
+  esit('açılış sayacı işledi', satis.liste().find(k => k.token === elle.token).acilis === 1);
+
+  fs.mkdirSync(depo.VERI, { recursive: true });
+  fs.writeFileSync(path.join(depo.VERI, 'urunler.json'),
+    JSON.stringify({ 'duman-urunu': set.id }));
+  const g1 = satis.gumroadIsle({ product_permalink: 'duman-urunu', email: 'test@ornek.local' });
+  esit('gumroad eşleşen ürün token üretti', g1.eslesme === true && !!g1.token);
+  const g2 = satis.gumroadIsle({ product_permalink: 'bilinmeyen' });
+  esit('gumroad bilinmeyen ürün 200/ok ama eşleşme yok', g2.ok === true && g2.eslesme === false);
 
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
