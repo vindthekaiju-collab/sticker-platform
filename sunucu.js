@@ -229,6 +229,19 @@ const sunucu = http.createServer(async (req, res) => {
         const g = await govdeOku(req);
         return json(res, 200, satis.gumroadIsle(g));
       }
+      if (yol === '/api/webhook/paddle') {
+        // İmza ham gövde üzerinden hesaplanır — çözümlemeden önce oku.
+        const ham = await new Promise((resolve, reject) => {
+          let g = '';
+          req.on('data', c => {
+            g += c;
+            if (g.length > 1e6) { reject(new Error('gövde çok büyük')); req.destroy(); }
+          });
+          req.on('end', () => resolve(g));
+          req.on('error', reject);
+        });
+        return json(res, 200, satis.paddleIsle(ham, req.headers['paddle-signature']));
+      }
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)$/))) {
         const g = await govdeOku(req);
         return json(res, 200, depo.setGuncelle(m[1], g));

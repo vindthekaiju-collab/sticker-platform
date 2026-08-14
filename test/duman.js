@@ -163,6 +163,27 @@ function esit(ad, kosul) {
   const g2 = satis.gumroadIsle({ product_permalink: 'bilinmeyen' });
   esit('gumroad bilinmeyen ürün 200/ok ama eşleşme yok', g2.ok === true && g2.eslesme === false);
 
+  console.log('— paddle webhook benzetimi');
+  const crypto = require('crypto');
+  fs.writeFileSync(path.join(depo.VERI, 'urunler.json'),
+    JSON.stringify({ 'duman-urunu': set.id, 'pro_duman123': set.id }));
+  const paddleGovde = JSON.stringify({
+    event_type: 'transaction.completed',
+    data: { id: 'txn_test1', items: [{ price: { product_id: 'pro_duman123' } }] }
+  });
+  process.env.PADDLE_WEBHOOK_SECRET = 'test-sirri';
+  const ts = '1755000000';
+  const h1 = crypto.createHmac('sha256', 'test-sirri').update(ts + ':' + paddleGovde).digest('hex');
+  const p1 = satis.paddleIsle(paddleGovde, `ts=${ts};h1=${h1}`);
+  esit('paddle imzalı işlem token üretti', p1.eslesme === true && p1.imza === 'dogrulandi' && !!p1.token);
+  let paddleRed = false;
+  try { satis.paddleIsle(paddleGovde, `ts=${ts};h1=${'0'.repeat(64)}`); } catch { paddleRed = true; }
+  esit('paddle bozuk imza reddedildi', paddleRed);
+  const p2 = satis.paddleIsle(JSON.stringify({ event_type: 'subscription.created', data: {} }),
+    `ts=${ts};h1=${crypto.createHmac('sha256', 'test-sirri').update(ts + ':' + JSON.stringify({ event_type: 'subscription.created', data: {} })).digest('hex')}`);
+  esit('ilgisiz olay atlandı', p2.atlandi === 'subscription.created');
+  delete process.env.PADDLE_WEBHOOK_SECRET;
+
   console.log('— indirme doğrulaması (kılık değiştirmiş dosya)');
   const sahte = path.join(depo.VERI, 'medya', 'sahte.gif');
   fs.writeFileSync(sahte, 'bu bir görsel değil, düz metin');
