@@ -1,17 +1,14 @@
 # sticker-platform
 
 Meme sticker seti platformu: **havuz → set atölyesi → üretim hattı → teslimat.**
-Tasarım: `../docs/2026-08-14-sticker-platform-tasarim.md` · Şema: `../projects/sticker-platform.md`
-
-> **Geçici konum.** Bu kod beyin deposunda `platform/` altında duruyor çünkü
-> uzak oturumun GitHub yetkisi yeni depo açmaya yetmedi. Kullanıcı
-> `sticker-platform` adında boş bir GitHub deposu açınca buradan taşınacak;
-> beyin deposunda kod kalmayacak.
+Tasarım ve proje şeması `analitik-brain` deposunda:
+`docs/2026-08-14-sticker-platform-tasarim.md` · `projects/sticker-platform.md`
 
 ## Kurulum (Windows)
 
 ```
-cd platform
+git clone https://github.com/vindthekaiju-collab/sticker-platform
+cd sticker-platform
 npm install          # tek bağımlılık: sharp
 npm start            # http://127.0.0.1:47411
 npm test             # duman testi — ağsız, uçtan uca
