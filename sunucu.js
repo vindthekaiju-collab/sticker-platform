@@ -35,6 +35,8 @@ const kurator = require('./lib/kurator');
 const satis = require('./lib/satis');
 const vitrin = require('./lib/vitrin');
 const magaza = require('./lib/magaza');
+const otonom = require('./lib/otonom');
+const bot = require('./lib/bot');
 
 const PORT = Number(process.env.PORT || 47411);
 const UI = path.join(__dirname, 'ui');
@@ -139,6 +141,9 @@ const sunucu = http.createServer(async (req, res) => {
       if (yol === '/api/aday') return json(res, 200, depo.havuzListe());
       if (yol === '/api/set') return json(res, 200, depo.setListe());
       if (yol === '/api/teslimatlar') return json(res, 200, satis.liste());
+      if (yol === '/api/izleme') {
+        return json(res, 200, { liste: otonom.liste(), sonRapor: otonom.sonRapor() });
+      }
 
       let mt;
       if ((mt = yol.match(/^\/t\/([a-f0-9]+)$/))) {
@@ -176,6 +181,17 @@ const sunucu = http.createServer(async (req, res) => {
       if (yol === '/api/kurator') {
         const g = await govdeOku(req);
         return json(res, 201, await kurator.taslakSetYap(g));
+      }
+      if (yol === '/api/izleme') {
+        const g = await govdeOku(req);
+        return json(res, 201, otonom.ekle(g.kelime));
+      }
+      if (yol === '/api/izleme/sil') {
+        const g = await govdeOku(req);
+        return json(res, 200, { silindi: otonom.sil(g.kelime) });
+      }
+      if (yol === '/api/otonom') {
+        return json(res, 200, await otonom.calistir());
       }
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/sil$/))) {
         return json(res, 200, { silindi: depo.setSil(m[1]) });
@@ -262,4 +278,22 @@ const sunucu = http.createServer(async (req, res) => {
 sunucu.listen(PORT, '127.0.0.1', () => {
   console.log('sticker-platform: http://127.0.0.1:' + PORT);
   console.log('ffmpeg: ' + (donustur.ffmpegVar() ? 'var' : 'YOK — Telegram video sticker üretilemez'));
+
+  // Otonom küratör: izleme listesi doluysa 6 saatte bir tarar.
+  // Ürettiği her şey taslaktır; onaysız hiçbir şey yayına/trende gitmez.
+  setInterval(() => {
+    if (otonom.liste().length) {
+      otonom.calistir()
+        .then(r => r.sonuclar && console.log('otonom tarama:', r.sonuclar.length, 'keyword'))
+        .catch(e => console.error('otonom tarama hatası:', e.message));
+    }
+  }, 6 * 60 * 60 * 1000);
+
+  // Telegram botu: token varsa uyan, yoksa uyu (bağımsızlık ilkesi — bot
+  // isteğe bağlı konfor adaptörüdür).
+  if (process.env.TELEGRAM_BOT_TOKEN) {
+    bot.calistir().catch(e => console.error('bot durdu:', e.message));
+  } else {
+    console.log('bot: TELEGRAM_BOT_TOKEN yok — uykuda (isteğe bağlı)');
+  }
 });

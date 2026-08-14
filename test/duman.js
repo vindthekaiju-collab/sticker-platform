@@ -221,6 +221,45 @@ function esit(ad, kosul) {
   esit('satış linki bağlanınca düğme çıkıyor',
     fs.readFileSync(path.join(depo.KOK, 'cikti', 'magaza.html'), 'utf8').includes('Satın al'));
 
+  console.log('— otonom küratör (izleme listesi)');
+  const otonom = require('../lib/otonom');
+  otonom.ekle('duman');
+  const o1 = await otonom.calistir();
+  esit('onay bekleyen taslak varken atlıyor',
+    o1.sonuclar[0].atlandi === 'onay bekleyen taslak var');
+  const bekleyenTaslakId = o1.sonuclar[0].setId;
+  depo.setGuncelle(bekleyenTaslakId, { durum: 'onayli' });
+  const o2 = await otonom.calistir();
+  esit('taslak onaylanınca yeni taslak üretiyor', !!o2.sonuclar[0].setId);
+  const yeniTaslak = depo.setBul(o2.sonuclar[0].setId);
+  esit('otonom taslak: olusturan=ai, durum=taslak',
+    yeniTaslak.olusturan === 'ai' && yeniTaslak.durum === 'taslak');
+  otonom.sil('duman');
+
+  console.log('— bot işleyicileri (saf, ağsız)');
+  const bot = require('../lib/bot');
+  esit('/start komutlar sayıyor', bot.islet({ text: '/start' }).includes('/paket'));
+  esit('/paket geçerli token linki veriyor',
+    bot.islet({ text: '/paket ' + elle.token }).includes('/t/' + elle.token));
+  esit('/paket bozuk kod nazikçe reddediliyor',
+    bot.islet({ text: '/paket kotu-kod' }).includes('tanınmadı'));
+  abone.kaydet('sub_bot1', 'aktif');
+  fs.writeFileSync(path.join(depo.VERI, 'bot.json'),
+    JSON.stringify({ trendSetLinki: 'https://t.me/addstickers/ornek_trend' }));
+  esit('/trend aktif aboneye link veriyor',
+    bot.islet({ text: '/trend sub_bot1' }).includes('addstickers'));
+  abone.kaydet('sub_bot1', 'iptal');
+  esit('/trend iptal aboneyi reddediyor',
+    bot.islet({ text: '/trend sub_bot1' }).includes('aktif görünmüyor'));
+
+  console.log('— trend seti eşitleme (kuru çalışma)');
+  const trendPlan = await telegram.trendEsitle({
+    setAdi: 'trend', botKullaniciAdi: 'ornek_bot',
+    klasor: path.join(depo.KOK, 'cikti', set.id, 'telegram')
+  });
+  esit('trend planı yeni set + eklemeler içeriyor',
+    trendPlan.kuru && trendPlan.setYeniMi && trendPlan.eklenecek.length >= 3);
+
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
     setAdi: set.ad, botKullaniciAdi: 'ornek_bot',

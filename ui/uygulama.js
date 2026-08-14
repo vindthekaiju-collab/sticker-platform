@@ -243,6 +243,47 @@ $('#ai-taslak').addEventListener('submit', async e => {
   yenile();
 });
 
+async function izlemeCiz() {
+  const { liste } = await api('/api/izleme');
+  const kap = $('#izleme-liste');
+  kap.innerHTML = liste.map(k => `
+    <span class="cip">${kacar(k.kelime)}
+      ${k.sonSonuc ? `<span class="sonuc" title="${kacar(k.sonSonuc)}">·</span>` : ''}
+      <span class="kaldir" data-kelime="${kacar(k.kelime)}">✕</span>
+    </span>`).join('');
+}
+$('#izleme-liste').addEventListener('click', async e => {
+  const kelime = e.target.dataset.kelime;
+  if (!kelime) return;
+  await api('/api/izleme/sil', { kelime });
+  izlemeCiz();
+});
+$('#izleme-ekle').addEventListener('submit', async e => {
+  e.preventDefault();
+  await api('/api/izleme', { kelime: $('#izleme-kelime').value });
+  e.target.reset();
+  izlemeCiz();
+});
+$('#otonom-simdi').addEventListener('click', async () => {
+  const dugme = $('#otonom-simdi');
+  dugme.disabled = true;
+  dugme.textContent = 'tarıyor…';
+  try {
+    const r = await api('/api/otonom', {});
+    $('#ai-sonuc').className = 'ai-sonuc';
+    $('#ai-sonuc').textContent = r.sonuclar
+      ? 'otonom tarama: ' + r.sonuclar.map(s => s.kelime + (s.setId ? '→taslak' : '·' + (s.atlandi || s.sonuc))).join(' | ')
+      : JSON.stringify(r);
+  } catch (h) {
+    $('#ai-sonuc').className = 'ai-sonuc hata';
+    $('#ai-sonuc').textContent = h.message;
+  }
+  dugme.disabled = false;
+  dugme.textContent = 'Şimdi tara';
+  yenile(); izlemeCiz();
+});
+izlemeCiz();
+
 $('#kapak-dosya-girdi').addEventListener('change', async e => {
   const dosya = e.target.files[0];
   const setId = e.target.dataset.setId;

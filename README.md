@@ -44,6 +44,22 @@ düğmesi çıkar. Sunucu kapalıysa kuyruğa yazar, açılınca boşaltır.
 | `eklenti/` | Chrome MV3 toplayıcı |
 | `test/duman.js` | Ağsız uçtan uca test |
 
+## Ortam değişkenleri
+
+| Değişken | Ne açar |
+|---|---|
+| `GIPHY_API_KEY` | Küratörün Giphy araması (kademe 2-3) |
+| `TELEGRAM_BOT_TOKEN` | Bot canlanır: /paket, /trend + set kurulumu |
+| `PADDLE_WEBHOOK_SECRET` | Paddle webhook imza doğrulaması (canlıda zorunlu) |
+
+Hiçbiri yokken de her şey çalışır — ilgili özellik uyur ya da kuru çalışır.
+
+## Otonom küratör
+
+Atölyedeki 📡 kutusuna keyword ekle → sunucu 6 saatte bir tarar (havuz +
+anahtar varsa Giphy) ve **taslak** set üretir. Onay bekleyen taslağı olan
+keyword atlanır. Hiçbir şey onaysız yayına/trende gitmez.
+
 ## Satış akışı (F1)
 
 1. Atölyede seti üret (Telegram/WhatsApp/ZIP) → **Vitrin görseli** ile kapak al.

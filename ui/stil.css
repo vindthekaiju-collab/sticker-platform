@@ -109,6 +109,16 @@ button:disabled { opacity: .5; cursor: default; }
 .ai-sonuc { font-size: 12px; color: var(--soluk); margin-bottom: 12px; min-height: 0; }
 .ai-sonuc.hata { color: var(--hata); }
 
+.izleme-kutu { margin-bottom: 14px; }
+.izleme-liste { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.izleme-liste .cip {
+  background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px;
+  padding: 3px 10px; font-size: 12px; color: var(--yazi);
+  display: inline-flex; gap: 6px; align-items: center;
+}
+.izleme-liste .cip .sonuc { color: var(--soluk); }
+.izleme-liste .cip .kaldir { cursor: pointer; color: var(--hata); }
+
 #secim-cubugu {
   position: fixed; bottom: 0; left: 0; right: 0;
   display: flex; gap: 10px; align-items: center; justify-content: center;
