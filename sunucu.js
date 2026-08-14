@@ -8,6 +8,7 @@
  *   GET  /api/durum            → sayaçlar (havuz, setler, ffmpeg)
  *   GET  /api/aday             → aday listesi
  *   POST /api/aday             → aday ekle {medyaUrl, sayfaUrl, etiketler, kaynak}
+ *   POST /api/aday/:id         → güncelle {emoji, etiketler}
  *   POST /api/aday/:id/indir   → medyayı diske indir
  *   POST /api/aday/:id/sil     → adayı sil
  *   GET  /api/set              → set listesi
@@ -172,6 +173,27 @@ const sunucu = http.createServer(async (req, res) => {
       }
       if ((m = yol.match(/^\/api\/aday\/([a-f0-9]+)\/sil$/))) {
         return json(res, 200, { silindi: depo.adaySil(m[1]) });
+      }
+      if ((m = yol.match(/^\/api\/aday\/([a-f0-9]+)$/))) {
+        const g = await govdeOku(req);
+        const degisim = {};
+        if (g.emoji !== undefined) {
+          // Kod noktası bazlı kırp (surrogate çifti ortadan bölünmesin);
+          // boş/null → varsayılana dön; emoji olmayan metni kabul etme —
+          // Telegram STICKER_EMOJI_INVALID ile seti yarım bırakıyor.
+          const deger = [...String(g.emoji ?? '').trim()].slice(0, 8).join('');
+          if (!deger) {
+            degisim.emoji = '🙂';
+          } else if (!/\p{Extended_Pictographic}/u.test(deger)) {
+            throw new Error('emoji değil: ' + deger);
+          } else {
+            degisim.emoji = deger;
+          }
+        }
+        if (g.etiketler !== undefined) {
+          degisim.etiketler = [].concat(g.etiketler).filter(Boolean).slice(0, 20);
+        }
+        return json(res, 200, depo.adayGuncelle(m[1], degisim));
       }
 
       if (yol === '/api/set') {

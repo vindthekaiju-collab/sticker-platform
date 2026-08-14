@@ -92,6 +92,9 @@ function esit(ad, kosul) {
   const set = depo.setOlustur({ ad: 'Duman Testi Seti', olusturan: 'elle' });
   depo.setGuncelle(set.id, { ekle: adayIdler, tepsi: adayIdler[0] });
 
+  // Emoji akışı: ikinci adaya özel emoji ver, raporlara inmesini bekle.
+  depo.adayGuncelle(adayIdler[1], { emoji: '🔥' });
+
   console.log('— telegram üretimi');
   const tg = await uret.uret(set.id, 'telegram');
   esit('telegram: en az 3 dosya', tg.dosyalar.length >= 3);
@@ -104,9 +107,13 @@ function esit(ad, kosul) {
       meta.width === 512 || meta.height === 512);
   }
 
+  esit('emoji telegram raporuna indi',
+    tg.dosyalar.some(d => d.emoji === '🔥') && tg.dosyalar.some(d => d.emoji === '🙂'));
+
   console.log('— wastickers üretimi');
   const wa = await uret.uret(set.id, 'wastickers');
   esit('wastickers paketi oluştu', !!wa.paket);
+  esit('emoji wastickers raporuna indi', wa.dosyalar.some(d => d.emoji === '🔥'));
   const paketYolu = path.join(depo.KOK, 'cikti', set.id, 'wastickers', wa.paket);
   esit('wastickers ZIP imzası', fs.readFileSync(paketYolu).readUInt32LE(0) === 0x04034b50);
   esit('wastickers en az 3 sticker', wa.dosyalar.length >= sinirlar.whatsapp.setAsgari);
@@ -267,6 +274,7 @@ function esit(ad, kosul) {
   });
   esit('kuru çalışma link üretti', kuru.kuru && kuru.link.includes('t.me/addstickers/'));
   esit('set adı _by_ kuralına uyuyor', kuru.setAdi.endsWith('_by_ornek_bot'));
+  esit('kuru çalışma adımları emojiyi taşıyor', kuru.adimlar.some(a => a.emoji === '🔥'));
 
   console.log('\nDUMAN TESTİ GEÇTİ — set: ' + set.id);
 })().catch(e => {

@@ -47,11 +47,24 @@ function havuzCiz() {
       <img src="${kacar(onizlemeUrl(a))}" loading="lazy" alt="">
       <div class="alt">
         <span class="kaynak">${kacar(a.kaynak)}</span>
+        <span class="emoji" title="emojiyi değiştir (sticker araması bununla eşleşir)">${kacar(a.emoji || '🙂')}</span>
         ${a.durum === 'hata' ? '<span class="hata-isareti" title="' + kacar(a.hata || '') + '">⚠</span>' : ''}
       </div>
       <span class="sil" title="havuzdan sil">✕</span>`;
-    el.addEventListener('click', e => {
+    el.addEventListener('click', async e => {
       if (e.target.classList.contains('sil')) return adaySil(a.id);
+      if (e.target.classList.contains('emoji')) {
+        const yeni = prompt('Bu sticker için emoji (sticker araması bununla eşleşir):', a.emoji || '🙂');
+        if (yeni !== null) {
+          try {
+            await api('/api/aday/' + a.id, { emoji: yeni });
+          } catch (h) {
+            alert('Emoji kaydedilemedi: ' + h.message);
+          }
+          yenile();
+        }
+        return;
+      }
       secim.has(a.id) ? secim.delete(a.id) : secim.add(a.id);
       havuzCiz(); secimCiz();
     });
