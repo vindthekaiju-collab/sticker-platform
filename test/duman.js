@@ -22,6 +22,7 @@ const telegram = require('../lib/telegram');
 const kurator = require('../lib/kurator');
 const satis = require('../lib/satis');
 const vitrin = require('../lib/vitrin');
+const indirLib = require('../lib/indir');
 
 const RENKLER = [
   { r: 232, g: 176, b: 75 },
@@ -161,6 +162,14 @@ function esit(ad, kosul) {
   esit('gumroad eşleşen ürün token üretti', g1.eslesme === true && !!g1.token);
   const g2 = satis.gumroadIsle({ product_permalink: 'bilinmeyen' });
   esit('gumroad bilinmeyen ürün 200/ok ama eşleşme yok', g2.ok === true && g2.eslesme === false);
+
+  console.log('— indirme doğrulaması (kılık değiştirmiş dosya)');
+  const sahte = path.join(depo.VERI, 'medya', 'sahte.gif');
+  fs.writeFileSync(sahte, 'bu bir görsel değil, düz metin');
+  let yakalandi = false;
+  try { await indirLib.dogrula(sahte, '.gif'); } catch { yakalandi = true; }
+  esit('görsel olmayan içerik reddedildi', yakalandi);
+  esit('sahte dosya diskten silindi', !fs.existsSync(sahte));
 
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
