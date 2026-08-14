@@ -26,6 +26,11 @@
   .kanal.whatsapp { border-color: #35c25e; }
   .kanal.bekliyor { opacity: .6; }
   .kanal:active { transform: scale(.98); }
+  .onizleme { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .onizleme img {
+    width: 72px; height: 72px; object-fit: contain;
+    background: #1c1f28; border-radius: 12px; padding: 4px;
+  }
   footer { margin-top: 24px; font-size: 12px; color: #8a91a5; }
 </style>
 </head>
@@ -34,6 +39,7 @@
   <div class="tesekkur">✓ Satın alımın için teşekkürler</div>
   <h1>{{SET_ADI}}</h1>
   <div class="aciklama">{{SET_ACIKLAMA}}</div>
+  <div class="onizleme">{{ONIZLEME}}</div>
   {{KARTLAR}}
   <footer>Sorun mu var? Bu sayfanın linkiyle bize yaz — düzeltelim.</footer>
 </div>

@@ -104,6 +104,11 @@ button:disabled { opacity: .5; cursor: default; }
 .set-rapor .hata-satir { color: var(--hata); }
 .bos { color: var(--soluk); font-size: 13px; padding: 20px 0; }
 
+#ai-taslak { margin-bottom: 10px; }
+#ai-kelimeler { flex: 1; min-width: 220px; }
+.ai-sonuc { font-size: 12px; color: var(--soluk); margin-bottom: 12px; min-height: 0; }
+.ai-sonuc.hata { color: var(--hata); }
+
 #secim-cubugu {
   position: fixed; bottom: 0; left: 0; right: 0;
   display: flex; gap: 10px; align-items: center; justify-content: center;

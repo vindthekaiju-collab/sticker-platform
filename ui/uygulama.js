@@ -190,6 +190,26 @@ $('#set-ac').addEventListener('submit', async e => {
   yenile();
 });
 
+$('#ai-taslak').addEventListener('submit', async e => {
+  e.preventDefault();
+  const sonucEl = $('#ai-sonuc');
+  sonucEl.className = 'ai-sonuc';
+  sonucEl.textContent = 'küratör çalışıyor…';
+  try {
+    const { set, rapor } = await api('/api/kurator', { kelimeler: $('#ai-kelimeler').value });
+    const giphyNot = rapor.giphy.durum === 'anahtar-yok'
+      ? 'yalnız havuz (GIPHY_API_KEY yok)'
+      : 'giphy +' + rapor.giphy.eklenen;
+    sonucEl.textContent =
+      `"${set.ad}" kuruldu: ${rapor.alinan} üye · baraj geçen ${rapor.barajGecen}/${rapor.degerlendirilen} · ${giphyNot}`;
+    e.target.reset();
+  } catch (h) {
+    sonucEl.className = 'ai-sonuc hata';
+    sonucEl.textContent = h.message;
+  }
+  yenile();
+});
+
 /* ---------- Döngü ---------- */
 
 async function yenile() {

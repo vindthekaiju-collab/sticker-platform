@@ -31,6 +31,7 @@ const indir = require('./lib/indir');
 const uret = require('./lib/uret');
 const donustur = require('./lib/donustur');
 const teslimat = require('./lib/teslimat');
+const kurator = require('./lib/kurator');
 
 const PORT = Number(process.env.PORT || 47411);
 const UI = path.join(__dirname, 'ui');
@@ -147,6 +148,10 @@ const sunucu = http.createServer(async (req, res) => {
       if (yol === '/api/set') {
         const g = await govdeOku(req);
         return json(res, 201, depo.setOlustur(g));
+      }
+      if (yol === '/api/kurator') {
+        const g = await govdeOku(req);
+        return json(res, 201, await kurator.taslakSetYap(g));
       }
       if ((m = yol.match(/^\/api\/set\/([a-f0-9]+)\/sil$/))) {
         return json(res, 200, { silindi: depo.setSil(m[1]) });

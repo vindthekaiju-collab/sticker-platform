@@ -11,12 +11,15 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const sharp = require('sharp');
 const depo = require('../lib/depo');
 const uret = require('../lib/uret');
+const donusturLib = require('../lib/donustur');
 const sinirlar = require('../lib/sinirlar');
 const teslimat = require('../lib/teslimat');
 const telegram = require('../lib/telegram');
+const kurator = require('../lib/kurator');
 
 const RENKLER = [
   { r: 232, g: 176, b: 75 },
@@ -41,27 +44,20 @@ async function ornekUret() {
     adaylar.push(dosya);
   }
 
-  // Animasyonlu örnek: 6 kareli webp
-  const kareler = [];
-  for (let k = 0; k < 6; k++) {
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320">
-      <rect width="320" height="320" fill="#1c1f28"/>
-      <circle cx="${40 + k * 48}" cy="160" r="30" fill="#33c6b5"/>
-    </svg>`;
-    kareler.push(await sharp(Buffer.from(svg)).png().toBuffer());
+  // Animasyonlu örnek: ffmpeg varsa gerçek çok kareli GIF; yoksa atlanır
+  // (animasyon yolu o zaman kullanıcının makinesinde sınanır).
+  if (donusturLib.ffmpegVar()) {
+    const animDosya = path.join(medya, 'ornek-anim.gif');
+    execFileSync('ffmpeg', [
+      '-y', '-loglevel', 'error',
+      '-f', 'lavfi', '-i', 'color=c=0x33c6b5:s=400x300:d=2:r=15',
+      '-vf', "drawbox=x='mod(t*150,340)':y=120:w=60:h=60:color=0x12141a:t=fill",
+      '-pix_fmt', 'rgb24', animDosya
+    ]);
+    adaylar.push(animDosya);
+  } else {
+    console.log('  (ffmpeg yok — animasyon örneği atlandı)');
   }
-  const animDosya = path.join(medya, 'ornek-anim.webp');
-  // sharp'a çok kareli girdi vermek için kareleri tek şeride dikip
-  // page yüksekliğiyle animasyona çevirmek gerekir.
-  const serit = await sharp({
-    create: { width: 320, height: 320 * kareler.length, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } }
-  }).composite(kareler.map((veri, k) => ({ input: veri, top: k * 320, left: 0 })))
-    .png().toBuffer();
-  await sharp(serit, { raw: undefined }).webp().toFile(animDosya); // tek kare yedek
-  try {
-    await sharp(serit).webp({ quality: 90 }).toFile(animDosya);
-  } catch { /* animasyon üretilemezse statik kalır — test yine geçer */ }
-  adaylar.push(animDosya);
 
   return adaylar;
 }
@@ -120,6 +116,21 @@ function esit(ad, kosul) {
   const t = teslimat.sayfaUret(set.id);
   esit('teslimat sayfası yazıldı', fs.existsSync(path.join(depo.KOK, t.dosya.replace(/^\//, ''))));
   esit('teslimat en az 2 kanal', t.kanallar >= 2);
+
+  if (donusturLib.ffmpegVar()) {
+    const video = tg.dosyalar.find(d => d.tur === 'video');
+    esit('telegram animasyon → webm üretildi', !!video);
+    if (video) {
+      const boy = fs.statSync(path.join(depo.KOK, 'cikti', set.id, 'telegram', video.dosya)).size;
+      esit(`telegram webm ≤256KB (${(boy / 1024).toFixed(0)}KB)`, boy <= sinirlar.telegram.video.azamiBayt);
+    }
+  }
+
+  console.log('— küratör (kademe 2, havuzdan)');
+  const { set: taslak, rapor } = await kurator.taslakSetYap({ kelimeler: 'duman, test' });
+  esit('taslak set kuruldu, olusturan=ai', taslak.olusturan === 'ai' && taslak.durum === 'taslak');
+  esit('taslakta en az 3 üye (' + taslak.uyeler.length + ')', taslak.uyeler.length >= 3);
+  esit('rapor baraj bilgisi taşıyor', rapor.barajGecen >= taslak.uyeler.length);
 
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
