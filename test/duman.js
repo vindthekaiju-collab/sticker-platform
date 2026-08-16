@@ -11,6 +11,17 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
+
+// Test GERÇEK veri/ ve cikti/ klasörlerine dokunmaz — geçici bir köke yazar.
+// Eskiden yazıyordu ve her koşu havuza dört sahte aday (renkli gülen suratlar)
+// ile birkaç sahte set bırakıyordu; gerçek setlerle karışıyordu.
+// Bu iki satır lib/* require'larından ÖNCE gelmeli: depo.js kökü yüklenirken
+// bir kez okuyor.
+const GECICI = fs.mkdtempSync(path.join(os.tmpdir(), 'stickky-test-'));
+process.env.STICKKY_VERI = path.join(GECICI, 'veri');
+process.env.STICKKY_CIKTI = path.join(GECICI, 'cikti');
+
 const { execFileSync } = require('child_process');
 const sharp = require('sharp');
 const depo = require('../lib/depo');
@@ -99,7 +110,7 @@ function esit(ad, kosul) {
   const tg = await uret.uret(set.id, 'telegram');
   esit('telegram: en az 3 dosya', tg.dosyalar.length >= 3);
   for (const d of tg.dosyalar.filter(x => x.tur === 'statik')) {
-    const tam = path.join(depo.KOK, 'cikti', set.id, 'telegram', d.dosya);
+    const tam = path.join(depo.CIKTI, set.id, 'telegram', d.dosya);
     const boy = fs.statSync(tam).size;
     esit(`telegram ${d.dosya} ≤512KB (${(boy / 1024).toFixed(0)}KB)`, boy <= sinirlar.telegram.statik.azamiBayt);
     const meta = await sharp(tam).metadata();
@@ -114,7 +125,7 @@ function esit(ad, kosul) {
   const wa = await uret.uret(set.id, 'wastickers');
   esit('wastickers paketi oluştu', !!wa.paket);
   esit('emoji wastickers raporuna indi', wa.dosyalar.some(d => d.emoji === '🔥'));
-  const paketYolu = path.join(depo.KOK, 'cikti', set.id, 'wastickers', wa.paket);
+  const paketYolu = path.join(depo.CIKTI, set.id, 'wastickers', wa.paket);
   esit('wastickers ZIP imzası', fs.readFileSync(paketYolu).readUInt32LE(0) === 0x04034b50);
   esit('wastickers en az 3 sticker', wa.dosyalar.length >= sinirlar.whatsapp.setAsgari);
 
@@ -124,14 +135,14 @@ function esit(ad, kosul) {
 
   console.log('— teslimat sayfası');
   const t = teslimat.sayfaUret(set.id);
-  esit('teslimat sayfası yazıldı', fs.existsSync(path.join(depo.KOK, t.dosya.replace(/^\//, ''))));
+  esit('teslimat sayfası yazıldı', fs.existsSync(depo.coz(t.dosya)));
   esit('teslimat en az 2 kanal', t.kanallar >= 2);
 
   if (donusturLib.ffmpegVar()) {
     const video = tg.dosyalar.find(d => d.tur === 'video');
     esit('telegram animasyon → webm üretildi', !!video);
     if (video) {
-      const boy = fs.statSync(path.join(depo.KOK, 'cikti', set.id, 'telegram', video.dosya)).size;
+      const boy = fs.statSync(path.join(depo.CIKTI, set.id, 'telegram', video.dosya)).size;
       esit(`telegram webm ≤256KB (${(boy / 1024).toFixed(0)}KB)`, boy <= sinirlar.telegram.video.azamiBayt);
     }
   }
@@ -144,7 +155,7 @@ function esit(ad, kosul) {
 
   console.log('— vitrin görseli');
   const v = await vitrin.vitrinUret(set.id);
-  const vitrinTam = path.join(depo.KOK, v.dosya.replace(/^\//, ''));
+  const vitrinTam = depo.coz(v.dosya);
   const vitrinMeta = await sharp(vitrinTam).metadata();
   esit('vitrin 1200×630 PNG', vitrinMeta.width === 1200 && vitrinMeta.height === 630);
 
@@ -152,7 +163,7 @@ function esit(ad, kosul) {
   depo.setGuncelle(set.id, { kapak: { tur: 'aday', adayId: adayIdler[1] } });
   const v2 = await vitrin.vitrinUret(set.id);
   esit('özel kapak kaynağı aday', v2.kaynak === 'aday');
-  const v2meta = await sharp(path.join(depo.KOK, v2.dosya.replace(/^\//, ''))).metadata();
+  const v2meta = await sharp(depo.coz(v2.dosya)).metadata();
   esit('özel kapak 1200×630', v2meta.width === 1200 && v2meta.height === 630);
   depo.setGuncelle(set.id, { kapak: null });
 
@@ -220,13 +231,13 @@ function esit(ad, kosul) {
   const magaza = require('../lib/magaza');
   depo.setGuncelle(set.id, { durum: 'yayinda' });
   const mg = magaza.sayfaUret();
-  const magazaGovde = fs.readFileSync(path.join(depo.KOK, 'cikti', 'magaza.html'), 'utf8');
+  const magazaGovde = fs.readFileSync(path.join(depo.CIKTI, 'magaza.html'), 'utf8');
   esit('mağaza yayındaki seti listeliyor', mg.yayinda >= 1 && magazaGovde.includes(set.ad));
   esit('satış linki yokken "Yakında" görünüyor', magazaGovde.includes('Yakında'));
   depo.setGuncelle(set.id, { satisUrl: 'https://ornek.paddle.com/checkout/x' });
   magaza.sayfaUret();
   esit('satış linki bağlanınca düğme çıkıyor',
-    fs.readFileSync(path.join(depo.KOK, 'cikti', 'magaza.html'), 'utf8').includes('Satın al'));
+    fs.readFileSync(path.join(depo.CIKTI, 'magaza.html'), 'utf8').includes('Satın al'));
 
   console.log('— otonom küratör (izleme listesi)');
   const otonom = require('../lib/otonom');
@@ -262,7 +273,7 @@ function esit(ad, kosul) {
   console.log('— trend seti eşitleme (kuru çalışma)');
   const trendPlan = await telegram.trendEsitle({
     setAdi: 'trend', botKullaniciAdi: 'ornek_bot',
-    klasor: path.join(depo.KOK, 'cikti', set.id, 'telegram')
+    klasor: path.join(depo.CIKTI, set.id, 'telegram')
   });
   esit('trend planı yeni set + eklemeler içeriyor',
     trendPlan.kuru && trendPlan.setYeniMi && trendPlan.eklenecek.length >= 3);
@@ -270,7 +281,7 @@ function esit(ad, kosul) {
   console.log('— telegram kuru çalışma');
   const kuru = await telegram.setKur({
     setAdi: set.ad, botKullaniciAdi: 'ornek_bot',
-    klasor: path.join(depo.KOK, 'cikti', set.id, 'telegram')
+    klasor: path.join(depo.CIKTI, set.id, 'telegram')
   });
   esit('kuru çalışma link üretti', kuru.kuru && kuru.link.includes('t.me/addstickers/'));
   esit('set adı _by_ kuralına uyuyor', kuru.setAdi.endsWith('_by_ornek_bot'));
@@ -307,7 +318,10 @@ function esit(ad, kosul) {
       === 'https://i.pinimg.com/originals/ab/cd/ef.jpg');
 
   console.log('\nDUMAN TESTİ GEÇTİ — set: ' + set.id);
+  // Geçici kök yalnız başarıda silinir; düşerse çıktılar incelensin diye durur.
+  fs.rmSync(GECICI, { recursive: true, force: true });
 })().catch(e => {
   console.error('\nDUMAN TESTİ DÜŞTÜ: ' + e.message);
+  console.error('Geçici çıktılar duruyor: ' + GECICI);
   process.exit(1);
 });

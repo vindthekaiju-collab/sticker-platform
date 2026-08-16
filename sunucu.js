@@ -120,14 +120,14 @@ const sunucu = http.createServer(async (req, res) => {
       if (yol === '/') return dosyaSun(res, UI, 'index.html');
       if (yol.startsWith('/ui/')) return dosyaSun(res, UI, yol.slice(4));
       if (yol.startsWith('/medya/')) {
-        return dosyaSun(res, path.join(__dirname, 'veri', 'medya'), decodeURIComponent(yol.slice(7)));
+        return dosyaSun(res, path.join(depo.VERI, 'medya'), decodeURIComponent(yol.slice(7)));
       }
       if (yol.startsWith('/cikti/')) {
-        return dosyaSun(res, path.join(__dirname, 'cikti'), decodeURIComponent(yol.slice(7)));
+        return dosyaSun(res, depo.CIKTI, decodeURIComponent(yol.slice(7)));
       }
       if (yol === '/magaza') {
         magaza.sayfaUret();
-        return dosyaSun(res, path.join(__dirname, 'cikti'), 'magaza.html');
+        return dosyaSun(res, depo.CIKTI, 'magaza.html');
       }
       if (yol === '/api/health') return json(res, 200, { ok: true });
       if (yol === '/api/durum') {
@@ -263,7 +263,7 @@ const sunucu = http.createServer(async (req, res) => {
           req.on('error', reject);
         });
         const gorece = 'veri/medya/kapak-' + setId + uzanti;
-        fs.mkdirSync(path.join(__dirname, 'veri', 'medya'), { recursive: true });
+        fs.mkdirSync(path.join(depo.VERI, 'medya'), { recursive: true });
         fs.writeFileSync(path.join(__dirname, gorece), Buffer.concat(parcalar));
         depo.setGuncelle(setId, { kapak: { tur: 'dosya', dosya: gorece } });
         return json(res, 200, await vitrin.vitrinUret(setId));
