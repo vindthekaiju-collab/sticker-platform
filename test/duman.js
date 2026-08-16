@@ -276,6 +276,36 @@ function esit(ad, kosul) {
   esit('set adı _by_ kuralına uyuyor', kuru.setAdi.endsWith('_by_ornek_bot'));
   esit('kuru çalışma adımları emojiyi taşıyor', kuru.adimlar.some(a => a.emoji === '🔥'));
 
+  // Eklenti kuralları tarayıcıda çalışır ama saf fonksiyonlar; vm ile
+  // yüklenip ağsız sınanır. Gerekçe: 2026-08-16'da Giphy adres biçimini
+  // değiştirdi (/media/v1.<jeton>/<kimlik>/) ve eski desen sessizce
+  // 200px önizlemeye düştü — hata vermediği için fark edilmedi.
+  console.log('— eklenti kuralları (tarayıcısız)');
+  const vm = require('vm');
+  const kuralYukle = (dosya, konum) => {
+    const ctx = { window: {}, location: konum };
+    vm.createContext(ctx);
+    vm.runInContext(fs.readFileSync(path.join(__dirname, '..', 'eklenti', dosya), 'utf8'), ctx);
+    return ctx.window.__havuzKurali;
+  };
+
+  const gKural = kuralYukle('giphy.js', { pathname: '/search/meme', search: '' });
+  const yeniBicim = 'https://media3.giphy.com/media/v1.Y2lkPWFiYw/ACPNoXnjkdB0FGZG9U/200.webp';
+  esit('giphy yeni biçimden kimliği çıkarıyor',
+    gKural.medyaUrl({ src: yeniBicim }) === 'https://i.giphy.com/ACPNoXnjkdB0FGZG9U.gif');
+  esit('giphy 200px önizlemeye düşmüyor',
+    !gKural.medyaUrl({ src: yeniBicim }).includes('200.webp'));
+  esit('giphy eski biçim hâlâ çalışıyor',
+    gKural.medyaUrl({ src: 'https://media2.giphy.com/media/RXKCMLmch5W2Q/giphy.gif' })
+      === 'https://i.giphy.com/RXKCMLmch5W2Q.gif');
+  esit('giphy alakasız görseli tanımıyor',
+    !gKural.uygunMu({ src: 'https://example.com/kedi.png' }));
+
+  const pKural = kuralYukle('pinterest.js', { pathname: '/', search: '?q=meme' });
+  esit('pinterest originals yükseltmesi',
+    pKural.medyaUrl({ src: 'https://i.pinimg.com/236x/ab/cd/ef.jpg' })
+      === 'https://i.pinimg.com/originals/ab/cd/ef.jpg');
+
   console.log('\nDUMAN TESTİ GEÇTİ — set: ' + set.id);
 })().catch(e => {
   console.error('\nDUMAN TESTİ DÜŞTÜ: ' + e.message);

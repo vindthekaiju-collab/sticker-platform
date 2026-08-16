@@ -3,3 +3,7 @@ veri/medya/
 veri/*.json
 cikti/
 *.log
+# Chrome "Paketle" çıktısı. .pem eklentinin özel imza anahtarıdır —
+# depoya girerse kimliği başkası taklit edebilir.
+*.crx
+*.pem

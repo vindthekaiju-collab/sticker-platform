@@ -18,8 +18,17 @@ window.__havuzKurali = {
 
   medyaUrl(el) {
     const src = el.currentSrc || el.src || '';
-    // .../media/<kimlik>/... deseninden tam boy gif'e in.
-    const m = src.match(/media\/([A-Za-z0-9]+)\//);
+    // Giphy iki biçim kullanıyor:
+    //   eski: /media/<kimlik>/giphy.webp
+    //   yeni: /media/v1.<jeton>/<kimlik>/200.webp   (2026-08-16'da ölçüldü)
+    // Araya giren `v1.<jeton>` segmenti nokta içerdiği için eski desen
+    // eşleşmiyor, sessizce ekrandaki 200px önizlemeye düşüyordu — sticker
+    // 512px istediği için bu bulanık çıktı demekti. Jeton segmenti opsiyonel
+    // atlanır; kimlik her zaman ondan sonraki segmenttir.
+    let m = src.match(/\/media\/(?:v\d+\.[^/]+\/)?([A-Za-z0-9]+)\//);
+    if (m) return 'https://i.giphy.com/' + m[1] + '.gif';
+    // Zaten tam boy adres verilmişse olduğu gibi bırak.
+    m = src.match(/i\.giphy\.com\/([A-Za-z0-9]+)\./);
     if (m) return 'https://i.giphy.com/' + m[1] + '.gif';
     return src;
   },
