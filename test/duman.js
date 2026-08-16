@@ -167,6 +167,43 @@ function esit(ad, kosul) {
   esit('özel kapak 1200×630', v2meta.width === 1200 && v2meta.height === 630);
   depo.setGuncelle(set.id, { kapak: null });
 
+  if (donusturLib.ffmpegVar()) {
+    // 2026-08-16'da "Ofis Hayatı" setinde iki sessiz arıza çıktı; ikisi de
+    // hata vermeden sticker kaybediyordu. Aşağısı ikisini de kilitler.
+
+    console.log('— uzun animasyon: kare bütçesi (whatsapp)');
+    const uzunGif = path.join(depo.VERI, 'medya', 'uzun-anim.gif');
+    execFileSync('ffmpeg', [
+      '-y', '-loglevel', 'error',
+      '-f', 'lavfi', '-i', 'color=c=0xe86c6c:s=360x360:d=14:r=20',
+      '-vf', "drawbox=x='mod(t*120,300)':y=150:w=60:h=60:color=0x12141a:t=fill",
+      '-pix_fmt', 'rgb24', uzunGif
+    ]);
+    const uzunMeta = await sharp(uzunGif).metadata();
+    esit('örnek gerçekten uzun (' + uzunMeta.pages + ' kare)', uzunMeta.pages > 200);
+    const wr = await donusturLib.whatsappAnimasyon(uzunGif);
+    esit('uzun animasyon sınıra sığdırıldı (' + (wr.veri.length / 1024).toFixed(0) + 'KB)',
+      wr.veri.length <= sinirlar.whatsapp.animasyonAzamiBayt);
+    esit('sığdırmak için kare kırpıldı (' + wr.kare + '/' + wr.toplamKare + ')',
+      wr.kare < wr.toplamKare);
+
+    console.log('— vitrin: yalnız animasyonlu set');
+    const animAday = depo.adayEkle({
+      kaynak: 'elle', medyaUrl: 'https://ornek.local/uzun.gif', etiketler: ['duman']
+    }).aday;
+    depo.adayGuncelle(animAday.id, { dosya: 'veri/medya/uzun-anim.gif', durum: 'indirildi' });
+    const animSet = depo.setOlustur({ ad: 'Duman Testi Seti', olusturan: 'elle' });
+    depo.setGuncelle(animSet.id, { ekle: [animAday.id] });
+    await uret.uret(animSet.id, 'telegram');
+    const tgKlasor = path.join(depo.CIKTI, animSet.id, 'telegram');
+    esit('animasyonlu sette statik .webp üretilmiyor',
+      !fs.readdirSync(tgKlasor).some(f => f.endsWith('.webp')));
+    const av = await vitrin.vitrinUret(animSet.id);   // eskiden burada düşüyordu
+    const avMeta = await sharp(depo.coz(av.dosya)).metadata();
+    esit('vitrin animasyonun ilk karesinden üretildi', avMeta.width === 1200 && avMeta.height === 630);
+    esit('vitrin sayısı setin üye sayısı (ızgara örneği değil)', av.sticker === 1);
+  }
+
   console.log('— satış linki + gumroad benzetimi');
   const elle = satis.tokenUret(set.id, 'elle');
   const acilis = satis.tokenAc(elle.token);
