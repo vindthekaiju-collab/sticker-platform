@@ -187,6 +187,43 @@ function esit(ad, kosul) {
     esit('sığdırmak için kare kırpıldı (' + wr.kare + '/' + wr.toplamKare + ')',
       wr.kare < wr.toplamKare);
 
+    // İlk karesi TAMAMEN SAYDAM, sonrakiler dolan bir animasyon. GIF'te
+    // saydamlık palet işi olduğu için fikstür animasyonlu WebP: alfayı
+    // doğrudan taşıyor, kurulum oyunu gerekmiyor.
+    const kareKlasor = path.join(depo.VERI, 'kare');
+    fs.mkdirSync(kareKlasor, { recursive: true });
+    for (let f = 0; f < 4; f++) {
+      const k = f === 0 ? 0 : 40 + f * 20;
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">` +
+        (k ? `<rect x="20" y="20" width="${k}" height="${k}" fill="#33c6b5"/>` : '') + '</svg>';
+      await sharp(Buffer.from(svg)).png().toFile(path.join(kareKlasor, `kare-${f}.png`));
+    }
+    const bosBaslayan = path.join(depo.VERI, 'medya', 'bos-baslayan.webp');
+    let fiksturVar = true;
+    try {
+      execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', '5',
+        '-i', path.join(kareKlasor, 'kare-%d.png'),
+        '-c:v', 'libwebp_anim', '-lossless', '1', '-loop', '0', bosBaslayan], { stdio: 'ignore' });
+    } catch { fiksturVar = false; }
+
+    if (!fiksturVar) {
+      console.log('— temsili kare: atlandı (libwebp_anim kodlayıcısı yok)');
+    } else {
+      console.log('— temsili kare: ilk karesi boş animasyon');
+      const doluluk = async (p) => {
+        const { data, info } = await sharp(bosBaslayan, { page: p })
+          .ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+        let o = 0;
+        for (let i = 3; i < data.length; i += 4) if (data[i] > 16) o++;
+        return o / (info.width * info.height);
+      };
+      esit('fikstürün ilk karesi gerçekten boş', (await doluluk(0)) === 0);
+      const secilen = await donusturLib.temsiliKare(bosBaslayan);
+      esit('boş ilk kare atlandı (kare ' + secilen + ')', secilen > 0);
+      esit('seçilen kare gerçekten daha dolu',
+        (await doluluk(secilen)) > (await doluluk(0)));
+    }
+
     console.log('— vitrin: yalnız animasyonlu set');
     const animAday = depo.adayEkle({
       kaynak: 'elle', medyaUrl: 'https://ornek.local/uzun.gif', etiketler: ['duman']
