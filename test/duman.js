@@ -202,6 +202,23 @@ function esit(ad, kosul) {
     const avMeta = await sharp(depo.coz(av.dosya)).metadata();
     esit('vitrin animasyonun ilk karesinden üretildi', avMeta.width === 1200 && avMeta.height === 630);
     esit('vitrin sayısı setin üye sayısı (ızgara örneği değil)', av.sticker === 1);
+
+    console.log('— teslimat önizlemesi: yalnız animasyonlu set');
+    // Asgari üye sayısı için sete iki statik üye daha kat.
+    depo.setGuncelle(animSet.id, { ekle: adayIdler.slice(0, 2) });
+    const wr2 = await uret.uret(animSet.id, 'wastickers');
+    esit('wastickers tek tek dosyaları diske yazıyor',
+      wr2.dosyalar.every(d => fs.existsSync(
+        path.join(depo.CIKTI, animSet.id, 'wastickers', d.dosya))));
+    const at = teslimat.sayfaUret(animSet.id);
+    const govde = fs.readFileSync(depo.coz(at.dosya), 'utf8');
+    const dugmeSayisi = (govde.match(/class="stk"/g) || []).length;
+    // Eskiden 0 çıkıyordu: alıcı "bir sticker'a dokun" yazısını görüp
+    // tek sticker göremiyordu.
+    esit('önizleme ızgarası dolu (' + dugmeSayisi + ' düğme)',
+      dugmeSayisi === wr2.dosyalar.length && dugmeSayisi > 0);
+    esit('önizleme diskteki dosyalara işaret ediyor',
+      /data-src="wastickers\/\d+\.webp"/.test(govde));
   }
 
   console.log('— satış linki + gumroad benzetimi');
