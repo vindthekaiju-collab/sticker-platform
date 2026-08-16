@@ -71,30 +71,16 @@ function suzulmusHavuz() {
     (a.etiketler || []).some(t => String(t).toLowerCase().includes(q)));
 }
 
-function havuzCiz() {
-  const kap = $('#havuz');
-  const liste = suzulmusHavuz();
-  $('#havuz-sayi').textContent = suzgec ? liste.length + '/' + havuz.length : havuz.length;
+/* Aday hangi temaya ait? Toplarken son etiket tema olarak yazılıyor
+   (ofis · tepki · sevimli …). Sabit liste tutmuyoruz: yeni tema eklenince
+   kendiliğinden yeni başlık açılsın. */
+function temaAdi(a) {
+  const e = a.etiketler || [];
+  return e.length ? e[e.length - 1] : 'etiketsiz';
+}
 
-  if (!havuz.length) {
-    kap.innerHTML = `
-      <div class="bos" style="grid-column:1/-1">
-        <span class="bos-im">🗂</span>
-        <span class="bos-baslik">Havuz boş</span>
-        <p>Chrome eklentisiyle Giphy veya Pinterest'te bir görselin üstüne gel,
-           çıkan <b>＋ havuza</b> düğmesine bas. Ya da yukarıdaki kutuya doğrudan
-           medya adresi yapıştır.</p>
-      </div>`;
-    return;
-  }
-  if (!liste.length) {
-    kap.innerHTML = `<div class="bos" style="grid-column:1/-1">
-      <span class="bos-im">🔍</span><span class="bos-baslik">Eşleşme yok</span>
-      <p>“${kacar(suzgec)}” için havuzda aday bulunamadı.</p></div>`;
-    return;
-  }
-
-  kap.innerHTML = [...liste].reverse().map(a => `
+function adayKarti(a) {
+  return `
     <div class="aday${secim.has(a.id) ? ' secili' : ''}" data-id="${kacar(a.id)}"
          role="button" tabindex="0" aria-pressed="${secim.has(a.id)}">
       <div class="aday-gorsel">
@@ -108,10 +94,74 @@ function havuzCiz() {
         <button class="aday-emoji" data-is="emoji"
                 title="Emoji — sticker araması bununla eşleşir">${kacar(a.emoji || '🙂')}</button>
       </div>
-    </div>`).join('');
+    </div>`;
+}
+
+function havuzCiz() {
+  const kap = $('#havuz');
+  const liste = suzulmusHavuz();
+  $('#havuz-sayi').textContent = suzgec ? liste.length + '/' + havuz.length : havuz.length;
+
+  if (!havuz.length) {
+    kap.innerHTML = `
+      <div class="bos">
+        <span class="bos-im">🗂</span>
+        <span class="bos-baslik">Havuz boş</span>
+        <p>Chrome eklentisiyle Giphy veya Pinterest'te bir görselin üstüne gel,
+           çıkan <b>＋ havuza</b> düğmesine bas. Ya da yukarıdaki kutuya doğrudan
+           medya adresi yapıştır.</p>
+      </div>`;
+    return;
+  }
+  if (!liste.length) {
+    kap.innerHTML = `<div class="bos">
+      <span class="bos-im">🔍</span><span class="bos-baslik">Eşleşme yok</span>
+      <p>“${kacar(suzgec)}” için havuzda aday bulunamadı.</p></div>`;
+    return;
+  }
+
+  // Temaya göre öbekle; en kalabalık tema üstte.
+  const obekler = new Map();
+  for (const a of [...liste].reverse()) {
+    const t = temaAdi(a);
+    if (!obekler.has(t)) obekler.set(t, []);
+    obekler.get(t).push(a);
+  }
+  const sirali = [...obekler.entries()].sort((x, y) => y[1].length - x[1].length);
+
+  // Tek tema varsa başlık gürültü olur — düz ızgara çiz.
+  if (sirali.length <= 1) {
+    kap.innerHTML = `<div class="izgara">${liste.slice().reverse().map(adayKarti).join('')}</div>`;
+    return;
+  }
+
+  kap.innerHTML = sirali.map(([tema, ogeler]) => {
+    const hepsiSecili = ogeler.every(a => secim.has(a.id));
+    return `
+    <details class="obek" open data-tema="${kacar(tema)}">
+      <summary>
+        <span class="obek-ad">${kacar(tema)}</span>
+        <span class="sayac">${ogeler.length}</span>
+        <button type="button" class="obek-sec" data-tema-sec="${kacar(tema)}">
+          ${hepsiSecili ? 'bırak' : 'hepsini seç'}
+        </button>
+      </summary>
+      <div class="izgara">${ogeler.map(adayKarti).join('')}</div>
+    </details>`;
+  }).join('');
 }
 
 $('#havuz').addEventListener('click', e => {
+  // Öbek başlığındaki "hepsini seç"
+  const temaSec = e.target.dataset.temaSec;
+  if (temaSec) {
+    e.preventDefault();
+    const ogeler = suzulmusHavuz().filter(a => temaAdi(a) === temaSec);
+    const hepsi = ogeler.every(a => secim.has(a.id));
+    ogeler.forEach(a => hepsi ? secim.delete(a.id) : secim.add(a.id));
+    havuzCiz(); secimCiz();
+    return;
+  }
   const kart = e.target.closest('.aday');
   if (!kart) return;
   const id = kart.dataset.id;
@@ -217,6 +267,9 @@ $('#secim-birak').addEventListener('click', () => { secim.clear(); havuzCiz(); s
 /* ---------- Setler ---------- */
 
 const HEDEF_AD = { telegram: 'Telegram', wastickers: 'WhatsApp', zip: 'ZIP' };
+// Bundan çok üyesi olan setin şeridi kapalı açılır — 24 küçük görsel kartı
+// devirip listeyi gezilemez hale getiriyordu.
+const UYE_ESIK = 12;
 
 function raporSatiri(set, hedef) {
   const r = set.ciktilar && set.ciktilar[hedef];
@@ -247,10 +300,10 @@ function setCiz() {
     return;
   }
 
-  // Açık ⋯ menüleri yeniden çizimde kapanmasın.
+  // Açık ⋯ menüleri ve açılmış üye şeritleri yeniden çizimde korunsun.
   const acikMenuler = new Set([...kap.querySelectorAll('.menu[open]')].map(m => m.dataset.setId));
 
-  kap.innerHTML = [...setler].reverse().map(s => {
+  const setKarti = (s) => {
     const uyeler = s.uyeler.map(id => havuz.find(a => a.id === id)).filter(Boolean);
     const linkler = satisLinkleri[s.id] || [];
     return `
@@ -286,16 +339,21 @@ function setCiz() {
       </div>
 
       ${uyeler.length ? `
-      <div class="set-uyeler">
-        ${uyeler.map(a => `
-          <span class="uye${s.tepsi === a.id ? ' tepsi' : ''}" data-id="${kacar(a.id)}">
-            <span class="uye-kare" title="Tepsi ikonu yapmak için tıkla">
-              <img src="${kacar(onizlemeUrl(a))}" loading="lazy" alt="">
-            </span>
-            ${s.tepsi === a.id ? '<span class="uye-tepsi-im">TEPSİ</span>' : ''}
-            <button class="uye-cikar" data-is="cikar" title="Setten çıkar" aria-label="Setten çıkar">✕</button>
-          </span>`).join('')}
-      </div>` : `
+      <details class="set-uyeler-kap"${uyeler.length <= UYE_ESIK ? ' open' : ''}>
+        <summary${uyeler.length <= UYE_ESIK ? ' hidden' : ''}>
+          ${uyeler.length} sticker — <span class="ac-kapa">göster</span>
+        </summary>
+        <div class="set-uyeler">
+          ${uyeler.map(a => `
+            <span class="uye${s.tepsi === a.id ? ' tepsi' : ''}" data-id="${kacar(a.id)}">
+              <span class="uye-kare" title="Tepsi ikonu yapmak için tıkla">
+                <img src="${kacar(onizlemeUrl(a))}" loading="lazy" alt="">
+              </span>
+              ${s.tepsi === a.id ? '<span class="uye-tepsi-im">TEPSİ</span>' : ''}
+              <button class="uye-cikar" data-is="cikar" title="Setten çıkar" aria-label="Setten çıkar">✕</button>
+            </span>`).join('')}
+        </div>
+      </details>` : `
       <div style="padding:0 15px 13px">
         <div class="bos" style="padding:18px">
           <span class="bos-baslik">Bu set boş</span>
@@ -335,7 +393,37 @@ function setCiz() {
         </div>` : ''}
       </div>
     </article>`;
+  };
+
+  /* Setler duruma göre öbeklenir — panel akışın neresinde olduğunu göstersin.
+     Sıra iş akışı sırası: üstünde çalışılan taslaklar en üstte. */
+  const DURUMLAR = [
+    { anahtar: 'taslak', ad: 'Taslak', not: 'üstünde çalışılıyor — yayına çıkmaz' },
+    { anahtar: 'onayli', ad: 'Onaylı', not: 'içerik tamam, satışa hazırlanıyor' },
+    { anahtar: 'yayinda', ad: 'Yayında', not: 'mağazada ve satış linkinde görünür' }
+  ];
+  const ters = [...setler].reverse();
+  kap.innerHTML = DURUMLAR.map(d => {
+    const grup = ters.filter(s => s.durum === d.anahtar);
+    if (!grup.length) return '';
+    return `
+      <div class="set-obek">
+        <div class="set-obek-ust">
+          <h3>${d.ad}<span class="sayac">${grup.length}</span></h3>
+          <span class="set-obek-not">${d.not}</span>
+        </div>
+        ${grup.map(setKarti).join('')}
+      </div>`;
   }).join('');
+
+  // Bilinmeyen bir durum varsa sessizce kaybolmasın.
+  const bilinen = new Set(DURUMLAR.map(d => d.anahtar));
+  const digerleri = ters.filter(s => !bilinen.has(s.durum));
+  if (digerleri.length) {
+    kap.innerHTML += `<div class="set-obek">
+      <div class="set-obek-ust"><h3>Diğer<span class="sayac">${digerleri.length}</span></h3></div>
+      ${digerleri.map(setKarti).join('')}</div>`;
+  }
 }
 
 $('#set-liste').addEventListener('click', e => {
