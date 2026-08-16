@@ -3,61 +3,107 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sticker Atölyesi</title>
+<title>stickky · atölye</title>
 <link rel="stylesheet" href="/ui/stil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2333c6b5'/%3E%3Cpath d='M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z' fill='%230a2622'/%3E%3C/svg%3E">
 </head>
 <body>
-<header>
-  <h1>🏭 Sticker Atölyesi</h1>
-  <div id="durum" class="durum">—</div>
+
+<header class="ust">
+  <div class="marka">
+    <svg class="marka-im" viewBox="0 0 32 32" aria-hidden="true">
+      <rect width="32" height="32" rx="9" fill="currentColor"/>
+      <path d="M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z" fill="#0a2622"/>
+    </svg>
+    <span class="marka-ad">stickky <span>atölye</span></span>
+  </div>
+  <div class="olcerler" id="olcerler"></div>
 </header>
 
-<main>
-  <section id="havuz-bolum">
-    <div class="bolum-baslik">
-      <h2>Havuz <span id="havuz-sayi"></span></h2>
-      <form id="elle-ekle">
-        <input type="url" id="elle-url" placeholder="Medya URL'si yapıştır (gif/png/webp)" required>
-        <input type="text" id="elle-etiket" placeholder="etiketler (virgülle)">
-        <button type="submit">＋ Havuza at</button>
-      </form>
+<main class="tuval">
+
+  <!-- ============ HAVUZ ============ -->
+  <section class="sutun">
+    <div class="bolum-ust">
+      <h2>Havuz <span class="sayac" id="havuz-sayi">0</span></h2>
+      <div class="bolum-arac">
+        <input type="search" id="havuz-ara" class="ara" placeholder="Etiket veya kaynak ara…" aria-label="Havuzda ara">
+        <button type="button" id="tumunu-sec" class="dugme sessiz">Tümünü seç</button>
+      </div>
     </div>
-    <div id="havuz" class="izgara"></div>
+
+    <form id="elle-ekle" class="satir-form" autocomplete="off">
+      <input type="url" id="elle-url" placeholder="Medya adresi yapıştır — gif · png · webp" required>
+      <input type="text" id="elle-etiket" placeholder="etiketler (virgülle)">
+      <button type="submit" class="dugme">Havuza at</button>
+    </form>
+
+    <div id="havuz" class="izgara" aria-live="polite"></div>
   </section>
 
-  <section id="set-bolum">
-    <div class="bolum-baslik">
-      <h2>Setler</h2>
-      <form id="set-ac">
-        <input type="text" id="set-ad" placeholder="Yeni set adı" required>
-        <button type="submit">＋ Set aç</button>
-      </form>
+  <!-- ============ SETLER ============ -->
+  <section class="sutun">
+    <div class="bolum-ust">
+      <h2>Setler <span class="sayac" id="set-sayi">0</span></h2>
     </div>
-    <form id="ai-taslak">
-      <input type="text" id="ai-kelimeler" placeholder="🤖 keyword'ler (virgülle) — AI taslak set kurar" required>
-      <button type="submit">Taslak üret</button>
+
+    <form id="set-ac" class="satir-form" autocomplete="off">
+      <input type="text" id="set-ad" placeholder="Yeni set adı — örn. Ofis Hayatı" required>
+      <button type="submit" class="dugme">Set aç</button>
     </form>
-    <div id="ai-sonuc" class="ai-sonuc"></div>
-    <div class="izleme-kutu">
-      <form id="izleme-ekle">
-        <input type="text" id="izleme-kelime" placeholder="📡 izleme listesine keyword ekle (otonom tarama)" required>
-        <button type="submit">＋</button>
-        <button type="button" id="otonom-simdi" class="ikincil">Şimdi tara</button>
-      </form>
-      <div id="izleme-liste" class="izleme-liste"></div>
-    </div>
+
+    <details class="kutu">
+      <summary><span class="kutu-im">🤖</span> Küratör — keyword'den taslak set</summary>
+      <div class="kutu-govde">
+        <p class="ipucu">Havuzdaki adayları puanlar, barajı geçenlerden <b>taslak</b> set kurar.
+          Giphy anahtarı tanımlıysa oradan da arar. Hiçbir taslak onaysız yayına çıkmaz.</p>
+        <form id="ai-taslak" class="satir-form" autocomplete="off">
+          <input type="text" id="ai-kelimeler" placeholder="keyword'ler, virgülle — örn. monday, coffee, tired" required>
+          <button type="submit" class="dugme">Taslak üret</button>
+        </form>
+        <div id="ai-sonuc" class="sonuc-satir"></div>
+      </div>
+    </details>
+
+    <details class="kutu">
+      <summary><span class="kutu-im">📡</span> Otonom tarama — izleme listesi</summary>
+      <div class="kutu-govde">
+        <p class="ipucu">Listedeki her keyword 6 saatte bir taranır. Onay bekleyen taslağı olan
+          keyword atlanır — birikme olmaz.</p>
+        <form id="izleme-ekle" class="satir-form" autocomplete="off">
+          <input type="text" id="izleme-kelime" placeholder="izlenecek keyword" required>
+          <button type="submit" class="dugme">Ekle</button>
+          <button type="button" id="otonom-simdi" class="dugme sessiz">Şimdi tara</button>
+        </form>
+        <div id="izleme-liste" class="cip-sira"></div>
+      </div>
+    </details>
+
     <div id="set-liste"></div>
   </section>
+
 </main>
 
-<input type="file" id="kapak-dosya-girdi" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
-
-<div id="secim-cubugu" class="gizli">
-  <span id="secim-sayi"></span>
-  <select id="secim-hedef-set"></select>
-  <button id="secim-ekle">Sete ekle</button>
-  <button id="secim-birak" class="ikincil">Bırak</button>
+<!-- seçim çubuğu -->
+<div id="secim-cubugu" class="secim-cubugu gizli" role="region" aria-label="Seçim işlemleri">
+  <span class="secim-sayi" id="secim-sayi"></span>
+  <select id="secim-hedef-set" aria-label="Hedef set"></select>
+  <button type="button" id="secim-ekle" class="dugme">Sete ekle</button>
+  <button type="button" id="secim-birak" class="dugme sessiz">Bırak</button>
 </div>
+
+<!-- emoji seçici -->
+<div id="emoji-secici" class="emoji-secici gizli" role="dialog" aria-label="Emoji seç">
+  <div class="emoji-izgara" id="emoji-izgara"></div>
+  <form id="emoji-elle" class="satir-form">
+    <input type="text" id="emoji-girdi" maxlength="8" placeholder="kendi emojin" aria-label="Emoji yaz">
+    <button type="submit" class="dugme kucuk">Kaydet</button>
+  </form>
+</div>
+
+<div id="bildirimler" class="bildirimler" aria-live="assertive"></div>
+
+<input type="file" id="kapak-dosya-girdi" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
 
 <script src="/ui/uygulama.js"></script>
 </body>
