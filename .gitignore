@@ -10,6 +10,6 @@ cikti/
 .vercel
 .env*
 
-# magaza.js tarafindan uretilen sticker kopyalari (cikti/ zaten yoksayili)
-site/s/
-site/setler.html
+# site/ ÜRETILEN DOSYALARI DA DEPODA: Vercel Git deploy'u yalnız depodakini
+# görür; yoksayılınca otomatik deploy mağaza sayfası olmadan yayına giriyordu.
+# (site/s/ ve site/setler.html'i magaza.js üretir ama commit'lenir.)
