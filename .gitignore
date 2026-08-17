@@ -7,3 +7,5 @@ cikti/
 # depoya girerse kimliği başkası taklit edebilir.
 *.crx
 *.pem
+.vercel
+.env*
