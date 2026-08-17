@@ -192,24 +192,81 @@ a { color: inherit; }
 .mini .kalan { font-size: 14px; font-weight: 700; color: var(--yazi-2); padding-left: 2px; }
 @media (max-width: 760px) { .mini img:nth-child(n+4) { display: none; } }
 
-/* kanal eylem çubuğu */
+/* eylem çubuğu — tek "Ekle" + fiyat */
 .satir-eylem {
   display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
   padding: 0 22px 20px;
 }
-.kanal {
-  display: inline-flex; align-items: center; gap: 8px;
-  text-decoration: none; border-radius: 999px;
-  padding: 11px 20px; font-size: 14.5px; font-weight: 700;
-  min-height: 44px;
-  border: 2px solid var(--cizgi-guc); background: var(--kart); color: var(--yazi);
+.ekle {
+  border: 3px solid var(--cizgi-guc); border-radius: 999px;
+  padding: 11px 30px; font: inherit; font-size: 15px; font-weight: 700;
+  min-height: 44px; cursor: pointer;
+  background: var(--pembe); color: #fff;
+  transition: background var(--gecis), transform var(--gecis);
+}
+.ekle:hover { background: var(--pembe-koyu); transform: translateY(-2px); }
+.ekle.buyuk { padding: 13px 36px; font-size: 16px; }
+
+/* seçim panosu */
+.pano {
+  position: fixed; inset: 0; z-index: 80;
+  display: flex; align-items: flex-end; justify-content: center;
+  background: color-mix(in srgb, #0F172A 58%, transparent);
+  backdrop-filter: blur(6px);
+  padding: 0;
+  animation: acil 200ms ease;
+}
+.pano.gizli { display: none; }
+@media (min-width: 640px) { .pano { align-items: center; padding: 30px; } }
+
+.pano-govde {
+  width: min(520px, 100%);
+  background: var(--zemin);
+  border: 3px solid var(--cizgi-guc);
+  border-radius: var(--r-b) var(--r-b) 0 0;
+  padding: 26px 22px calc(22px + env(safe-area-inset-bottom));
+  animation: kalk 240ms cubic-bezier(.2,.8,.3,1);
+}
+@media (min-width: 640px) { .pano-govde { border-radius: var(--r-b); padding-bottom: 22px; } }
+@keyframes kalk { from { transform: translateY(22px); opacity: 0 } }
+
+.pano-govde h3 { font-family: Anton, Impact, sans-serif; font-size: 30px; line-height: 1.05; }
+.pano-alt { color: var(--yazi-2); font-size: 14.5px; margin-top: 6px; }
+
+.secenekler { display: flex; flex-direction: column; gap: 10px; margin: 22px 0 16px; }
+.secenek {
+  /* minmax(0,1fr): düz `1fr` min-content altına inemiyor ve uzun açıklama
+     ("512×512 dosyalar — Discord, Signal, klavye") panoyu telefonda
+     taşırıyordu. Izgaranın klasik tuzağı. */
+  display: grid; grid-template-columns: 26px minmax(0, 1fr); align-items: center;
+  column-gap: 14px; row-gap: 2px;
+  text-decoration: none; color: var(--yazi);
+  border: 2px solid var(--cizgi-guc); border-radius: var(--r);
+  padding: 13px 16px; min-height: 44px;
   transition: background var(--gecis), color var(--gecis), transform var(--gecis);
 }
-.kanal svg { width: 18px; height: 18px; fill: currentColor; flex: none; }
-.kanal:hover { transform: translateY(-2px); }
-.kanal.tg:hover { background: #229ED9; border-color: #229ED9; color: #fff; }
-.kanal.wa:hover { background: #128C4A; border-color: #128C4A; color: #fff; }
-.kanal.buyuk { padding: 13px 24px; font-size: 15.5px; }
+.secenek svg { width: 24px; height: 24px; fill: currentColor; grid-row: 1 / 3; }
+.k-ad  { font-size: 16px; font-weight: 700; }
+.k-not { font-size: 13px; color: var(--yazi-2); min-width: 0; }
+.secenek:hover { transform: translateX(3px); }
+.secenek.tg:hover  { background: #229ED9; border-color: #229ED9; color: #fff; }
+.secenek.wa:hover  { background: #128C4A; border-color: #128C4A; color: #fff; }
+.secenek.zip:hover { background: var(--mavi); border-color: var(--mavi); color: #fff; }
+.secenek:hover .k-not { color: inherit; opacity: .85; }
+/* Henüz olmayan kanal: görünür ama tıklanamaz — alıcı neyin geleceğini
+   görsün, olmayan şeye tıklayıp hüsrana uğramasın. */
+.secenek.yok {
+  border-color: var(--cizgi); color: var(--yazi-2);
+  background: var(--yumusak); cursor: not-allowed;
+}
+.secenek.yok:hover { transform: none; }
+
+.pano-kapat {
+  width: 100%; border: 0; background: none; color: var(--yazi-2);
+  font: inherit; font-size: 15px; font-weight: 600; padding: 12px; min-height: 44px;
+  cursor: pointer; border-radius: 999px;
+}
+.pano-kapat:hover { background: var(--yumusak); color: var(--yazi); }
 
 .al {
   text-decoration: none; border-radius: 999px;
