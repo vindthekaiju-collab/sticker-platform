@@ -87,6 +87,7 @@ function adayKarti(a) {
         <img src="${kacar(onizlemeUrl(a))}" loading="lazy" alt="${kacar((a.etiketler || []).join(' '))}">
         <span class="aday-tik" aria-hidden="true"></span>
         <button class="aday-sil" data-is="sil" title="Havuzdan sil" aria-label="Havuzdan sil">✕</button>
+        <button class="aday-buyut" data-is="buyut" title="Tam ekran incele" aria-label="Tam ekran incele">⤢</button>
       </div>
       <div class="aday-alt">
         <span class="aday-kaynak" title="${kacar((a.etiketler || []).join(', '))}">${kacar(a.kaynak)}</span>
@@ -167,6 +168,10 @@ $('#havuz').addEventListener('click', e => {
   const id = kart.dataset.id;
   const is = e.target.dataset.is;
   if (is === 'sil') return adaySil(id, e.target);
+  if (is === 'buyut') {
+    const liste = suzulmusHavuz().slice().reverse();
+    return buyutecAc(liste, liste.findIndex(a => a.id === id));
+  }
   if (is === 'emoji') return emojiAc(e.target, id);
   secim.has(id) ? secim.delete(id) : secim.add(id);
   havuzCiz(); secimCiz();
@@ -193,6 +198,43 @@ $('#tumunu-sec').addEventListener('click', () => {
   const hepsiSecili = liste.length && liste.every(a => secim.has(a.id));
   liste.forEach(a => hepsiSecili ? secim.delete(a.id) : secim.add(a.id));
   havuzCiz(); secimCiz();
+});
+
+/* ---------- Tam ekran inceleme ---------- */
+/* Onayı 54px küçük kareden vermek yanlış eşleşmeleri gizliyordu; burada
+   sticker gerçek boyutunda görünür. Ok tuşlarıyla set baştan sona gezilir. */
+
+let buyutecListe = [], buyutecSira = 0, buyutecBaslik = '';
+
+function buyutecAc(liste, sira, baslik) {
+  if (!liste || !liste.length) return;
+  buyutecListe = liste;
+  buyutecSira = Math.max(0, sira);
+  buyutecBaslik = baslik || '';
+  $('#buyutec').classList.remove('gizli');
+  buyutecCiz();
+}
+function buyutecKapat() { $('#buyutec').classList.add('gizli'); buyutecListe = []; }
+function buyutecGit(adim) {
+  if (!buyutecListe.length) return;
+  buyutecSira = (buyutecSira + adim + buyutecListe.length) % buyutecListe.length;
+  buyutecCiz();
+}
+function buyutecCiz() {
+  const a = buyutecListe[buyutecSira];
+  if (!a) return;
+  $('#buyutec-gorsel').src = onizlemeUrl(a);
+  $('#buyutec-emoji').textContent = a.emoji || '🙂';
+  $('#buyutec-etiket').textContent = (a.etiketler || []).join(' · ');
+  $('#buyutec-sayac').textContent =
+    (buyutecBaslik ? buyutecBaslik + ' — ' : '') + (buyutecSira + 1) + '/' + buyutecListe.length;
+}
+$('#buyutec').addEventListener('click', e => {
+  const is = e.target.dataset.buyutec;
+  if (is === 'kapat') return buyutecKapat();
+  if (is === 'geri') return buyutecGit(-1);
+  if (is === 'ileri') return buyutecGit(1);
+  if (e.target.id === 'buyutec') buyutecKapat();   // boşluğa tıkla → kapat
 });
 
 /* ---------- Emoji seçici (prompt yerine) ---------- */
@@ -235,6 +277,11 @@ document.addEventListener('click', e => {
   if (!$('#emoji-secici').contains(e.target) && !e.target.closest('[data-is="emoji"]')) emojiKapat();
 });
 document.addEventListener('keydown', e => {
+  if (!$('#buyutec').classList.contains('gizli')) {
+    if (e.key === 'Escape') return buyutecKapat();
+    if (e.key === 'ArrowLeft') { e.preventDefault(); return buyutecGit(-1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); return buyutecGit(1); }
+  }
   if (e.key === 'Escape') { emojiKapat(); document.querySelectorAll('.menu[open]').forEach(m => m.open = false); }
 });
 
@@ -319,6 +366,7 @@ function setCiz() {
           </div>
         </div>
         <div class="set-denetim">
+          ${uyeler.length ? '<button type="button" class="dugme kucuk sessiz" data-is="incele">İncele</button>' : ''}
           <select data-is="durum" aria-label="Set durumu">
             ${['taslak', 'onayli', 'yayinda'].map(d =>
               `<option value="${d}"${s.durum === d ? ' selected' : ''}>${d}</option>`).join('')}
@@ -444,6 +492,11 @@ $('#set-liste').addEventListener('click', e => {
   if (!is) return;
 
   const d = e.target;
+  if (is === 'incele') {
+    const uyeler = s.uyeler.map(id => havuz.find(a => a.id === id)).filter(Boolean);
+    if (!uyeler.length) return bildir('Sette görsel yok', 'hata');
+    return buyutecAc(uyeler, 0, s.ad);
+  }
   if (is === 'uret') {
     const hedef = d.dataset.hedef;
     // /uret raporun kendisini döner: { dosyalar, paket, hatalar }
@@ -636,6 +689,7 @@ async function yenile() {
 function otomatikYenile() {
   if (document.querySelector('.menu[open]')) return;
   if (!$('#emoji-secici').classList.contains('gizli')) return;
+  if (!$('#buyutec').classList.contains('gizli')) return;
   const a = document.activeElement;
   if (a && (a.tagName === 'INPUT' || a.tagName === 'SELECT')) return;
   yenile();

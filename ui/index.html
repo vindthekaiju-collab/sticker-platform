@@ -101,6 +101,21 @@
   </form>
 </div>
 
+<!-- tam ekran inceleme -->
+<div id="buyutec" class="buyutec gizli" role="dialog" aria-modal="true" aria-label="Sticker inceleme">
+  <button type="button" class="buyutec-kapat" data-buyutec="kapat" aria-label="Kapat">✕</button>
+  <button type="button" class="buyutec-ok sol" data-buyutec="geri" aria-label="Önceki">‹</button>
+  <figure class="buyutec-govde">
+    <div class="buyutec-sahne"><img id="buyutec-gorsel" alt=""></div>
+    <figcaption class="buyutec-alt">
+      <span class="buyutec-emoji" id="buyutec-emoji"></span>
+      <span class="buyutec-etiket" id="buyutec-etiket"></span>
+      <span class="buyutec-sayac" id="buyutec-sayac"></span>
+    </figcaption>
+  </figure>
+  <button type="button" class="buyutec-ok sag" data-buyutec="ileri" aria-label="Sonraki">›</button>
+</div>
+
 <div id="bildirimler" class="bildirimler" aria-live="assertive"></div>
 
 <input type="file" id="kapak-dosya-girdi" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
