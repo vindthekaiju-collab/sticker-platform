@@ -21,6 +21,7 @@ const os = require('os');
 const GECICI = fs.mkdtempSync(path.join(os.tmpdir(), 'stickky-test-'));
 process.env.STICKKY_VERI = path.join(GECICI, 'veri');
 process.env.STICKKY_CIKTI = path.join(GECICI, 'cikti');
+process.env.STICKKY_SITE = path.join(GECICI, 'site');
 
 const { execFileSync } = require('child_process');
 const sharp = require('sharp');
@@ -322,13 +323,17 @@ function esit(ad, kosul) {
   const magaza = require('../lib/magaza');
   depo.setGuncelle(set.id, { durum: 'yayinda' });
   const mg = magaza.sayfaUret();
-  const magazaGovde = fs.readFileSync(path.join(depo.CIKTI, 'magaza.html'), 'utf8');
-  esit('mağaza yayındaki seti listeliyor', mg.yayinda >= 1 && magazaGovde.includes(set.ad));
+  const magazaYol = path.join(process.env.STICKKY_SITE, 'setler.html');
+  const magazaGovde = fs.readFileSync(magazaYol, 'utf8');
+  esit('mağaza yayındaki seti listeliyor', mg.set >= 1 && magazaGovde.includes(set.ad));
   esit('satış linki yokken "Yakında" görünüyor', magazaGovde.includes('Yakında'));
+  // Vitrinin asıl işi: alıcı ne aldığını görsün. Set adı yetmez, sticker'lar da basılmalı.
+  esit('mağaza sticker görsellerini basıyor',
+    mg.sticker >= 3 && /<img src="s\/[a-f0-9]+\/\d+\.webp"/.test(magazaGovde));
   depo.setGuncelle(set.id, { satisUrl: 'https://ornek.paddle.com/checkout/x' });
   magaza.sayfaUret();
   esit('satış linki bağlanınca düğme çıkıyor',
-    fs.readFileSync(path.join(depo.CIKTI, 'magaza.html'), 'utf8').includes('Satın al'));
+    fs.readFileSync(magazaYol, 'utf8').includes('Satın al'));
 
   console.log('— otonom küratör (izleme listesi)');
   const otonom = require('../lib/otonom');
