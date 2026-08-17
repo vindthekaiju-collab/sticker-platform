@@ -108,81 +108,66 @@ a { color: inherit; }
 
 .tuval {
   flex: 1; width: 100%;
-  max-width: 1120px; margin: 0 auto;
+  max-width: 1000px; margin: 0 auto;
   padding: clamp(24px, 4vw, 44px) clamp(16px, 4vw, 28px) 60px;
 }
-.sayfa-ust { margin-bottom: 30px; }
+.sayfa-ust { margin-bottom: 26px; }
 .sayfa-ust h1 { font-size: clamp(26px, 4.6vw, 36px); font-weight: 750; letter-spacing: -.025em; }
 .sayfa-ust p { color: var(--soluk); font-size: 15px; margin-top: 6px; }
 
-.set {
-  background: var(--kart);
-  border: 1px solid var(--cizgi);
-  border-radius: 18px;
-  margin-bottom: 20px;
-  overflow: hidden;
+/* --- liste --- */
+/* Setler yukarıdan aşağıya. İlk sürüm her setin bütün sticker'larını sayfaya
+   seriyordu: iki sette güzeldi, on sette sayfa gezilemez oluyordu. */
+.liste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+
+.satir {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  background: var(--kart); border: 1px solid var(--cizgi);
+  border-radius: 16px; padding: 16px 18px; cursor: pointer;
+  transition: border-color var(--gecis), background var(--gecis), transform var(--gecis);
 }
-.set-ust {
-  display: flex; align-items: flex-start; justify-content: space-between;
-  gap: 16px; flex-wrap: wrap;
-  padding: 18px 20px 14px;
-}
-.set-kimlik { min-width: 0; }
-.set h2 {
-  font-size: 20px; font-weight: 700; letter-spacing: -.015em;
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+.satir:hover { border-color: color-mix(in srgb, var(--vurgu) 45%, transparent); background: var(--kart-2); }
+.satir:active { transform: scale(.995); }
+
+.satir-bilgi { flex: 1 1 210px; min-width: 0; }
+.satir h2 {
+  font-size: 18px; font-weight: 700; letter-spacing: -.015em;
+  display: flex; align-items: center; gap: 9px; flex-wrap: wrap;
 }
 .rozet {
-  font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  font-size: 10.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
   background: var(--kart-2); color: var(--soluk);
   border: 1px solid var(--cizgi); border-radius: 999px; padding: 3px 9px;
 }
-.set-alt { color: var(--soluk); font-size: 14px; margin-top: 5px; max-width: 62ch; }
-.set-sag { display: flex; align-items: center; gap: 12px; flex: none; }
-.sayi { color: var(--yazi-2); font-size: 13.5px; white-space: nowrap; }
+.satir-alt { color: var(--soluk); font-size: 13.5px; margin-top: 4px; }
+.satir .sayi { display: block; color: var(--yazi-2); font-size: 12.5px; margin-top: 7px; }
+
+/* satırdaki küçük önizleme şeridi */
+.mini { display: flex; align-items: center; gap: 6px; flex: none; }
+.mini img {
+  width: 54px; height: 54px; object-fit: contain; padding: 3px;
+  background: var(--dama); border: 1px solid var(--cizgi); border-radius: 9px;
+}
+.mini .kalan {
+  color: var(--soluk); font-size: 13px; padding-left: 3px; white-space: nowrap;
+}
+@media (max-width: 700px) { .mini img:nth-child(n+4) { display: none; } }
+
+.satir-sag { display: flex; align-items: center; gap: 10px; flex: none; margin-left: auto; }
+.onizle {
+  border: 1px solid var(--cizgi); background: var(--kart-2); color: var(--yazi-2);
+  border-radius: 999px; padding: 7px 16px; font-size: 13.5px; font-weight: 600;
+  white-space: nowrap;
+}
+.satir:hover .onizle { border-color: color-mix(in srgb, var(--vurgu) 45%, transparent); color: var(--vurgu); }
 .al {
-  text-decoration: none; border-radius: 999px; padding: 9px 20px;
-  font-size: 14.5px; font-weight: 650; white-space: nowrap;
+  text-decoration: none; border-radius: 999px; padding: 8px 18px;
+  font-size: 14px; font-weight: 650; white-space: nowrap;
   background: var(--vurgu); color: var(--vurgu-koyu);
   transition: filter var(--gecis);
 }
 .al:hover { filter: brightness(1.08); }
-.al.bekliyor {
-  background: var(--kart-2); color: var(--soluk);
-  border: 1px solid var(--cizgi); cursor: default;
-}
-
-/* Sticker şeridi — asıl mesele: alıcı ne aldığını GÖRSÜN.
-   Dar ekranda yatay kaydırılır, genişte sarar. */
-.serit {
-  display: flex; gap: 12px; flex-wrap: wrap;
-  padding: 4px 20px 20px;
-}
-@media (max-width: 620px) {
-  .serit { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; }
-  .stk { scroll-snap-align: start; }
-}
-.stk {
-  flex: 0 0 auto; margin: 0; position: relative;
-  /* Altyazılar 136px'te okunmuyordu — sticker'ın kendisi ürün, büyük dursun. */
-  width: clamp(140px, 21vw, 186px);
-}
-.stk img {
-  width: 100%; aspect-ratio: 1; object-fit: contain;
-  background: var(--dama);
-  border: 1px solid var(--cizgi); border-radius: 12px;
-  display: block; padding: 5px;
-  transition: transform var(--gecis), border-color var(--gecis);
-}
-.stk:hover img { transform: translateY(-3px); border-color: color-mix(in srgb, var(--vurgu) 45%, transparent); }
-.stk figcaption {
-  /* Altyazı sticker'ın ALT bandında; rozet aşağıdayken üstüne biniyordu
-     ("we need to discuss the b▮ath"). Sağ ÜST köşe her iki durumda da boş. */
-  position: absolute; right: 8px; top: 8px;
-  background: color-mix(in srgb, #05070a 62%, transparent);
-  backdrop-filter: blur(4px);
-  border-radius: 8px; padding: 2px 7px; font-size: 15px; line-height: 1.5;
-}
+.al.bekliyor { background: var(--kart-2); color: var(--soluk); border: 1px solid var(--cizgi); }
 
 .bos {
   border: 1px dashed var(--cizgi); border-radius: var(--r);
@@ -190,6 +175,80 @@ a { color: inherit; }
 }
 .bos b { display: block; color: var(--yazi-2); font-size: 17px; margin-bottom: 6px; }
 .bos p { font-size: 14px; }
+
+/* --- önizleme penceresi --- */
+
+.onizleme {
+  position: fixed; inset: 0; z-index: 60;
+  overflow-y: auto;
+  background: color-mix(in srgb, #05070a 90%, transparent);
+  backdrop-filter: blur(12px);
+  padding: clamp(16px, 4vw, 40px);
+  animation: acil 150ms ease;
+}
+@keyframes acil { from { opacity: 0 } }
+.onizleme.gizli { display: none; }
+
+.onizleme-govde { max-width: 940px; margin: 0 auto; }
+.onizleme-ust { margin-bottom: 22px; padding-right: 50px; }
+.onizleme-ust h3 { font-size: clamp(22px, 4vw, 30px); font-weight: 750; letter-spacing: -.02em; }
+.onizleme-ust p { color: var(--soluk); font-size: 14.5px; margin-top: 5px; }
+
+.izgara {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.kare {
+  position: relative; border: 1px solid var(--cizgi); background: var(--dama);
+  border-radius: 13px; padding: 6px; cursor: zoom-in;
+  transition: transform var(--gecis), border-color var(--gecis);
+}
+.kare:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--vurgu) 50%, transparent); }
+.kare img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; }
+.kare-emoji {
+  position: absolute; right: 7px; top: 7px;
+  background: color-mix(in srgb, #05070a 60%, transparent);
+  backdrop-filter: blur(4px);
+  border-radius: 8px; padding: 1px 6px; font-size: 15px; line-height: 1.5;
+}
+
+.kapat {
+  position: fixed; top: 18px; right: 18px; z-index: 2;
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--cizgi); background: var(--kart-2); color: var(--yazi);
+  font-size: 16px; cursor: pointer;
+  transition: background var(--gecis);
+}
+.kapat:hover { background: #c0392f; border-color: #c0392f; color: #fff; }
+
+/* tek sticker görünümü */
+.tekli {
+  position: fixed; inset: 0; z-index: 3;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  padding: clamp(12px, 4vw, 40px);
+  background: color-mix(in srgb, #05070a 82%, transparent);
+  backdrop-filter: blur(8px);
+}
+.tekli.gizli { display: none; }
+.tekli figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.sahne {
+  background: var(--dama); border: 1px solid var(--cizgi); border-radius: 16px;
+  padding: 10px; width: min(560px, 78vw); display: flex; align-items: center; justify-content: center;
+}
+.sahne img { width: 100%; height: auto; max-height: 70vh; object-fit: contain; display: block; }
+.tekli figcaption {
+  display: flex; align-items: center; gap: 12px;
+  color: var(--yazi-2); font-size: 15px;
+}
+.tekli figcaption span:first-child { font-size: 22px; }
+.ok {
+  width: 46px; height: 46px; border-radius: 50%; flex: none;
+  border: 1px solid var(--cizgi); background: var(--kart-2); color: var(--yazi);
+  font-size: 26px; line-height: 1; cursor: pointer;
+  transition: background var(--gecis), transform var(--gecis);
+}
+.ok:hover { background: var(--kart); transform: scale(1.06); }
+@media (max-width: 640px) { .ok { width: 38px; height: 38px; font-size: 21px; } }
 
 /* ------------------------------------------------------------- dip */
 
