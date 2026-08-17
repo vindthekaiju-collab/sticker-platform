@@ -9,3 +9,7 @@ cikti/
 *.pem
 .vercel
 .env*
+
+# magaza.js tarafindan uretilen sticker kopyalari (cikti/ zaten yoksayili)
+site/s/
+site/setler.html

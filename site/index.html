@@ -7,86 +7,36 @@
 <meta name="description" content="İnternetin en iyi meme'leri, tek dokunuşla klavyende. Telegram, WhatsApp ve her yer için hazır sticker setleri.">
 <meta property="og:title" content="stickky">
 <meta property="og:description" content="Meme sticker setleri — tek dokunuşla klavyende.">
-<style>
-  * { box-sizing: border-box; margin: 0; }
-  :root {
-    --zemin: #12141a; --kart: #1c1f28; --cizgi: #333849;
-    --yazi: #e8eaf0; --soluk: #8a91a5; --vurgu: #33c6b5;
-  }
-  body {
-    background: var(--zemin); color: var(--yazi);
-    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
-    min-height: 100vh; display: flex; flex-direction: column; align-items: center;
-    padding: 0 20px;
-  }
-  header { padding: 48px 0 0; text-align: center; }
-  .logo {
-    font-size: 44px; font-weight: 800; letter-spacing: -1px;
-    color: var(--yazi);
-  }
-  .logo span { color: var(--vurgu); }
-  .slogan { color: var(--soluk); margin-top: 8px; font-size: 18px; }
-  main { max-width: 720px; width: 100%; padding: 40px 0 24px; }
-  .buyuk {
-    font-size: 26px; font-weight: 700; text-align: center; line-height: 1.35;
-    margin-bottom: 12px;
-  }
-  .buyuk em { color: var(--vurgu); font-style: normal; }
-  .alt-metin { text-align: center; color: var(--soluk); margin-bottom: 36px; }
-  .temalar {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 12px; margin-bottom: 36px;
-  }
-  .tema {
-    background: var(--kart); border: 1px solid var(--cizgi); border-radius: 16px;
-    padding: 18px 14px; text-align: center;
-  }
-  .tema .ikon { font-size: 30px; display: block; margin-bottom: 8px; }
-  .tema b { font-size: 15px; }
-  .tema span { display: block; color: var(--soluk); font-size: 12px; margin-top: 4px; }
-  .kanallar {
-    display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
-    color: var(--soluk); font-size: 14px; margin-bottom: 40px;
-  }
-  .kanallar span { background: var(--kart); border: 1px solid var(--cizgi);
-    border-radius: 999px; padding: 6px 14px; }
-  .yakinda {
-    text-align: center; background: var(--kart); border: 1px solid var(--vurgu);
-    border-radius: 16px; padding: 22px; margin-bottom: 40px;
-  }
-  .yakinda b { color: var(--vurgu); font-size: 18px; }
-  .yakinda p { color: var(--soluk); font-size: 14px; margin-top: 6px; }
-  footer { padding: 20px 0 32px; color: var(--soluk); font-size: 13px; text-align: center; }
-</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2333c6b5'/%3E%3Cpath d='M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z' fill='%230a2622'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<header>
-  <div class="logo">stick<span>ky</span></div>
-  <div class="slogan">meme'ler, tek dokunuşla klavyende</div>
+
+<header class="ust">
+  <a class="marka" href="./">stick<span>ky</span></a>
+  <nav class="sekmeler">
+    <a href="./" class="etkin" aria-current="page">Ana sayfa</a>
+    <a href="setler.html">Setler</a>
+  </nav>
 </header>
 
-<main>
-  <div class="buyuk">Beğen. Dokun. <em>Yapıştır.</em></div>
-  <div class="alt-metin">İnternet kültürünün en iyileri — indirip kırpmakla uğraşmadan,
-  hazır setler halinde. Uygulama kurmak zorunda değilsin.</div>
+<main class="karsilama">
+  <div class="dev-logo">stick<span>ky</span></div>
+  <p class="slogan">meme'ler, tek dokunuşla klavyende</p>
+  <p class="aciklama">
+    Hazır sticker setleri — indirip kırpmakla uğraşmadan, uygulama kurmadan.
+    Telegram'da, WhatsApp'ta, her yerde.
+  </p>
 
-  <div class="temalar">
-    <div class="tema"><span class="ikon">🖤</span><b>Dark Humor</b><span>Gen Z onaylı</span></div>
-    <div class="tema"><span class="ikon">🌸</span><b>Cute &amp; Kawaii</b><span>sevimlilik garantili</span></div>
-    <div class="tema"><span class="ikon">💼</span><b>Ofis Hayatı</b><span>pazartesi sendromu dahil</span></div>
-    <div class="tema"><span class="ikon">🔥</span><b>Trend Paket</b><span>her hafta taze — abonelik</span></div>
+  <div class="dugmeler">
+    <a class="dugme" href="setler.html">Setlere göz at</a>
   </div>
 
   <div class="kanallar">
     <span>📨 Telegram</span><span>💬 WhatsApp</span><span>📱 iMessage</span><span>📦 Her yer</span>
   </div>
-
-  <div class="yakinda">
-    <b>İlk setler çok yakında</b>
-    <p>Raflar dolduruluyor. Açılışta ilk alıcılara sürprizimiz var.</p>
-  </div>
 </main>
 
-<footer>© stickky · stickky.xyz</footer>
+<footer class="dip">© stickky · <a href="https://stickky.xyz">stickky.xyz</a></footer>
 </body>
 </html>
