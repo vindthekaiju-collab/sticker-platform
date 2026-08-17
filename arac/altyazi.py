@@ -39,6 +39,16 @@ def denetle(plan):
     hatalar = []
     for i, p in enumerate(plan, 1):
         ifade, aile = p.get("ifade"), p.get("aile")
+
+        # YAZISIZ sticker: bazı klipler tepki olarak zaten çalışıyor ve üstüne
+        # ne yazılsa bozuluyor (kullanıcı bulgusu 2026-08-17). Böyle satırlar
+        # aile kuralından muaf — taşıyacakları cümle yok. İfade yine istenir:
+        # setin tonu tutarlı kalsın.
+        if not (p.get("metin") or "").strip():
+            if ifade not in IFADELER:
+                hatalar.append(f"{i}. satır (yazısız): ifade eksik/geçersiz ({ifade!r})")
+            continue
+
         if ifade not in IFADELER:
             hatalar.append(f"{i}. satır: ifade eksik/geçersiz ({ifade!r}) — {sorted(IFADELER)}")
             continue
@@ -131,6 +141,11 @@ def kirpma_filtresi(kirp):
 
 
 def uret(kaynak, metin, cikti, kirp=None, yer='alt'):
+    metin = (metin or "").strip()
+    if not metin:
+        # Yazısız: yalnız kırp + ölçekle + süre/kare sınırı.
+        return _kos(kaynak, cikti, kirp, [])
+
     satirlar = bol(metin)
     enUzun = max(len(s) for s in satirlar)
     punto = max(18, min(30, int(GENISLIK / (enUzun * 0.60))))
@@ -148,9 +163,14 @@ def uret(kaynak, metin, cikti, kirp=None, yer='alt'):
             f"x=(w-text_w)/2:y={y}")
     # Palet üretimi kaliteyi korurken dosyayı küçültür; fps ve süre sınırı
     # asıl kazancı sağlıyor (kaynak 25MB → ~1MB).
+    return _kos(kaynak, cikti, kirp, çizimler)
+
+
+def _kos(kaynak, cikti, kirp, çizimler):
     kirpma = kirpma_filtresi(kirp)
+    yazi = ("," + ",".join(çizimler)) if çizimler else ""
     vf = ((kirpma + "," if kirpma else "")
-          + f"fps={FPS},scale={GENISLIK}:-2:flags=lanczos," + ",".join(çizimler)
+          + f"fps={FPS},scale={GENISLIK}:-2:flags=lanczos" + yazi
           + ",split[a][b];[a]palettegen=max_colors=128[p];[b][p]paletteuse=dither=bayer")
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", kaynak,
                         "-t", str(AZAMI_SN), "-vf", vf, cikti], capture_output=True, text=True)
@@ -191,8 +211,10 @@ def main():
             print(f"  ✗ {p['kimlik'][:16]:18} {hata}")
         else:
             ok += 1
-            isaret = "↑" if yer == "ust" else "↓"
-            print(f"  ✓ {p['kimlik'][:16]:18} {isaret} {boyut//1024:>5}KB  “{p['metin']}”")
+            yazisiz = not (p.get("metin") or "").strip()
+            isaret = "·" if yazisiz else ("↑" if yer == "ust" else "↓")
+            etiket = "(yazısız — kendi başına tepki)" if yazisiz else "“" + p["metin"] + "”"
+            print(f"  ✓ {p['kimlik'][:16]:18} {isaret} {boyut//1024:>5}KB  {etiket}")
     print(f"\n{ok}/{len(plan)} üretildi")
 
 
