@@ -25,12 +25,12 @@ IFADELER = {"sert", "kustah", "bos", "saskin", "mahzun", "goofy", "uykulu", "ene
 
 # Cümle ailesi -> o aileyi taşıyabilen ifadeler
 AILELER = {
-    "tehdit":     {"sert"},                       # "u have three seconds"
+    "tehdit":     {"sert", "bos"},                # "u have three seconds" — boş bakışla da olur
     "kurumsal":   {"sert", "kustah", "bos"},      # "i am escalating this"
     "tersmantik": {"bos", "kustah"},              # "nobody can betray u..."
     "absurt":     {"goofy", "saskin"},            # "i have no thoughts"
     "mahzun":     {"mahzun", "uykulu"},           # "i was told there would be respect"
-    "kustah":     {"kustah", "sert"},             # "im built different"
+    "kustah":     {"kustah", "sert", "bos"},      # "im built different"
 }
 
 
@@ -80,7 +80,24 @@ def bol(metin, azami=30):
     return list(en_iyi) if en_iyi else [metin]
 
 
-def uret(kaynak, metin, cikti):
+def kirpma_filtresi(kirp):
+    """Filigran kesme. kirp: {"ust":0,"alt":0.08,"sol":0,"sag":0} — oranlar.
+
+    Üçüncü parti filigranları (© BarkPost, WorkBeaver, TRT1 …) köşede duruyor;
+    satılık pakette başkasının reklamı olmaz. Yeni görsel aramak yerine kenarı
+    kesmek hem hızlı hem kadrajı sıkılaştırıyor.
+    """
+    if not kirp:
+        return None
+    u, a = float(kirp.get("ust", 0)), float(kirp.get("alt", 0))
+    so, sa = float(kirp.get("sol", 0)), float(kirp.get("sag", 0))
+    if not any((u, a, so, sa)):
+        return None
+    return (f"crop=w=iw*{1 - so - sa:.4f}:h=ih*{1 - u - a:.4f}"
+            f":x=iw*{so:.4f}:y=ih*{u:.4f}")
+
+
+def uret(kaynak, metin, cikti, kirp=None):
     satirlar = bol(metin)
     enUzun = max(len(s) for s in satirlar)
     punto = max(18, min(30, int(GENISLIK / (enUzun * 0.60))))
@@ -94,7 +111,9 @@ def uret(kaynak, metin, cikti):
             f"x=(w-text_w)/2:y={y}")
     # Palet üretimi kaliteyi korurken dosyayı küçültür; fps ve süre sınırı
     # asıl kazancı sağlıyor (kaynak 25MB → ~1MB).
-    vf = (f"fps={FPS},scale={GENISLIK}:-2:flags=lanczos," + ",".join(çizimler)
+    kirpma = kirpma_filtresi(kirp)
+    vf = ((kirpma + "," if kirpma else "")
+          + f"fps={FPS},scale={GENISLIK}:-2:flags=lanczos," + ",".join(çizimler)
           + ",split[a][b];[a]palettegen=max_colors=128[p];[b][p]paletteuse=dither=bayer")
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", kaynak,
                         "-t", str(AZAMI_SN), "-vf", vf, cikti], capture_output=True, text=True)
@@ -119,7 +138,7 @@ def main():
     for p in plan:
         kaynak = f"ham/{p['kimlik']}.gif"
         cikti = f"altyazili/{p['kimlik']}.gif"
-        boyut, hata = uret(kaynak, p["metin"], cikti)
+        boyut, hata = uret(kaynak, p["metin"], cikti, p.get("kirp"))
         if hata:
             print(f"  ✗ {p['kimlik'][:16]:18} {hata}")
         else:
