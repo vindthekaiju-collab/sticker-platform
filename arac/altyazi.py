@@ -31,6 +31,15 @@ IFADELER = {"sert", "kustah", "bos", "saskin", "mahzun", "goofy", "uykulu", "ene
 # kime söylendiği belirsiz kalıyor ve espri düşüyor.
 BAKISLAR = {"kameraya", "yana", "kapali"}
 
+# Kalite puanı 1-5. Seçim eskiden İKİLİYDİ (geçti/geçmedi) ve sete N üye
+# lazım olunca vasat klip de alınıyordu — set boyu kaliteyi belirliyordu.
+# Puanla ilişki tersine döner: kalite set boyunu belirler.
+#   5-4  cümle taşıyabilir
+#   3    yalnız yazısız (kendi başına tepki olarak durur, cümle kaldırmaz)
+#   2-1  kullanılmaz
+PUAN_CUMLE = 4      # bu ve üstü cümle taşır
+PUAN_YAZISIZ = 3    # bu ve üstü yazısız kullanılır
+
 # Cümle ailesi -> o aileyi taşıyabilen ifadeler
 AILELER = {
     "tehdit":     {"sert", "bos"},                # "u have three seconds" — boş bakışla da olur
@@ -62,6 +71,22 @@ def denetle(plan):
         # ne yazılsa bozuluyor (kullanıcı bulgusu 2026-08-17). Böyle satırlar
         # aile kuralından muaf — taşıyacakları cümle yok. İfade yine istenir:
         # setin tonu tutarlı kalsın.
+        puan = p.get("puan")
+        if not isinstance(puan, int) or not (1 <= puan <= 5):
+            hatalar.append(f"{i}. satır: puan eksik/geçersiz ({puan!r}) — 1..5 arası tam sayı")
+            continue
+        if puan < PUAN_YAZISIZ:
+            hatalar.append(f"{i}. satır REDDEDİLDİ: puan {puan} — bu klip kullanılmamalı")
+            continue
+
+        konu = (p.get("konu") or "").strip()
+        if not konu:
+            # Konu, ARAMA SORGUSUNDAN DEĞİL karede görülenden yazılır. Sorgudan
+            # devralınan tema setleri gevşek gösteriyordu: "cat gym" diye bulunan
+            # koşu bandındaki kedi aslında yemek esprisi.
+            hatalar.append(f"{i}. satır: konu eksik — karede NE GÖRÜNDÜĞÜNÜ yaz (sorguyu değil)")
+            continue
+
         bakis = p.get("bakis")
         if bakis not in BAKISLAR:
             hatalar.append(f"{i}. satır: bakış eksik/geçersiz ({bakis!r}) — {sorted(BAKISLAR)}")
@@ -72,6 +97,11 @@ def denetle(plan):
                 hatalar.append(f"{i}. satır (yazısız): ifade eksik/geçersiz ({ifade!r})")
             continue
 
+        if puan < PUAN_CUMLE:
+            hatalar.append(
+                f"{i}. satır REDDEDİLDİ: puan {puan} olan klip cümle taşıyamaz — "
+                f"yazısız bırak ya da daha iyi bir klip bul")
+            continue
         if ifade not in IFADELER:
             hatalar.append(f"{i}. satır: ifade eksik/geçersiz ({ifade!r}) — {sorted(IFADELER)}")
             continue
