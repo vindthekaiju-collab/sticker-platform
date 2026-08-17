@@ -3,38 +3,48 @@
   "kimlik": "RfIihYZODTtnehogWg",
   "metin": "",
   "emoji": "💕",
-  "ifade": "mahzun"
+  "ifade": "mahzun",
+  "bakis": "yana"
  },
  {
   "kimlik": "WhoNyvVjuB88HjDK0l",
   "metin": "",
   "emoji": "👋",
-  "ifade": "enerjik"
+  "ifade": "enerjik",
+  "bakis": "kameraya"
  },
  {
   "kimlik": "FBTJHH4G7ols5Hj22D",
   "metin": "",
   "emoji": "❤️",
-  "ifade": "enerjik"
+  "ifade": "enerjik",
+  "bakis": "kameraya"
  },
  {
   "kimlik": "VOPK1BqsMEJRS",
   "metin": "charmed. obviously",
   "emoji": "🎩",
   "ifade": "kustah",
-  "aile": "kustah"
+  "aile": "kustah",
+  "bakis": "kameraya",
+  "kirp": {
+   "ust": 0.12,
+   "sol": 0.14
+  }
  },
  {
   "kimlik": "61QwCVDB5HZr0NQslE",
   "metin": "i thought about u once",
   "emoji": "💭",
   "ifade": "mahzun",
-  "aile": "mahzun"
+  "aile": "mahzun",
+  "bakis": "kameraya"
  },
  {
   "kimlik": "C5id39PP0hdkLZpmvh",
   "metin": "",
   "emoji": "🐶",
-  "ifade": "mahzun"
+  "ifade": "mahzun",
+  "bakis": "kameraya"
  }
 ]

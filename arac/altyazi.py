@@ -23,6 +23,14 @@ import json, os, subprocess, sys
 
 IFADELER = {"sert", "kustah", "bos", "saskin", "mahzun", "goofy", "uykulu", "enerjik"}
 
+# Bakış yönü. İfadeden DAHA MEKANİK bir özellik: yoruma az açık, gözle
+# doğrulanabilir, ve düşen eşleşmelerin çoğunu tek başına açıklıyor.
+# 2026-08-17'de ölçüldü: "keep talking. im taking notes" kameraya bakmayan
+# bir kedideydi, "one more word" yana bakan bir köpekte. Tehdit ve otorite
+# doğrudan muhatap almayı gerektiriyor; hayvan başka yere bakıyorsa cümle
+# kime söylendiği belirsiz kalıyor ve espri düşüyor.
+BAKISLAR = {"kameraya", "yana", "kapali"}
+
 # Cümle ailesi -> o aileyi taşıyabilen ifadeler
 AILELER = {
     "tehdit":     {"sert", "bos"},                # "u have three seconds" — boş bakışla da olur
@@ -31,6 +39,16 @@ AILELER = {
     "absurt":     {"goofy", "saskin"},            # "i have no thoughts"
     "mahzun":     {"mahzun", "uykulu"},           # "i was told there would be respect"
     "kustah":     {"kustah", "sert", "bos"},      # "im built different"
+}
+
+# Aile -> kabul edilen bakış. Boş küme: bakış kısıtı yok.
+AILE_BAKIS = {
+    "tehdit":     {"kameraya"},           # tehdit muhatap ister
+    "kurumsal":   {"kameraya"},           # otorite de öyle
+    "kustah":     {"kameraya", "yana"},   # yan bakış zaten küstahlıktır
+    "tersmantik": set(),
+    "absurt":     set(),
+    "mahzun":     set(),
 }
 
 
@@ -44,6 +62,11 @@ def denetle(plan):
         # ne yazılsa bozuluyor (kullanıcı bulgusu 2026-08-17). Böyle satırlar
         # aile kuralından muaf — taşıyacakları cümle yok. İfade yine istenir:
         # setin tonu tutarlı kalsın.
+        bakis = p.get("bakis")
+        if bakis not in BAKISLAR:
+            hatalar.append(f"{i}. satır: bakış eksik/geçersiz ({bakis!r}) — {sorted(BAKISLAR)}")
+            continue
+
         if not (p.get("metin") or "").strip():
             if ifade not in IFADELER:
                 hatalar.append(f"{i}. satır (yazısız): ifade eksik/geçersiz ({ifade!r})")
@@ -59,6 +82,12 @@ def denetle(plan):
             hatalar.append(
                 f"{i}. satır REDDEDİLDİ: “{p['metin']}” ({aile}) ifadesi {ifade} olan "
                 f"görselde durmaz — bu aile yalnız {sorted(AILELER[aile])} kabul eder")
+            continue
+        gerekli = AILE_BAKIS.get(aile, set())
+        if gerekli and bakis not in gerekli:
+            hatalar.append(
+                f"{i}. satır REDDEDİLDİ: “{p['metin']}” ({aile}) bakışı {bakis} olan "
+                f"görselde durmaz — muhatap belirsiz; bu aile {sorted(gerekli)} ister")
     return hatalar
 
 
