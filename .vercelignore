@@ -1,0 +1,15 @@
+# Vercel'e yalnız site/ ve vercel.json gerekiyor (outputDirectory: site).
+# Atölye, üretim hattı ve ham veri deploy'a girmez.
+node_modules/
+veri/
+cikti/
+arac/
+eklenti/
+lib/
+test/
+ui/
+teslimat/
+sunucu.js
+basla.ps1
+package*.json
+*.log
