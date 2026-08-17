@@ -326,14 +326,17 @@ function esit(ad, kosul) {
   const magazaYol = path.join(process.env.STICKKY_SITE, 'setler.html');
   const magazaGovde = fs.readFileSync(magazaYol, 'utf8');
   esit('mağaza yayındaki seti listeliyor', mg.set >= 1 && magazaGovde.includes(set.ad));
-  esit('satış linki yokken "Yakında" görünüyor', magazaGovde.includes('Yakında'));
+  // Metin değişebilir; sınanan DAVRANIŞ: satış linki yokken satın alma
+  // düğmesi etkisiz (bekliyor) sınıfıyla çıkar, gerçek <a href> ÇIKMAZ.
+  esit('satış linki yokken satın alma etkisiz',
+    /class="al bekliyor"/.test(magazaGovde) && !/class="al" href/.test(magazaGovde));
   // Vitrinin asıl işi: alıcı ne aldığını görsün. Set adı yetmez, sticker'lar da basılmalı.
   esit('mağaza sticker görsellerini basıyor',
     mg.sticker >= 3 && /<img src="s\/[a-f0-9]+\/\d+\.webp"/.test(magazaGovde));
   depo.setGuncelle(set.id, { satisUrl: 'https://ornek.paddle.com/checkout/x' });
   magaza.sayfaUret();
   esit('satış linki bağlanınca düğme çıkıyor',
-    fs.readFileSync(magazaYol, 'utf8').includes('Satın al'));
+    /class="al" href="https:\/\/ornek\.paddle\.com/.test(fs.readFileSync(magazaYol, 'utf8')));
 
   console.log('— otonom küratör (izleme listesi)');
   const otonom = require('../lib/otonom');
