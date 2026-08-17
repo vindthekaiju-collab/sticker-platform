@@ -53,6 +53,7 @@ def denetle(plan):
 
 
 GENISLIK = 400
+UST_PAY = 16
 FPS = 12          # 25MB kaynak WhatsApp dönüşümünü 14 dakikaya çıkarıyordu
 AZAMI_SN = 6      # sticker zaten 10sn üstünü oynatmıyor
 FONT = "font.ttf"          # boşluksuz kopya: ffmpeg filtre dizgisinde boşluk yolu böler
@@ -80,6 +81,38 @@ def bol(metin, azami=30):
     return list(en_iyi) if en_iyi else [metin]
 
 
+def bant_betigi():
+    """bant-olc.js'yi bul. Betik lib/donustur'a göreli require ettiği için
+    DEPO İÇİNDEKİ kopya çalıştırılmalı; yanına kopyalanan sürüm kırılıyor."""
+    yanim = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bant-olc.js")
+    adaylar = [yanim, os.path.expanduser("~/sticker-platform/arac/bant-olc.js")]
+    for a in adaylar:
+        if os.path.exists(os.path.join(os.path.dirname(a), "..", "lib", "donustur.js")):
+            return a
+    return None
+
+
+def bantlari_olc(kaynaklar):
+    """Her klip için hangi bandın boş olduğunu ölç (arac/bant-olc.js).
+
+    SESSİZ DÜŞMEZ. İlk sürümde betik yolu kırıkken fonksiyon boş sözlük
+    döndürüyordu; ölçüm hiç çalışmadığı halde her altyazı varsayılan olarak
+    alta yazılıyor ve kimse fark etmiyordu (2026-08-17).
+    """
+    if not kaynaklar:
+        return {}
+    betik = bant_betigi()
+    if not betik:
+        raise SystemExit("bant-olc.js bulunamadı — ölçüm yapılamıyor, üretim durduruldu")
+    r = subprocess.run(["node", betik, *kaynaklar], capture_output=True, text=True, timeout=900)
+    if r.returncode != 0 or not r.stdout.strip():
+        raise SystemExit("bant ölçümü düştü: " + (r.stderr or "")[:200])
+    try:
+        return json.loads(r.stdout)
+    except json.JSONDecodeError:
+        raise SystemExit("bant ölçümü bozuk JSON döndürdü")
+
+
 def kirpma_filtresi(kirp):
     """Filigran kesme. kirp: {"ust":0,"alt":0.08,"sol":0,"sag":0} — oranlar.
 
@@ -97,14 +130,18 @@ def kirpma_filtresi(kirp):
             f":x=iw*{so:.4f}:y=ih*{u:.4f}")
 
 
-def uret(kaynak, metin, cikti, kirp=None):
+def uret(kaynak, metin, cikti, kirp=None, yer='alt'):
     satirlar = bol(metin)
     enUzun = max(len(s) for s in satirlar)
     punto = max(18, min(30, int(GENISLIK / (enUzun * 0.60))))
     satirYuk = int(punto * 1.25)
     çizimler = []
     for i, s in enumerate(satirlar):
-        y = f"h-th-{ALT_PAY + (len(satirlar) - 1 - i) * satirYuk}"
+        # Altyazı BOŞ banda konur; kaynağın kendi yazısıyla üst üste binmesin.
+        if yer == "ust":
+            y = f"{UST_PAY + i * satirYuk}"
+        else:
+            y = f"h-th-{ALT_PAY + (len(satirlar) - 1 - i) * satirYuk}"
         çizimler.append(
             f"drawtext=fontfile={FONT}:text='{kacar(s)}':fontcolor=white:"
             f"fontsize={punto}:borderw=3:bordercolor=black@0.92:"
@@ -134,16 +171,28 @@ def main():
         sys.exit(1)
 
     os.makedirs("altyazili", exist_ok=True)
+
+    kaynaklar = [f"ham/{p['kimlik']}.gif" for p in plan]
+    bantlar = bantlari_olc(kaynaklar)
+
     ok = 0
     for p in plan:
         kaynak = f"ham/{p['kimlik']}.gif"
         cikti = f"altyazili/{p['kimlik']}.gif"
-        boyut, hata = uret(kaynak, p["metin"], cikti, p.get("kirp"))
+        b = bantlar.get(kaynak, {})
+        # Plan açıkça yer belirtmişse ona uy; yoksa ölçüme.
+        yer = p.get("yer") or b.get("oneri") or "alt"
+        if b.get("riskli"):
+            print(f"  ⚠ {p['kimlik'][:16]:18} iki bant da dolu "
+                  f"(ust={b.get('ust')} alt={b.get('alt')} kare={b.get('tum')}) "
+                  f"— altyazı kalabalığa binebilir")
+        boyut, hata = uret(kaynak, p["metin"], cikti, p.get("kirp"), yer)
         if hata:
             print(f"  ✗ {p['kimlik'][:16]:18} {hata}")
         else:
             ok += 1
-            print(f"  ✓ {p['kimlik'][:16]:18} {boyut//1024:>5}KB  “{p['metin']}”")
+            isaret = "↑" if yer == "ust" else "↓"
+            print(f"  ✓ {p['kimlik'][:16]:18} {isaret} {boyut//1024:>5}KB  “{p['metin']}”")
     print(f"\n{ok}/{len(plan)} üretildi")
 
 
