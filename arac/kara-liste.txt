@@ -1,0 +1,102 @@
+# Toplama süzgeci: başlık ya da yükleyen adında bu geçerse aday alınmaz.
+# Her satır küçük harf, kısmi eşleşme. Yorumlar # ile.
+#
+# NEDEN DOSYA: liste bugün toplama betiğinin içinde elle büyüdü (25 → 70) ve
+# her seferinde bir marka kaçtı. En son "Wiener Dog GIF by Heinz" geçti —
+# blokta "heinz" yoktu. Eleme sebebi kayda geçmeyince aynı hata dönüyor.
+# Yeni bir marka/filigran görülünce BURAYA eklenir.
+
+# --- stüdyo / yapım ---
+disney
+pixar
+warner
+paramount
+netflix
+hulu
+peacock
+nickelodeon
+cartoon network
+nat geo
+pbs
+bbc
+starz
+fx
+dreamworks
+lucasfilm
+star wars
+yoda
+marvel
+tom and jerry
+garfield
+spongebob
+simpsons
+looney
+futurama
+star trek
+sailor moon
+unikitty
+aristocats
+rugrats
+hey duggee
+shrek
+pokemon
+angry birds
+bravest
+minecraft
+roblox
+grumpy cat
+
+# --- karakter markaları ---
+sanrio
+pusheen
+line friends
+bt21
+geico
+
+# --- ticari marka ---
+heinz
+instacart
+9lives
+milk-bone
+petcube
+elai
+best friends
+
+# --- filigranlı kaynaklar / yükleyiciler ---
+gifak
+the dodo
+tiktok
+nanoave
+pixverse
+laff
+barkpost
+workbeaver
+by sam
+alextekah
+floodattack
+guarimba
+pinkman
+sillykitties
+onlylolgifs
+macatsinspace
+pembe
+sheepfilms
+monkeycatluna
+ohmagif
+lickibrush
+4gifs
+marsbijou
+thepetmono
+unscreen
+cool cats
+gogglebox
+kinglet
+dialed in
+dapper dachshund
+upstudios
+choc ye
+toskini
+flight23white
+hrgojob
+hidia
+mikachu

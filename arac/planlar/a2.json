@@ -1,0 +1,54 @@
+[
+ {
+  "kimlik": "13D4wgYXxPPyWQ",
+  "metin": "i have been informed that i am small",
+  "emoji": "🐶",
+  "puan": 5,
+  "konu": "battaniyeye sarılmış yavru köpek kameraya bakıyor",
+  "bakis": "kameraya",
+  "ifade": "mahzun",
+  "aile": "mahzun",
+  "kirp": {
+   "ust": 0.1,
+   "sag": 0.1
+  }
+ },
+ {
+  "kimlik": "ukrLaIKOBEAQPysMmN",
+  "metin": "the water was not part of the deal",
+  "emoji": "💧",
+  "puan": 4,
+  "konu": "ıslak yavru kedi kabın başında kameraya bakıyor",
+  "bakis": "kameraya",
+  "ifade": "mahzun",
+  "aile": "mahzun"
+ },
+ {
+  "kimlik": "eDUHhtooZxyhi",
+  "metin": "i eat one thing. i have many opinions about it",
+  "emoji": "🌿",
+  "puan": 4,
+  "konu": "koala ağaçta yaprak yiyor, yana bakıyor",
+  "bakis": "yana",
+  "ifade": "bos",
+  "aile": "tersmantik"
+ },
+ {
+  "kimlik": "3T7WB64PW315Z8zhRg",
+  "metin": "",
+  "emoji": "🌑",
+  "puan": 3,
+  "konu": "karanlıkta kedi yüzü, gözler parlıyor",
+  "bakis": "kameraya",
+  "ifade": "bos"
+ },
+ {
+  "kimlik": "7XuKKmGiaxXe6EjOj4",
+  "metin": "",
+  "emoji": "🎵",
+  "puan": 3,
+  "konu": "köpek başını arkaya atmış, gözleri kapalı",
+  "bakis": "kapali",
+  "ifade": "enerjik"
+ }
+]
