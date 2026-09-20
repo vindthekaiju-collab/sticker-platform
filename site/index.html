@@ -4,39 +4,192 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>stickky — meme sticker setleri</title>
-<meta name="description" content="İnternetin en iyi meme'leri, tek dokunuşla klavyende. Telegram, WhatsApp ve her yer için hazır sticker setleri.">
+<meta name="description" content="İnternetin en iyi meme'leri, tek dokunuşla klavyende. Telegram, WhatsApp ve her yer için hazır animasyonlu sticker setleri.">
 <meta property="og:title" content="stickky">
 <meta property="og:description" content="Meme sticker setleri — tek dokunuşla klavyende.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23EC4899'/%3E%3Cpath d='M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z' fill='%23fff'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#FFFBF3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23FF2D87'/%3E%3Cpath d='M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="stil.css">
 </head>
-<body>
+<body class="ana">
+
+<!-- Setler bloğu ELLE tutuluyor (3 set). Yeni set yayınlanınca: lib/magaza.js →
+     node arac/kucuk-onizleme.js → buradaki #setler bölümüne yeni sahne ekle. -->
 
 <header class="ust">
-  <a class="marka" href="./">stick<span>ky</span></a>
+  <a class="marka" href="./" aria-label="stickky ana sayfa">stick<span>ky</span></a>
   <nav class="sekmeler">
-    <a href="./" class="etkin" aria-current="page">Ana sayfa</a>
-    <a href="setler.html">Setler</a>
+    <a href="#setler">Setler</a>
+    <a href="#nasil">Nasıl</a>
+    <a class="sekme-vurgu" href="setler.html">Ekle</a>
   </nav>
 </header>
 
-<main class="karsilama">
-  <h1 class="dev-logo">stick<span>ky</span></h1>
-  <p class="slogan">meme'ler, <em>tek dokunuşla</em> klavyende</p>
-  <p class="aciklama">
-    Hazır sticker setleri — indirip kırpmakla uğraşmadan, uygulama kurmadan.
-    Telegram'da, WhatsApp'ta, her yerde.
-  </p>
+<main>
 
-  <div class="dugmeler">
-    <a class="dugme" href="setler.html">Setlere göz at</a>
+<!-- ============================================================ giriş -->
+<section class="giris" id="giris" aria-label="Giriş">
+  <div class="giris-pullar" aria-hidden="true">
+    <div class="pul p1" style="--x:8%;  --y:14%; --r:-12deg; --b:clamp(74px,11vw,150px); --d:.55"><img src="k/6d55f235/02.webp" alt=""></div>
+    <div class="pul p2" style="--x:78%; --y:10%; --r:9deg;   --b:clamp(70px,10vw,138px); --d:.8"><img src="k/0a3515ff/03.webp" alt=""></div>
+    <div class="pul p3" style="--x:4%;  --y:62%; --r:7deg;   --b:clamp(64px,9vw,124px);  --d:1"><img src="k/602be4f6/01.webp" alt=""></div>
+    <div class="pul p4" style="--x:84%; --y:58%; --r:-7deg;  --b:clamp(76px,12vw,160px); --d:.45"><img src="k/6d55f235/06.webp" alt=""></div>
+    <div class="pul p5 orta" style="--x:19%; --y:90%; --r:14deg;  --b:clamp(60px,8vw,112px);  --d:.9"><img src="k/0a3515ff/01.webp" alt=""></div>
+    <div class="pul p6 orta" style="--x:74%; --y:88%; --r:-10deg; --b:clamp(66px,9vw,120px);  --d:.7"><img src="k/602be4f6/04.webp" alt=""></div>
+    <div class="pul p7 orta" style="--x:30%; --y:6%;  --r:5deg;   --b:clamp(52px,7vw,96px);   --d:1.1"><img src="k/6d55f235/04.webp" alt=""></div>
+    <div class="pul p8 genis" style="--x:58%; --y:4%;  --r:-15deg; --b:clamp(56px,7vw,100px);  --d:.65"><img src="k/0a3515ff/07.webp" alt=""></div>
+    <div class="pul p9 genis" style="--x:92%; --y:36%; --r:4deg;   --b:clamp(48px,6vw,90px);   --d:1.2"><img src="k/602be4f6/02.webp" alt=""></div>
   </div>
 
-  <div class="kanallar">
-    <span>Telegram</span><span>WhatsApp</span><span>iMessage</span><span>Her yer</span>
+  <div class="giris-metin">
+    <p class="ustyazi"><span>3 set</span><span>20 animasyonlu sticker</span><span>0 uygulama</span></p>
+    <h1 class="manset">
+      <span class="dize"><span class="k">meme'ler,</span></span>
+      <span class="dize cizgili"><span class="k">tek</span> <span class="k">dokunuşla</span></span>
+      <span class="dize renkli"><span class="k">klavyende</span></span>
+    </h1>
+    <p class="aciklama">
+      Hazır meme sticker setleri. İndirip kırpmak yok, uygulama kurmak yok.
+      Telegram'a tek dokunuş, WhatsApp'a tek dosya.
+    </p>
+    <div class="dugmeler">
+      <a class="dugme" href="setler.html">Setlere göz at</a>
+      <a class="dugme ikincil" href="#nasil">Nasıl çalışır</a>
+    </div>
   </div>
+
+  <div class="giris-ok" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============================================================ bant -->
+<div class="bant" aria-hidden="true">
+  <div class="bant-ic">
+    <span>Telegram</span><i>✦</i><span>WhatsApp</span><i>✦</i><span>iMessage</span><i>✦</i><span>Discord</span><i>✦</i><span>Signal</span><i>✦</i><span>her yer</span><i>✦</i>
+    <span>Telegram</span><i>✦</i><span>WhatsApp</span><i>✦</i><span>iMessage</span><i>✦</i><span>Discord</span><i>✦</i><span>Signal</span><i>✦</i><span>her yer</span><i>✦</i>
+    <span>Telegram</span><i>✦</i><span>WhatsApp</span><i>✦</i><span>iMessage</span><i>✦</i><span>Discord</span><i>✦</i><span>Signal</span><i>✦</i><span>her yer</span><i>✦</i>
+  </div>
+</div>
+
+<!-- ============================================================ setler -->
+<section class="deste" id="setler" aria-label="Setler">
+
+  <article class="perde" style="--renk:#FF2D87; --renk-yazi:#fff">
+    <div class="perde-ic">
+      <div class="perde-metin">
+        <p class="perde-no">01 / 03</p>
+        <h2>Eye Contact</h2>
+        <p class="perde-alt">noted. ignored. — hepsi doğrudan sana bakıyor</p>
+        <p class="perde-sayi">6 animasyonlu sticker</p>
+        <div class="dugmeler">
+          <a class="dugme ters" href="setler.html#set-0">Ekle</a>
+          <a class="baglanti" href="setler.html#set-0">hepsini gör</a>
+        </div>
+      </div>
+      <div class="yelpaze" aria-hidden="true">
+        <div class="pul"><img src="k/6d55f235/01.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/6d55f235/02.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/6d55f235/03.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/6d55f235/04.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/6d55f235/05.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/6d55f235/06.webp" alt="" loading="lazy"></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="perde" style="--renk:#FFD23F; --renk-yazi:#12111A">
+    <div class="perde-ic">
+      <div class="perde-metin">
+        <p class="perde-no">02 / 03</p>
+        <h2>Small And Wet</h2>
+        <p class="perde-alt">i have been informed that i am small</p>
+        <p class="perde-sayi">5 animasyonlu sticker</p>
+        <div class="dugmeler">
+          <a class="dugme ters" href="setler.html#set-1">Ekle</a>
+          <a class="baglanti" href="setler.html#set-1">hepsini gör</a>
+        </div>
+      </div>
+      <div class="yelpaze" aria-hidden="true">
+        <div class="pul"><img src="k/602be4f6/01.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/602be4f6/02.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/602be4f6/03.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/602be4f6/04.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/602be4f6/05.webp" alt="" loading="lazy"></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="perde" style="--renk:#2F5BFF; --renk-yazi:#fff">
+    <div class="perde-ic">
+      <div class="perde-metin">
+        <p class="perde-no">03 / 03</p>
+        <h2>I Have Concerns</h2>
+        <p class="perde-alt">i will need that in writing — kibar itiraz ve resmi şüphe</p>
+        <p class="perde-sayi">9 animasyonlu sticker</p>
+        <div class="dugmeler">
+          <a class="dugme ters" href="setler.html#set-2">Ekle</a>
+          <a class="baglanti" href="setler.html#set-2">hepsini gör</a>
+        </div>
+      </div>
+      <div class="yelpaze" aria-hidden="true">
+        <div class="pul"><img src="k/0a3515ff/01.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/02.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/03.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/04.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/05.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/06.webp" alt="" loading="lazy"></div>
+        <div class="pul"><img src="k/0a3515ff/07.webp" alt="" loading="lazy"></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- ============================================================ nasıl -->
+<section class="nasil" id="nasil" aria-label="Nasıl çalışır">
+  <div class="nasil-ic">
+    <div class="nasil-metin">
+      <h2 class="baslik-b"><span class="k">Seç.</span> <span class="k">Ekle.</span> <span class="k renkli">Yolla.</span></h2>
+      <ol class="adimlar">
+        <li><b>1</b><div><strong>Seti seç</strong><span>Her sticker önizlenir. Sürpriz yok.</span></div></li>
+        <li><b>2</b><div><strong>Ekle'ye bas</strong><span>Telegram'a tek dokunuş, WhatsApp'a tek dosya. Kurulacak uygulama yok.</span></div></li>
+        <li><b>3</b><div><strong>Yolla</strong><span>Cevap yazmak yerine kedinin bakışı yeter.</span></div></li>
+      </ol>
+      <a class="dugme" href="setler.html">Setlere göz at</a>
+    </div>
+
+    <div class="sohbet" aria-hidden="true">
+      <div class="sohbet-ust"><i></i><b>grup: iş 🫠</b></div>
+      <div class="balon">toplantı 9'a alındı, herkes hazır olsun</div>
+      <div class="balon ben pul-balon"><div class="pul"><img src="k/6d55f235/02.webp" alt="" loading="lazy"></div></div>
+      <div class="balon">gördün mü?? 👀</div>
+      <div class="balon ben pul-balon"><div class="pul"><img src="k/0a3515ff/03.webp" alt="" loading="lazy"></div></div>
+      <div class="balon yaziyor"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ son -->
+<section class="son" aria-label="Kapanış">
+  <div class="son-pullar" aria-hidden="true">
+    <div class="pul" style="--r:-8deg"><img src="k/602be4f6/05.webp" alt="" loading="lazy"></div>
+    <div class="pul" style="--r:6deg"><img src="k/0a3515ff/09.webp" alt="" loading="lazy"></div>
+    <div class="pul" style="--r:-3deg"><img src="k/6d55f235/03.webp" alt="" loading="lazy"></div>
+  </div>
+  <h2 class="baslik-b">klavyen <span class="renkli">hazır mı?</span></h2>
+  <a class="dugme buyuk" href="setler.html">Setlere göz at</a>
+</section>
+
 </main>
 
-<footer class="dip">© stickky · <a href="https://stickky.xyz">stickky.xyz</a></footer>
+<footer class="dip">
+  <span class="marka kucuk">stick<span>ky</span></span>
+  <span>© stickky · <a href="https://stickky.xyz">stickky.xyz</a></span>
+</footer>
+
+<script src="js/gsap.min.js" defer></script>
+<script src="js/ScrollTrigger.min.js" defer></script>
+<script src="canli.js" defer></script>
 </body>
 </html>
