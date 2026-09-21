@@ -188,8 +188,9 @@ body:not(.ana) .ust { background: var(--kagit); border-bottom-color: var(--murek
   .giris-pullar .orta { display: none; }
   /* Telefonda metin sütunu tam genişlik; kenardaki iki pul paragrafla
      çakışmasın diye düğmelerin hizasına iner. */
-  .giris-pullar .p3 { --y: 84%; }
-  .giris-pullar .p4 { --y: 80%; }
+  /* --y satır içi stilde; sınıf kuralı onu yenemez, doğrudan top yazılır. */
+  .giris-pullar .p3 { top: 84%; }
+  .giris-pullar .p4 { top: 80%; }
   .ustyazi { font-size: 11.5px; }
   .ustyazi span { padding: 6px 10px; }
 }
