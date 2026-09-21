@@ -3,8 +3,9 @@
 Bu klasör alıcıya bakan yüzdür — statik, bağımlılıksız.
 
 - `index.html` — açılış sayfası. Kaydırmayla akan tek sayfa: giriş
-  (yüzen pullar), şerit, üç set perdesi, "nasıl", kapanış. **Elle tutulur**:
-  yeni set yayınlanınca `#setler` bölümüne bir perde daha eklenir.
+  (yüzen pullar), şerit, set perdeleri, "nasıl", kapanış. `#packs` bölümü
+  ve giriş şeridindeki sayılar **üretilir** (`arac/anasayfa-perdeleri.js`,
+  depodaki yayında setlerden); gerisi elle.
 - `stil.css` — iki sayfanın ortak stili. Alt yarısı `lib/magaza.js`
   şablonuyla eşleşir; oradaki sınıf adlarına dokunma.
 - `canli.js` — hareket katmanı (GSAP + ScrollTrigger, `js/` altında yerel

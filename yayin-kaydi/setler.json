@@ -1,0 +1,3206 @@
+[
+  {
+    "id": "c9c10610",
+    "ad": "Wain Cats",
+    "aciklama": "louis wain's cats, 1900s. they have seen things.",
+    "uyeler": [
+      "a35d8593",
+      "2f3d863f",
+      "a83fcad9",
+      "2605a650",
+      "c1a55826",
+      "a0ad688d",
+      "44378965",
+      "3e1eebdb",
+      "e4ad4bd9",
+      "a1b03365",
+      "3d25888b",
+      "6697ec86",
+      "dfc8ad67"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:39:10.643Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "a35d8593",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🌈"
+          },
+          {
+            "adayId": "2f3d863f",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "a83fcad9",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "✍️"
+          },
+          {
+            "adayId": "2605a650",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "📧"
+          },
+          {
+            "adayId": "c1a55826",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "😍"
+          },
+          {
+            "adayId": "a0ad688d",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "🙉"
+          },
+          {
+            "adayId": "44378965",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "😾"
+          },
+          {
+            "adayId": "3e1eebdb",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "☎️"
+          },
+          {
+            "adayId": "e4ad4bd9",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🪭"
+          },
+          {
+            "adayId": "a1b03365",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "🛏️"
+          },
+          {
+            "adayId": "3d25888b",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "✨"
+          },
+          {
+            "adayId": "6697ec86",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "🔮"
+          },
+          {
+            "adayId": "dfc8ad67",
+            "dosya": "13.webp",
+            "tur": "statik",
+            "emoji": "📦"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:35.959Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "a35d8593",
+            "dosya": "01.webp",
+            "emoji": "🌈"
+          },
+          {
+            "adayId": "2f3d863f",
+            "dosya": "02.webp",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "a83fcad9",
+            "dosya": "03.webp",
+            "emoji": "✍️"
+          },
+          {
+            "adayId": "2605a650",
+            "dosya": "04.webp",
+            "emoji": "📧"
+          },
+          {
+            "adayId": "c1a55826",
+            "dosya": "05.webp",
+            "emoji": "😍"
+          },
+          {
+            "adayId": "a0ad688d",
+            "dosya": "06.webp",
+            "emoji": "🙉"
+          },
+          {
+            "adayId": "44378965",
+            "dosya": "07.webp",
+            "emoji": "😾"
+          },
+          {
+            "adayId": "3e1eebdb",
+            "dosya": "08.webp",
+            "emoji": "☎️"
+          },
+          {
+            "adayId": "e4ad4bd9",
+            "dosya": "09.webp",
+            "emoji": "🪭"
+          },
+          {
+            "adayId": "a1b03365",
+            "dosya": "10.webp",
+            "emoji": "🛏️"
+          },
+          {
+            "adayId": "3d25888b",
+            "dosya": "11.webp",
+            "emoji": "✨"
+          },
+          {
+            "adayId": "6697ec86",
+            "dosya": "12.webp",
+            "emoji": "🔮"
+          },
+          {
+            "adayId": "dfc8ad67",
+            "dosya": "13.webp",
+            "emoji": "📦"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:36.716Z",
+        "paket": "wain-cats.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "a35d8593",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "2f3d863f",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "a83fcad9",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "2605a650",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "c1a55826",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "a0ad688d",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "44378965",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "3e1eebdb",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "e4ad4bd9",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "a1b03365",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "3d25888b",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "6697ec86",
+            "dosya": "12.webp"
+          },
+          {
+            "adayId": "dfc8ad67",
+            "dosya": "13.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:37.685Z",
+        "paket": "wain-cats.zip"
+      }
+    }
+  },
+  {
+    "id": "12e5a14f",
+    "ad": "Edo Cats",
+    "aciklama": "kuniyoshi's cats, 1840s edo. still judging you.",
+    "uyeler": [
+      "ab66e5db",
+      "9d2c168b",
+      "ea9fb439",
+      "b620f82e",
+      "6c9a04d7",
+      "a74b8aab",
+      "d8536c44",
+      "f2058914",
+      "09a318e2",
+      "09a34771",
+      "f97fcabe"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:39:36.387Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "ab66e5db",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🚶"
+          },
+          {
+            "adayId": "9d2c168b",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "😴"
+          },
+          {
+            "adayId": "ea9fb439",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🙀"
+          },
+          {
+            "adayId": "b620f82e",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "😤"
+          },
+          {
+            "adayId": "6c9a04d7",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🗣️"
+          },
+          {
+            "adayId": "a74b8aab",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "🥺"
+          },
+          {
+            "adayId": "d8536c44",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "🎸"
+          },
+          {
+            "adayId": "f2058914",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "😈"
+          },
+          {
+            "adayId": "09a318e2",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "⚔️"
+          },
+          {
+            "adayId": "09a34771",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "f97fcabe",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "❓"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:38.423Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "ab66e5db",
+            "dosya": "01.webp",
+            "emoji": "🚶"
+          },
+          {
+            "adayId": "9d2c168b",
+            "dosya": "02.webp",
+            "emoji": "😴"
+          },
+          {
+            "adayId": "ea9fb439",
+            "dosya": "03.webp",
+            "emoji": "🙀"
+          },
+          {
+            "adayId": "b620f82e",
+            "dosya": "04.webp",
+            "emoji": "😤"
+          },
+          {
+            "adayId": "6c9a04d7",
+            "dosya": "05.webp",
+            "emoji": "🗣️"
+          },
+          {
+            "adayId": "a74b8aab",
+            "dosya": "06.webp",
+            "emoji": "🥺"
+          },
+          {
+            "adayId": "d8536c44",
+            "dosya": "07.webp",
+            "emoji": "🎸"
+          },
+          {
+            "adayId": "f2058914",
+            "dosya": "08.webp",
+            "emoji": "😈"
+          },
+          {
+            "adayId": "09a318e2",
+            "dosya": "09.webp",
+            "emoji": "⚔️"
+          },
+          {
+            "adayId": "09a34771",
+            "dosya": "10.webp",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "f97fcabe",
+            "dosya": "11.webp",
+            "emoji": "❓"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:39.206Z",
+        "paket": "edo-cats.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "ab66e5db",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "9d2c168b",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "ea9fb439",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "b620f82e",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "6c9a04d7",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "a74b8aab",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "d8536c44",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "f2058914",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "09a318e2",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "09a34771",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "f97fcabe",
+            "dosya": "11.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:40.274Z",
+        "paket": "edo-cats.zip"
+      }
+    }
+  },
+  {
+    "id": "98349ee5",
+    "ad": "Old Masters Mood",
+    "aciklama": "reaction faces from the 1600s. nothing has changed.",
+    "uyeler": [
+      "a2cf7c65",
+      "de42e77b",
+      "6f4e41f9",
+      "7aba534c",
+      "5263ec1c",
+      "6e43c6ca",
+      "89173186",
+      "5d1d0e0c",
+      "fd39200d",
+      "be39388e",
+      "be5cf36b"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:39:59.504Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "a2cf7c65",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "😭"
+          },
+          {
+            "adayId": "de42e77b",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🙏"
+          },
+          {
+            "adayId": "6f4e41f9",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🍷"
+          },
+          {
+            "adayId": "7aba534c",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "5263ec1c",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "6e43c6ca",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "🤞"
+          },
+          {
+            "adayId": "89173186",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "😮"
+          },
+          {
+            "adayId": "5d1d0e0c",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🧐"
+          },
+          {
+            "adayId": "fd39200d",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🪖"
+          },
+          {
+            "adayId": "be39388e",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "👴"
+          },
+          {
+            "adayId": "be5cf36b",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "😐"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:41.093Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "a2cf7c65",
+            "dosya": "01.webp",
+            "emoji": "😭"
+          },
+          {
+            "adayId": "de42e77b",
+            "dosya": "02.webp",
+            "emoji": "🙏"
+          },
+          {
+            "adayId": "6f4e41f9",
+            "dosya": "03.webp",
+            "emoji": "🍷"
+          },
+          {
+            "adayId": "7aba534c",
+            "dosya": "04.webp",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "5263ec1c",
+            "dosya": "05.webp",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "6e43c6ca",
+            "dosya": "06.webp",
+            "emoji": "🤞"
+          },
+          {
+            "adayId": "89173186",
+            "dosya": "07.webp",
+            "emoji": "😮"
+          },
+          {
+            "adayId": "5d1d0e0c",
+            "dosya": "08.webp",
+            "emoji": "🧐"
+          },
+          {
+            "adayId": "fd39200d",
+            "dosya": "09.webp",
+            "emoji": "🪖"
+          },
+          {
+            "adayId": "be39388e",
+            "dosya": "10.webp",
+            "emoji": "👴"
+          },
+          {
+            "adayId": "be5cf36b",
+            "dosya": "11.webp",
+            "emoji": "😐"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:41.797Z",
+        "paket": "old-masters-mood.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "a2cf7c65",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "de42e77b",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "6f4e41f9",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "7aba534c",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "5263ec1c",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "6e43c6ca",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "89173186",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "5d1d0e0c",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "fd39200d",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "be39388e",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "be5cf36b",
+            "dosya": "11.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:42.590Z",
+        "paket": "old-masters-mood.zip"
+      }
+    }
+  },
+  {
+    "id": "777b3ba4",
+    "ad": "Renaissance Reactions",
+    "aciklama": "classical art memes, curated. faces from the museum.",
+    "uyeler": [
+      "451958ab",
+      "00faf5a4",
+      "df54d136",
+      "8a2ab828",
+      "9a0efe04",
+      "cb83a5a9",
+      "ce1c7e57",
+      "bf0837cc",
+      "8ca8142a",
+      "48fdb3e6",
+      "cb61ce2b",
+      "7213bffc",
+      "019d4336",
+      "4dc14b1c",
+      "0982800a",
+      "452588f6",
+      "f37b531a",
+      "6a457ee6"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:40:19.974Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "451958ab",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "😱"
+          },
+          {
+            "adayId": "00faf5a4",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🤢"
+          },
+          {
+            "adayId": "df54d136",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "😑"
+          },
+          {
+            "adayId": "8a2ab828",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🙂"
+          },
+          {
+            "adayId": "9a0efe04",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "😂"
+          },
+          {
+            "adayId": "cb83a5a9",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "😆"
+          },
+          {
+            "adayId": "ce1c7e57",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "👉"
+          },
+          {
+            "adayId": "bf0837cc",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "😳"
+          },
+          {
+            "adayId": "8ca8142a",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "😫"
+          },
+          {
+            "adayId": "48fdb3e6",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "☕"
+          },
+          {
+            "adayId": "cb61ce2b",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "😬"
+          },
+          {
+            "adayId": "7213bffc",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "😏"
+          },
+          {
+            "adayId": "019d4336",
+            "dosya": "13.webp",
+            "tur": "statik",
+            "emoji": "😡"
+          },
+          {
+            "adayId": "4dc14b1c",
+            "dosya": "14.webp",
+            "tur": "statik",
+            "emoji": "🤡"
+          },
+          {
+            "adayId": "0982800a",
+            "dosya": "15.webp",
+            "tur": "statik",
+            "emoji": "🎀"
+          },
+          {
+            "adayId": "452588f6",
+            "dosya": "16.webp",
+            "tur": "statik",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "f37b531a",
+            "dosya": "17.webp",
+            "tur": "statik",
+            "emoji": "😨"
+          },
+          {
+            "adayId": "6a457ee6",
+            "dosya": "18.webp",
+            "tur": "statik",
+            "emoji": "😏"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:43.413Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "451958ab",
+            "dosya": "01.webp",
+            "emoji": "😱"
+          },
+          {
+            "adayId": "00faf5a4",
+            "dosya": "02.webp",
+            "emoji": "🤢"
+          },
+          {
+            "adayId": "df54d136",
+            "dosya": "03.webp",
+            "emoji": "😑"
+          },
+          {
+            "adayId": "8a2ab828",
+            "dosya": "04.webp",
+            "emoji": "🙂"
+          },
+          {
+            "adayId": "9a0efe04",
+            "dosya": "05.webp",
+            "emoji": "😂"
+          },
+          {
+            "adayId": "cb83a5a9",
+            "dosya": "06.webp",
+            "emoji": "😆"
+          },
+          {
+            "adayId": "ce1c7e57",
+            "dosya": "07.webp",
+            "emoji": "👉"
+          },
+          {
+            "adayId": "bf0837cc",
+            "dosya": "08.webp",
+            "emoji": "😳"
+          },
+          {
+            "adayId": "8ca8142a",
+            "dosya": "09.webp",
+            "emoji": "😫"
+          },
+          {
+            "adayId": "48fdb3e6",
+            "dosya": "10.webp",
+            "emoji": "☕"
+          },
+          {
+            "adayId": "cb61ce2b",
+            "dosya": "11.webp",
+            "emoji": "😬"
+          },
+          {
+            "adayId": "7213bffc",
+            "dosya": "12.webp",
+            "emoji": "😏"
+          },
+          {
+            "adayId": "019d4336",
+            "dosya": "13.webp",
+            "emoji": "😡"
+          },
+          {
+            "adayId": "4dc14b1c",
+            "dosya": "14.webp",
+            "emoji": "🤡"
+          },
+          {
+            "adayId": "0982800a",
+            "dosya": "15.webp",
+            "emoji": "🎀"
+          },
+          {
+            "adayId": "452588f6",
+            "dosya": "16.webp",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "f37b531a",
+            "dosya": "17.webp",
+            "emoji": "😨"
+          },
+          {
+            "adayId": "6a457ee6",
+            "dosya": "18.webp",
+            "emoji": "😏"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:44.636Z",
+        "paket": "renaissance-reactions.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "451958ab",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "00faf5a4",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "df54d136",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "8a2ab828",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "9a0efe04",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "cb83a5a9",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "ce1c7e57",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "bf0837cc",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "8ca8142a",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "48fdb3e6",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "cb61ce2b",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "7213bffc",
+            "dosya": "12.webp"
+          },
+          {
+            "adayId": "019d4336",
+            "dosya": "13.webp"
+          },
+          {
+            "adayId": "4dc14b1c",
+            "dosya": "14.webp"
+          },
+          {
+            "adayId": "0982800a",
+            "dosya": "15.webp"
+          },
+          {
+            "adayId": "452588f6",
+            "dosya": "16.webp"
+          },
+          {
+            "adayId": "f37b531a",
+            "dosya": "17.webp"
+          },
+          {
+            "adayId": "6a457ee6",
+            "dosya": "18.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:45.938Z",
+        "paket": "renaissance-reactions.zip"
+      }
+    }
+  },
+  {
+    "id": "d5f06865",
+    "ad": "Medieval Nonsense",
+    "aciklama": "marginalia from 1300s manuscripts. the monks were bored too.",
+    "uyeler": [
+      "3deceec7",
+      "2f005165",
+      "c5450f0e",
+      "000f3268",
+      "3b0c23f8",
+      "57173a27",
+      "36d128aa",
+      "1050b9af",
+      "3a1ea546",
+      "438a8101",
+      "910ea6a7",
+      "09ccc824",
+      "8da02a81",
+      "00e97686"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:40:54.715Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "3deceec7",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "👉"
+          },
+          {
+            "adayId": "2f005165",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "📖"
+          },
+          {
+            "adayId": "c5450f0e",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🎶"
+          },
+          {
+            "adayId": "000f3268",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🙃"
+          },
+          {
+            "adayId": "3b0c23f8",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "👷"
+          },
+          {
+            "adayId": "57173a27",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "⚙️"
+          },
+          {
+            "adayId": "36d128aa",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "👋"
+          },
+          {
+            "adayId": "1050b9af",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🏹"
+          },
+          {
+            "adayId": "3a1ea546",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "📯"
+          },
+          {
+            "adayId": "438a8101",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "🐰"
+          },
+          {
+            "adayId": "910ea6a7",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "🛶"
+          },
+          {
+            "adayId": "09ccc824",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "✂️"
+          },
+          {
+            "adayId": "8da02a81",
+            "dosya": "13.webp",
+            "tur": "statik",
+            "emoji": "💪"
+          },
+          {
+            "adayId": "00e97686",
+            "dosya": "14.webp",
+            "tur": "statik",
+            "emoji": "🦞"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:47.065Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "3deceec7",
+            "dosya": "01.webp",
+            "emoji": "👉"
+          },
+          {
+            "adayId": "2f005165",
+            "dosya": "02.webp",
+            "emoji": "📖"
+          },
+          {
+            "adayId": "c5450f0e",
+            "dosya": "03.webp",
+            "emoji": "🎶"
+          },
+          {
+            "adayId": "000f3268",
+            "dosya": "04.webp",
+            "emoji": "🙃"
+          },
+          {
+            "adayId": "3b0c23f8",
+            "dosya": "05.webp",
+            "emoji": "👷"
+          },
+          {
+            "adayId": "57173a27",
+            "dosya": "06.webp",
+            "emoji": "⚙️"
+          },
+          {
+            "adayId": "36d128aa",
+            "dosya": "07.webp",
+            "emoji": "👋"
+          },
+          {
+            "adayId": "1050b9af",
+            "dosya": "08.webp",
+            "emoji": "🏹"
+          },
+          {
+            "adayId": "3a1ea546",
+            "dosya": "09.webp",
+            "emoji": "📯"
+          },
+          {
+            "adayId": "438a8101",
+            "dosya": "10.webp",
+            "emoji": "🐰"
+          },
+          {
+            "adayId": "910ea6a7",
+            "dosya": "11.webp",
+            "emoji": "🛶"
+          },
+          {
+            "adayId": "09ccc824",
+            "dosya": "12.webp",
+            "emoji": "✂️"
+          },
+          {
+            "adayId": "8da02a81",
+            "dosya": "13.webp",
+            "emoji": "💪"
+          },
+          {
+            "adayId": "00e97686",
+            "dosya": "14.webp",
+            "emoji": "🦞"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:47.983Z",
+        "paket": "medieval-nonsense.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "3deceec7",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "2f005165",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "c5450f0e",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "000f3268",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "3b0c23f8",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "57173a27",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "36d128aa",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "1050b9af",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "3a1ea546",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "438a8101",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "910ea6a7",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "09ccc824",
+            "dosya": "12.webp"
+          },
+          {
+            "adayId": "8da02a81",
+            "dosya": "13.webp"
+          },
+          {
+            "adayId": "00e97686",
+            "dosya": "14.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:49.023Z",
+        "paket": "medieval-nonsense.zip"
+      }
+    }
+  },
+  {
+    "id": "8b6653e9",
+    "ad": "Cat Painting Club",
+    "aciklama": "19th-century cat paintings. the cats knew.",
+    "uyeler": [
+      "26024b12",
+      "da078aee",
+      "c8b5cc42",
+      "f78fb2c8",
+      "e4d63258",
+      "5385b1eb",
+      "2fc83d56",
+      "b1fec8cb",
+      "1e445499",
+      "2066dbdc",
+      "61842451",
+      "8fcdc01a"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:41:22.246Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "26024b12",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "da078aee",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🙅"
+          },
+          {
+            "adayId": "c8b5cc42",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "f78fb2c8",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🍽️"
+          },
+          {
+            "adayId": "e4d63258",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🔍"
+          },
+          {
+            "adayId": "5385b1eb",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "🐱"
+          },
+          {
+            "adayId": "2fc83d56",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "😬"
+          },
+          {
+            "adayId": "b1fec8cb",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🎀"
+          },
+          {
+            "adayId": "1e445499",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "2066dbdc",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "💄"
+          },
+          {
+            "adayId": "61842451",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "🛁"
+          },
+          {
+            "adayId": "8fcdc01a",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "🕵️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:49.921Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "26024b12",
+            "dosya": "01.webp",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "da078aee",
+            "dosya": "02.webp",
+            "emoji": "🙅"
+          },
+          {
+            "adayId": "c8b5cc42",
+            "dosya": "03.webp",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "f78fb2c8",
+            "dosya": "04.webp",
+            "emoji": "🍽️"
+          },
+          {
+            "adayId": "e4d63258",
+            "dosya": "05.webp",
+            "emoji": "🔍"
+          },
+          {
+            "adayId": "5385b1eb",
+            "dosya": "06.webp",
+            "emoji": "🐱"
+          },
+          {
+            "adayId": "2fc83d56",
+            "dosya": "07.webp",
+            "emoji": "😬"
+          },
+          {
+            "adayId": "b1fec8cb",
+            "dosya": "08.webp",
+            "emoji": "🎀"
+          },
+          {
+            "adayId": "1e445499",
+            "dosya": "09.webp",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "2066dbdc",
+            "dosya": "10.webp",
+            "emoji": "💄"
+          },
+          {
+            "adayId": "61842451",
+            "dosya": "11.webp",
+            "emoji": "🛁"
+          },
+          {
+            "adayId": "8fcdc01a",
+            "dosya": "12.webp",
+            "emoji": "🕵️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:50.755Z",
+        "paket": "cat-painting-club.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "26024b12",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "da078aee",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "c8b5cc42",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "f78fb2c8",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "e4d63258",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "5385b1eb",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "2fc83d56",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "b1fec8cb",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "1e445499",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "2066dbdc",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "61842451",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "8fcdc01a",
+            "dosya": "12.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:51.720Z",
+        "paket": "cat-painting-club.zip"
+      }
+    }
+  },
+  {
+    "id": "9909a29d",
+    "ad": "Sunday Mood",
+    "aciklama": "bored, tired, dreaming. 19th-century edition.",
+    "uyeler": [
+      "5a815673",
+      "4b32781d",
+      "493a342c",
+      "fc52071b",
+      "ffb87747",
+      "92a913ad",
+      "670d9c20",
+      "7ce21f2c",
+      "1e4270b7",
+      "d16ad5a1",
+      "f74f3e06",
+      "52ef2605"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:42:48.764Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "5a815673",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🕰️"
+          },
+          {
+            "adayId": "4b32781d",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🌊"
+          },
+          {
+            "adayId": "493a342c",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "fc52071b",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "😐"
+          },
+          {
+            "adayId": "ffb87747",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🥱"
+          },
+          {
+            "adayId": "92a913ad",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "😩"
+          },
+          {
+            "adayId": "670d9c20",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "🥱"
+          },
+          {
+            "adayId": "7ce21f2c",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🌅"
+          },
+          {
+            "adayId": "1e4270b7",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "😫"
+          },
+          {
+            "adayId": "d16ad5a1",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "😯"
+          },
+          {
+            "adayId": "f74f3e06",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "🙄"
+          },
+          {
+            "adayId": "52ef2605",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "💭"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:52.522Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "5a815673",
+            "dosya": "01.webp",
+            "emoji": "🕰️"
+          },
+          {
+            "adayId": "4b32781d",
+            "dosya": "02.webp",
+            "emoji": "🌊"
+          },
+          {
+            "adayId": "493a342c",
+            "dosya": "03.webp",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "fc52071b",
+            "dosya": "04.webp",
+            "emoji": "😐"
+          },
+          {
+            "adayId": "ffb87747",
+            "dosya": "05.webp",
+            "emoji": "🥱"
+          },
+          {
+            "adayId": "92a913ad",
+            "dosya": "06.webp",
+            "emoji": "😩"
+          },
+          {
+            "adayId": "670d9c20",
+            "dosya": "07.webp",
+            "emoji": "🥱"
+          },
+          {
+            "adayId": "7ce21f2c",
+            "dosya": "08.webp",
+            "emoji": "🌅"
+          },
+          {
+            "adayId": "1e4270b7",
+            "dosya": "09.webp",
+            "emoji": "😫"
+          },
+          {
+            "adayId": "d16ad5a1",
+            "dosya": "10.webp",
+            "emoji": "😯"
+          },
+          {
+            "adayId": "f74f3e06",
+            "dosya": "11.webp",
+            "emoji": "🙄"
+          },
+          {
+            "adayId": "52ef2605",
+            "dosya": "12.webp",
+            "emoji": "💭"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:53.373Z",
+        "paket": "sunday-mood.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "5a815673",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "4b32781d",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "493a342c",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "fc52071b",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "ffb87747",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "92a913ad",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "670d9c20",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "7ce21f2c",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "1e4270b7",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "d16ad5a1",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "f74f3e06",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "52ef2605",
+            "dosya": "12.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:54.446Z",
+        "paket": "sunday-mood.zip"
+      }
+    }
+  },
+  {
+    "id": "6d55f235",
+    "ad": "Eye Contact",
+    "aciklama": "noted. ignored. — every one of them is looking right at you",
+    "uyeler": [
+      "a5da0d1b",
+      "267a259b",
+      "20e0cea5",
+      "c9e27322",
+      "8b1e15a3",
+      "d20ff288"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-08-17T00:00:00.000Z",
+    "telegramUrl": "https://t.me/addstickers/eye_contact_by_stickky_app_bot",
+    "ciktilar": {
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "a5da0d1b",
+            "dosya": "01.webp",
+            "emoji": "🛁"
+          },
+          {
+            "adayId": "267a259b",
+            "dosya": "02.webp",
+            "emoji": "📝"
+          },
+          {
+            "adayId": "20e0cea5",
+            "dosya": "03.webp",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "c9e27322",
+            "dosya": "04.webp",
+            "emoji": "🔢"
+          },
+          {
+            "adayId": "8b1e15a3",
+            "dosya": "05.webp",
+            "emoji": "😳"
+          },
+          {
+            "adayId": "d20ff288",
+            "dosya": "06.webp",
+            "emoji": "😬"
+          }
+        ],
+        "hatalar": [],
+        "paket": "eye-contact.wastickers",
+        "animasyonlu": true,
+        "zaman": "2026-08-17T00:00:00.000Z",
+        "not": "MacBook üretimi; buraya yayın kopyasından alındı"
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "a5da0d1b",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "267a259b",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "20e0cea5",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "c9e27322",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "8b1e15a3",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "d20ff288",
+            "dosya": "06.webp"
+          }
+        ],
+        "hatalar": [],
+        "paket": "eye-contact.zip",
+        "zaman": "2026-08-17T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "602be4f6",
+    "ad": "Small And Wet",
+    "aciklama": "i have been informed that i am small",
+    "uyeler": [
+      "84e02cfa",
+      "e5c7307a",
+      "a34230ab",
+      "f0eb05b9",
+      "6f2e0dca"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-08-17T00:00:00.000Z",
+    "telegramUrl": "https://t.me/addstickers/small_and_wet_by_stickky_app_bot",
+    "ciktilar": {
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "84e02cfa",
+            "dosya": "01.webp",
+            "emoji": "🐶"
+          },
+          {
+            "adayId": "e5c7307a",
+            "dosya": "02.webp",
+            "emoji": "💧"
+          },
+          {
+            "adayId": "a34230ab",
+            "dosya": "03.webp",
+            "emoji": "🌿"
+          },
+          {
+            "adayId": "f0eb05b9",
+            "dosya": "04.webp",
+            "emoji": "🌑"
+          },
+          {
+            "adayId": "6f2e0dca",
+            "dosya": "05.webp",
+            "emoji": "🎵"
+          }
+        ],
+        "hatalar": [],
+        "paket": "small-and-wet.wastickers",
+        "animasyonlu": true,
+        "zaman": "2026-08-17T00:00:00.000Z",
+        "not": "MacBook üretimi; buraya yayın kopyasından alındı"
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "84e02cfa",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "e5c7307a",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "a34230ab",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "f0eb05b9",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "6f2e0dca",
+            "dosya": "05.webp"
+          }
+        ],
+        "hatalar": [],
+        "paket": "small-and-wet.zip",
+        "zaman": "2026-08-17T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0a3515ff",
+    "ad": "I Have Concerns",
+    "aciklama": "i will need that in writing — polite objection, formal doubt.",
+    "uyeler": [
+      "c873afda",
+      "151fe0dc",
+      "01a8e7fe",
+      "89221f16",
+      "1ca9c23e",
+      "d4dc6056",
+      "0302ac2b",
+      "8d536d25",
+      "5b634d09"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-08-17T00:00:00.000Z",
+    "telegramUrl": "https://t.me/addstickers/i_have_concerns_by_stickky_app_bot",
+    "ciktilar": {
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "c873afda",
+            "dosya": "01.webp",
+            "emoji": "✍️"
+          },
+          {
+            "adayId": "151fe0dc",
+            "dosya": "02.webp",
+            "emoji": "🙏"
+          },
+          {
+            "adayId": "01a8e7fe",
+            "dosya": "03.webp",
+            "emoji": "👁️"
+          },
+          {
+            "adayId": "89221f16",
+            "dosya": "04.webp",
+            "emoji": "🫥"
+          },
+          {
+            "adayId": "1ca9c23e",
+            "dosya": "05.webp",
+            "emoji": "🍽️"
+          },
+          {
+            "adayId": "d4dc6056",
+            "dosya": "06.webp",
+            "emoji": "🤐"
+          },
+          {
+            "adayId": "0302ac2b",
+            "dosya": "07.webp",
+            "emoji": "🚗"
+          },
+          {
+            "adayId": "8d536d25",
+            "dosya": "08.webp",
+            "emoji": "😑"
+          },
+          {
+            "adayId": "5b634d09",
+            "dosya": "09.webp",
+            "emoji": "😤"
+          }
+        ],
+        "hatalar": [],
+        "paket": "i-have-concerns.wastickers",
+        "animasyonlu": true,
+        "zaman": "2026-08-17T00:00:00.000Z",
+        "not": "MacBook üretimi; buraya yayın kopyasından alındı"
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "c873afda",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "151fe0dc",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "01a8e7fe",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "89221f16",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "1ca9c23e",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "d4dc6056",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "0302ac2b",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "8d536d25",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "5b634d09",
+            "dosya": "09.webp"
+          }
+        ],
+        "hatalar": [],
+        "paket": "i-have-concerns.zip",
+        "zaman": "2026-08-17T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6403f6e1",
+    "ad": "Kittens at Work",
+    "aciklama": "harry whittier frees, 1914. real kittens, real outfits, real problems.",
+    "uyeler": [
+      "d3ede48d",
+      "1d42a9c1",
+      "4fb96fc1",
+      "417ff40c",
+      "750c7d11",
+      "6664a2a4",
+      "6718bcd1",
+      "4ccfabb2",
+      "6df0d4bd",
+      "c23fad62",
+      "dcbe6ad9",
+      "0df802d6",
+      "1e073b15",
+      "e842984e",
+      "cad21c3c",
+      "201d2fe4",
+      "fb539ff3",
+      "0b0aa3d7"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:50:04.102Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "d3ede48d",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🚪"
+          },
+          {
+            "adayId": "1d42a9c1",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🥚"
+          },
+          {
+            "adayId": "4fb96fc1",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🧂"
+          },
+          {
+            "adayId": "417ff40c",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "⏰"
+          },
+          {
+            "adayId": "750c7d11",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🍯"
+          },
+          {
+            "adayId": "6664a2a4",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "😴"
+          },
+          {
+            "adayId": "6718bcd1",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "⚖️"
+          },
+          {
+            "adayId": "4ccfabb2",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🌴"
+          },
+          {
+            "adayId": "6df0d4bd",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🧺"
+          },
+          {
+            "adayId": "c23fad62",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "🎂"
+          },
+          {
+            "adayId": "dcbe6ad9",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "💥"
+          },
+          {
+            "adayId": "0df802d6",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "✈️"
+          },
+          {
+            "adayId": "1e073b15",
+            "dosya": "13.webp",
+            "tur": "statik",
+            "emoji": "📞"
+          },
+          {
+            "adayId": "e842984e",
+            "dosya": "14.webp",
+            "tur": "statik",
+            "emoji": "🤨"
+          },
+          {
+            "adayId": "cad21c3c",
+            "dosya": "15.webp",
+            "tur": "statik",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "201d2fe4",
+            "dosya": "16.webp",
+            "tur": "statik",
+            "emoji": "🧶"
+          },
+          {
+            "adayId": "fb539ff3",
+            "dosya": "17.webp",
+            "tur": "statik",
+            "emoji": "🎹"
+          },
+          {
+            "adayId": "0b0aa3d7",
+            "dosya": "18.webp",
+            "tur": "statik",
+            "emoji": "🛏️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:55.336Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "d3ede48d",
+            "dosya": "01.webp",
+            "emoji": "🚪"
+          },
+          {
+            "adayId": "1d42a9c1",
+            "dosya": "02.webp",
+            "emoji": "🥚"
+          },
+          {
+            "adayId": "4fb96fc1",
+            "dosya": "03.webp",
+            "emoji": "🧂"
+          },
+          {
+            "adayId": "417ff40c",
+            "dosya": "04.webp",
+            "emoji": "⏰"
+          },
+          {
+            "adayId": "750c7d11",
+            "dosya": "05.webp",
+            "emoji": "🍯"
+          },
+          {
+            "adayId": "6664a2a4",
+            "dosya": "06.webp",
+            "emoji": "😴"
+          },
+          {
+            "adayId": "6718bcd1",
+            "dosya": "07.webp",
+            "emoji": "⚖️"
+          },
+          {
+            "adayId": "4ccfabb2",
+            "dosya": "08.webp",
+            "emoji": "🌴"
+          },
+          {
+            "adayId": "6df0d4bd",
+            "dosya": "09.webp",
+            "emoji": "🧺"
+          },
+          {
+            "adayId": "c23fad62",
+            "dosya": "10.webp",
+            "emoji": "🎂"
+          },
+          {
+            "adayId": "dcbe6ad9",
+            "dosya": "11.webp",
+            "emoji": "💥"
+          },
+          {
+            "adayId": "0df802d6",
+            "dosya": "12.webp",
+            "emoji": "✈️"
+          },
+          {
+            "adayId": "1e073b15",
+            "dosya": "13.webp",
+            "emoji": "📞"
+          },
+          {
+            "adayId": "e842984e",
+            "dosya": "14.webp",
+            "emoji": "🤨"
+          },
+          {
+            "adayId": "cad21c3c",
+            "dosya": "15.webp",
+            "emoji": "👑"
+          },
+          {
+            "adayId": "201d2fe4",
+            "dosya": "16.webp",
+            "emoji": "🧶"
+          },
+          {
+            "adayId": "fb539ff3",
+            "dosya": "17.webp",
+            "emoji": "🎹"
+          },
+          {
+            "adayId": "0b0aa3d7",
+            "dosya": "18.webp",
+            "emoji": "🛏️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:56.415Z",
+        "paket": "kittens-at-work.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "d3ede48d",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "1d42a9c1",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "4fb96fc1",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "417ff40c",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "750c7d11",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "6664a2a4",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "6718bcd1",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "4ccfabb2",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "6df0d4bd",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "c23fad62",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "dcbe6ad9",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "0df802d6",
+            "dosya": "12.webp"
+          },
+          {
+            "adayId": "1e073b15",
+            "dosya": "13.webp"
+          },
+          {
+            "adayId": "e842984e",
+            "dosya": "14.webp"
+          },
+          {
+            "adayId": "cad21c3c",
+            "dosya": "15.webp"
+          },
+          {
+            "adayId": "201d2fe4",
+            "dosya": "16.webp"
+          },
+          {
+            "adayId": "fb539ff3",
+            "dosya": "17.webp"
+          },
+          {
+            "adayId": "0b0aa3d7",
+            "dosya": "18.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:57.533Z",
+        "paket": "kittens-at-work.zip"
+      }
+    }
+  },
+  {
+    "id": "486abd17",
+    "ad": "Good Boys Gallery",
+    "aciklama": "dogs from the 1800s. still good boys.",
+    "uyeler": [
+      "f492ab46",
+      "d9dfbaef",
+      "33d10543",
+      "5325cdca",
+      "8200a5ac",
+      "f9473cb1",
+      "4d4fd76e",
+      "7c4f9f32",
+      "56f5d4a3",
+      "99a29f0f",
+      "2a300a63",
+      "af7fbffb"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:50:38.302Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "f492ab46",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "👂"
+          },
+          {
+            "adayId": "d9dfbaef",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🐶"
+          },
+          {
+            "adayId": "33d10543",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🦮"
+          },
+          {
+            "adayId": "5325cdca",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "😶"
+          },
+          {
+            "adayId": "8200a5ac",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🙄"
+          },
+          {
+            "adayId": "f9473cb1",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "🛡️"
+          },
+          {
+            "adayId": "4d4fd76e",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "🐱"
+          },
+          {
+            "adayId": "7c4f9f32",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "💤"
+          },
+          {
+            "adayId": "56f5d4a3",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🤗"
+          },
+          {
+            "adayId": "99a29f0f",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "2a300a63",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "🕶️"
+          },
+          {
+            "adayId": "af7fbffb",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "📏"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:58.531Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "f492ab46",
+            "dosya": "01.webp",
+            "emoji": "👂"
+          },
+          {
+            "adayId": "d9dfbaef",
+            "dosya": "02.webp",
+            "emoji": "🐶"
+          },
+          {
+            "adayId": "33d10543",
+            "dosya": "03.webp",
+            "emoji": "🦮"
+          },
+          {
+            "adayId": "5325cdca",
+            "dosya": "04.webp",
+            "emoji": "😶"
+          },
+          {
+            "adayId": "8200a5ac",
+            "dosya": "05.webp",
+            "emoji": "🙄"
+          },
+          {
+            "adayId": "f9473cb1",
+            "dosya": "06.webp",
+            "emoji": "🛡️"
+          },
+          {
+            "adayId": "4d4fd76e",
+            "dosya": "07.webp",
+            "emoji": "🐱"
+          },
+          {
+            "adayId": "7c4f9f32",
+            "dosya": "08.webp",
+            "emoji": "💤"
+          },
+          {
+            "adayId": "56f5d4a3",
+            "dosya": "09.webp",
+            "emoji": "🤗"
+          },
+          {
+            "adayId": "99a29f0f",
+            "dosya": "10.webp",
+            "emoji": "👀"
+          },
+          {
+            "adayId": "2a300a63",
+            "dosya": "11.webp",
+            "emoji": "🕶️"
+          },
+          {
+            "adayId": "af7fbffb",
+            "dosya": "12.webp",
+            "emoji": "📏"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:53:59.405Z",
+        "paket": "good-boys-gallery.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "f492ab46",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "d9dfbaef",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "33d10543",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "5325cdca",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "8200a5ac",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "f9473cb1",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "4d4fd76e",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "7c4f9f32",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "56f5d4a3",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "99a29f0f",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "2a300a63",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "af7fbffb",
+            "dosya": "12.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:00.298Z",
+        "paket": "good-boys-gallery.zip"
+      }
+    }
+  },
+  {
+    "id": "218a6ee8",
+    "ad": "Monkey Business",
+    "aciklama": "19th-century monkeys doing human things. relatable.",
+    "uyeler": [
+      "a02b673d",
+      "7faa0666",
+      "fd4b8788",
+      "25000a3a",
+      "b7e46823",
+      "bc872982",
+      "087aa578",
+      "e4028292",
+      "560ab408",
+      "ff6d5d95",
+      "fa0be075",
+      "612db57f"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:51:16.642Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "a02b673d",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🔍"
+          },
+          {
+            "adayId": "7faa0666",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🗣️"
+          },
+          {
+            "adayId": "fd4b8788",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🎻"
+          },
+          {
+            "adayId": "25000a3a",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "b7e46823",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🧪"
+          },
+          {
+            "adayId": "bc872982",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "📖"
+          },
+          {
+            "adayId": "087aa578",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "e4028292",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🤝"
+          },
+          {
+            "adayId": "560ab408",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🙂"
+          },
+          {
+            "adayId": "ff6d5d95",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "👔"
+          },
+          {
+            "adayId": "fa0be075",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "🍽️"
+          },
+          {
+            "adayId": "612db57f",
+            "dosya": "12.webp",
+            "tur": "statik",
+            "emoji": "🖼️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:01.123Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "a02b673d",
+            "dosya": "01.webp",
+            "emoji": "🔍"
+          },
+          {
+            "adayId": "7faa0666",
+            "dosya": "02.webp",
+            "emoji": "🗣️"
+          },
+          {
+            "adayId": "fd4b8788",
+            "dosya": "03.webp",
+            "emoji": "🎻"
+          },
+          {
+            "adayId": "25000a3a",
+            "dosya": "04.webp",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "b7e46823",
+            "dosya": "05.webp",
+            "emoji": "🧪"
+          },
+          {
+            "adayId": "bc872982",
+            "dosya": "06.webp",
+            "emoji": "📖"
+          },
+          {
+            "adayId": "087aa578",
+            "dosya": "07.webp",
+            "emoji": "📚"
+          },
+          {
+            "adayId": "e4028292",
+            "dosya": "08.webp",
+            "emoji": "🤝"
+          },
+          {
+            "adayId": "560ab408",
+            "dosya": "09.webp",
+            "emoji": "🙂"
+          },
+          {
+            "adayId": "ff6d5d95",
+            "dosya": "10.webp",
+            "emoji": "👔"
+          },
+          {
+            "adayId": "fa0be075",
+            "dosya": "11.webp",
+            "emoji": "🍽️"
+          },
+          {
+            "adayId": "612db57f",
+            "dosya": "12.webp",
+            "emoji": "🖼️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:01.923Z",
+        "paket": "monkey-business.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "a02b673d",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "7faa0666",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "fd4b8788",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "25000a3a",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "b7e46823",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "bc872982",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "087aa578",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "e4028292",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "560ab408",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "ff6d5d95",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "fa0be075",
+            "dosya": "11.webp"
+          },
+          {
+            "adayId": "612db57f",
+            "dosya": "12.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:02.845Z",
+        "paket": "monkey-business.zip"
+      }
+    }
+  },
+  {
+    "id": "2e4891a2",
+    "ad": "Skeleton Crew",
+    "aciklama": "posada calaveras and anatomy plates. dead inside, still texting.",
+    "uyeler": [
+      "71d472a4",
+      "3b5e7704",
+      "6766f1ac",
+      "dc07fc5f",
+      "353d5c4f",
+      "2dd14ae0",
+      "4b674caa",
+      "b52dadec",
+      "1bd0528e",
+      "8d3977dd",
+      "c1b0cbc3"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:51:41.495Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "71d472a4",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "💀"
+          },
+          {
+            "adayId": "3b5e7704",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "6766f1ac",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "dc07fc5f",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🛒"
+          },
+          {
+            "adayId": "353d5c4f",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🍲"
+          },
+          {
+            "adayId": "2dd14ae0",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "😱"
+          },
+          {
+            "adayId": "4b674caa",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "🧺"
+          },
+          {
+            "adayId": "b52dadec",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🎩"
+          },
+          {
+            "adayId": "1bd0528e",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🙏"
+          },
+          {
+            "adayId": "8d3977dd",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "👨‍👩‍👧‍👦"
+          },
+          {
+            "adayId": "c1b0cbc3",
+            "dosya": "11.webp",
+            "tur": "statik",
+            "emoji": "⚔️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:03.645Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "71d472a4",
+            "dosya": "01.webp",
+            "emoji": "💀"
+          },
+          {
+            "adayId": "3b5e7704",
+            "dosya": "02.webp",
+            "emoji": "🤔"
+          },
+          {
+            "adayId": "6766f1ac",
+            "dosya": "03.webp",
+            "emoji": "🎉"
+          },
+          {
+            "adayId": "dc07fc5f",
+            "dosya": "04.webp",
+            "emoji": "🛒"
+          },
+          {
+            "adayId": "353d5c4f",
+            "dosya": "05.webp",
+            "emoji": "🍲"
+          },
+          {
+            "adayId": "2dd14ae0",
+            "dosya": "06.webp",
+            "emoji": "😱"
+          },
+          {
+            "adayId": "4b674caa",
+            "dosya": "07.webp",
+            "emoji": "🧺"
+          },
+          {
+            "adayId": "b52dadec",
+            "dosya": "08.webp",
+            "emoji": "🎩"
+          },
+          {
+            "adayId": "1bd0528e",
+            "dosya": "09.webp",
+            "emoji": "🙏"
+          },
+          {
+            "adayId": "8d3977dd",
+            "dosya": "10.webp",
+            "emoji": "👨‍👩‍👧‍👦"
+          },
+          {
+            "adayId": "c1b0cbc3",
+            "dosya": "11.webp",
+            "emoji": "⚔️"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:04.352Z",
+        "paket": "skeleton-crew.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "71d472a4",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "3b5e7704",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "6766f1ac",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "dc07fc5f",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "353d5c4f",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "2dd14ae0",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "4b674caa",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "b52dadec",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "1bd0528e",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "8d3977dd",
+            "dosya": "10.webp"
+          },
+          {
+            "adayId": "c1b0cbc3",
+            "dosya": "11.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:05.228Z",
+        "paket": "skeleton-crew.zip"
+      }
+    }
+  },
+  {
+    "id": "1ebd73c2",
+    "ad": "Night Owls",
+    "aciklama": "grandville's dressed-up owls, 1840s. up late, judging.",
+    "uyeler": [
+      "9c67ddc1",
+      "6bcb409d",
+      "dfc2c47f",
+      "cd1acc3e",
+      "8de55127",
+      "a13035c6",
+      "2f8b2e75",
+      "933579c9",
+      "95ab7e5b",
+      "ce58d57c"
+    ],
+    "tepsi": null,
+    "durum": "yayinda",
+    "olusturan": "elle",
+    "olusturulma": "2026-09-21T03:52:01.643Z",
+    "ciktilar": {
+      "telegram": {
+        "hedef": "telegram",
+        "dosyalar": [
+          {
+            "adayId": "9c67ddc1",
+            "dosya": "01.webp",
+            "tur": "statik",
+            "emoji": "🎓"
+          },
+          {
+            "adayId": "6bcb409d",
+            "dosya": "02.webp",
+            "tur": "statik",
+            "emoji": "🧣"
+          },
+          {
+            "adayId": "dfc2c47f",
+            "dosya": "03.webp",
+            "tur": "statik",
+            "emoji": "⛸️"
+          },
+          {
+            "adayId": "cd1acc3e",
+            "dosya": "04.webp",
+            "tur": "statik",
+            "emoji": "🤵"
+          },
+          {
+            "adayId": "8de55127",
+            "dosya": "05.webp",
+            "tur": "statik",
+            "emoji": "🎩"
+          },
+          {
+            "adayId": "a13035c6",
+            "dosya": "06.webp",
+            "tur": "statik",
+            "emoji": "👗"
+          },
+          {
+            "adayId": "2f8b2e75",
+            "dosya": "07.webp",
+            "tur": "statik",
+            "emoji": "🦉"
+          },
+          {
+            "adayId": "933579c9",
+            "dosya": "08.webp",
+            "tur": "statik",
+            "emoji": "🪰"
+          },
+          {
+            "adayId": "95ab7e5b",
+            "dosya": "09.webp",
+            "tur": "statik",
+            "emoji": "🏃"
+          },
+          {
+            "adayId": "ce58d57c",
+            "dosya": "10.webp",
+            "tur": "statik",
+            "emoji": "🌙"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:05.941Z"
+      },
+      "wastickers": {
+        "hedef": "wastickers",
+        "dosyalar": [
+          {
+            "adayId": "9c67ddc1",
+            "dosya": "01.webp",
+            "emoji": "🎓"
+          },
+          {
+            "adayId": "6bcb409d",
+            "dosya": "02.webp",
+            "emoji": "🧣"
+          },
+          {
+            "adayId": "dfc2c47f",
+            "dosya": "03.webp",
+            "emoji": "⛸️"
+          },
+          {
+            "adayId": "cd1acc3e",
+            "dosya": "04.webp",
+            "emoji": "🤵"
+          },
+          {
+            "adayId": "8de55127",
+            "dosya": "05.webp",
+            "emoji": "🎩"
+          },
+          {
+            "adayId": "a13035c6",
+            "dosya": "06.webp",
+            "emoji": "👗"
+          },
+          {
+            "adayId": "2f8b2e75",
+            "dosya": "07.webp",
+            "emoji": "🦉"
+          },
+          {
+            "adayId": "933579c9",
+            "dosya": "08.webp",
+            "emoji": "🪰"
+          },
+          {
+            "adayId": "95ab7e5b",
+            "dosya": "09.webp",
+            "emoji": "🏃"
+          },
+          {
+            "adayId": "ce58d57c",
+            "dosya": "10.webp",
+            "emoji": "🌙"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:06.590Z",
+        "paket": "night-owls.wastickers",
+        "animasyonlu": false
+      },
+      "zip": {
+        "hedef": "zip",
+        "dosyalar": [
+          {
+            "adayId": "9c67ddc1",
+            "dosya": "01.webp"
+          },
+          {
+            "adayId": "6bcb409d",
+            "dosya": "02.webp"
+          },
+          {
+            "adayId": "dfc2c47f",
+            "dosya": "03.webp"
+          },
+          {
+            "adayId": "cd1acc3e",
+            "dosya": "04.webp"
+          },
+          {
+            "adayId": "8de55127",
+            "dosya": "05.webp"
+          },
+          {
+            "adayId": "a13035c6",
+            "dosya": "06.webp"
+          },
+          {
+            "adayId": "2f8b2e75",
+            "dosya": "07.webp"
+          },
+          {
+            "adayId": "933579c9",
+            "dosya": "08.webp"
+          },
+          {
+            "adayId": "95ab7e5b",
+            "dosya": "09.webp"
+          },
+          {
+            "adayId": "ce58d57c",
+            "dosya": "10.webp"
+          }
+        ],
+        "hatalar": [],
+        "zaman": "2026-09-21T03:54:07.375Z",
+        "paket": "night-owls.zip"
+      }
+    }
+  }
+]

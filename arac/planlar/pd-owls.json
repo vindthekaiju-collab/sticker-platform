@@ -1,0 +1,15 @@
+{
+  "setler": { "Night Owls": "grandville's dressed-up owls, 1840s. up late, judging." },
+  "stickerlar": [
+    { "parti": "baykus", "no": 2, "kirp": [0.05, 0.05, 0.9, 0.8], "metin": "lecture time", "emoji": "🎓", "set": "Night Owls" },
+    { "parti": "baykus", "no": 7, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "cozy", "emoji": "🧣", "set": "Night Owls" },
+    { "parti": "baykus", "no": 10, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "date night", "emoji": "⛸️", "set": "Night Owls" },
+    { "parti": "baykus", "no": 15, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "formal", "emoji": "🤵", "set": "Night Owls" },
+    { "parti": "baykus", "no": 36, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "society", "emoji": "🎩", "set": "Night Owls" },
+    { "parti": "baykus", "no": 37, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "ready", "emoji": "👗", "set": "Night Owls" },
+    { "parti": "baykus", "no": 39, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "who?", "emoji": "🦉", "set": "Night Owls" },
+    { "parti": "baykus", "no": 35, "kirp": [0.1, 0.05, 0.85, 0.9], "metin": "almost got it", "emoji": "🪰", "set": "Night Owls" },
+    { "parti": "baykus", "no": 34, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "running late", "emoji": "🏃", "set": "Night Owls" },
+    { "parti": "baykus", "no": 8, "kirp": [0.0, 0.02, 0.55, 0.96], "metin": "night owl", "emoji": "🌙", "set": "Night Owls" }
+  ]
+}

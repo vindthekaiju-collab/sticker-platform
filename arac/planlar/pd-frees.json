@@ -1,0 +1,23 @@
+{
+  "setler": { "Kittens at Work": "harry whittier frees, 1914. real kittens, real outfits, real problems." },
+  "stickerlar": [
+    { "parti": "frees", "no": 3, "kirp": [0.1, 0.05, 0.8, 0.8], "metin": "hello?", "emoji": "🚪", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 4, "kirp": [0.45, 0.15, 0.5, 0.8], "metin": "i found it", "emoji": "🥚", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 7, "kirp": [0.3, 0.1, 0.65, 0.85], "metin": "oops", "emoji": "🧂", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 8, "kirp": [0.05, 0.15, 0.9, 0.75], "metin": "wake up", "emoji": "⏰", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 10, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "snack run", "emoji": "🍯", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 12, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "5 more minutes", "emoji": "😴", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 13, "kirp": [0.05, 0.15, 0.9, 0.7], "metin": "work-life balance", "emoji": "⚖️", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 14, "kirp": [0.02, 0.1, 0.96, 0.8], "metin": "weekend", "emoji": "🌴", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 15, "kirp": [0.2, 0.15, 0.6, 0.8], "metin": "chores", "emoji": "🧺", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 16, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "happy birthday", "emoji": "🎂", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 20, "kirp": [0.05, 0.15, 0.9, 0.75], "metin": "war", "emoji": "💥", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 27, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "on my way", "emoji": "✈️", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 28, "kirp": [0.1, 0.1, 0.8, 0.75], "metin": "calling you", "emoji": "📞", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 33, "kirp": [0.05, 0.15, 0.9, 0.7], "metin": "we have questions", "emoji": "🤨", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 34, "kirp": [0.1, 0.02, 0.8, 0.85], "metin": "bow", "emoji": "👑", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 38, "kirp": [0.05, 0.15, 0.9, 0.7], "metin": "it's a mess", "emoji": "🧶", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 43, "kirp": [0.1, 0.05, 0.85, 0.9], "metin": "singing", "emoji": "🎹", "set": "Kittens at Work" },
+    { "parti": "frees", "no": 46, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "sleepover", "emoji": "🛏️", "set": "Kittens at Work" }
+  ]
+}

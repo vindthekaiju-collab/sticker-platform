@@ -13,3 +13,6 @@ cikti/
 # site/ ÜRETILEN DOSYALARI DA DEPODA: Vercel Git deploy'u yalnız depodakini
 # görür; yoksayılınca otomatik deploy mağaza sayfası olmadan yayına giriyordu.
 # (site/s/ ve site/setler.html'i magaza.js üretir ama commit'lenir.)
+
+# tarama partileri (ham aday listeleri) — havuza girenler veri/ ile aynı kaderde
+veri/tarama/

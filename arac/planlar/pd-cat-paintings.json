@@ -1,0 +1,17 @@
+{
+  "setler": { "Cat Painting Club": "19th-century cat paintings. the cats knew." },
+  "stickerlar": [
+    { "parti": "hayvan-resim", "no": 16, "kirp": [0.02, 0.02, 0.96, 0.85], "metin": "royalty", "emoji": "👑", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 17, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "nope", "emoji": "🙅", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 12, "kirp": [0.4, 0.02, 0.6, 0.5], "metin": "study group", "emoji": "📚", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 9, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "dinner is served", "emoji": "🍽️", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 24, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "investigating", "emoji": "🔍", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 4, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "family meeting", "emoji": "🐱", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 27, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "awkward", "emoji": "😬", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 21, "kirp": [0.05, 0.15, 0.9, 0.8], "metin": "chaos mode", "emoji": "🎀", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 29, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "the squad", "emoji": "🎉", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 2, "kirp": [0.05, 0.15, 0.9, 0.75], "metin": "getting ready", "emoji": "💄", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 11, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "spa day", "emoji": "🛁", "set": "Cat Painting Club" },
+    { "parti": "hayvan-resim", "no": 22, "kirp": [0.1, 0.0, 0.8, 0.5], "metin": "watching", "emoji": "🕵️", "set": "Cat Painting Club" }
+  ]
+}

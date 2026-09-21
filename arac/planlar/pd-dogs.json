@@ -1,0 +1,17 @@
+{
+  "setler": { "Good Boys Gallery": "dogs from the 1800s. still good boys." },
+  "stickerlar": [
+    { "parti": "kopek", "no": 8, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "we're listening", "emoji": "👂", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 15, "kirp": [0.05, 0.05, 0.8, 0.85], "metin": "who's a good boy", "emoji": "🐶", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 18, "kirp": [0.1, 0.02, 0.85, 0.9], "metin": "did someone say walk", "emoji": "🦮", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 24, "kirp": [0.2, 0.2, 0.6, 0.65], "metin": "mood", "emoji": "😶", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 28, "kirp": [0.3, 0.05, 0.65, 0.85], "metin": "i didn't do it", "emoji": "🙄", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 36, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "guarding", "emoji": "🛡️", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 37, "kirp": [0.02, 0.1, 0.9, 0.85], "metin": "negotiations", "emoji": "🐱", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 9, "kirp": [0.05, 0.15, 0.9, 0.7], "metin": "nap squad", "emoji": "💤", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 19, "kirp": [0.02, 0.05, 0.9, 0.85], "metin": "hold me", "emoji": "🤗", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 4, "kirp": [0.4, 0.1, 0.58, 0.8], "metin": "is that for me", "emoji": "👀", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 35, "kirp": [0.05, 0.25, 0.9, 0.7], "metin": "bodyguard", "emoji": "🕶️", "set": "Good Boys Gallery" },
+    { "parti": "kopek", "no": 26, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "tall friend", "emoji": "📏", "set": "Good Boys Gallery" }
+  ]
+}
