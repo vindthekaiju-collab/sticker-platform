@@ -80,12 +80,53 @@ async function setiHazirla(set) {
   execFileSync(process.execPath, [path.join(KOK, 'arac', 'kucuk-onizleme.js')], { stdio: 'inherit' });
   execFileSync(process.execPath, [path.join(KOK, 'arac', 'anasayfa-perdeleri.js')], { stdio: 'inherit' });
 
+  /* 6b. Kapak + listeleme kiti: yayındaki HER set için 1200×630 vitrin
+     görseli (Gumroad/Paddle ürün kapağı, link önizlemesi) ve satış
+     metni. yayin-kaydi/kapak/<id>.png + yayin-kaydi/listeleme.md.
+     Kapak da kayıt gibi depoya girer: mağaza hesabı hangi makinede
+     açılırsa açılsın kit elde olsun. */
+  const fs = require('fs');
+  const vitrin = require('../lib/vitrin');
+  const yayinda = depo.setListe().filter(s => s.durum === 'yayinda' && s.uyeler.length);
+  let kaynaklar = {};
+  try { kaynaklar = JSON.parse(fs.readFileSync(path.join(depo.VERI, 'kaynaklar.json'), 'utf8')); } catch {}
+  const kapakKlasor = path.join(KOK, 'yayin-kaydi', 'kapak');
+  fs.mkdirSync(kapakKlasor, { recursive: true });
+  const satirlar = ['# stickky — listing kit', '', `Generated ${new Date().toISOString().slice(0, 10)} · ${yayinda.length} packs · ${yayinda.reduce((t, s) => t + s.uyeler.length, 0)} stickers`, '',
+    'Each pack: cover (1200×630), title, one-line description, sticker count, delivery files.',
+    'Suggested price: $2.99 per pack (single purchase) — placeholder until pricing is decided.', ''];
+  for (const s of yayinda) {
+    try {
+      const v = await vitrin.vitrinUret(s.id);
+      fs.copyFileSync(depo.coz(v.dosya), path.join(kapakKlasor, s.id + '.png'));
+    } catch (e) { console.log(`  kapak × ${s.ad}: ${e.message}`); }
+    const wa = s.ciktilar && s.ciktilar.wastickers && s.ciktilar.wastickers.paket;
+    const zipAd = s.ciktilar && s.ciktilar.zip && s.ciktilar.zip.paket;
+    const kaynakTuru = s.uyeler.some(id => { const a = depo.adayBul(id); return a && a.kaynak === 'giphy'; })
+      ? 'animated (Giphy-era, license not cleared for resale — review before listing)'
+      : 'public domain / CC0 artwork, captions original (see kaynaklar.json)';
+    satirlar.push(`## ${s.ad}`, '',
+      `- id: \`${s.id}\``, `- cover: \`yayin-kaydi/kapak/${s.id}.png\``,
+      `- description: ${s.aciklama || '—'}`, `- stickers: ${s.uyeler.length}`,
+      `- files: ${wa ? '`' + wa + '`' : '—'} · ${zipAd ? '`' + zipAd + '`' : '—'} · Telegram ${s.telegramUrl ? s.telegramUrl : '(bot link pending)'}`,
+      `- store page: https://stickky.xyz/setler#set-${yayinda.indexOf(s)}`,
+      `- rights: ${kaynakTuru}`);
+    // CC BY kaynaklar: mağaza sayfasına da atıf satırı konmalı.
+    const atiflar = s.uyeler.map(id => kaynaklar[id]).filter(k => k && /cc[- ]by/i.test(k.lisans || ''));
+    if (atiflar.length) {
+      satirlar.push(`- attribution (${atiflar.length} CC BY sources, paste into the store page):`);
+      for (const k of atiflar) satirlar.push(`    - "${k.baslik}" by ${k.sanatci || 'unknown'}, ${k.lisans}, ${k.sayfaUrl}`);
+    }
+    satirlar.push('');
+  }
+  fs.writeFileSync(path.join(KOK, 'yayin-kaydi', 'listeleme.md'), satirlar.join('\n'));
+  console.log(`listeleme kiti: yayin-kaydi/listeleme.md + ${yayinda.length} kapak`);
+
   /* 7. Yayın kaydı: veri/ depoda yok (.gitignore, makineye özel). Ama hangi
      setin hangi sticker'dan, hangi kaynaktan, hangi lisansla yayına girdiği
      KAYBOLMAMALI — satışta "nereden geldi" sorusunun tek cevabı bu. Üç JSON
      yayin-kaydi/ altına kopyalanır ve commit'lenir. Başka makinede veri/ yoksa
      buradan geri kurulur. */
-  const fs = require('fs');
   const kayit = path.join(KOK, 'yayin-kaydi');
   fs.mkdirSync(kayit, { recursive: true });
   for (const ad of ['setler.json', 'havuz.json', 'kaynaklar.json']) {

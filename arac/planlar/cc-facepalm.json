@@ -1,0 +1,19 @@
+{
+  "setler": { "Facepalm Hall of Fame": "real facepalms, real people, one universal feeling. curated from the commons." },
+  "stickerlar": [
+    { "parti": "meme", "no": 89, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "facepalm", "emoji": "🤦", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 85, "kirp": [0.4, 0.05, 0.6, 0.9], "metin": "not this again", "emoji": "🤦‍♂️", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 86, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "why", "emoji": "😩", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 87, "kirp": [0.02, 0.05, 0.9, 0.9], "metin": "oh no", "emoji": "👵", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 88, "kirp": [0.1, 0.02, 0.8, 0.96], "metin": "i know nothing", "emoji": "🙈", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 90, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "seriously?", "emoji": "😑", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 91, "kirp": [0.3, 0.05, 0.5, 0.9], "metin": "monday", "emoji": "🪑", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 92, "kirp": [0.2, 0.02, 0.7, 0.96], "metin": "the group chat", "emoji": "📱", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 94, "kirp": [0.02, 0.05, 0.6, 0.9], "metin": "can't watch", "emoji": "🙊", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 96, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "ugh", "emoji": "😣", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 97, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "i can't", "emoji": "😫", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 99, "kirp": [0.02, 0.05, 0.9, 0.9], "metin": "we saw it", "emoji": "🫣", "set": "Facepalm Hall of Fame" },
+    { "parti": "meme", "no": 100, "kirp": [0.2, 0.05, 0.6, 0.9], "metin": "long day", "emoji": "🦺", "set": "Facepalm Hall of Fame" },
+    { "parti": "obama", "no": 141, "kirp": [0.0, 0.02, 0.55, 0.96], "metin": "watching it unfold", "emoji": "😬", "set": "Facepalm Hall of Fame" }
+  ]
+}

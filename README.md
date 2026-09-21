@@ -67,6 +67,15 @@ her sticker'ın kaynağı, sanatçısı, lisansı ve lisans sayfası
 | 5 | `node arac/set-kontak.js` | Setlerin hazır sticker'larını kontak sayfasına döker (göz denetimi) |
 | 6 | `node arac/yayina-hazirla.js [--kuru]` | Taslak setleri paketler (tg/wa/zip), teslimat sayfası, yayında; `setler.html` + `site/k` + ana sayfa perdeleri |
 
+Ek araçlar: `arac/dev-eser-bak.js <parti> <no> [x y w h]` dev eseri (Bosch,
+Bruegel) orijinal boyutta indirip 4×4 ızgaralar, hücrelere oran basar — plan
+dosyasındaki `kirp` doğrudan oradan; kayıtta `"buyuk": true` orijinali
+indirtir. Plan kaydında `"paneller": [...]` + `"yon": "dikey|yatay"` iki
+panelli meme formatı üretir (Drake, woman-yelling-at-cat). `arac/ham-yenile.js`
+düşük çözünürlüklü ham indirmeleri 1280 px ile değiştirip sticker'ı yeniden
+çizer. Commons küçük genişlikleri **listeli**: 1200 → HTTP 400; 1280 ve 1920
+çalışır.
+
 Commons `upload.wikimedia.org` anonim User-Agent'a 429 veriyor; `lib/indir.js`
 tanımlayıcı UA gönderir ve `havuza-al.js` 1200 px küçüğü çeker (orijinal
 20 MB'ı aşabiliyor). AIC IIIF görselleri bu makineden 403 döndü (2026-09-21),

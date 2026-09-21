@@ -31,6 +31,15 @@ const TARAMA = path.join(KOK, 'veri', 'tarama');
 const UA = 'stickky/0.1 (sticker pack research; contact via stickky.xyz)';
 
 const PD_DESEN = /public domain|cc0|pdm|no known copyright|no restrictions/i;
+/* --cc-by: CC BY (atıf şartlı, ticari serbest) de kabul edilir. NC ve ND
+   asla; SA da alınmaz (paket "paylaş-eşit" olur, satış hukuken olur ama
+   alıcıya yeniden dağıtım hakkı verir). Kayıtta lisans adı durur;
+   listeleme kiti CC BY olanlara atıf satırı basar. Gerçek meme
+   fotoğraflarının (Flickr kökenli) çoğu CC BY 2.0 — 2026-09-21 kullanıcı
+   isteği: "bizim üretmediğimiz, derlediğimiz setler". */
+const CC_BY_DESEN = /^cc[- ]by(?:[- ]\d(?:\.\d)?)?$/i;
+const ccByKabul = process.argv.includes('--cc-by');
+const lisansUygun = l => PD_DESEN.test(l) || (ccByKabul && CC_BY_DESEN.test(String(l).trim()));
 
 const bekle = ms => new Promise(r => setTimeout(r, ms));
 
@@ -73,7 +82,7 @@ async function commons(sorgu, adet) {
       if (!ii || !/^image\/(jpeg|png)/.test(ii.mime)) continue;
       const m = ii.extmetadata || {};
       const lisans = (m.LicenseShortName && m.LicenseShortName.value) || (m.License && m.License.value) || '';
-      if (!PD_DESEN.test(lisans)) continue;
+      if (!lisansUygun(lisans)) continue;
       if (ii.width < 500 || ii.height < 500) continue;
       sonuc.push({
         kaynak: 'commons',
@@ -183,7 +192,7 @@ async function kontakYap(klasor, adaylar) {
 
 /* --------------------------------------------------------------------- ana */
 async function ana() {
-  const [parti, kaynak, sorgu, adetStr] = process.argv.slice(2);
+  const [parti, kaynak, sorgu, adetStr] = process.argv.slice(2).filter(a => !a.startsWith('--'));
   if (!parti || !KAYNAKLAR[kaynak] || !sorgu) {
     console.error('kullanım: node arac/kaynak-tara.js <parti> <commons|met|aic|openverse> "<sorgu>" [adet]');
     process.exit(2);

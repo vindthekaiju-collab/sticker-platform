@@ -1,0 +1,21 @@
+{
+  "setler": { "Internet Classics": "doge, keep calm, kilroy, touch grass. the free-to-use originals, curated." },
+  "stickerlar": [
+    { "parti": "meme", "no": 55, "sigdir": true, "metin": "", "emoji": "🐕", "set": "Internet Classics" },
+    { "parti": "meme", "no": 53, "sigdir": true, "metin": "", "emoji": "🐶", "set": "Internet Classics" },
+    { "parti": "meme", "no": 49, "sigdir": true, "metin": "", "emoji": "🌐", "set": "Internet Classics" },
+    { "parti": "meme", "no": 54, "kirp": [0.02, 0.14, 0.96, 0.68], "metin": "wow", "emoji": "😮", "set": "Internet Classics" },
+    { "parti": "meme", "no": 102, "sigdir": true, "metin": "", "emoji": "👑", "set": "Internet Classics" },
+    { "parti": "meme", "no": 118, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "", "emoji": "👀", "set": "Internet Classics" },
+    { "parti": "meme", "no": 115, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "kilroy was here", "emoji": "✏️", "set": "Internet Classics" },
+    { "parti": "meme", "no": 4, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "touch grass", "emoji": "🌱", "set": "Internet Classics" },
+    { "parti": "meme", "no": 34, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "the audacity", "emoji": "🍟", "set": "Internet Classics" },
+    { "parti": "meme", "no": 14, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "side eye", "emoji": "👁️", "set": "Internet Classics" },
+    { "parti": "meme", "no": 18, "kirp": [0.1, 0.1, 0.8, 0.8], "metin": "bliss", "emoji": "😌", "set": "Internet Classics" },
+    { "parti": "meme", "no": 47, "sigdir": true, "metin": "", "emoji": "🦦", "set": "Internet Classics" },
+    { "parti": "meme", "no": 13, "sigdir": true, "metin": "", "emoji": "🐕‍🦺", "set": "Internet Classics" },
+    { "parti": "meme", "no": 23, "sigdir": true, "metin": "", "emoji": "🦉", "set": "Internet Classics" },
+    { "parti": "meme", "no": 3, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "promoted", "emoji": "🎓", "set": "Internet Classics" },
+    { "parti": "meme", "no": 52, "sigdir": true, "metin": "", "emoji": "🦭", "set": "Internet Classics" }
+  ]
+}

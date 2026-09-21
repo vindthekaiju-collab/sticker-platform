@@ -1,0 +1,16 @@
+{
+  "setler": { "Astronaut Selfies": "nasa originals, public domain. the first selfie in space was 1966." },
+  "stickerlar": [
+    { "parti": "uzay", "no": 21, "kirp": [0.1, 0.02, 0.8, 0.96], "metin": "on the moon", "emoji": "🌕", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 27, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "floating", "emoji": "🚀", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 28, "kirp": [0.1, 0.02, 0.8, 0.9], "metin": "leaving", "emoji": "👋", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 32, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "first selfie, 1966", "emoji": "🤳", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 37, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "hello from orbit", "emoji": "🌍", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 42, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "checking in", "emoji": "🛰️", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 46, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "you up?", "emoji": "🌌", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 48, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "big day", "emoji": "✨", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 2, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "small step", "emoji": "👣", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 7, "kirp": [0.1, 0.02, 0.8, 0.96], "metin": "working", "emoji": "🔧", "set": "Astronaut Selfies" },
+    { "parti": "uzay", "no": 34, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "sunset", "emoji": "🌅", "set": "Astronaut Selfies" }
+  ]
+}

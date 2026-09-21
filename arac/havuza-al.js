@@ -53,11 +53,18 @@ const bekle = ms => new Promise(r => setTimeout(r, ms));
    aşabiliyor. Sticker 512 px; 1200 px'lik Commons küçüğü fazlasıyla yeter.
    Küçük URL'sindeki "360px-" öneki genişlikle değiştirilir; orijinal zaten
    küçükse orijinal alınır. Kaynak kaydında (kaynaklar.json) orijinal URL kalır. */
-function indirilecekUrl(aday) {
+function indirilecekUrl(aday, buyuk) {
   if (aday.kaynak !== 'commons' || !/\/thumb\//.test(aday.kucukUrl || '')) return aday.medyaUrl;
+  // Commons yalnız listeli genişlikleri veriyor (2026: 1200 → HTTP 400,
+  // 1280 ve 1920 çalışıyor). buyuk: Bosch gibi dev eserden ayrıntı → orijinal.
+  if (buyuk) return aday.medyaUrl;
+  const hedef = 1280;
   const genislik = parseInt(String(aday.boyut || '').split('x')[0], 10) || 0;
-  if (genislik && genislik <= 1200) return aday.medyaUrl;
-  return aday.kucukUrl.replace(/\/360px-/, '/1200px-');
+  if (genislik && genislik <= hedef) return aday.medyaUrl;
+  // Küçük adresteki genişlik dosyaya göre değişiyor (360, 500…); 2026-09-21'de
+  // yalnız "360px-" aranıyordu, tutmayınca 500 px küçük iniyor ve sticker
+  // bulanık çıkıyordu (19 setin 215/258 üyesi). Her genişliği yakala.
+  return aday.kucukUrl.replace(/\/\d+px-/, '/' + hedef + 'px-');
 }
 
 /* Ham indirme diskte veri/medya/<id>.<uzantı> olarak durur; hazır sticker
@@ -139,15 +146,47 @@ async function kareKirp(dosya, kirp) {
     .resize(KENAR, KENAR).png().toBuffer();
 }
 
-async function stickerYap(kaynakDosya, kirp, metin, hedef) {
-  const kare = await kareKirp(kaynakDosya, kirp);
+async function stickerYap(kaynakDosya, kirp, metin, hedef, sigdir) {
+  /* sigdir: kırpma yok, görselin tamamı 512 kareye saydam dolguyla sığar.
+     Derleme setleri için (lolcat, Doge): yazı görselin kendi üstünde,
+     kırpmak yazıyı keser. */
+  const kare = sigdir
+    ? await sharp(kaynakDosya).resize(KENAR, KENAR, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer()
+    : await kareKirp(kaynakDosya, kirp);
   let s = sharp(kare);
   if (metin) s = s.composite([{ input: altyaziSvg(metin), left: 0, top: 0 }]);
   await s.png().toFile(hedef);
 }
 
+/* İki panelli sticker — meme formatları (Drake, "woman yelling at cat").
+   Paneller: [{ dosya, kirp, metin }], yon: 'dikey' (üst/alt) | 'yatay'
+   (sol/sağ). Her panel kendi kare kırpmasından 512×256 (ya da 256×512)
+   'cover' ile alınır; araya 4 px mürekkep çizgi. Panel yazısı tek satır,
+   küçük punto, panelin altında. */
+async function panelliYap(paneller, yon, hedef) {
+  const dikey = yon !== 'yatay';
+  const pw = dikey ? KENAR : KENAR / 2, ph = dikey ? KENAR / 2 : KENAR;
+  const katman = [];
+  for (const [i, p] of paneller.entries()) {
+    const kare = await kareKirp(p.dosya, p.kirp || null);
+    let g = sharp(kare).resize(pw, ph, { fit: 'cover' });
+    if (p.metin) {
+      const punto = Math.max(22, Math.min(40, Math.floor((pw - 30) / (p.metin.length * 0.5))));
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${pw}" height="${ph}"><text x="${pw / 2}" y="${ph - 14}" text-anchor="middle" font-family="Impact" font-size="${punto}" fill="#fff" stroke="#000" stroke-width="${(punto * 0.12).toFixed(1)}" stroke-linejoin="round" paint-order="stroke" letter-spacing="1">${kacar(p.metin)}</text></svg>`;
+      g = g.composite([{ input: Buffer.from(svg), left: 0, top: 0 }]);
+    }
+    katman.push({ input: await g.png().toBuffer(), left: dikey ? 0 : i * pw, top: dikey ? i * ph : 0 });
+  }
+  const cizgi = dikey
+    ? `<rect x="0" y="${KENAR / 2 - 2}" width="${KENAR}" height="4" fill="#12111A"/>`
+    : `<rect x="${KENAR / 2 - 2}" y="0" width="4" height="${KENAR}" fill="#12111A"/>`;
+  katman.push({ input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${KENAR}" height="${KENAR}">${cizgi}</svg>`), left: 0, top: 0 });
+  await sharp({ create: { width: KENAR, height: KENAR, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+    .composite(katman).png().toFile(hedef);
+}
+
 async function ana() {
-  const secimDosya = process.argv[2];
+  const secimDosya = process.argv.slice(2).find(a => !a.startsWith('--'));
   if (!secimDosya) { console.error('kullanım: node arac/havuza-al.js <secim.json>'); process.exit(2); }
   const secim = JSON.parse(fs.readFileSync(secimDosya, 'utf8'));
   const kayitlar = Array.isArray(secim) ? secim : secim.stickerlar;
@@ -156,14 +195,23 @@ async function ana() {
   const partiler = {};
   const kaynaklar = kaynaklariOku();
   const setler = {};
+  const islenen = {};
   const tekrar = {};
   let n = 0;
 
+  const partiYukle = ad => {
+    if (!partiler[ad]) partiler[ad] = JSON.parse(fs.readFileSync(path.join(KOK, 'veri', 'tarama', ad, 'adaylar.json'), 'utf8'));
+    return partiler[ad];
+  };
+
   for (const k of kayitlar) {
-    if (!partiler[k.parti]) {
-      partiler[k.parti] = JSON.parse(fs.readFileSync(path.join(KOK, 'veri', 'tarama', k.parti, 'adaylar.json'), 'utf8'));
+    /* Panelli kayıt: ilk panel "ana" aday (depo kaydı, lisans kaydı onun
+       üstünden), diğer paneller ek kaynak olarak kaynaklar.json'a girer. */
+    if (k.paneller) {
+      k.parti = k.paneller[0].parti; k.no = k.paneller[0].no;
+      k.metin = k.metin || k.paneller.map(p => p.metin).filter(Boolean).join(' / ');
     }
-    const aday = partiler[k.parti].find(a => a.no === k.no);
+    const aday = partiYukle(k.parti).find(a => a.no === k.no);
     if (!aday) { console.error(`× ${k.parti}#${k.no} taramada yok`); continue; }
 
     const etiketler = [k.metin || '(no caption)', aday.sanatci, aday.lisans, aday.kaynak].filter(Boolean);
@@ -172,19 +220,50 @@ async function ana() {
     // URL'ye parça (#2) eklemek isteği değiştirmez ama kaydı ayırır.
     const anahtar = k.parti + '#' + k.no;
     tekrar[anahtar] = (tekrar[anahtar] || 0) + 1;
-    const medyaUrl = indirilecekUrl(aday) + (tekrar[anahtar] > 1 ? '#' + tekrar[anahtar] : '');
-    const { aday: kayit } = depo.adayEkle({
-      kaynak: aday.kaynak, medyaUrl, sayfaUrl: aday.sayfaUrl, etiketler
-    });
+    const temelUrl = indirilecekUrl(aday, k.buyuk) + (tekrar[anahtar] > 1 ? '#' + tekrar[anahtar] : '');
+    /* Koşular ARASI çakışma (2026-09-21): başka bir plan aynı kaynağı farklı
+       altyazıyla alınca depo aynı kaydı döndürüyor ve eski sticker'ın üstüne
+       yazılıyordu (Meme Formats, dokuz setin sticker'ını bozdu). Kural:
+       var olan kaydın altyazısı bu kaydınkiyle aynıysa aynı sticker'dır
+       (yeniden üretim, idempotent); farklıysa ayrı kayıt — URL'ye altyazı
+       parçası eklenir. */
+    let { aday: kayit, yeni } = depo.adayEkle({ kaynak: aday.kaynak, medyaUrl: temelUrl, sayfaUrl: aday.sayfaUrl, etiketler });
+    if (!yeni && (kayit.etiketler[0] || '') !== etiketler[0]) {
+      const parca = '#' + encodeURIComponent(etiketler[0]).slice(0, 40);
+      ({ aday: kayit, yeni } = depo.adayEkle({ kaynak: aday.kaynak, medyaUrl: temelUrl.replace(/#.*$/, '') + parca + (tekrar[anahtar] > 1 ? '-' + tekrar[anahtar] : ''), sayfaUrl: aday.sayfaUrl, etiketler }));
+      if (!yeni && (kayit.etiketler[0] || '') !== etiketler[0]) { console.error(`× ${anahtar} "${etiketler[0]}": kayıt çakışması çözülemedi`); continue; }
+    }
     try {
-      await bekle(1500);
-      const guncel = await tekrarla(() => indir.adayIndir(kayit.id));
+      const inmis = kayit.durum === 'indirildi' && fs.existsSync(hamDosya(kayit));
+      if (!inmis) await bekle(1500);
+      const guncel = inmis ? kayit : await tekrarla(() => indir.adayIndir(kayit.id));
       // İkinci koşuda aday.dosya artık hazır PNG'yi gösteriyor; kaynak hep
       // ham indirme olmalı, yoksa altyazı altyazının üstüne biner (ölçüldü).
       const ham = hamDosya(guncel);
       const hazirGorece = `veri/medya/${kayit.id}-hazir.png`;
-      await stickerYap(ham, k.kirp || null, k.metin || '', depo.coz(hazirGorece));
-      depo.adayGuncelle(kayit.id, { dosya: hazirGorece, emoji: k.emoji || '🙂', etiketler, ham: path.relative(depo.KOK, ham).split(path.sep).join('/'), kirp: k.kirp || null });
+      if (k.paneller) {
+        // Diğer panellerin kaynağı da indirilir (kendi aday kaydıyla, sete girmez).
+        const paneller = [];
+        const ekKaynaklar = [];
+        for (const [i, p] of k.paneller.entries()) {
+          const pa = partiYukle(p.parti).find(a => a.no === p.no);
+          if (!pa) throw new Error(`panel ${p.parti}#${p.no} taramada yok`);
+          let dosya = ham;
+          if (i > 0) {
+            const { aday: pk } = depo.adayEkle({ kaynak: pa.kaynak, medyaUrl: indirilecekUrl(pa), sayfaUrl: pa.sayfaUrl, etiketler: ['(panel)', pa.sanatci, pa.lisans].filter(Boolean) });
+            await bekle(1500);
+            const pg = await tekrarla(() => indir.adayIndir(pk.id));
+            dosya = hamDosya(pg);
+            ekKaynaklar.push({ kaynak: pa.kaynak, baslik: pa.baslik, sanatci: pa.sanatci, lisans: pa.lisans, lisansUrl: pa.lisansUrl, sayfaUrl: pa.sayfaUrl, medyaUrl: pa.medyaUrl });
+          }
+          paneller.push({ dosya, kirp: p.kirp || null, metin: p.metin || '' });
+        }
+        await panelliYap(paneller, k.yon, depo.coz(hazirGorece));
+        k._ekKaynaklar = ekKaynaklar;
+      } else {
+        await stickerYap(ham, k.kirp || null, k.metin || '', depo.coz(hazirGorece), !!k.sigdir);
+      }
+      depo.adayGuncelle(kayit.id, { dosya: hazirGorece, emoji: k.emoji || '🙂', etiketler, ham: path.relative(depo.KOK, ham).split(path.sep).join('/'), kirp: k.kirp || null, sigdir: !!k.sigdir });
     } catch (e) {
       console.error(`× ${k.parti}#${k.no}: ${e.message}`);
       continue;
@@ -192,7 +271,8 @@ async function ana() {
     kaynaklar[kayit.id] = {
       kaynak: aday.kaynak, baslik: aday.baslik, sanatci: aday.sanatci,
       lisans: aday.lisans, lisansUrl: aday.lisansUrl, sayfaUrl: aday.sayfaUrl, medyaUrl: aday.medyaUrl,
-      altyazi: k.metin || '', alinma: new Date().toISOString()
+      altyazi: k.metin || '', alinma: new Date().toISOString(),
+      ...(k._ekKaynaklar && k._ekKaynaklar.length ? { paneller: k._ekKaynaklar } : {})
     };
 
     if (k.set) {
@@ -201,12 +281,22 @@ async function ana() {
           || depo.setOlustur({ ad: k.set, aciklama: setAciklamalari[k.set] || '', olusturan: 'elle' });
       }
       depo.setGuncelle(setler[k.set].id, { ekle: kayit.id });
+      (islenen[k.set] = islenen[k.set] || []).push(kayit.id);
       if (setAciklamalari[k.set] && setler[k.set].aciklama !== setAciklamalari[k.set]) {
         depo.setGuncelle(setler[k.set].id, { aciklama: setAciklamalari[k.set] });
       }
     }
     n++;
     console.log(`✓ ${k.parti}#${k.no} → ${kayit.id} "${k.metin || ''}" [${k.set || '-'}]`);
+  }
+  /* --yeniden: set üyeliği plan dosyasının TAMAMI olsun — planda olmayan
+     (eski koşudan kalmış, başka planın ele geçirdiği) üyeler düşer. */
+  if (process.argv.includes('--yeniden')) {
+    for (const ad of Object.keys(setler)) {
+      const set = depo.setBul(setler[ad].id);
+      const fazla = set.uyeler.filter(id => !(islenen[ad] || []).includes(id));
+      if (fazla.length) { depo.setGuncelle(set.id, { cikar: fazla }); console.log(`  − ${ad}: ${fazla.length} eski üye düşürüldü`); }
+    }
   }
   kaynaklariYaz(kaynaklar);
   console.log(`${n} sticker havuza alındı · setler: ${Object.keys(setler).map(a => `${a} (${depo.setBul(setler[a].id).uyeler.length})`).join(', ') || '-'}`);
