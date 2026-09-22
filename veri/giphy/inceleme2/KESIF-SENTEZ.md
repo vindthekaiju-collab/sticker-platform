@@ -118,3 +118,18 @@ dil** ya da **duygu + tehdit** ya da **duygu + tek kelime**.
    "mikachu", "hrgojob" etiketleri.
 3. İlk deneme seti: 404'ten 30 kare, kırp + arka plan sil + cümle; senin
    WhatsApp setlerinle yan yana koy. "Bu benim setime girer mi?" testi.
+
+## 9. Ek tur (sabaha karşı): komşuluk 2 ve triyaj 4
+
+- 423 yeni seçimin komşuluğu (634 sayfa → 1.490 hesap): **ağ kendi içine
+  kapandı** — ilk 15 sıra zaten dökülmüş kanallar. Yeni çıkanlar elendi:
+  Thejax88 (Roblox), FredGorji (İran futbolu), bhengmellomida (sanatçı),
+  TheOdiecat (sahipli kedi), clogu (emote karışık).
+- Triyaj 4 (737 hesap): hayvan payı yüksek 73 hesabın çoğu sanatçı paketi
+  ya da sahipli hayvan. Yeni alınan: **goddamghonzo** (%44, protest-kedi
+  formatı). Elenen: tteoknyangs (çizim), ashandscarlett (sahipli),
+  mrplaceofpower (kişisel), Akash_sidhu (filigranlı Pencap sayfası).
+- Sonuç: **Giphy'de bu damarın sınırı görüldü.** Seçim 445 kare, 14 kanal.
+  Daha fazlası için kaynak Giphy değil: kanalların kendi kaynak videoları
+  (TikTok/IG "cat meme" derleme hesapları) ve Çin WeChat sticker havuzu.
+- Son sayı: **445 seçim** (M3 131 · M2 124 · M1 105 · M4 50 · M5 33).
