@@ -198,3 +198,27 @@ filigran kalktı, kadraj sıkılaştı.
 
 Sıradaki: bu 67'yi kullanıcının kendi WhatsApp setleriyle yan yana koymak
 ve "hangisi setime girer" testi.
+
+## 12. Toplu üretim — 1.366 sticker
+
+Seçimin tamamı (1.369 tekil kare) hatta verildi: `arac/planlar/toplu-1.json`,
+dört paralel süreç (`toplu-1-1..4.json`), birleştirme `arac/toplu-birlestir.js`.
+Sonuç: **1.366 sticker** (512×512 animasyonlu WebP, hepsi ≤500 KB, toplam
+~384 MB), 3 kare düştü (ikisi 500 KB'a inmedi, biri 25 MB'ı aşan kaynak).
+
+Galeri: `site/havuz/index.html` → http://127.0.0.1:8765/havuz/index.html
+Kontak: `cikti/havuz/kontak-1..23.jpg` (60'ar kare).
+
+Süre: tek süreçte ~70 dk tahmin ediliyordu, dörde bölününce **~12 dk**.
+
+**Üretimde çıkan ikinci kalite kuralı:** inceleme tablosundaki "cümle"
+hücresi ham alınınca not sızdı — "tabela boş → cümle", "me?" / "…",
+"AAAA" (84)". 28 karede oldu, süzgeçle temizlendi (Türkçe karakter,
+alternatif eğik çizgi, parantezli numara, 32 karakterden uzun → yazısız).
+Süzgeç `temizle` betiğinde; bir sonraki turda inceleme tablosuna yazarken
+cümle hücresine yalnız cümle yazılmalı.
+
+Dağılım: _sahipsiz2 907 · _sahipsiz 173 · the_nseven 67 · TranslucentRunner
+31 · mimi_barbar 30 · guestEmma 27 · goddamghonzo 21 · Elgatitolover 20 ·
+brown_giphy 16 · muntasermari/soydavidfelipe 15 · taviitoo_bv 12 · txiqs 11 ·
+notsyma 10 · 9mc 8 · boneyone 2 · kamrat 1.
