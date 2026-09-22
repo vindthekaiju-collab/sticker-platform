@@ -133,3 +133,37 @@ dil** ya da **duygu + tehdit** ya da **duygu + tek kelime**.
   Daha fazlası için kaynak Giphy değil: kanalların kendi kaynak videoları
   (TikTok/IG "cat meme" derleme hesapları) ve Çin WeChat sticker havuzu.
 - Son sayı: **445 seçim** (M3 131 · M2 124 · M1 105 · M4 50 · M5 33).
+
+## 10. Tur 4 — hayvan dışı (kullanıcı: "kedi köpek yoğunluğu aşırı")
+
+Kullanıcı sabah iki düzeltme verdi: (1) sahipli hesap / filigran elenmez,
+yalnız marka-sanatçı IP elenir — katma değer alanımız farklı (indirilebilir,
+app'e entegre); (2) aynı mizahla diğer içerik tarzlarına yönel.
+
+Yapılan: 387 hayvan dışı sorgu (emoji/emote/yaratık, kamuya mal olmuş kişi
+meme'leri, bebek/çocuk/insan anı, nesne/absürt/heykel) → toplam 1.042
+sorgu, 10.494 hesap. Hayvan dışı anonim havuz ayrı çıkarıldı
+(`_sahipsiz2`, 3.144 kare; ilk 27 sayfa + örnekleme bakıldı).
+
+| Vektör | Sonuç |
+|---|---|
+| Anonim havuz (kişi meme, rage/troll, film anı) | **544 ✅** — en verimli kaynak, ~%45 |
+| Hesap vektörü (24 kanal döküldü) | hepsi elendi: 3D tasarım stüdyosu (ThreeDee, RobinAdlung), kripto pepe ($BORED), OC çizim (SummerGuyOG, boneyone), İran/Kore/Azeri sayfalar, futbol, blinkies |
+| Kişi meme sorguları (Harold, disaster girl, blinking guy, Elmo fire…) | sonuçlar ya anonim ya marka hesabı (Aeromexico, CMN Hospitals, BuzzFeed); küçük "kişi meme küratörü" hesap yok |
+
+**Sonuç: Giphy'de hayvan dışı damar hesaplarda değil, anonim canon'da.**
+Kanal keşfi burada bitti; bundan sonrası anonim havuzu derinleştirmek
+(kalan 78 sayfa) ya da Giphy dışı kaynak.
+
+Seçim dengesi (1.246 kare): tur 1 = 235 (71 hayvan), keşif = 1.011
+(345 hayvan, **666 hayvan dışı**). Hayvan payı %33'e indi.
+
+Hayvan dışı damarın mekanizma profili: M1 çok baskın (yanlış ağızdan cümle
+= ünlü yüz + resmi/kibirli söz), M3 (tanıma: blinking guy, math lady),
+M2 (kahkaha, şok). M4/M5 hayvanlarda kalıyor — insan yüzü "masum" ya da
+"zararsız tehdit" kurmuyor; bu iki mekanizma hayvanın alanı.
+
+Elenen ama not düşülen: Disney/Pixar/Nick/Sesame/Simpsons çizgi karakteri
+(kullanıcının "telifli olan elendi" çizgisi); dizi sıradan sahnesi
+(The Office/Friends) — ama karenin kendisi meme olmuşsa alındı (Michael
+Scott "NO", Bateman, Gosling Drive, Leo pointing).

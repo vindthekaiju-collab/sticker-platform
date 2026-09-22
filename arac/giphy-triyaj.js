@@ -29,6 +29,7 @@ const sira = Object.entries(puan).filter(([h, p]) => p >= enAz && !bilinen.has(h
 
 const MEME = /\b(meme|reaction|reactions|mood|me when|pov|relatable|vibes?)\b/i;
 const HAYVAN = /\b(cat|cats|kitten|kitty|dog|dogs|puppy|pup|hamster|monkey|raccoon|frog|duck|goose|capybara|bird|rat|possum|bunny|rabbit)\b/i;
+const EMOJI = /(emoji|emote|twitch|7tv|pepe|wojak|soyjak|troll|creature|tbh|skull|clown|smiley|blob|derp|chad|gigachad|npc|skeleton|puppet|statue|sticker|transparent)/i;
 const MARKA = /\b(nba|nfl|mlb|nhl|netflix|hbo|disney|pixar|nickelodeon|cartoon network|adult swim|paramount|warner|universal|sony|marvel|dc|bbc|cbs|nbc|abc|fox|espn|mtv|vh1|tlc|bravo|peacock|hulu|apple tv|amazon|prime video|starz|showtime|comedy central|the office|friends|snl|jimmy fallon|tonight show|kimmel|colbert|ellen)\b/i;
 
 (async () => {
@@ -47,7 +48,7 @@ const MARKA = /\b(nba|nfl|mlb|nhl|netflix|hbo|disney|pixar|nickelodeon|cartoon n
     triyaj[hesap] = {
       hesap, id: k.id, display: k.display_name, tur: k.type, icerik: k.content_type, verified: !!u.is_verified,
       puan: puan[hesap], adet: g.length, sticker: g.filter(x => x.sticker).length,
-      meme: say(MEME, 'tags'), hayvan: say(HAYVAN, 'tags'), marka: say(MARKA, 'tags') + (MARKA.test(k.display_name || '') ? 50 : 0),
+      meme: say(MEME, 'tags'), hayvan: say(HAYVAN, 'tags'), emoji: say(EMOJI, 'tags'), marka: say(MARKA, 'tags') + (MARKA.test(k.display_name || '') ? 50 : 0),
       kare: g.filter(x => x.w && x.h && Math.abs(x.w / x.h - 1) < 0.25).length,
       yil: yillar.length ? Math.round(yillar.reduce((a, b) => a + b, 0) / yillar.length) : 0,
       ornek: g.slice(0, 5).map(x => x.title.replace(/ GIF$/, '')),

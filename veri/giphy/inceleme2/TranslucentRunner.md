@@ -31,3 +31,21 @@ bakıldı; 22 ✅ (%8 toplam). Düşük verim, ama "apple cat" (192, 193) ve
 | 264 | Emoji Missing | dişsiz gülüş | M2 | yazısız | ✅ |
 | 282 | Baby Cry | ağlama | M2 | "WAAA" | ✅ emoji |
 | kalan 263 | metin görseli, gerçek kişi, Family Guy, Simpsons, politik | — | — | — | ❌ |
+
+## Ek: hayvan dışı kareler (emoji/wojak/yaratık süzgeci, kullanıcı "kedi köpek yoğunluğu aşırı" dedi)
+
+| no | başlık | duygu | mekanizma | cümle | kullanım |
+|---|---|---|---|---|---|
+| 62 | Monster energy guy | coşku | M2 | "LETS GO" | ✅ kamuya mal olmuş kişi |
+| 73 | cat with money (çizim) | zengin | M1 | "pay up" | ✅ |
+| 100 | ZAMN 😍 | flört | M2 | "ZAMN" | ✅ metin+emoji |
+| 103 | trollface | troll | M2 | yazısız | ✅ canon |
+| 104 | deep fried laughing emoji | kahkaha | M2 | yazısız | ✅ |
+| 115 | Gigachad straitjacket | kibir | M1 | "im him" | ✅ canon |
+| 116 | trollge Spongebobs | uncanny | M2 | yazısız | ⚠️ Nick |
+| 163 | wojak smoking | umursamaz | M3 | "whatever" | ✅ |
+| 177 | 😭😭✌️ | "thanks" | M2 | "thanks" | ✅ emoji |
+| 179 | skull dark | ölü | M2 | "im dead" | ✅ |
+| 189 | red vs blue soyjak | kavga | M2 | yazısız | ✅ canon |
+| 191 | purple face alert | manyak | M2 | "ALERT" | ✅ |
+| 196 | kid screaming praying | yalvarma | M2 | "PLEASE" | ✅ |

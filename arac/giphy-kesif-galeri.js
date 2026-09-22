@@ -31,13 +31,22 @@ for (const dosya of fs.readdirSync(path.join(KOK, 'inceleme2'))) {
     }
   }
 }
+// Tur 1 (on kanal, secim/secim.json) — kategori sütunu duygu yerine, mekanizma yok
+const eskiYol = path.join(KOK, 'secim', 'secim.json');
+if (fs.existsSync(eskiYol) && !process.argv.includes('--yalniz-kesif')) {
+  for (const s of JSON.parse(fs.readFileSync(eskiYol, 'utf8'))) {
+    const not = s.not || '';
+    const kat = (not.replace(/^\*+/, '').match(/^([A-ZÇĞİÖŞÜ]+)/) || [])[1] || '';
+    secim.push({ kanal: s.kanal, no: s.no, id: s.id, baslik: s.baslik, url: s.url, gif: s.gif, sticker: false, duygu: kat.toLowerCase() || 'tur1', mek: [], cumle: '', not: (s.hukum || '') + ' ' + not, tur: 1 });
+  }
+}
 fs.writeFileSync(path.join(KOK, 'kesif', 'secim2.json'), JSON.stringify(secim, null, 1));
 
 const kanallar = [...new Set(secim.map(s => s.kanal))];
 const duyguSay = {}; for (const s of secim) { const d = s.duygu.split(/[,/]/)[0].trim(); if (d) duyguSay[d] = (duyguSay[d] || 0) + 1; }
 const duygular = Object.keys(duyguSay).sort((a, b) => duyguSay[b] - duyguSay[a] || a.localeCompare(b));
 const kartlar = secim.map((s, i) => `
-<a class="k" data-kanal="${s.kanal}" data-duygu="${kacar(s.duygu.split(/[,/]/)[0].trim())}" data-mek="${s.mek.join(' ')}" href="${s.url}" target="_blank" rel="noopener">
+<a class="k" data-tur="${s.tur === 1 ? 1 : 2}" data-kanal="${s.kanal}" data-duygu="${kacar(s.duygu.split(/[,/]/)[0].trim())}" data-mek="${s.mek.join(' ')}" href="${s.url}" target="_blank" rel="noopener">
   <img src="${s.gif}" loading="lazy" alt="">
   <span class="e">${i + 1} · ${kacar(s.kanal)} #${s.no}${s.sticker ? ' · STK' : ''}</span>
   <span class="d">${kacar(s.duygu)} · ${s.mek.join(' ')}</span>
@@ -67,16 +76,17 @@ const html = `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
 </style></head><body>
 <header><b id="say">${secim.length} kare</b>
 <div class="grup"><span>kanal</span>${kanallar.map(k => `<button data-t="kanal" data-v="${k}">${k} (${secim.filter(s => s.kanal === k).length})</button>`).join('')}</div>
+<div class="grup"><span>tur</span><button data-t="tur" data-v="1">ilk 10 kanal (${secim.filter(s => s.tur === 1).length})</button><button data-t="tur" data-v="2">keşif (${secim.filter(s => s.tur !== 1).length})</button></div>
 <div class="grup"><span>mekanizma</span>${['M1', 'M2', 'M3', 'M4', 'M5'].map(m => `<button data-t="mek" data-v="${m}">${m} (${secim.filter(s => s.mek.includes(m)).length})</button>`).join('')}</div>
 <div class="grup"><span>duygu</span><select id="duygu"><option value="">hepsi</option>${duygular.map(d => `<option value="${kacar(d)}">${kacar(d)} (${secim.filter(s => s.duygu.split(/[,/]/)[0].trim() === d).length})</option>`).join('')}</select></div>
 <button id="hepsi" class="on">hepsi</button></header>
 <div class="g">${kartlar}</div>
 <script>
-const f={kanal:'',mek:'',duygu:''};
-function uygula(){let n=0;document.querySelectorAll('.k').forEach(el=>{const ok=(!f.kanal||el.dataset.kanal===f.kanal)&&(!f.mek||el.dataset.mek.split(' ').includes(f.mek))&&(!f.duygu||el.dataset.duygu===f.duygu);el.classList.toggle('gizli',!ok);if(ok)n++});document.getElementById('say').textContent=n+' kare';}
-document.querySelectorAll('header button[data-t]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.t;const ayni=f[t]===b.dataset.v;document.querySelectorAll('header button[data-t="'+t+'"]').forEach(x=>x.classList.remove('on'));f[t]=ayni?'':b.dataset.v;if(!ayni)b.classList.add('on');document.getElementById('hepsi').classList.toggle('on',!f.kanal&&!f.mek&&!f.duygu);uygula();}));
-document.getElementById('duygu').addEventListener('change',e=>{f.duygu=e.target.value;document.getElementById('hepsi').classList.toggle('on',!f.kanal&&!f.mek&&!f.duygu);uygula();});
-document.getElementById('hepsi').addEventListener('click',()=>{f.kanal=f.mek=f.duygu='';document.getElementById('duygu').value='';document.querySelectorAll('header button').forEach(x=>x.classList.remove('on'));document.getElementById('hepsi').classList.add('on');uygula();});
+const f={kanal:'',mek:'',duygu:'',tur:''};
+function uygula(){let n=0;document.querySelectorAll('.k').forEach(el=>{const ok=(!f.tur||el.dataset.tur===f.tur)&&(!f.kanal||el.dataset.kanal===f.kanal)&&(!f.mek||el.dataset.mek.split(' ').includes(f.mek))&&(!f.duygu||el.dataset.duygu===f.duygu);el.classList.toggle('gizli',!ok);if(ok)n++});document.getElementById('say').textContent=n+' kare';}
+document.querySelectorAll('header button[data-t]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.t;const ayni=f[t]===b.dataset.v;document.querySelectorAll('header button[data-t="'+t+'"]').forEach(x=>x.classList.remove('on'));f[t]=ayni?'':b.dataset.v;if(!ayni)b.classList.add('on');document.getElementById('hepsi').classList.toggle('on',!f.kanal&&!f.mek&&!f.duygu&&!f.tur);uygula();}));
+document.getElementById('duygu').addEventListener('change',e=>{f.duygu=e.target.value;document.getElementById('hepsi').classList.toggle('on',!f.kanal&&!f.mek&&!f.duygu&&!f.tur);uygula();});
+document.getElementById('hepsi').addEventListener('click',()=>{f.kanal=f.mek=f.duygu=f.tur='';document.getElementById('duygu').value='';document.querySelectorAll('header button').forEach(x=>x.classList.remove('on'));document.getElementById('hepsi').classList.add('on');uygula();});
 </script></body></html>`;
 fs.writeFileSync(path.join(__dirname, '..', 'site', 'giphy-kesif.html'), html);
 console.log(`${secim.length} seçim · ${kanallar.length} kanal → site/giphy-kesif.html`);
