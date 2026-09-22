@@ -3,7 +3,7 @@
  * Giphy kanal dökümünden (veri/giphy/kanallar.json) kanal başına numaralı
  * kontak sayfaları: her GIF'in DURAĞAN karesi (original_still) 220 px.
  * İnceleme için; sonra her kare tek tek animasyonlu bakılır.
- *   node arac/giphy-kontak.js [kanal]   → veri/giphy/<kanal>/kontak-K.jpg + still'ler
+ *   node arac/giphy-kontak.js [kanal] [--dosya veri/giphy/kanallar-2.json]   → veri/giphy/<kanal>/kontak-K.jpg + still'ler
  */
 const fs = require('fs');
 const path = require('path');
@@ -11,8 +11,11 @@ const sharp = require('sharp');
 const { getir } = require('../lib/indir');
 
 const KOK = path.join(__dirname, '..', 'veri', 'giphy');
-const hepsi = JSON.parse(fs.readFileSync(path.join(KOK, 'kanallar.json'), 'utf8'));
-const secim = process.argv[2];
+const argv = process.argv.slice(2);
+const di = argv.indexOf('--dosya');
+const DOSYA = di >= 0 ? path.resolve(argv[di + 1]) : path.join(KOK, 'kanallar.json');
+const hepsi = JSON.parse(fs.readFileSync(DOSYA, 'utf8'));
+const secim = argv.filter((a, i) => !a.startsWith('--') && argv[i - 1] !== '--dosya')[0];
 const BOY = 220, SUTUN = 6, SATIR = 5, ADET = SUTUN * SATIR;
 const bekle = ms => new Promise(r => setTimeout(r, ms));
 
@@ -53,5 +56,5 @@ const bekle = ms => new Promise(r => setTimeout(r, ms));
     }
     console.log(`${ad}: ${k.gifler.length} gif · ${inen} kare indi · ${sayfa} kontak sayfası`);
   }
-  fs.writeFileSync(path.join(KOK, 'kanallar.json'), JSON.stringify(hepsi, null, 1));
+  fs.writeFileSync(DOSYA, JSON.stringify(hepsi, null, 1));
 })();
