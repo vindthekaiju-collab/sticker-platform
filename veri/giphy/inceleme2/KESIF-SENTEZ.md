@@ -167,3 +167,34 @@ Elenen ama not düşülen: Disney/Pixar/Nick/Sesame/Simpsons çizgi karakteri
 (kullanıcının "telifli olan elendi" çizgisi); dizi sıradan sahnesi
 (The Office/Friends) — ama karenin kendisi meme olmuşsa alındı (Michael
 Scott "NO", Bateman, Gosling Drive, Leo pointing).
+
+## 11. Deneme seti — seçimden gerçek sticker'a (67 adet)
+
+`site/deneme/index.html` (http://127.0.0.1:8765/deneme/index.html) ·
+kaynak plan `arac/planlar/deneme-3.json` · araç `arac/deneme-set.js`.
+
+67 sticker: **512×512 animasyonlu WebP**, hepsi WhatsApp'ın 500 KB sınırı
+altında (en büyüğü 497 KB, ortanca ~300 KB), 1-30 kare. Altyazı Impact
+beyaz + siyah kontur, altta ortalı — arpecx stili.
+
+**Bu makinede ffmpeg yok**, o yüzden altyazı sharp ile basılıyor: animasyonlu
+girdi sharp'ta "sayfa şeridi" (yükseklik = kare × sayfa), bindirme de aynı
+şeritte her sayfaya tekrarlanıyor. Üç tuzak ölçüldü:
+1. Araya PNG girerse sayfa bilgisi kaybolur, animasyon **sessizce düzleşir**.
+2. WebP azami 16.383 piksel → 512 px karede en çok **30 kare** (fazlası
+   "too large for WebP").
+3. sharp zincirde **yalnız son resize'ı uygular**; kırpma + ölçekleme yan yana
+   yazılınca kırpma sessizce düşüyor. Kırpma ayrı geçiş olmalı.
+   Dikey kırpma `fit:'cover' + position:'top'` ile sayfa-farkında çalışıyor
+   (extract çalışmaz, şeridi keser).
+
+**Üretimde çıkan kalite kuralı:** kaynakta zaten yazı varsa üstüne cümle
+yazma. İlk turda 11 karede çift yazı oldu (Jordan "it became personal",
+Obama "not bad", Jackie Chan "are you serious"). Bunlar yazısız bırakıldı —
+zaten kendi cümlesini taşıyorlar. Plan dosyasında `"metin": ""`.
+
+Filigranlı kaynaklar (guestEmma %28, taviitoo_bv %16) alttan kırpıldı;
+filigran kalktı, kadraj sıkılaştı.
+
+Sıradaki: bu 67'yi kullanıcının kendi WhatsApp setleriyle yan yana koymak
+ve "hangisi setime girer" testi.

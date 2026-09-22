@@ -495,3 +495,285 @@ Jordan crying) ✅; (2) Disney/Pixar/Nick/Sesame çizgi karakteri ❌.
 | 807 | Terry Crews coffee | — | M3 | "☕" | ✅ |
 | 809 | pixel monkey angry | öfke | M5 | "…" | ✅ |
 | 810 | woman cringe | cringe | M3 | "yikes" | ✅ |
+| 661 | woman side eye necklace | yan bakış | M1 | "…" | ✅ |
+| 662 | Michael Cera bored | sıkılmış | M3 | "…" | ✅ |
+| 663 | Kenan shocked | şok | M2 | "WHAT" | ✅ |
+| 666 | Conan "I dont think so" | ret | M1 | metin | ✅ |
+| 669 | Will Ferrell "N-N-NOOO" | ret | M2 | "NOOO" | ✅ |
+| 670 | Kanye stare 2 | — | M1 | "…" | ✅ |
+| 671 | Tracy Morgan squint | şüphe | M1 | "…" | ✅ |
+| 672 | Angelina smirk | sinsi | M1 | "heh" | ✅ |
+| 673 | Rihanna bored hand | sıkılmış | M3 | "…" | ✅ |
+| 675 | Cage "you don't say" 2 | alay | M1 | metin | ✅ |
+| 676 | angry blond guy | öfke | M5 | "…" | ✅ |
+| 677, 678 | baby face (şeffaf) | masum | M4 | yazısız | ✅ |
+| 679 | Gyllenhaal "NAH" | ret | M1 | "nah" | ✅ |
+| 682 | Timberlake concerned | endişe | M3 | "uh oh" | ✅ |
+| 683 | Obama serious | ciddi | M1 | "…" | ✅ |
+| 685 | Spike Lee pointing | "sen" | M1 | "you" | ✅ |
+| 686 | Jackie Chan "are you serious" | inanamama | M2 | metin | ✅ canon |
+| 689 | "true dat" | onay | M1 | "true dat" | ✅ |
+| 721 | crying Jordan suit | ağlama | M2 | "😭" | ✅ |
+| 722, 723 | pixel emoji ROTFL | kahkaha | M2 | "ROTFL" | ✅ |
+| 724 | Tobey crying 2 | ağlama | M2 | "😭" | ✅ |
+| 726 | "1-800-285-DEAD" | — | M2 | "im dead" | ✅ |
+| 729 | "#DEAD" yerde | tükenmiş | M2 | "dead" | ✅ |
+| 730 | Michael Scott "im dead inside" | tükenmiş | M3 | metin | ✅ |
+| 732 | guy lying wall | tükenmiş | M3 | "done" | ✅ |
+| 734 | "I'M DONE" | tükenmiş | M2 | "im done" | ✅ |
+| 736 | Wendy Williams hand | bıkkın | M1 | "…" | ✅ |
+| 737 | "400% DONE" | tükenmiş | M2 | metin | ✅ |
+| 739 | mood grafiği (çizim) | ruh hali | M3 | "my mood" | ✅ |
+| 740 | "oh me too man" | tanıma | M3 | metin | ✅ |
+| 741 | "samesies" | tanıma | M3 | "samesies" | ✅ |
+| 742 | Madea "hell to the yeah" | onay | M1 | metin | ✅ |
+| 743 | "same here" | tanıma | M3 | "same" | ✅ |
+| 744 | "AGREED" bıyıklı adam | onay | M1 | "agreed" | ✅ |
+| 745 | "you me same page" | tanıma | M3 | metin | ✅ |
+| 746 | twin emoji dancing | ikizler | M2 | yazısız | ✅ |
+| 747 | guy sunglasses nod | onay | M1 | "…" | ✅ |
+| 750 | "JUDGING YOU" (Bacall) | yargı | M1 | metin | ✅ |
+| 751 | Joan Holloway stare | yargı | M1 | "…" | ✅ |
+| 752 | "I am judging you" | yargı | M1 | metin | ✅ |
+| 754 | RuPaul "judging you" | yargı | M1 | metin | ✅ |
+| 757 | Joe Dirt stare 2 | — | M3 | "…" | ✅ |
+| 758 | Ellen "OH GOD" facepalm | utanç | M3 | "oh god" | ✅ |
+| 763 | Shania "that don't impress me" | küçümseme | M1 | metin | ✅ |
+| 765 | girl wide eyes | şok | M2 | yazısız | ✅ |
+| 766 | Seinfeld laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 767 | Data (TNG) confused | şaşkın | M3 | "?" | ✅ |
+| 768 | Madonna side eye | — | M1 | "…" | ✅ |
+| 769 | Darryl (Office) side eye | — | M1 | "…" | ⚠️ |
+| 770 | guy cringe teeth | cringe | M3 | "yikes" | ✅ |
+| 771 | Danny DeVito cop | — | M1 | "…" | ✅ |
+| 774 | "well this is awkward" | utanç | M3 | metin | ✅ |
+| 776 | Chrissy Teigen cringe 2 | cringe | M3 | "yikes" | ✅ |
+| 777 | sweating asian face (şeffaf) | gergin | M2 | yazısız | ✅ canon |
+| 778 | woman side eye (Raven) | — | M1 | "…" | ✅ |
+| 811 | Leo yelling (Wolf) | öfke | M2 | "AAAA" | ✅ |
+| 813 | Ron Swanson angry | öfke | M5 | "…" | ⚠️ Parks |
+| 816 | kid screaming | çığlık | M2 | "AAAA" | ✅ |
+| 817, 821, 823 | office rage (CCTV) | öfke | M2 | yazısız | ✅ canon |
+| 819, 822 | panda office rampage | öfke | M2 | yazısız | ✅ canon |
+| 825 | "untethered and my rage knows no bounds" | öfke | M1 | metin | ✅ |
+| 826 | woman hands up | teslim | M2 | "ok ok" | ✅ |
+| 828, 839 | kid faceplant leaves | tükenmiş | M2 | "im done" | ✅ |
+| 831 | Anchorman phone yell | öfke | M2 | "AAAA" | ✅ |
+| 835 | kid hands on glass | dehşet | M2 | yazısız | ✅ |
+| 836 | guy lying floor | tükenmiş | M3 | "dead" | ✅ |
+| 837 | Office Space printer rage | öfke | M2 | yazısız | ✅ canon |
+| 843 | girl eye roll | göz devirme | M1 | "🙄" | ✅ |
+| 845 | Jeremy Renner "POUT" | somurtma | M4 | "pout" | ✅ |
+| 846, 851 | baby pout | somurtma | M4 | "hmph" | ✅ |
+| 847 | Emma Roberts sunglasses | kibir | M1 | "…" | ✅ |
+| 849 | Michelle Tanner eye roll | — | M1 | "🙄" | ✅ |
+| 850 | JLo unimpressed | — | M1 | "…" | ✅ |
+| 854 | baby shocked wide eyes | şok | M2 | yazısız | ✅ |
+| 858 | "you just jealous" | kıskanç | M1 | metin | ✅ |
+| 859 | woman shocked hands | şok | M2 | "WHAT" | ✅ |
+| 860 | man at window 2 | gözetleme | M5 | "👀" | ✅ |
+| 861 | "FOMO" | kıskanç | M3 | "fomo" | ✅ |
+| 863 | "I'm kinda envious of that" | kıskanç | M1 | metin | ✅ |
+| 867 | guy arms out fog | — | M2 | yazısız | ✅ |
+| 870 | "be aggressive, passive aggressive" | pasif agresif | M1 | metin | ✅ |
+| 901 | kid shocked (Drake?) | şok | M2 | yazısız | ✅ |
+| 902 | woman side eye hood | — | M1 | "…" | ✅ |
+| 903 | unamused emoji 3D | bıkkın | M3 | yazısız | ✅ |
+| 907 | Picard thinking | düşünüyor | M3 | "hmm" | ✅ meme |
+| 909, 910 | facepalm (rage / Picard) | facepalm | M3 | yazısız | ✅ canon |
+| 911 | Conan facepalm | facepalm | M3 | yazısız | ✅ |
+| 913 | Chrissy Teigen cringe 3 | cringe | M3 | "yikes" | ✅ |
+| 914 | Meryl Streep stare | yargı | M1 | "…" | ✅ |
+| 916 | Colin Farrell confused | şaşkın | M3 | "?" | ✅ |
+| 918 | Jennifer Lawrence sad | üzgün | M3 | "😢" | ✅ |
+| 919, 920 | Clint Eastwood squint | tehdit | M5 | "…" | ✅ |
+| 921 | "EW!" | iğrenme | M1 | "ew" | ✅ |
+| 922 | Gillian Jacobs disgusted | iğrenme | M3 | "ew" | ✅ |
+| 924, 925 | Kristen Wiig cringe (şeffaf) | cringe | M3 | "yikes" | ✅ |
+| 926 | Jay-Z unimpressed | — | M1 | "…" | ✅ |
+| 927 | basketball player stare | — | M3 | "…" | ✅ |
+| 929 | Donald Glover nervous | gergin | M2 | yazısız | ✅ |
+| 930 | Oprah stare 2 | — | M1 | "…" | ✅ |
+| 931 | Lucille Ball shocked | şok | M2 | yazısız | ✅ |
+| 932 | Jay-Z "wtf" | — | M2 | "wtf" | ✅ |
+| 934 | Blake Lively awkward | utanç | M3 | "…" | ✅ |
+| 936 | "I plead guilty" | suçlu | M4 | metin | ✅ |
+| 937 | dog face squish door | tuhaf | M2 | yazısız | ✅ |
+| 938 | "guilty as charged" | suçlu | M1 | metin | ✅ |
+| 945 | guy wide eyes afro | şok | M2 | yazısız | ✅ |
+| 951 | "EVERYBODY PANIC" | panik | M2 | metin | ✅ |
+| 952 | Sopranos fist | tehdit | M5 | "…" | ✅ |
+| 954 | "[screams internally]" | bastırılmış | M3 | metin | ✅ canon |
+| 955 | girl hands on head boxes | panik | M2 | yazısız | ✅ |
+| 956 | guy faceplant couch | tükenmiş | M3 | "done" | ✅ |
+| 957 | "the lord is testing me" | sabır | M1 | metin | ✅ |
+| 960 | guy screaming green | çığlık | M2 | "AAAA" | ✅ |
+| 961 | Steve Harvey nervous | gergin | M2 | yazısız | ✅ |
+| 964 | "I take a nap right here" | tükenmiş | M2 | metin | ✅ |
+| 969-974, 976 | araba donut/drift | — | M2 | yazısız | ✅ format |
+| 978 | "but it's haaaards" | tembellik | M3 | metin | ✅ |
+| 981 | "time to be productive" (çizim) | — | M3 | metin | ✅ |
+| 982 | George Costanza | — | M3 | "…" | ✅ |
+| 985 | Simon Cowell smirk | — | M1 | "heh" | ✅ |
+| 986 | kid face (şeffaf) | masum | M4 | yazısız | ✅ |
+| 987 | kid at table b/w | bekleme | M3 | "waiting" | ✅ |
+| 1021, 1022 | Arnold flex / chad flex | flex | M2 | yazısız | ✅ |
+| 1023 | guy sunglasses car | havalı | M1 | "…" | ✅ |
+| 1024 | guy dancing street | dans | M2 | yazısız | ✅ |
+| 1027 | Zendaya confident | kibir | M1 | "…" | ✅ |
+| 1028 | crowd shocked "oooh" | şok | M2 | "OOOH" | ✅ |
+| 1029 | girl hair flip | kibir | M1 | "…" | ✅ |
+| 1031 | little girl unimpressed | — | M1 | "…" | ✅ |
+| 1033 | Mayweather laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 1034 | "kind of a big deal" | kibir | M1 | metin | ✅ canon |
+| 1035 | Will Smith "I make this look good" | kibir | M1 | metin | ✅ |
+| 1039, 1040, 1041 | "VICTORY" | zafer | M2 | "victory" | ✅ |
+| 1044 | Rocky arms up | zafer | M2 | yazısız | ✅ canon |
+| 1045 | "yaaassss" | coşku | M2 | "yasss" | ✅ |
+| 1047 | guys celebrating office | kutlama | M2 | yazısız | ✅ |
+| 1083 | "ghost hug" (çizim) | sevgi | M4 | metin | ✅ |
+| 1086 | pixel cats hugging | sevgi | M4 | yazısız | ✅ |
+| 1090 | little girl blowing kiss | öpücük | M4 | "mwah" | ✅ |
+| 1092 | Travolta blowing kiss | öpücük | M1 | "mwah" | ✅ |
+| 1094 | woman puckering | öpücük | M2 | "mwah" | ✅ |
+| 1097 | lipstick kiss mark | öpücük | M4 | yazısız | ✅ |
+| 1098 | red panda with flowers | sevgi | M4 | "for you" | ✅ |
+| 1102, 1103, 1105, 1106 | "I love you" not/kalp | sevgi | M4 | metin | ✅ format |
+| 1107 | kid hands on glass 2 | özlem | M4 | "miss you" | ✅ |
+| 1108 | "I just miss you" | özlem | M4 | metin | ✅ |
+| 1109 | beagle "I miss you" | özlem | M4 | metin | ✅ |
+| 1171 | Michael Scott "dead inside" | tükenmiş | M3 | metin | ✅ |
+| 1174 | "curl up in a ball and die" | tükenmiş | M3 | metin | ✅ |
+| 1175 | "hello darkness my old friend" | tükenmiş | M1 | metin | ✅ canon |
+| 1178 | "I sit here and exist" | boşluk | M3 | metin | ✅ |
+| 1179 | crying heart character | ağlama | M2 | yazısız | ✅ |
+| 1181 | "I think I need a hug" | dokunaklı | M4 | metin | ⚠️ Shrek eşeği |
+| 1183 | "wake up feeling num" | boşluk | M3 | metin | ✅ |
+| 1184 | "[existential crisis intensifies]" corgi | kriz | M2 | metin | ✅ |
+| 1185 | kid lying bored | sıkılmış | M3 | "…" | ✅ |
+| 1186 | thinking emoji pixel | düşünüyor | M3 | "hmm" | ✅ |
+| 1187, 1193 | Dr Evil plotting | plan | M1 | "excellent" | ✅ |
+| 1188, 1189 | Jack Nicholson evil grin | sinsi | M1 | "heh" | ✅ |
+| 1190 | Morticia tea sip | dedikodu | M1 | "☕" | ✅ |
+| 1191 | evil laugh guy red | kötü kahkaha | M2 | "MUAHAHA" | ✅ |
+| 1196 | Phoebe "[evil laugh]" | kötü kahkaha | M2 | metin | ✅ |
+| 1198 | Jim Carrey evil smile car | sinsi | M1 | "heh" | ✅ |
+| 1231, 1232, 1234, 1235, 1236, 1237 | tea cup (çay/dedikodu) | dedikodu | M1 | "☕" | ✅ format |
+| 1233 | Wendy Williams tea | dedikodu | M1 | "☕" | ✅ |
+| 1239 | "DRAMA" | drama | M1 | "drama" | ✅ |
+| 1242 | Demi Lovato popcorn | izliyor | M3 | "🍿" | ✅ |
+| 1243 | cat "ooooh" | alay | M2 | "ooooh" | ✅ |
+| 1245 | "I'm shocked" | şok | M3 | metin | ⚠️ Futurama |
+| 1246 | Chris Farley glasses | şok | M2 | yazısız | ✅ |
+| 1247 | Joey "what" | şaşkın | M2 | "what" | ⚠️ Friends |
+| 1248 | phone guy shocked | şok | M2 | "WHAT" | ✅ |
+| 1249 | grandma shocked | şok | M2 | "gasp" | ✅ |
+| 1250 | woman gasp CW | şok | M2 | "gasp" | ✅ |
+| 1251 | guy hand on mouth | şok | M2 | yazısız | ✅ |
+| 1253 | "[gasps in spanish]" | şok | M2 | metin | ✅ canon |
+| 1254 | Schmidt shocked | şok | M2 | yazısız | ✅ |
+| 1255 | Tracy Morgan "gasp" | şok | M2 | "gasp" | ✅ |
+| 1256 | Fran Drescher gasp 2 | şok | M2 | "gasp" | ✅ |
+| 1381 | "peace out" | veda | M1 | "peace out" | ✅ |
+| 1385 | Frodo "it's done" | — | M1 | "its done" | ✅ |
+| 1387 | "mission accomplished" | — | M1 | metin | ⚠️ Disney |
+| 1388 | "#DUNZO" | bitti | M1 | "dunzo" | ✅ |
+| 1389 | Obama mic drop | kibir | M1 | yazısız | ✅ canon |
+| 1390 | Jonah Hill serious | — | M1 | "…" | ✅ |
+| 1392 | Judge Judy stare 2 | yargı | M1 | "…" | ✅ |
+| 1394 | white cat drawing sigh | bıkkın | M3 | "sigh" | ✅ |
+| 1395 | woman headache | baş ağrısı | M3 | "ugh" | ✅ |
+| 1399 | girl with mug (çizim) | rahat | M3 | "☕" | ✅ |
+| 1400 | RDJ tired | tükenmiş | M3 | "sigh" | ✅ |
+| 1403 | Kimmy Gibbler smirk | — | M1 | "heh" | ✅ |
+| 1404 | Jim Halpert shocked | şok | M2 | yazısız | ⚠️ Office ama meme |
+| 1405 | Ricky Gervais smug | kibir | M1 | "heh" | ✅ |
+| 1407 | "it is what it is" | kabullenme | M1 | metin | ✅ canon |
+| 1408 | House shocked 2 | şok | M2 | yazısız | ✅ |
+| 1471, 1472, 1473, 1474 | rage troll "u mad bro" | troll | M2 | "u mad?" | ✅ canon |
+| 1477 | guy laughing orange | kahkaha | M2 | "HAHA" | ✅ |
+| 1481 | guys laughing pointing | alay | M2 | yazısız | ✅ |
+| 1482 | Goodfellas laughing 2 | kahkaha | M2 | "HAHA" | ✅ |
+| 1483 | Stanley (Office) laughing | kahkaha | M2 | "HAHA" | ⚠️ |
+| 1484 | Dinosaurs baby | tuhaf | M2 | yazısız | ✅ |
+| 1485 | girl laughing bottle | kahkaha | M2 | "lol" | ✅ |
+| 1487, 1490 | Nick Offerman | — | M1 | "…" | ✅ |
+| 1489, 1494 | Shirley Temple laugh 2 | kahkaha | M2 | "hehe" | ✅ |
+| 1491 | Angelina laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 1492 | Amanda Seyfried smile | — | M3 | "…" | ✅ |
+| 1495 | "sensible chuckle" | kibar gülüş | M1 | metin | ✅ canon |
+| 1496 | Daniel Cormier smirk | — | M1 | "heh" | ✅ |
+| 1498 | baby grin | sinsi | M1 | "heh" | ✅ |
+| 1500 | Mr Bean smirk | sinsi | M1 | "heh" | ✅ |
+| 1629 | cat glowing eyes | tehdit | M5 | yazısız | ✅ |
+| 1632 | beluga with kids | bakış | M3 | "…" | ✅ |
+| 1634 | "[hair trembles with emotion]" | abartı | M2 | metin | ✅ |
+| 1636, 1637 | Olivia Munn eating pastry | keyif | M3 | "nom" | ✅ |
+| 1638 | kitten hug | sevgi | M4 | yazısız | ✅ |
+| 1639 | cat with headband | tuhaf | M2 | yazısız | ✅ |
+| 1641 | cat squint smug | kibir | M1 | "heh" | ✅ |
+| 1642 | cat sunglasses at desk | havalı | M1 | "…" | ✅ |
+| 1643 | cat dipping paw in glass | yaramaz | M1 | "oops" | ✅ |
+| 1644, 1646 | cat with money | zengin | M2 | "pay up" | ✅ |
+| 1645 | raccoon with money | zengin | M2 | yazısız | ✅ |
+| 1647 | cat with gun (ateş) | tehdit | M5 | yazısız | ✅ |
+| 1648 | "pew pew pew" cat | tehdit | M5 | "pew pew" | ✅ |
+| 1649, 1650 | kittens looking up wall | bakış | M3 | "…" | ✅ |
+| 1931, 1932 | "[gitting gud intensifies]" | kararlılık | M2 | metin | ✅ |
+| 1941 | "are you sure you want to log out" | — | M3 | metin | ✅ |
+| 1942 | "CANCELLED" konfeti | iptal | M1 | "cancelled" | ✅ |
+| 1943 | "WE READY" | hazır | M2 | "we ready" | ✅ |
+| 1945 | "LET ME LOOK" (sticker) | merak | M1 | metin | ✅ |
+| 1949 | guy disgusted face | iğrenme | M2 | "ew" | ✅ |
+| 2221, 2222, 2223 | Leo (şeffaf, laughing/smile) | kahkaha | M2 | yazısız | ✅ şeffaf |
+| 2225, 2226, 2232 | crying Jordan (şeffaf) | ağlama | M2 | "😭" | ✅ şeffaf canon |
+| 2227, 2228, 2229 | crying LeBron (şeffaf) | ağlama | M2 | "😭" | ✅ şeffaf |
+| 2230 | Shaq (şeffaf) | — | M1 | "…" | ✅ |
+| 2231 | Kim K crying (şeffaf) | ağlama | M2 | "😭" | ✅ canon |
+| 2233, 2234 | Kanye thinking | düşünüyor | M3 | "hmm" | ✅ |
+| 2235 | Kanye smiling | — | M1 | "…" | ✅ |
+| 2238 | Kanye "but I'm the best" | kibir | M1 | metin | ✅ |
+| 2239, 2240 | Kanye shrug | "eh" | M1 | "idk" | ✅ |
+| 2241 | Kanye stare 3 | — | M1 | "…" | ✅ |
+| 2243 | Kanye bored panel | sıkılmış | M3 | "…" | ✅ |
+| 2244-2247, 2248, 2249, 2251 | Elmo fire / Elmo dance | kaos | M2 | yazısız | ⚠️ Sesame, meme canon |
+| 2252, 2253 | Shaq nod "DAY" | onay | M1 | "…" | ✅ |
+| 2255, 2256 | Shaq laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 2257 | Shaq press conf | — | M3 | "…" | ✅ |
+| 2258, 2259 | Steve Harvey laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 2260, 2261 | Steve Harvey crying/tired | tükenmiş | M3 | "…" | ✅ |
+| 2262 | Steve Harvey stare 3 | inanamama | M3 | "…" | ✅ |
+| 2263-2275 | Oprah "you get a X" | cömertlik | M1 | "you get a ___" | ✅ canon format (2272-2275 şeffaf) |
+| 2276 | Oprah crying | ağlama | M2 | "😭" | ✅ |
+| 2277 | Obama "not bad" | onay | M1 | "not bad" | ✅ canon |
+| 2372, 2377, 2378, 2379, 2382, 2384, 2386 | Mr Bean serisi (çığlık, parmak, dil, "I'M WINNING") | manyak / kibir | M1/M2 | metin | ✅ |
+| 2380 | "oh god, it's pathetic" | küçümseme | M1 | metin | ✅ |
+| 2383 | Mr Bean walking | — | M2 | yazısız | ✅ |
+| 2388, 2390, 2391 | Will Smith (şok, parmak, "what") | şaşkın | M2 | yazısız | ✅ |
+| 2394, 2396 | Will Smith diz çökmüş sevinç | coşku | M2 | "YESSS" | ✅ |
+| 2395 | "it's rewind time" | — | M1 | metin | ✅ canon |
+| 2397 | MIB neuralyzer | — | M1 | "forget it" | ✅ |
+| 2399 | Will Smith flex | flex | M2 | yazısız | ✅ |
+| 2614 | Kim Jong Un makyajlı | — | — | — | ⚠️ politik |
+| 2615 | Squid Game 456 | — | M3 | "…" | ⚠️ Netflix |
+| 2616-2640 | Joker serisi (Ledger/Phoenix) | manyak / kaos | M2 | "why so serious" | ⚠️ WB, meme canon; 2631, 2633, 2634 çizim/şeffaf ✅ |
+| 2823 | Bill Nye | — | M1 | "…" | ✅ |
+| 2826 | çizim çocuk ağlama | ağlama | M2 | "WAAA" | ✅ |
+| 2829 | "GURRRLLLL" (çizim) | alay | M2 | metin | ⚠️ Nick |
+| 2830, 2831 | Golden Girls Blanche cringe | cringe | M3 | "…" | ✅ |
+| 2833 | Zooey Deschanel awkward | utanç | M3 | "…" | ✅ |
+| 2835 | girl hands on face shocked | şok | M2 | yazısız | ✅ |
+| 2836 | Shirley Temple pout | somurtma | M4 | "hmph" | ✅ |
+| 2838 | kid excited | heyecan | M2 | "!!!" | ✅ |
+| 2840 | girl giggling hand | gülmeyi bastıran | M3 | yazısız | ✅ |
+| 2841, 2842 | woman laughing | kahkaha | M2 | "HAHA" | ✅ |
+| 2843 | çizim kız gülüş | kahkaha | M2 | yazısız | ✅ |
+| 2844 | woman crying tissue | ağlama | M2 | "😭" | ✅ |
+| 2847 | baby crying bed | ağlama | M2 | "WAAA" | ✅ |
+| 3123 | Skeletor "I HATE EVERYONE" | öfke | M1 | metin | ✅ canon |
+| 3125 | "workin on my night cheese" | tembellik | M1 | metin | ✅ canon |
+| 3129 | Nicki Minaj eye roll | — | M1 | "🙄" | ✅ |
+| 3131 | guy sunglasses shocked | şok | M2 | yazısız | ✅ |
+| 3142 | The Rock uncanny face | tuhaf | M2 | yazısız | ✅ |
+| 3144 | "oh the hue-manatee" | kelime oyunu | M1 | metin | ✅ |
+| kalan sayfa 21-105 | örneklendi (21,22,23,24,25,26,27,28,29,30,31,32,33,35,37,40,42,45,47,50,55,60,65,75,76,80,88,95,105); ara sayfalar aynı profil: dizi altyazısı, Disney, safari | — | — | — | bakılan ~%35 |
