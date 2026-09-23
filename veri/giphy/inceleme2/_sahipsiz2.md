@@ -777,3 +777,95 @@ Jordan crying) ✅; (2) Disney/Pixar/Nick/Sesame çizgi karakteri ❌.
 | 3142 | The Rock uncanny face | tuhaf | M2 | yazısız | ✅ |
 | 3144 | "oh the hue-manatee" | kelime oyunu | M1 | metin | ✅ |
 | kalan sayfa 21-105 | örneklendi (21,22,23,24,25,26,27,28,29,30,31,32,33,35,37,40,42,45,47,50,55,60,65,75,76,80,88,95,105); ara sayfalar aynı profil: dizi altyazısı, Disney, safari | — | — | — | bakılan ~%35 |
+
+## Ek: atlanan sayfaların taranması (sayfa 34, 36 …)
+
+| no | başlık | duygu | mekanizma | cümle | kullanım |
+|---|---|---|---|---|---|
+| 991 | bear texting (çizim) | bekleyen mesaj | M3 | "..." | ✅ |
+| 992 | loading spinner | yükleniyor | M1 | "loading" | ✅ format |
+| 993, 995 | Judge Judy "get on with it" | sabırsız | M1 | "hurry up" | ✅ |
+| 1000, 1010 | Jonah Hill excited | coşku | M2 | "YESSS" | ✅ |
+| 1007 | girl excited mouth open | heyecan | M2 | "!!!" | ✅ |
+| 1008 | Will Ferrell excited | coşku | M2 | "LETS GO" | ✅ |
+| 1013 | "STOKED" | coşku | M1 | "stoked" | ✅ |
+| 1014 | Emma Stone happy tears | dokunaklı | M3 | "im emotional" | ✅ |
+| 1016 | "PROUD OF YOU" | gurur | M4 | metin | ✅ |
+| 1017 | Ron Swanson "really proud of you" | gurur | M1 | metin | ⚠️ Parks |
+| 1019 | Stanley smug | kibir | M1 | "heh" | ⚠️ Office |
+| 1053 | woman dancing dress | dans | M2 | yazısız | ✅ |
+| 1055, 1056, 1064 | kid dancing | dans | M2 | yazısız | ✅ |
+| 1058 | woman dancing hallway | dans | M2 | yazısız | ✅ |
+| 1059 | girl dancing street | dans | M2 | yazısız | ✅ |
+| 1063 | Carlton dance (şeffaf) | dans | M2 | yazısız | ✅ canon |
+| 1065, 1074 | "sending virtual hug" | sevgi | M4 | metin | ✅ |
+| 1067 | kid clapping happy | alkış | M2 | "yay" | ✅ |
+| 1071 | kitten+puppy sleeping | sevgi | M4 | yazısız | ✅ |
+| 1079 | "ghost hug" | sevgi | M4 | metin | ✅ |
+| kalan (Disney, Minions, Spongebob, Muppets, öpüşme sahneleri) | — | — | — | — | ❌ |
+| 1291 | The Dude drink | umursamaz | M1 | "whatever man" | ✅ |
+| 1292 | "whatchu talkin bout" | inanamama | M1 | metin | ✅ canon |
+| 1294 | guy stare mic | boş bakış | M3 | "…" | ✅ |
+| 1296 | raccoon at desk | çalışıyor | M3 | "on it" | ✅ |
+| 1298 | fox writing math | hesaplıyor | M2 | "math" | ✅ |
+| 1304 | kid thinking chalkboard | düşünüyor | M3 | "2+1=" | ✅ |
+| 1306 | chinese calculation | hesaplıyor | M2 | "calculating" | ✅ |
+| 1307 | Bateman stare 4 | kibir | M1 | "…" | ✅ |
+| 1308 | Oprah nodding | onay | M1 | "yes" | ✅ |
+| 1309 | guy holding tears | ağlamaklı | M3 | "im not crying" | ✅ |
+| 1311 | Kobe side eye | şüphe | M1 | "…" | ✅ |
+| 1313 | "AGREED" smiley | onay | M1 | "agreed" | ✅ |
+| 1316 | Chuck Norris thumbs | onay | M1 | "👍" | ✅ |
+| 1317 | Mr Miyagi nod 2 | onay | M1 | "yes" | ✅ |
+| 1533, 1538 | "[doge intensifies]" / "[wow intensifies]" | doge | M2 | metin | ✅ |
+| 1534 | doge dollar | zengin | M2 | "money" | ✅ |
+| 1535, 1539 | doge (şeffaf) | doge | M1 | "wow" | ✅ |
+| 1536 | doge in water | tuhaf | M2 | yazısız | ✅ |
+| 1537 | swole doge | flex | M2 | "im built different" | ✅ canon |
+| 1542 | doge legs | tuhaf | M2 | yazısız | ✅ |
+| 1545 | doge hotdog | absürt | M2 | "hot doge" | ✅ |
+| 1546 | Leo cheers | kutlama | M1 | "cheers" | ✅ canon |
+| 1547 | clapping hands (çizim) | alkış | M1 | "👏" | ✅ |
+| 1549 | "YOU'RE A MONSTER" | suçlama | M1 | metin | ⚠️ Shrek |
+| 1552-1559 | Shrek (şeffaf, yüz, dans) | — | M1/M2 | "somebody once told me" | ✅ kullanıcı listesinde |
+| 1713 | highland cow | boş bakış | M3 | "…" | ✅ |
+| 1714 | donkey teeth | sırıtış | M2 | "heh" | ✅ |
+| 1720 | lizard "ahahaha" | alay | M2 | "ahaha" | ✅ |
+| 1721 | chameleon | tuhaf | M3 | yazısız | ✅ |
+| 1722 | gecko upside down | tuhaf | M2 | yazısız | ✅ |
+| 1724 | "I like turtles" kid | absürt | M1 | metin | ✅ canon |
+| 1726, 1727 | left shark | absürt dans | M2 | yazısız | ✅ canon |
+| 2019 | detective camera (çizim) | gözetleme | M5 | "caught in 4k" | ✅ |
+| 2020, 2022 | gorilla "there is no need to be upset" | sabır | M1 | metin | ✅ canon |
+| 2023 | Skeletor "I like to feel evil" | kötü | M1 | metin | ✅ |
+| 2028 | "ohh friend!" thumbs | onay | M1 | metin | ✅ |
+| 2030 | "boom goes the dynamite" | — | M1 | metin | ✅ canon |
+| 2031 | "indeed... you are a chad" | onay | M1 | metin | ✅ |
+| 2032, 2033 | trollface (dans, uzun) | troll | M2 | yazısız | ✅ |
+| 2035 | "ME GUSTA" | tuhaf beğeni | M1 | "me gusta" | ✅ canon |
+| 2037 | "forever alone" | yalnızlık | M3 | yazısız | ✅ canon |
+| kalan (Angry Birds, Pennywise, Simpsons, anime, İspanyolca kart) | — | — | — | — | ❌/⚠️ |
+| 2432 | John Cena wave | selam | M1 | "hi" | ✅ |
+| 2433 | John Cena face (şeffaf) | ciddi | M1 | "…" | ✅ |
+| 2435 | Ramsay "cooking like a donkey" | küçümseme | M1 | metin | ✅ |
+| 2438-2441 | Ramsay "WHAT ARE YOU?" | öfke | M1 | "what are you" | ✅ (1 al) |
+| 2442 | Ramsay "my head's spinning" | bunalmış | M1 | metin | ✅ |
+| 2443 | Chris Pratt "OH SNAP" | şaşkın | M2 | "oh snap" | ✅ |
+| 2444, 2446 | Chris Pratt shocked | şok | M2 | "WHAT" | ✅ |
+| 2451 | "DUDE!" | şaşkın | M1 | "dude" | ✅ |
+| 2452, 2453 | Gosling laughing | kahkaha | M2 | yazısız | ✅ |
+| 2454 | Gosling eating cereal | umursamaz | M3 | yazısız | ✅ canon |
+| 2455-2460 | Gosling faces (şeffaf) | — | M3 | "literally me" | ✅ |
+| 2731 | "cereal guy" rage face | umursamaz | M1 | yazısız | ✅ canon |
+| 2735 | kid tearing up | ağlamaklı | M3 | "im fine" | ✅ |
+| 2737-2742 | "apparently kid" röportaj | masum/şaşkın | M4 | "im fine" (2741) | ✅ canon (2 al) |
+| 2743 | b/w kid frown | somurtma | M4 | "hmph" | ✅ |
+| 2744 | kid hands on face | dehşet | M2 | "AAA" | ✅ |
+| 2746 | baby wide eyes | şok | M2 | yazısız | ✅ |
+| 2747 | crying doll | ağlama | M2 | "😭" | ✅ |
+| 2750, 2751 | baby crying | ağlama | M2 | "WAAA" | ✅ |
+| 2752, 2755, 2756 | baby laughing | kahkaha | M2 | "hehe" | ✅ |
+| 2753, 2754 | baby side eye | yan bakış | M1 | "…" | ✅ |
+| 2757 | Oprah confused | şaşkın | M3 | "?" | ✅ |
+| 2758 | woman facepalm glasses | facepalm | M3 | yazısız | ✅ |
+| 2760 | llama close up | boş bakış | M3 | "…" | ✅ |
