@@ -44,23 +44,23 @@
  {
   "slug": "say-it-again-1",
   "ad": "Say It Again Vol. 1",
-  "sticker": 22,
+  "sticker": 23,
   "atlanan": 0,
-  "wastickersKB": 6941
+  "wastickersKB": 6993
  },
  {
   "slug": "say-it-again-2",
   "ad": "Say It Again Vol. 2",
-  "sticker": 22,
+  "sticker": 23,
   "atlanan": 0,
-  "wastickersKB": 8121
+  "wastickersKB": 8402
  },
  {
   "slug": "say-it-again-3",
   "ad": "Say It Again Vol. 3",
-  "sticker": 22,
+  "sticker": 21,
   "atlanan": 0,
-  "wastickersKB": 6948
+  "wastickersKB": 7056
  },
  {
   "slug": "dead-inside-1",
@@ -79,30 +79,30 @@
  {
   "slug": "crying-rights-1",
   "ad": "Crying Rights Vol. 1",
-  "sticker": 25,
+  "sticker": 26,
   "atlanan": 0,
-  "wastickersKB": 6178
+  "wastickersKB": 6232
  },
  {
   "slug": "crying-rights-2",
   "ad": "Crying Rights Vol. 2",
-  "sticker": 25,
+  "sticker": 26,
   "atlanan": 0,
-  "wastickersKB": 6377
+  "wastickersKB": 6700
  },
  {
   "slug": "crying-rights-3",
   "ad": "Crying Rights Vol. 3",
-  "sticker": 25,
+  "sticker": 26,
   "atlanan": 0,
-  "wastickersKB": 6689
+  "wastickersKB": 6848
  },
  {
   "slug": "crying-rights-4",
   "ad": "Crying Rights Vol. 4",
   "sticker": 25,
   "atlanan": 0,
-  "wastickersKB": 6626
+  "wastickersKB": 6769
  },
  {
   "slug": "caught-in-4k-1",
@@ -116,63 +116,63 @@
   "ad": "Caught in 4K Vol. 2",
   "sticker": 30,
   "atlanan": 0,
-  "wastickersKB": 9006
+  "wastickersKB": 9599
  },
  {
   "slug": "caught-in-4k-3",
   "ad": "Caught in 4K Vol. 3",
   "sticker": 30,
   "atlanan": 0,
-  "wastickersKB": 7343
+  "wastickersKB": 6811
  },
  {
   "slug": "caught-in-4k-4",
   "ad": "Caught in 4K Vol. 4",
   "sticker": 30,
   "atlanan": 0,
-  "wastickersKB": 7744
+  "wastickersKB": 8217
  },
  {
   "slug": "caught-in-4k-5",
   "ad": "Caught in 4K Vol. 5",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8806
+  "wastickersKB": 8892
  },
  {
   "slug": "not-funny-1",
   "ad": "Not Funny Did Not Laugh Vol. 1",
-  "sticker": 26,
+  "sticker": 27,
   "atlanan": 0,
-  "wastickersKB": 5198
+  "wastickersKB": 5402
  },
  {
   "slug": "not-funny-2",
   "ad": "Not Funny Did Not Laugh Vol. 2",
-  "sticker": 26,
+  "sticker": 27,
   "atlanan": 0,
-  "wastickersKB": 7577
+  "wastickersKB": 7950
  },
  {
   "slug": "not-funny-3",
   "ad": "Not Funny Did Not Laugh Vol. 3",
-  "sticker": 26,
+  "sticker": 25,
   "atlanan": 0,
-  "wastickersKB": 7147
+  "wastickersKB": 6721
  },
  {
   "slug": "unhinged-1",
   "ad": "Unhinged Hours Vol. 1",
-  "sticker": 20,
+  "sticker": 21,
   "atlanan": 0,
-  "wastickersKB": 7067
+  "wastickersKB": 7350
  },
  {
   "slug": "unhinged-2",
   "ad": "Unhinged Hours Vol. 2",
   "sticker": 20,
   "atlanan": 0,
-  "wastickersKB": 5927
+  "wastickersKB": 5965
  },
  {
   "slug": "big-brain",
@@ -184,44 +184,44 @@
  {
   "slug": "hard-no-1",
   "ad": "Respectfully No Vol. 1",
-  "sticker": 26,
+  "sticker": 28,
   "atlanan": 0,
-  "wastickersKB": 6505
+  "wastickersKB": 7092
  },
  {
   "slug": "hard-no-2",
   "ad": "Respectfully No Vol. 2",
-  "sticker": 26,
+  "sticker": 28,
   "atlanan": 0,
-  "wastickersKB": 7770
+  "wastickersKB": 8135
  },
  {
   "slug": "hard-no-3",
   "ad": "Respectfully No Vol. 3",
-  "sticker": 25,
+  "sticker": 27,
   "atlanan": 0,
-  "wastickersKB": 6110
+  "wastickersKB": 7309
  },
  {
   "slug": "certified-sigma-1",
   "ad": "Certified Sigma Vol. 1",
-  "sticker": 21,
+  "sticker": 23,
   "atlanan": 0,
-  "wastickersKB": 5860
+  "wastickersKB": 6307
  },
  {
   "slug": "certified-sigma-2",
   "ad": "Certified Sigma Vol. 2",
-  "sticker": 21,
+  "sticker": 23,
   "atlanan": 0,
-  "wastickersKB": 5836
+  "wastickersKB": 6571
  },
  {
   "slug": "certified-sigma-3",
   "ad": "Certified Sigma Vol. 3",
-  "sticker": 21,
+  "sticker": 22,
   "atlanan": 0,
-  "wastickersKB": 6322
+  "wastickersKB": 6522
  },
  {
   "slug": "soft-hours-1",
@@ -240,37 +240,44 @@
  {
   "slug": "soft-hours-3",
   "ad": "Soft Hours Vol. 3",
-  "sticker": 21,
+  "sticker": 22,
   "atlanan": 0,
-  "wastickersKB": 5681
+  "wastickersKB": 5711
  },
  {
   "slug": "work-mode",
   "ad": "Work Mode",
-  "sticker": 22,
+  "sticker": 25,
   "atlanan": 0,
-  "wastickersKB": 6744
+  "wastickersKB": 7307
  },
  {
   "slug": "tea-time",
   "ad": "Tea Time",
-  "sticker": 22,
+  "sticker": 24,
   "atlanan": 0,
-  "wastickersKB": 5507
+  "wastickersKB": 6093
  },
  {
   "slug": "dance-floor",
   "ad": "Dance Floor",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8574
+  "wastickersKB": 8718
  },
  {
-  "slug": "canon-classics",
-  "ad": "Canon Classics",
-  "sticker": 26,
+  "slug": "canon-classics-1",
+  "ad": "Canon Classics Vol. 1",
+  "sticker": 17,
   "atlanan": 0,
-  "wastickersKB": 6509
+  "wastickersKB": 4897
+ },
+ {
+  "slug": "canon-classics-2",
+  "ad": "Canon Classics Vol. 2",
+  "sticker": 17,
+  "atlanan": 0,
+  "wastickersKB": 3805
  },
  {
   "slug": "oops",
@@ -289,43 +296,50 @@
  {
   "slug": "mixed-reactions-1",
   "ad": "Mixed Reactions Vol. 1",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8395
+  "wastickersKB": 8859
  },
  {
   "slug": "mixed-reactions-2",
   "ad": "Mixed Reactions Vol. 2",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8052
+  "wastickersKB": 8005
  },
  {
   "slug": "mixed-reactions-3",
   "ad": "Mixed Reactions Vol. 3",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8673
+  "wastickersKB": 9259
  },
  {
   "slug": "mixed-reactions-4",
   "ad": "Mixed Reactions Vol. 4",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 7762
+  "wastickersKB": 7650
  },
  {
   "slug": "mixed-reactions-5",
   "ad": "Mixed Reactions Vol. 5",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 6709
+  "wastickersKB": 7078
  },
  {
   "slug": "mixed-reactions-6",
   "ad": "Mixed Reactions Vol. 6",
-  "sticker": 28,
+  "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 8177
+  "wastickersKB": 9768
+ },
+ {
+  "slug": "mixed-reactions-7",
+  "ad": "Mixed Reactions Vol. 7",
+  "sticker": 26,
+  "atlanan": 0,
+  "wastickersKB": 6962
  }
 ]

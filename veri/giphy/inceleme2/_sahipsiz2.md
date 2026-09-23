@@ -869,3 +869,88 @@ Jordan crying) ✅; (2) Disney/Pixar/Nick/Sesame çizgi karakteri ❌.
 | 2757 | Oprah confused | şaşkın | M3 | "?" | ✅ |
 | 2758 | woman facepalm glasses | facepalm | M3 | yazısız | ✅ |
 | 2760 | llama close up | boş bakış | M3 | "…" | ✅ |
+| 1112 | two dogs "miss you too" | özlem | M4 | metin | ✅ |
+| 1116 | Terry Crews "and i miss you" | özlem | M4 | metin | ✅ |
+| 1121 | Dwight typing sad | üzgün | M3 | "…" | ⚠️ Office |
+| 1122 | "this is my thank you dance" | teşekkür | M1 | metin | ✅ |
+| 1123 | "OMG THANKS!" Shirley Temple | teşekkür | M4 | metin | ✅ |
+| 1128 | Ron Burgundy "Sorry." | özür | M1 | "sorry" | ✅ |
+| 1131 | girl hiding in box | utanç | M4 | "hiding" | ✅ |
+| 1133 | Ronaldo praying | yalvarma | M4 | "please" | ✅ |
+| 1134 | Kevin "I'M SORRY" | özür | M4 | metin | ✅ |
+| 1139 | bear "sorry" (çizim) | özür | M4 | metin | ✅ |
+| 1140 | kitten holding remote | masum | M4 | "not me" | ✅ |
+| 1355 | guy blank stare | boş bakış | M3 | "…" | ✅ |
+| 1360 | The Dude "I wasn't listening" | umursamaz | M1 | metin | ✅ |
+| 1361 | "LEAVE ME ALONE" | yalnız kalma | M1 | metin | ✅ |
+| 1364 | "AWAY" tabela (çizim) | kovma | M1 | "go away" | ✅ |
+| 1365 | "Go away." (Cumberbatch) | kovma | M1 | metin | ✅ |
+| 1368 | "Get out" (b/w) | kovma | M1 | "get out" | ✅ |
+| 1370 | "BUH BYE" | veda | M1 | metin | ✅ |
+| 1372 | woman sunglasses "Bye." | veda | M1 | "bye" | ✅ |
+| 1377 | stickman waving "Bye" | veda | M4 | "bye" | ✅ |
+| 1378 | "BYE BYE" cat | veda | M1 | metin | ✅ |
+| 1441 | gecko close up | boş bakış | M3 | "…" | ✅ |
+| 1442 | Shaq stare 2 | boş bakış | M3 | "…" | ✅ |
+| 1443 | Dean sipping | dedikodu | M1 | "☕" | ⚠️ |
+| 1444 | shy emoji (pixel) | utangaç | M4 | yazısız | ✅ |
+| 1446 | Morgan Freeman thinking | düşünüyor | M3 | "hmm" | ✅ |
+| 1448 | guy squint (NBA) | şüphe | M1 | "…" | ✅ |
+| 1449 | Michael Cera smirk | sinsi | M1 | "heh" | ✅ |
+| 1450 | Zach smirk | sinsi | M1 | "heh" | ✅ |
+| 1451 | Martha Stewart smirk | sinsi | M1 | "heh" | ✅ |
+| 1452 | Leo smug smile | kibir | M1 | "heh" | ✅ |
+| 1454 | Rihanna smirk | kibir | M1 | "…" | ✅ |
+| 1455 | Jack Nicholson smirk 2 | sinsi | M1 | "heh" | ✅ |
+| 1460, 1463 | girl looking up (4GIFs) | merak | M3 | "?" | ✅ |
+| 1462 | Jim Carrey grin street | manyak | M2 | yazısız | ✅ |
+| 1464 | Adele smirk | kibir | M1 | "…" | ✅ |
+| 1466 | trollface at laptop | troll | M2 | yazısız | ✅ |
+| 1468 | "TROLLERS GONNA TROLL" | troll | M1 | metin | ✅ |
+| 1469 | trollface steamboat | troll | M2 | yazısız | ✅ |
+| 1470 | LOL rage face 2 | kahkaha | M2 | "LOL" | ✅ |
+| 1656 | Judge Judy eye roll 2 | bıkkın | M1 | "🙄" | ✅ |
+| 1659 | "FABULOUS" cat | kibir | M1 | "fabulous" | ✅ |
+| 1660, 1662 | kawaii cat (çizim) | sevimli | M4 | yazısız | ⚠️ sanatçı |
+| 1661 | winking kitten (şeffaf) | flört | M1 | ";)" | ✅ |
+| 1663 | shiba head (şeffaf) | mutlu | M3 | yazısız | ✅ |
+| 1665 | dog lying blanket | tükenmiş | M3 | "done" | ✅ |
+| 1666 | puppy looking up | masum | M4 | "me?" | ✅ |
+| 1667, 1668, 1669 | smiling dog (insan dişli) | tuhaf gülüş | M2 | yazısız | ✅ canon |
+| 1670 | slow loris stare | boş bakış | M3 | "…" | ✅ |
+| 1677 | labrador puppy | masum | M4 | yazısız | ✅ |
+| 1678 | chihuahua stare (İsp. yazı) | bakış | M3 | yazısız | ⚠️ yazı |
+| 1680 | chihuahua at keyboard | çalışıyor | M3 | "typing" | ✅ |
+| 1866 | "DA FUQ" | şaşkın | M1 | metin | ✅ |
+| 1867 | "LET ME IN" | ısrar | M2 | metin | ✅ canon |
+| 1871 | hamster with pen | ciddi | M1 | "signing" | ✅ |
+| 1875 | "nah bro" | ret | M1 | "nah bro" | ✅ |
+| 1876 | Jay-Z pointing | onay | M1 | "you" | ✅ |
+| 1877 | Tracy Morgan car | boş bakış | M3 | "…" | ✅ |
+| 1879 | "AWW HELL NAW" | ret | M1 | metin | ✅ |
+| 1880 | "HOW ABOUT NO" Dr Evil | ret | M1 | metin | ✅ canon |
+| 1883 | "SRSLY GUISE" pug | inanamama | M1 | metin | ✅ canon |
+| 1885 | kid side eye (Ainsley) | yan bakış | M1 | "…" | ✅ |
+| 1887 | "BRUH" dur tabelası | bruh | M1 | "bruh" | ✅ |
+| 1888, 1889 | "BRUH" (adam yatıyor) | bruh | M2 | "bruh" | ✅ |
+| 2107 | crying face cut-out (şeffaf) | ağlama | M2 | "😭" | ✅ |
+| 2108 | guy laughing cut-out (şeffaf) | kahkaha | M2 | "HAHA" | ✅ |
+| 2109 | chihuahua head (şeffaf) | bakış | M3 | "…" | ✅ |
+| 2110 | shih tzu tongue (şeffaf) | tuhaf sevimli | M2 | yazısız | ✅ |
+| 2111 | woman laughing (şeffaf) | kahkaha | M2 | "lol" | ✅ |
+| 2112 | Beyonce side eye (şeffaf) | yan bakış | M1 | "…" | ✅ |
+| 2113 | chubby bunny (çizim) | tuhaf | M2 | yazısız | ✅ |
+| 2114 | seal squeeze (şeffaf) | tuhaf | M2 | yazısız | ✅ |
+| 2116 | Obama "not bad" cut-out | onay | M1 | "not bad" | ✅ |
+| 2117 | watermelon dog (şeffaf) | absürt | M2 | yazısız | ✅ |
+| 2118 | woman cringe (şeffaf) | cringe | M3 | "yikes" | ✅ |
+| 2119 | poker face | ifadesiz | M1 | yazısız | ✅ canon |
+| 2121 | uncanny face (şeffaf) | uncanny | M2 | yazısız | ✅ |
+| 2122 | shocked fish (şeffaf) | şok | M2 | "WHAT" | ✅ |
+| 2123 | awesome face | keyif | M2 | yazısız | ✅ canon |
+| 2554 | Messi pointing (şeffaf) | onay | M1 | "you" | ✅ |
+| 2555, 2556 | Messi face (şeffaf) | — | M3 | "goat" | ✅ |
+| 2559, 2560, 2561 | Ronaldo face (şeffaf) | kibir / ciddi | M1 | "siuuu" | ✅ |
+| 2562, 2564 | Ronaldo "SIUUU" | coşku | M2 | "siuuu" | ✅ |
+| 2566 | Ronaldo suit shrug | "ee?" | M1 | "and?" | ✅ |
+| 2571 | "crybaby alert" | alay | M1 | metin | ✅ |
