@@ -1,0 +1,264 @@
+# Tur 5 — sohbet fiilleri, günlük durumlar, mevsim/olay (havuzu büyütmek)
+
+# --- sohbet kısaltmaları ve açılışlar ---
+gm
+good morning meme
+good night meme
+brb
+otw
+on my way
+wyd
+hbu
+lmk
+nvm
+ikr
+tbh
+imo
+fr fr
+bet
+say less
+word
+facts
+no thoughts
+head empty
+thoughts
+im up
+im out
+im in
+count me in
+im broke
+payday
+pay me
+send it
+do it
+lets eat
+im hungry
+food coma
+its cold
+its hot
+i cant
+i cant even
+cant do this
+help me
+save me
+carry me
+im lost
+where am i
+who is this
+who asked me
+call me
+answer me
+text me back
+left on read
+seen
+typing
+double text
+ghosted
+blocked
+unblocked
+new phone who dis
+delete that
+screenshot
+proof
+evidence
+receipts
+caught lying
+lying
+liar
+truth
+promise
+swear
+trust me
+dont trust
+believe me
+i knew it
+told you so
+called it
+i warned you
+my bad
+your fault
+not my fault
+blame
+apologize
+forgive me
+never again
+one more time
+last time
+first time
+again
+finally
+already
+still waiting
+hurry up
+slow down
+wait for me
+im coming
+im here
+im late
+right on time
+too early
+too late
+
+# --- günlük durumlar ---
+monday mood
+friday mood
+weekend mood
+holiday mood
+vacation mood
+back to work
+first day
+last day
+quit job
+fired
+promotion
+salary
+overtime
+meeting again
+zoom call
+email
+inbox
+notification
+phone dying
+low battery
+no signal
+wifi down
+loading forever
+buffering
+update required
+password wrong
+locked out
+alarm clock
+oversleep
+coffee first
+need coffee
+tea please
+water
+gym day
+skip gym
+diet starts
+cheat meal
+grocery
+cooking fail
+burnt food
+delivery
+waiting food
+eating alone
+sharing food
+dishes
+cleaning
+laundry
+chores
+homework
+exam
+studying late
+graduation
+presentation
+public speaking
+interview
+first date
+bad date
+breakup
+crush
+texting crush
+wedding
+baby news
+birthday
+anniversary
+gift
+surprise party
+group chat
+family chat
+work chat
+argument
+apology
+making up
+moving out
+new house
+travel day
+airport
+traffic
+parking
+driving
+rain
+snow day
+sunny day
+too hot
+too cold
+allergy
+sick day
+headache
+sleepy afternoon
+insomnia
+dream
+nightmare
+
+# --- ilgi alanları ---
+gaming rage
+gg
+noob
+clutch
+lag
+respawn
+boss fight
+speedrun
+console
+pc gamer
+football fan
+goal celebration
+red card
+penalty
+basketball
+tennis
+formula 1
+esports
+anime fan
+manga
+kpop
+concert
+festival
+dj
+guitar
+drums
+singing
+karaoke
+dancing bad
+art
+drawing
+painting
+photography
+reading book
+movie night
+horror movie
+rom com
+plot twist
+spoiler
+binge watch
+netflix night
+podcast
+news
+politics free
+crypto
+stocks
+investing
+shopping
+sale
+expensive
+cheap
+budget
+saving money
+spending
+credit card
+
+# --- mevsim / özel gün ---
+new year
+valentine
+easter
+summer vibes
+autumn vibes
+winter vibes
+halloween
+christmas
+thanksgiving
+back to school
+black friday
+sale season

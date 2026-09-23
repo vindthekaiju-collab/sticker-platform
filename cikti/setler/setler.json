@@ -407,16 +407,6 @@
    },
    {
     "dosya": "13.webp",
-    "metin": "excuse me?",
-    "kanal": "_sahipsiz",
-    "no": 176,
-    "duygu": "\"pardon?\"",
-    "mek": "M5",
-    "kb": 375,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 32,
@@ -426,17 +416,17 @@
     "kare": 27
    },
    {
-    "dosya": "15.webp",
-    "metin": ";)",
+    "dosya": "14.webp",
+    "metin": "excuse me?",
     "kanal": "_sahipsiz",
-    "no": 199,
-    "duygu": "flört",
-    "mek": "M1",
-    "kb": 370,
+    "no": 176,
+    "duygu": "\"pardon?\"",
+    "mek": "M5",
+    "kb": 375,
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 33,
@@ -446,17 +436,17 @@
     "kare": 18
    },
    {
-    "dosya": "17.webp",
-    "metin": "excuse me",
+    "dosya": "16.webp",
+    "metin": ";)",
     "kanal": "_sahipsiz",
-    "no": 213,
-    "duygu": "konuşan",
+    "no": 199,
+    "duygu": "flört",
     "mek": "M1",
-    "kb": 193,
+    "kb": 370,
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 68,
@@ -466,17 +456,17 @@
     "kare": 11
    },
    {
-    "dosya": "19.webp",
-    "metin": "",
+    "dosya": "18.webp",
+    "metin": "excuse me",
     "kanal": "_sahipsiz",
-    "no": 214,
-    "duygu": "boş bakış",
-    "mek": "M3",
-    "kb": 171,
-    "kare": 9
+    "no": 213,
+    "duygu": "konuşan",
+    "mek": "M1",
+    "kb": 193,
+    "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 44,
@@ -486,23 +476,33 @@
     "kare": 30
    },
    {
-    "dosya": "21.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz",
-    "no": 249,
-    "duygu": "soğuk bakış",
-    "mek": "M5",
-    "kb": 487,
-    "kare": 30
+    "no": 214,
+    "duygu": "boş bakış",
+    "mek": "M3",
+    "kb": 171,
+    "kare": 9
    },
    {
-    "dosya": "22.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 46,
     "duygu": "inanamama",
     "mek": "M3",
     "kb": 417,
+    "kare": 30
+   },
+   {
+    "dosya": "22.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 249,
+    "duygu": "soğuk bakış",
+    "mek": "M5",
+    "kb": 487,
     "kare": 30
    },
    {
@@ -528,16 +528,6 @@
    {
     "dosya": "25.webp",
     "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 515,
-    "duygu": "bakış",
-    "mek": "M3",
-    "kb": 89,
-    "kare": 5
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 108,
     "duygu": "şüphe",
@@ -546,14 +536,24 @@
     "kare": 30
    },
    {
-    "dosya": "27.webp",
+    "dosya": "26.webp",
     "metin": "",
     "kanal": "_sahipsiz",
-    "no": 539,
-    "duygu": "boş bakış",
+    "no": 515,
+    "duygu": "bakış",
     "mek": "M3",
-    "kb": 260,
-    "kare": 30
+    "kb": 89,
+    "kare": 5
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 110,
+    "duygu": "bakış",
+    "mek": "M3",
+    "kb": 467,
+    "kare": 15
    }
   ]
  },
@@ -567,12 +567,12 @@
    {
     "dosya": "01.webp",
     "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 110,
-    "duygu": "bakış",
+    "kanal": "_sahipsiz",
+    "no": 539,
+    "duygu": "boş bakış",
     "mek": "M3",
-    "kb": 467,
-    "kare": 15
+    "kb": 260,
+    "kare": 30
    },
    {
     "dosya": "02.webp",
@@ -587,21 +587,21 @@
    {
     "dosya": "03.webp",
     "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 757,
-    "duygu": "küçümseme",
-    "mek": "M1",
-    "kb": 383,
-    "kare": 30
-   },
-   {
-    "dosya": "04.webp",
-    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 140,
     "duygu": "yan bakış",
     "mek": "M1",
     "kb": 280,
+    "kare": 30
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 757,
+    "duygu": "küçümseme",
+    "mek": "M1",
+    "kb": 383,
     "kare": 30
    },
    {
@@ -1399,7 +1399,7 @@
   "ad": "Side Eye Season Vol. 6",
   "desc": "the look that says everything",
   "tema": "side-eye",
-  "adet": 22,
+  "adet": 23,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -1573,6 +1573,16 @@
    },
    {
     "dosya": "18.webp",
+    "metin": "huh",
+    "kanal": "_sahipsiz",
+    "no": 159,
+    "duygu": "aptal bakış",
+    "mek": "M2",
+    "kb": 376,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
     "metin": "whatever",
     "kanal": "_sahipsiz",
     "no": 318,
@@ -1582,7 +1592,17 @@
     "kare": 13
    },
    {
-    "dosya": "19.webp",
+    "dosya": "20.webp",
+    "metin": "hm",
+    "kanal": "_sahipsiz",
+    "no": 373,
+    "duygu": "bakış",
+    "mek": "M3",
+    "kb": 362,
+    "kare": 30
+   },
+   {
+    "dosya": "21.webp",
     "metin": "excuse me?",
     "kanal": "_sahipsiz",
     "no": 753,
@@ -1592,7 +1612,7 @@
     "kare": 15
    },
    {
-    "dosya": "20.webp",
+    "dosya": "22.webp",
     "metin": "boy",
     "kanal": "_sahipsiz2",
     "no": 177,
@@ -1602,23 +1622,13 @@
     "kare": 30
    },
    {
-    "dosya": "21.webp",
+    "dosya": "23.webp",
     "metin": "tell me more",
     "kanal": "_sahipsiz2",
     "no": 879,
     "duygu": "küçümseme",
     "mek": "M1",
     "kb": 58,
-    "kare": 30
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "hm?",
-    "kanal": "_sahipsiz",
-    "no": 373,
-    "duygu": "bakış",
-    "mek": "M3",
-    "kb": 363,
     "kare": 30
    }
   ]
@@ -1642,16 +1652,6 @@
    },
    {
     "dosya": "02.webp",
-    "metin": "",
-    "kanal": "goddamghonzo",
-    "no": 1,
-    "duygu": "protesto",
-    "mek": "M1",
-    "kb": 464,
-    "kare": 30
-   },
-   {
-    "dosya": "03.webp",
     "metin": "say it again",
     "kanal": "_sahipsiz",
     "no": 16,
@@ -1661,17 +1661,17 @@
     "kare": 15
    },
    {
-    "dosya": "04.webp",
-    "metin": "come here",
-    "kanal": "guestEmma",
-    "no": 19,
-    "duygu": "kızgın yumruk",
-    "mek": "M5",
-    "kb": 236,
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "goddamghonzo",
+    "no": 1,
+    "duygu": "protesto",
+    "mek": "M1",
+    "kb": 464,
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "04.webp",
     "metin": "i see you",
     "kanal": "mimi_barbar",
     "no": 2,
@@ -1681,7 +1681,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "05.webp",
     "metin": "well give me some",
     "kanal": "the_nseven",
     "no": 1,
@@ -1691,13 +1691,23 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "06.webp",
     "metin": "square up",
     "kanal": "9mc",
     "no": 1,
     "duygu": "kavga",
     "mek": "M5",
     "kb": 443,
+    "kare": 30
+   },
+   {
+    "dosya": "07.webp",
+    "metin": "come here",
+    "kanal": "guestEmma",
+    "no": 19,
+    "duygu": "kızgın yumruk",
+    "mek": "M5",
+    "kb": 236,
     "kare": 30
    },
    {
@@ -1732,6 +1742,16 @@
    },
    {
     "dosya": "11.webp",
+    "metin": "say that again",
+    "kanal": "_sahipsiz",
+    "no": 64,
+    "duygu": "öfke dişleri",
+    "mek": "M5",
+    "kb": 435,
+    "kare": 30
+   },
+   {
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "goddamghonzo",
     "no": 21,
@@ -1741,27 +1761,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
-    "metin": "listen",
-    "kanal": "guestEmma",
-    "no": 40,
-    "duygu": "konuşan beyaz kedi",
-    "mek": "M1",
-    "kb": 78,
-    "kare": 9
-   },
-   {
     "dosya": "13.webp",
-    "metin": "say that again",
-    "kanal": "mimi_barbar",
-    "no": 11,
-    "duygu": "öfke",
-    "mek": "M5",
-    "kb": 481,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 37,
@@ -1771,7 +1771,7 @@
     "kare": 4
    },
    {
-    "dosya": "15.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "9mc",
     "no": 17,
@@ -1779,6 +1779,16 @@
     "mek": "M5",
     "kb": 133,
     "kare": 11
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "listen",
+    "kanal": "guestEmma",
+    "no": 40,
+    "duygu": "konuşan beyaz kedi",
+    "mek": "M1",
+    "kb": 78,
+    "kare": 9
    },
    {
     "dosya": "16.webp",
@@ -1812,16 +1822,6 @@
    },
    {
     "dosya": "19.webp",
-    "metin": "reading the comments",
-    "kanal": "_sahipsiz",
-    "no": 21,
-    "duygu": "gözlüklü kızgın kedi",
-    "mek": "M1",
-    "kb": 373,
-    "kare": 30
-   },
-   {
-    "dosya": "20.webp",
     "metin": "shut up",
     "kanal": "brown_giphy",
     "no": 120,
@@ -1831,13 +1831,23 @@
     "kare": 30
    },
    {
-    "dosya": "21.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 79,
     "duygu": "öfke",
     "mek": "M5",
     "kb": 317,
+    "kare": 30
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "",
+    "kanal": "goddamghonzo",
+    "no": 28,
+    "duygu": "protesto",
+    "mek": "M1",
+    "kb": 474,
     "kare": 30
    }
   ]
@@ -1852,26 +1862,6 @@
    {
     "dosya": "01.webp",
     "metin": "",
-    "kanal": "goddamghonzo",
-    "no": 28,
-    "duygu": "protesto",
-    "mek": "M1",
-    "kb": 474,
-    "kare": 30
-   },
-   {
-    "dosya": "02.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 526,
-    "duygu": "tehdit",
-    "mek": "M5",
-    "kb": 344,
-    "kare": 30
-   },
-   {
-    "dosya": "03.webp",
-    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 196,
     "duygu": "öfke",
@@ -1880,7 +1870,17 @@
     "kare": 30
    },
    {
-    "dosya": "04.webp",
+    "dosya": "02.webp",
+    "metin": "reading the comments",
+    "kanal": "_sahipsiz",
+    "no": 21,
+    "duygu": "gözlüklü kızgın kedi",
+    "mek": "M1",
+    "kb": 373,
+    "kare": 30
+   },
+   {
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "goddamghonzo",
     "no": 29,
@@ -1890,17 +1890,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
-    "metin": "back off",
-    "kanal": "_sahipsiz",
-    "no": 560,
-    "duygu": "öfke",
-    "mek": "M5",
-    "kb": 323,
-    "kare": 22
-   },
-   {
-    "dosya": "06.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 222,
@@ -1910,7 +1900,17 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "05.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 526,
+    "duygu": "tehdit",
+    "mek": "M5",
+    "kb": 344,
+    "kare": 30
+   },
+   {
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "goddamghonzo",
     "no": 30,
@@ -1920,14 +1920,24 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
-    "metin": "",
+    "dosya": "07.webp",
+    "metin": "back off",
     "kanal": "_sahipsiz",
-    "no": 563,
+    "no": 560,
     "duygu": "öfke",
     "mek": "M5",
-    "kb": 159,
-    "kare": 6
+    "kb": 323,
+    "kare": 22
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "fight me",
+    "kanal": "goddamghonzo",
+    "no": 19,
+    "duygu": "öfke",
+    "mek": "M5",
+    "kb": 315,
+    "kare": 22
    },
    {
     "dosya": "09.webp",
@@ -1942,6 +1952,16 @@
    {
     "dosya": "10.webp",
     "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 563,
+    "duygu": "öfke",
+    "mek": "M5",
+    "kb": 159,
+    "kare": 6
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 359,
     "duygu": "tehdit",
@@ -1950,7 +1970,7 @@
     "kare": 13
    },
    {
-    "dosya": "11.webp",
+    "dosya": "12.webp",
     "metin": "get out",
     "kanal": "_sahipsiz2",
     "no": 382,
@@ -1960,7 +1980,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 574,
@@ -1970,7 +1990,7 @@
     "kare": 24
    },
    {
-    "dosya": "13.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 604,
@@ -1980,7 +2000,7 @@
     "kare": 14
    },
    {
-    "dosya": "14.webp",
+    "dosya": "15.webp",
     "metin": "what did you say",
     "kanal": "_sahipsiz2",
     "no": 606,
@@ -1990,7 +2010,17 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "16.webp",
+    "metin": "repeat that",
+    "kanal": "_sahipsiz2",
+    "no": 608,
+    "duygu": "tehdit",
+    "mek": "M5",
+    "kb": 179,
+    "kare": 18
+   },
+   {
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 809,
@@ -2000,7 +2030,7 @@
     "kare": 4
    },
    {
-    "dosya": "16.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 676,
@@ -2010,7 +2040,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 768,
@@ -2020,7 +2050,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 817,
@@ -2030,7 +2060,7 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 821,
@@ -2038,26 +2068,6 @@
     "mek": "M2",
     "kb": 455,
     "kare": 25
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 823,
-    "duygu": "öfke",
-    "mek": "M2",
-    "kb": 472,
-    "kare": 30
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 819,
-    "duygu": "öfke",
-    "mek": "M2",
-    "kb": 281,
-    "kare": 19
    }
   ]
  },
@@ -2072,6 +2082,26 @@
     "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
+    "no": 823,
+    "duygu": "öfke",
+    "mek": "M2",
+    "kb": 472,
+    "kare": 30
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 819,
+    "duygu": "öfke",
+    "mek": "M2",
+    "kb": 281,
+    "kare": 19
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
     "no": 822,
     "duygu": "öfke",
     "mek": "M2",
@@ -2079,7 +2109,7 @@
     "kare": 30
    },
    {
-    "dosya": "02.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 825,
@@ -2089,7 +2119,7 @@
     "kare": 30
    },
    {
-    "dosya": "03.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 837,
@@ -2099,7 +2129,7 @@
     "kare": 18
    },
    {
-    "dosya": "04.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 919,
@@ -2109,7 +2139,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 920,
@@ -2119,7 +2149,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 952,
@@ -2129,7 +2159,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1629,
@@ -2139,7 +2169,7 @@
     "kare": 24
    },
    {
-    "dosya": "08.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1647,
@@ -2149,7 +2179,7 @@
     "kare": 3
    },
    {
-    "dosya": "09.webp",
+    "dosya": "11.webp",
     "metin": "pew pew",
     "kanal": "_sahipsiz2",
     "no": 1648,
@@ -2159,7 +2189,7 @@
     "kare": 11
    },
    {
-    "dosya": "10.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 3123,
@@ -2169,7 +2199,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "13.webp",
     "metin": "say it again",
     "kanal": "brown_giphy",
     "no": 65,
@@ -2179,7 +2209,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "14.webp",
     "metin": "square up",
     "kanal": "brown_giphy",
     "no": 66,
@@ -2189,7 +2219,17 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "15.webp",
+    "metin": "say that again",
+    "kanal": "mimi_barbar",
+    "no": 11,
+    "duygu": "öfke",
+    "mek": "M5",
+    "kb": 481,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
     "metin": "shut up",
     "kanal": "mimi_barbar",
     "no": 12,
@@ -2199,7 +2239,7 @@
     "kare": 14
    },
    {
-    "dosya": "14.webp",
+    "dosya": "17.webp",
     "metin": "its raw",
     "kanal": "_sahipsiz2",
     "no": 168,
@@ -2209,7 +2249,7 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "18.webp",
     "metin": "i see you",
     "kanal": "_sahipsiz2",
     "no": 265,
@@ -2219,54 +2259,24 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
-    "metin": "say it again",
+    "dosya": "19.webp",
+    "metin": "say that again",
     "kanal": "_sahipsiz",
-    "no": 64,
+    "no": 151,
     "duygu": "öfke dişleri",
     "mek": "M5",
-    "kb": 439,
-    "kare": 30
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "square up",
-    "kanal": "goddamghonzo",
-    "no": 19,
-    "duygu": "öfke",
-    "mek": "M5",
-    "kb": 325,
-    "kare": 22
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "i see you",
-    "kanal": "_sahipsiz2",
-    "no": 381,
-    "duygu": "gözetleme",
-    "mek": "M5",
-    "kb": 444,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "SAY IT AGAIN",
-    "kanal": "guestEmma",
-    "no": 56,
-    "duygu": "bağıran turuncu",
-    "mek": "M5",
-    "kb": 369,
+    "kb": 404,
     "kare": 30
    },
    {
     "dosya": "20.webp",
     "metin": "say it again",
-    "kanal": "_sahipsiz2",
-    "no": 608,
-    "duygu": "tehdit",
+    "kanal": "_sahipsiz",
+    "no": 152,
+    "duygu": "öfke dişleri",
     "mek": "M5",
-    "kb": 180,
-    "kare": 18
+    "kb": 56,
+    "kare": 4
    }
   ]
  },
@@ -2275,7 +2285,7 @@
   "ad": "Dead Inside Vol. 1",
   "desc": "running on zero",
   "tema": "dead-inside",
-  "adet": 28,
+  "adet": 29,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -2469,12 +2479,12 @@
    },
    {
     "dosya": "20.webp",
-    "metin": "on my way",
+    "metin": "9 to 5",
     "kanal": "_sahipsiz2",
-    "no": 1776,
-    "duygu": "yavaş",
+    "no": 571,
+    "duygu": "—",
     "mek": "M3",
-    "kb": 396,
+    "kb": 455,
     "kare": 30
    },
    {
@@ -2489,6 +2499,16 @@
    },
    {
     "dosya": "22.webp",
+    "metin": "on my way",
+    "kanal": "_sahipsiz2",
+    "no": 1776,
+    "duygu": "yavaş",
+    "mek": "M3",
+    "kb": 396,
+    "kare": 30
+   },
+   {
+    "dosya": "23.webp",
     "metin": "sigh",
     "kanal": "_sahipsiz",
     "no": 238,
@@ -2496,16 +2516,6 @@
     "mek": "M3",
     "kb": 285,
     "kare": 23
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 645,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 222,
-    "kare": 16
    },
    {
     "dosya": "24.webp",
@@ -2520,6 +2530,26 @@
    {
     "dosya": "25.webp",
     "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 645,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 222,
+    "kare": 16
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "chill",
+    "kanal": "_sahipsiz2",
+    "no": 800,
+    "duygu": "rahat",
+    "mek": "M3",
+    "kb": 361,
+    "kare": 30
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "",
     "kanal": "_sahipsiz",
     "no": 310,
     "duygu": "uyku",
@@ -2528,7 +2558,17 @@
     "kare": 30
    },
    {
-    "dosya": "26.webp",
+    "dosya": "28.webp",
+    "metin": "relaxing",
+    "kanal": "_sahipsiz",
+    "no": 466,
+    "duygu": "rahat",
+    "mek": "M3",
+    "kb": 495,
+    "kare": 30
+   },
+   {
+    "dosya": "29.webp",
     "metin": "dead",
     "kanal": "_sahipsiz2",
     "no": 729,
@@ -2536,26 +2576,6 @@
     "mek": "M2",
     "kb": 23,
     "kare": 2
-   },
-   {
-    "dosya": "27.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 730,
-    "duygu": "tükenmiş",
-    "mek": "M3",
-    "kb": 218,
-    "kare": 14
-   },
-   {
-    "dosya": "28.webp",
-    "metin": "done",
-    "kanal": "_sahipsiz2",
-    "no": 732,
-    "duygu": "tükenmiş",
-    "mek": "M3",
-    "kb": 376,
-    "kare": 30
    }
   ]
  },
@@ -2570,6 +2590,26 @@
     "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
+    "no": 730,
+    "duygu": "tükenmiş",
+    "mek": "M3",
+    "kb": 218,
+    "kare": 14
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "done",
+    "kanal": "_sahipsiz2",
+    "no": 732,
+    "duygu": "tükenmiş",
+    "mek": "M3",
+    "kb": 376,
+    "kare": 30
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
     "no": 737,
     "duygu": "tükenmiş",
     "mek": "M2",
@@ -2577,7 +2617,17 @@
     "kare": 17
    },
    {
-    "dosya": "02.webp",
+    "dosya": "04.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 956,
+    "duygu": "tükenmiş",
+    "mek": "M3",
+    "kb": 159,
+    "kare": 6
+   },
+   {
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 957,
@@ -2587,7 +2637,7 @@
     "kare": 18
    },
    {
-    "dosya": "03.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 964,
@@ -2597,7 +2647,7 @@
     "kare": 24
    },
    {
-    "dosya": "04.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 969,
@@ -2607,7 +2657,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 972,
@@ -2617,7 +2667,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 973,
@@ -2627,7 +2677,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 974,
@@ -2637,7 +2687,7 @@
     "kare": 13
    },
    {
-    "dosya": "08.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 978,
@@ -2647,7 +2697,7 @@
     "kare": 12
    },
    {
-    "dosya": "09.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1171,
@@ -2657,7 +2707,7 @@
     "kare": 16
    },
    {
-    "dosya": "10.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1174,
@@ -2667,7 +2717,7 @@
     "kare": 21
    },
    {
-    "dosya": "11.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1175,
@@ -2677,7 +2727,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1178,
@@ -2687,7 +2737,7 @@
     "kare": 4
    },
    {
-    "dosya": "13.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1183,
@@ -2697,7 +2747,7 @@
     "kare": 30
    },
    {
-    "dosya": "14.webp",
+    "dosya": "17.webp",
     "metin": "its done",
     "kanal": "_sahipsiz2",
     "no": 1385,
@@ -2707,7 +2757,7 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1390,
@@ -2717,7 +2767,7 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "19.webp",
     "metin": "ugh",
     "kanal": "_sahipsiz2",
     "no": 1395,
@@ -2727,7 +2777,7 @@
     "kare": 8
    },
    {
-    "dosya": "17.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1399,
@@ -2737,7 +2787,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2260,
@@ -2747,7 +2797,7 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2261,
@@ -2757,7 +2807,7 @@
     "kare": 12
    },
    {
-    "dosya": "20.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 3125,
@@ -2767,7 +2817,7 @@
     "kare": 14
    },
    {
-    "dosya": "21.webp",
+    "dosya": "24.webp",
     "metin": "im done",
     "kanal": "_sahipsiz2",
     "no": 261,
@@ -2777,7 +2827,7 @@
     "kare": 14
    },
    {
-    "dosya": "22.webp",
+    "dosya": "25.webp",
     "metin": "chilling",
     "kanal": "_sahipsiz2",
     "no": 1779,
@@ -2787,7 +2837,7 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "26.webp",
     "metin": "monday",
     "kanal": "_sahipsiz",
     "no": 255,
@@ -2797,7 +2847,7 @@
     "kare": 30
    },
    {
-    "dosya": "24.webp",
+    "dosya": "27.webp",
     "metin": "sigh",
     "kanal": "_sahipsiz2",
     "no": 803,
@@ -2807,7 +2857,7 @@
     "kare": 22
    },
    {
-    "dosya": "25.webp",
+    "dosya": "28.webp",
     "metin": "dead",
     "kanal": "_sahipsiz2",
     "no": 836,
@@ -2815,36 +2865,6 @@
     "mek": "M3",
     "kb": 170,
     "kare": 21
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "done",
-    "kanal": "_sahipsiz2",
-    "no": 956,
-    "duygu": "tükenmiş",
-    "mek": "M3",
-    "kb": 160,
-    "kare": 6
-   },
-   {
-    "dosya": "27.webp",
-    "metin": "chilling",
-    "kanal": "_sahipsiz2",
-    "no": 800,
-    "duygu": "rahat",
-    "mek": "M3",
-    "kb": 362,
-    "kare": 30
-   },
-   {
-    "dosya": "28.webp",
-    "metin": "chilling",
-    "kanal": "_sahipsiz",
-    "no": 466,
-    "duygu": "rahat",
-    "mek": "M3",
-    "kb": 495,
-    "kare": 30
    }
   ]
  },
@@ -2853,7 +2873,7 @@
   "ad": "Crying Rights Vol. 1",
   "desc": "feelings, loudly",
   "tema": "crying-rights",
-  "adet": 23,
+  "adet": 24,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -2877,16 +2897,6 @@
    },
    {
     "dosya": "03.webp",
-    "metin": "i want",
-    "kanal": "the_nseven",
-    "no": 27,
-    "duygu": "özlem / salya",
-    "mek": "M2",
-    "kb": 20,
-    "kare": 4
-   },
-   {
-    "dosya": "04.webp",
     "metin": "bye",
     "kanal": "TranslucentRunner",
     "no": 2,
@@ -2896,7 +2906,27 @@
     "kare": 30
    },
    {
+    "dosya": "04.webp",
+    "metin": "pls",
+    "kanal": "Elgatitolover",
+    "no": 23,
+    "duygu": "dokunaklı",
+    "mek": "M4",
+    "kb": 424,
+    "kare": 30
+   },
+   {
     "dosya": "05.webp",
+    "metin": "i want",
+    "kanal": "the_nseven",
+    "no": 27,
+    "duygu": "özlem / salya",
+    "mek": "M2",
+    "kb": 20,
+    "kare": 4
+   },
+   {
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "9mc",
     "no": 13,
@@ -2906,7 +2936,7 @@
     "kare": 2
    },
    {
-    "dosya": "06.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "boneyone",
     "no": 12,
@@ -2914,16 +2944,6 @@
     "mek": "M2",
     "kb": 25,
     "kare": 3
-   },
-   {
-    "dosya": "07.webp",
-    "metin": "pls",
-    "kanal": "Elgatitolover",
-    "no": 23,
-    "duygu": "dokunaklı",
-    "mek": "M4",
-    "kb": 424,
-    "kare": 30
    },
    {
     "dosya": "08.webp",
@@ -2987,13 +3007,13 @@
    },
    {
     "dosya": "14.webp",
-    "metin": "o7",
-    "kanal": "the_nseven",
-    "no": 91,
-    "duygu": "selam duran üzgün",
-    "mek": "M1",
-    "kb": 27,
-    "kare": 3
+    "metin": "im sad",
+    "kanal": "_sahipsiz",
+    "no": 346,
+    "duygu": "üzgün",
+    "mek": "M3",
+    "kb": 232,
+    "kare": 16
    },
    {
     "dosya": "15.webp",
@@ -3007,6 +3027,26 @@
    },
    {
     "dosya": "16.webp",
+    "metin": "pretty please",
+    "kanal": "Elgatitolover",
+    "no": 24,
+    "duygu": "dokunaklı",
+    "mek": "M4",
+    "kb": 231,
+    "kare": 13
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "o7",
+    "kanal": "the_nseven",
+    "no": 91,
+    "duygu": "selam duran üzgün",
+    "mek": "M1",
+    "kb": 27,
+    "kare": 3
+   },
+   {
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "boneyone",
     "no": 13,
@@ -3016,7 +3056,7 @@
     "kare": 3
    },
    {
-    "dosya": "17.webp",
+    "dosya": "19.webp",
     "metin": "i miss you",
     "kanal": "brown_giphy",
     "no": 94,
@@ -3026,7 +3066,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "20.webp",
     "metin": "its fine",
     "kanal": "goddamghonzo",
     "no": 4,
@@ -3036,7 +3076,7 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "21.webp",
     "metin": "sorry",
     "kanal": "guestEmma",
     "no": 13,
@@ -3046,7 +3086,7 @@
     "kare": 28
    },
    {
-    "dosya": "20.webp",
+    "dosya": "22.webp",
     "metin": "im fine",
     "kanal": "mimi_barbar",
     "no": 29,
@@ -3056,7 +3096,36 @@
     "kare": 2
    },
    {
-    "dosya": "21.webp",
+    "dosya": "23.webp",
+    "metin": "sadge",
+    "kanal": "muntasermari",
+    "no": 26,
+    "duygu": "üzgün beyaz kedi",
+    "mek": "M3",
+    "kb": 24,
+    "kare": 3
+   },
+   {
+    "dosya": "24.webp",
+    "metin": ":((",
+    "kanal": "soydavidfelipe",
+    "no": 89,
+    "duygu": "üzgün",
+    "mek": "M3",
+    "kb": 238,
+    "kare": 30
+   }
+  ]
+ },
+ {
+  "slug": "crying-rights-2",
+  "ad": "Crying Rights Vol. 2",
+  "desc": "feelings, loudly",
+  "tema": "crying-rights",
+  "adet": 24,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
     "metin": "",
     "kanal": "TranslucentRunner",
     "no": 206,
@@ -3066,7 +3135,27 @@
     "kare": 12
    },
    {
-    "dosya": "22.webp",
+    "dosya": "02.webp",
+    "metin": "cmon",
+    "kanal": "Elgatitolover",
+    "no": 25,
+    "duygu": "dokunaklı",
+    "mek": "M4",
+    "kb": 428,
+    "kare": 29
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "not ok",
+    "kanal": "the_nseven",
+    "no": 153,
+    "duygu": "üzgün",
+    "mek": "M3",
+    "kb": 12,
+    "kare": 2
+   },
+   {
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 128,
@@ -3076,7 +3165,7 @@
     "kare": 15
    },
    {
-    "dosya": "23.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 147,
@@ -3084,18 +3173,9 @@
     "mek": "M3",
     "kb": 26,
     "kare": 8
-   }
-  ]
- },
- {
-  "slug": "crying-rights-2",
-  "ad": "Crying Rights Vol. 2",
-  "desc": "feelings, loudly",
-  "tema": "crying-rights",
-  "adet": 23,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "06.webp",
     "metin": "WAAA",
     "kanal": "TranslucentRunner",
     "no": 282,
@@ -3105,27 +3185,7 @@
     "kare": 30
    },
    {
-    "dosya": "02.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 165,
-    "duygu": "ağlama",
-    "mek": "M2",
-    "kb": 355,
-    "kare": 30
-   },
-   {
-    "dosya": "03.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 148,
-    "duygu": "üzgün",
-    "mek": "M3",
-    "kb": 479,
-    "kare": 30
-   },
-   {
-    "dosya": "04.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 164,
@@ -3135,7 +3195,27 @@
     "kare": 1
    },
    {
-    "dosya": "05.webp",
+    "dosya": "08.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 165,
+    "duygu": "ağlama",
+    "mek": "M2",
+    "kb": 355,
+    "kare": 30
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 148,
+    "duygu": "üzgün",
+    "mek": "M3",
+    "kb": 479,
+    "kare": 30
+   },
+   {
+    "dosya": "10.webp",
     "metin": "hmph",
     "kanal": "_sahipsiz2",
     "no": 179,
@@ -3145,7 +3225,7 @@
     "kare": 21
    },
    {
-    "dosya": "06.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 149,
@@ -3155,7 +3235,7 @@
     "kare": 4
    },
    {
-    "dosya": "07.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 388,
@@ -3165,7 +3245,7 @@
     "kare": 21
    },
    {
-    "dosya": "08.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 223,
@@ -3175,17 +3255,17 @@
     "kare": 19
    },
    {
-    "dosya": "09.webp",
-    "metin": "really?",
+    "dosya": "14.webp",
+    "metin": "yes",
     "kanal": "_sahipsiz",
-    "no": 387,
-    "duygu": "hayal kırıklığı",
-    "mek": "M1",
-    "kb": 229,
-    "kare": 16
+    "no": 251,
+    "duygu": "evet / ağlama",
+    "mek": "M1 M3",
+    "kb": 126,
+    "kare": 17
    },
    {
-    "dosya": "10.webp",
+    "dosya": "15.webp",
     "metin": "im out",
     "kanal": "_sahipsiz2",
     "no": 224,
@@ -3195,17 +3275,17 @@
     "kare": 29
    },
    {
-    "dosya": "11.webp",
-    "metin": "miss you",
+    "dosya": "16.webp",
+    "metin": "really?",
     "kanal": "_sahipsiz",
-    "no": 389,
-    "duygu": "özlem",
-    "mek": "M4",
-    "kb": 32,
-    "kare": 2
+    "no": 387,
+    "duygu": "hayal kırıklığı",
+    "mek": "M1",
+    "kb": 229,
+    "kare": 16
    },
    {
-    "dosya": "12.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 263,
@@ -3215,17 +3295,17 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
-    "metin": "",
+    "dosya": "18.webp",
+    "metin": "miss you",
     "kanal": "_sahipsiz",
-    "no": 508,
-    "duygu": "ağlama",
-    "mek": "M2",
-    "kb": 475,
-    "kare": 24
+    "no": 389,
+    "duygu": "özlem",
+    "mek": "M4",
+    "kb": 32,
+    "kare": 2
    },
    {
-    "dosya": "14.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 319,
@@ -3235,17 +3315,17 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz",
-    "no": 775,
-    "duygu": "üzgün",
-    "mek": "M3",
-    "kb": 298,
-    "kare": 23
+    "no": 508,
+    "duygu": "ağlama",
+    "mek": "M2",
+    "kb": 475,
+    "kare": 24
    },
    {
-    "dosya": "16.webp",
+    "dosya": "21.webp",
     "metin": "please sir",
     "kanal": "_sahipsiz2",
     "no": 320,
@@ -3255,7 +3335,17 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "22.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 775,
+    "duygu": "üzgün",
+    "mek": "M3",
+    "kb": 298,
+    "kare": 23
+   },
+   {
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 321,
@@ -3265,7 +3355,7 @@
     "kare": 28
    },
    {
-    "dosya": "18.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 323,
@@ -3273,9 +3363,18 @@
     "mek": "M3",
     "kb": 408,
     "kare": 24
-   },
+   }
+  ]
+ },
+ {
+  "slug": "crying-rights-3",
+  "ad": "Crying Rights Vol. 3",
+  "desc": "feelings, loudly",
+  "tema": "crying-rights",
+  "adet": 24,
+  "dosyalar": [
    {
-    "dosya": "19.webp",
+    "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 324,
@@ -3285,7 +3384,7 @@
     "kare": 21
    },
    {
-    "dosya": "20.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 328,
@@ -3295,7 +3394,7 @@
     "kare": 9
    },
    {
-    "dosya": "21.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 329,
@@ -3305,7 +3404,7 @@
     "kare": 30
    },
    {
-    "dosya": "22.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 330,
@@ -3315,7 +3414,7 @@
     "kare": 18
    },
    {
-    "dosya": "23.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 370,
@@ -3323,18 +3422,9 @@
     "mek": "M1",
     "kb": 208,
     "kare": 13
-   }
-  ]
- },
- {
-  "slug": "crying-rights-3",
-  "ad": "Crying Rights Vol. 3",
-  "desc": "feelings, loudly",
-  "tema": "crying-rights",
-  "adet": 23,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 461,
@@ -3344,7 +3434,7 @@
     "kare": 19
    },
    {
-    "dosya": "02.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 486,
@@ -3354,7 +3444,7 @@
     "kare": 6
    },
    {
-    "dosya": "03.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 487,
@@ -3364,7 +3454,7 @@
     "kare": 30
    },
    {
-    "dosya": "04.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 488,
@@ -3374,7 +3464,7 @@
     "kare": 6
    },
    {
-    "dosya": "05.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 489,
@@ -3384,7 +3474,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 490,
@@ -3394,7 +3484,7 @@
     "kare": 4
    },
    {
-    "dosya": "07.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 540,
@@ -3404,7 +3494,7 @@
     "kare": 29
    },
    {
-    "dosya": "08.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 717,
@@ -3414,7 +3504,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 788,
@@ -3424,7 +3514,7 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 721,
@@ -3434,7 +3524,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 724,
@@ -3444,7 +3534,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 757,
@@ -3454,7 +3544,7 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 843,
@@ -3464,7 +3554,7 @@
     "kare": 8
    },
    {
-    "dosya": "14.webp",
+    "dosya": "19.webp",
     "metin": "pout",
     "kanal": "_sahipsiz2",
     "no": 845,
@@ -3474,7 +3564,7 @@
     "kare": 12
    },
    {
-    "dosya": "15.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 849,
@@ -3484,7 +3574,7 @@
     "kare": 19
    },
    {
-    "dosya": "16.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 850,
@@ -3494,7 +3584,7 @@
     "kare": 24
    },
    {
-    "dosya": "17.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 918,
@@ -3504,7 +3594,7 @@
     "kare": 25
    },
    {
-    "dosya": "18.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1108,
@@ -3514,7 +3604,7 @@
     "kare": 19
    },
    {
-    "dosya": "19.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1109,
@@ -3522,9 +3612,18 @@
     "mek": "M4",
     "kb": 249,
     "kare": 13
-   },
+   }
+  ]
+ },
+ {
+  "slug": "crying-rights-4",
+  "ad": "Crying Rights Vol. 4",
+  "desc": "feelings, loudly",
+  "tema": "crying-rights",
+  "adet": 22,
+  "dosyalar": [
    {
-    "dosya": "20.webp",
+    "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1179,
@@ -3534,7 +3633,7 @@
     "kare": 12
    },
    {
-    "dosya": "21.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2225,
@@ -3544,7 +3643,7 @@
     "kare": 13
    },
    {
-    "dosya": "22.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2226,
@@ -3554,7 +3653,7 @@
     "kare": 22
    },
    {
-    "dosya": "23.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2232,
@@ -3562,18 +3661,9 @@
     "mek": "M2",
     "kb": 88,
     "kare": 7
-   }
-  ]
- },
- {
-  "slug": "crying-rights-4",
-  "ad": "Crying Rights Vol. 4",
-  "desc": "feelings, loudly",
-  "tema": "crying-rights",
-  "adet": 23,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2227,
@@ -3583,7 +3673,7 @@
     "kare": 23
    },
    {
-    "dosya": "02.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2228,
@@ -3593,7 +3683,7 @@
     "kare": 22
    },
    {
-    "dosya": "03.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2229,
@@ -3603,7 +3693,7 @@
     "kare": 13
    },
    {
-    "dosya": "04.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2231,
@@ -3613,7 +3703,7 @@
     "kare": 2
    },
    {
-    "dosya": "05.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2276,
@@ -3623,7 +3713,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2844,
@@ -3633,7 +3723,7 @@
     "kare": 28
    },
    {
-    "dosya": "07.webp",
+    "dosya": "11.webp",
     "metin": ":(",
     "kanal": "brown_giphy",
     "no": 67,
@@ -3643,7 +3733,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "12.webp",
     "metin": "pls",
     "kanal": "guestEmma",
     "no": 10,
@@ -3653,7 +3743,7 @@
     "kare": 16
    },
    {
-    "dosya": "09.webp",
+    "dosya": "13.webp",
     "metin": "left on read",
     "kanal": "9mc",
     "no": 19,
@@ -3663,7 +3753,7 @@
     "kare": 2
    },
    {
-    "dosya": "10.webp",
+    "dosya": "14.webp",
     "metin": "please",
     "kanal": "_sahipsiz2",
     "no": 126,
@@ -3673,7 +3763,17 @@
     "kare": 13
    },
    {
-    "dosya": "11.webp",
+    "dosya": "15.webp",
+    "metin": "pretty please",
+    "kanal": "_sahipsiz",
+    "no": 78,
+    "duygu": "yalvarma",
+    "mek": "M4",
+    "kb": 416,
+    "kare": 12
+   },
+   {
+    "dosya": "16.webp",
     "metin": "hmph",
     "kanal": "_sahipsiz2",
     "no": 194,
@@ -3683,7 +3783,7 @@
     "kare": 23
    },
    {
-    "dosya": "12.webp",
+    "dosya": "17.webp",
     "metin": "[sobbing]",
     "kanal": "_sahipsiz2",
     "no": 331,
@@ -3693,7 +3793,7 @@
     "kare": 21
    },
    {
-    "dosya": "13.webp",
+    "dosya": "18.webp",
     "metin": "miss you",
     "kanal": "_sahipsiz2",
     "no": 1107,
@@ -3703,7 +3803,7 @@
     "kare": 23
    },
    {
-    "dosya": "14.webp",
+    "dosya": "19.webp",
     "metin": "WAAA",
     "kanal": "_sahipsiz2",
     "no": 2826,
@@ -3713,37 +3813,27 @@
     "kare": 2
    },
    {
-    "dosya": "15.webp",
-    "metin": ":(",
-    "kanal": "_sahipsiz",
-    "no": 346,
-    "duygu": "üzgün",
-    "mek": "M3",
-    "kb": 231,
-    "kare": 16
-   },
-   {
-    "dosya": "16.webp",
+    "dosya": "20.webp",
     "metin": "pls",
     "kanal": "Elgatitolover",
-    "no": 24,
+    "no": 26,
     "duygu": "dokunaklı",
     "mek": "M4",
-    "kb": 210,
-    "kare": 13
+    "kb": 188,
+    "kare": 11
    },
    {
-    "dosya": "17.webp",
-    "metin": "please",
-    "kanal": "_sahipsiz",
-    "no": 78,
+    "dosya": "21.webp",
+    "metin": "pretty please",
+    "kanal": "TranslucentRunner",
+    "no": 196,
     "duygu": "yalvarma",
-    "mek": "M4",
-    "kb": 413,
-    "kare": 12
+    "mek": "M2",
+    "kb": 93,
+    "kare": 11
    },
    {
-    "dosya": "18.webp",
+    "dosya": "22.webp",
     "metin": "WAAA",
     "kanal": "_sahipsiz2",
     "no": 2847,
@@ -3751,56 +3841,6 @@
     "mek": "M2",
     "kb": 448,
     "kare": 29
-   },
-   {
-    "dosya": "19.webp",
-    "metin": ":(",
-    "kanal": "muntasermari",
-    "no": 26,
-    "duygu": "üzgün beyaz kedi",
-    "mek": "M3",
-    "kb": 23,
-    "kare": 3
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "pls",
-    "kanal": "the_nseven",
-    "no": 131,
-    "duygu": "iri göz",
-    "mek": "M2",
-    "kb": 328,
-    "kare": 30
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "PLEASE",
-    "kanal": "TranslucentRunner",
-    "no": 196,
-    "duygu": "yalvarma",
-    "mek": "M2",
-    "kb": 91,
-    "kare": 11
-   },
-   {
-    "dosya": "22.webp",
-    "metin": ":(",
-    "kanal": "soydavidfelipe",
-    "no": 89,
-    "duygu": "üzgün",
-    "mek": "M3",
-    "kb": 238,
-    "kare": 30
-   },
-   {
-    "dosya": "23.webp",
-    "metin": ":(",
-    "kanal": "the_nseven",
-    "no": 153,
-    "duygu": "üzgün",
-    "mek": "M3",
-    "kb": 11,
-    "kare": 2
    }
   ]
  },
@@ -3809,7 +3849,7 @@
   "ad": "Caught in 4K Vol. 1",
   "desc": "the moment it clicks",
   "tema": "caught-in-4k",
-  "adet": 26,
+  "adet": 29,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -3893,6 +3933,36 @@
    },
    {
     "dosya": "09.webp",
+    "metin": "wait what",
+    "kanal": "muntasermari",
+    "no": 21,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 415,
+    "kare": 12
+   },
+   {
+    "dosya": "10.webp",
+    "metin": "come again",
+    "kanal": "_sahipsiz2",
+    "no": 18,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 476,
+    "kare": 30
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "say what",
+    "kanal": "_sahipsiz",
+    "no": 4,
+    "duygu": "şaşkın köpek",
+    "mek": "M3",
+    "kb": 270,
+    "kare": 30
+   },
+   {
+    "dosya": "12.webp",
     "metin": "what did you say",
     "kanal": "mimi_barbar",
     "no": 32,
@@ -3902,7 +3972,7 @@
     "kare": 26
    },
    {
-    "dosya": "10.webp",
+    "dosya": "13.webp",
     "metin": "call god",
     "kanal": "taviitoo_bv",
     "no": 35,
@@ -3912,7 +3982,7 @@
     "kare": 28
    },
    {
-    "dosya": "11.webp",
+    "dosya": "14.webp",
     "metin": "no way",
     "kanal": "guestEmma",
     "no": 38,
@@ -3922,7 +3992,7 @@
     "kare": 10
    },
    {
-    "dosya": "12.webp",
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "TranslucentRunner",
     "no": 165,
@@ -3932,17 +4002,7 @@
     "kare": 11
    },
    {
-    "dosya": "13.webp",
-    "metin": "WOW",
-    "kanal": "_sahipsiz",
-    "no": 10,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 340,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
+    "dosya": "16.webp",
     "metin": "im scared",
     "kanal": "the_nseven",
     "no": 84,
@@ -3952,884 +4012,7 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
-    "metin": "wait wait wait",
-    "kanal": "soydavidfelipe",
-    "no": 13,
-    "duygu": "şaşkın savunma",
-    "mek": "M2",
-    "kb": 166,
-    "kare": 15
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "damn",
-    "kanal": "taviitoo_bv",
-    "no": 43,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 319,
-    "kare": 28
-   },
-   {
     "dosya": "17.webp",
-    "metin": "woah",
-    "kanal": "the_nseven",
-    "no": 87,
-    "duygu": "hayranlık",
-    "mek": "M3",
-    "kb": 55,
-    "kare": 4
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "oh no",
-    "kanal": "mimi_barbar",
-    "no": 39,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 454,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "waos",
-    "kanal": "taviitoo_bv",
-    "no": 58,
-    "duygu": "Noel şapkalı şaşkınlık",
-    "mek": "M2",
-    "kb": 370,
-    "kare": 28
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 59,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 479,
-    "kare": 30
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "uh oh",
-    "kanal": "_sahipsiz",
-    "no": 13,
-    "duygu": "gasp",
-    "mek": "M2",
-    "kb": 424,
-    "kare": 29
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "caught",
-    "kanal": "the_nseven",
-    "no": 96,
-    "duygu": "yakalanmış",
-    "mek": "M2",
-    "kb": 17,
-    "kare": 3
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "deal?",
-    "kanal": "mimi_barbar",
-    "no": 41,
-    "duygu": "şaşkın el sıkışma",
-    "mek": "M1",
-    "kb": 182,
-    "kare": 22
-   },
-   {
-    "dosya": "24.webp",
-    "metin": "here it is",
-    "kanal": "_sahipsiz2",
-    "no": 73,
-    "duygu": "sunum",
-    "mek": "M1",
-    "kb": 396,
-    "kare": 30
-   },
-   {
-    "dosya": "25.webp",
-    "metin": "",
-    "kanal": "the_nseven",
-    "no": 97,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 249,
-    "kare": 30
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "wait.",
-    "kanal": "mimi_barbar",
-    "no": 45,
-    "duygu": "fark ediş",
-    "mek": "M3",
-    "kb": 238,
-    "kare": 30
-   }
-  ]
- },
- {
-  "slug": "caught-in-4k-2",
-  "ad": "Caught in 4K Vol. 2",
-  "desc": "the moment it clicks",
-  "tema": "caught-in-4k",
-  "adet": 26,
-  "dosyalar": [
-   {
-    "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 82,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 439,
-    "kare": 30
-   },
-   {
-    "dosya": "02.webp",
-    "metin": "wait",
-    "kanal": "_sahipsiz2",
-    "no": 92,
-    "duygu": "\"bir dakika\"",
-    "mek": "M1",
-    "kb": 376,
-    "kare": 20
-   },
-   {
-    "dosya": "03.webp",
-    "metin": "",
-    "kanal": "the_nseven",
-    "no": 135,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 71,
-    "kare": 23
-   },
-   {
-    "dosya": "04.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 114,
-    "duygu": "düşüş",
-    "mek": "M2",
-    "kb": 469,
-    "kare": 30
-   },
-   {
-    "dosya": "05.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 138,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 255,
-    "kare": 30
-   },
-   {
-    "dosya": "06.webp",
-    "metin": "omg",
-    "kanal": "_sahipsiz",
-    "no": 31,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 460,
-    "kare": 30
-   },
-   {
-    "dosya": "07.webp",
-    "metin": "huh?",
-    "kanal": "_sahipsiz2",
-    "no": 202,
-    "duygu": "\"ne?\"",
-    "mek": "M3",
-    "kb": 206,
-    "kare": 22
-   },
-   {
-    "dosya": "08.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 213,
-    "duygu": "karışık",
-    "mek": "M3",
-    "kb": 437,
-    "kare": 28
-   },
-   {
-    "dosya": "09.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 228,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 480,
-    "kare": 30
-   },
-   {
-    "dosya": "10.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 281,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 320,
-    "kare": 20
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 96,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 103,
-    "kare": 7
-   },
-   {
-    "dosya": "12.webp",
-    "metin": "wtf",
-    "kanal": "_sahipsiz",
-    "no": 138,
-    "duygu": "wtf",
-    "mek": "M3",
-    "kb": 426,
-    "kare": 30
-   },
-   {
-    "dosya": "13.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 301,
-    "duygu": "korku",
-    "mek": "M4",
-    "kb": 387,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 141,
-    "duygu": "kafa yatırma",
-    "mek": "M3",
-    "kb": 459,
-    "kare": 30
-   },
-   {
-    "dosya": "15.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 308,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 86,
-    "kare": 8
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 369,
-    "duygu": "kafa yatırma",
-    "mek": "M3",
-    "kb": 402,
-    "kare": 30
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 347,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 428,
-    "kare": 16
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 263,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 58,
-    "kare": 5
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "gasp",
-    "kanal": "_sahipsiz2",
-    "no": 348,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 236,
-    "kare": 12
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 370,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 104,
-    "kare": 9
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 356,
-    "duygu": "soru",
-    "mek": "M3",
-    "kb": 46,
-    "kare": 3
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 766,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 43,
-    "kare": 2
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 767,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 31,
-    "kare": 2
-   },
-   {
-    "dosya": "24.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 364,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 358,
-    "kare": 30
-   },
-   {
-    "dosya": "25.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 430,
-    "duygu": "—",
-    "mek": "M3",
-    "kb": 185,
-    "kare": 25
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 485,
-    "duygu": "—",
-    "mek": "M3",
-    "kb": 323,
-    "kare": 30
-   }
-  ]
- },
- {
-  "slug": "caught-in-4k-3",
-  "ad": "Caught in 4K Vol. 3",
-  "desc": "the moment it clicks",
-  "tema": "caught-in-4k",
-  "adet": 26,
-  "dosyalar": [
-   {
-    "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 491,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 207,
-    "kare": 21
-   },
-   {
-    "dosya": "02.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 506,
-    "duygu": "şok / \"you can't see me\"",
-    "mek": "M2",
-    "kb": 339,
-    "kare": 30
-   },
-   {
-    "dosya": "03.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 507,
-    "duygu": "şok / \"you can't see me\"",
-    "mek": "M2",
-    "kb": 131,
-    "kare": 3
-   },
-   {
-    "dosya": "04.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 508,
-    "duygu": "şok / \"you can't see me\"",
-    "mek": "M2",
-    "kb": 138,
-    "kare": 30
-   },
-   {
-    "dosya": "05.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 509,
-    "duygu": "şok / \"you can't see me\"",
-    "mek": "M2",
-    "kb": 79,
-    "kare": 5
-   },
-   {
-    "dosya": "06.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 572,
-    "duygu": "korku",
-    "mek": "M2",
-    "kb": 422,
-    "kare": 22
-   },
-   {
-    "dosya": "07.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 577,
-    "duygu": "korku",
-    "mek": "M2",
-    "kb": 195,
-    "kare": 30
-   },
-   {
-    "dosya": "08.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 589,
-    "duygu": "korku",
-    "mek": "M2",
-    "kb": 154,
-    "kare": 30
-   },
-   {
-    "dosya": "09.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 613,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 54,
-    "kare": 4
-   },
-   {
-    "dosya": "10.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 887,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 448,
-    "kare": 30
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 893,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 229,
-    "kare": 9
-   },
-   {
-    "dosya": "12.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1323,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 392,
-    "kare": 30
-   },
-   {
-    "dosya": "13.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 697,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 453,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 782,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 128,
-    "kare": 26
-   },
-   {
-    "dosya": "15.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 784,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 160,
-    "kare": 17
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 785,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 295,
-    "kare": 12
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 765,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 475,
-    "kare": 25
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 767,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 293,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 777,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 24,
-    "kare": 2
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 778,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 196,
-    "kare": 17
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 835,
-    "duygu": "dehşet",
-    "mek": "M2",
-    "kb": 398,
-    "kare": 23
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 854,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 448,
-    "kare": 30
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 901,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 69,
-    "kare": 13
-   },
-   {
-    "dosya": "24.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 916,
-    "duygu": "şaşkın",
-    "mek": "M3",
-    "kb": 357,
-    "kare": 30
-   },
-   {
-    "dosya": "25.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 929,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 243,
-    "kare": 30
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 931,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 400,
-    "kare": 30
-   }
-  ]
- },
- {
-  "slug": "caught-in-4k-4",
-  "ad": "Caught in 4K Vol. 4",
-  "desc": "the moment it clicks",
-  "tema": "caught-in-4k",
-  "adet": 26,
-  "dosyalar": [
-   {
-    "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 945,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 145,
-    "kare": 11
-   },
-   {
-    "dosya": "02.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 951,
-    "duygu": "panik",
-    "mek": "M2",
-    "kb": 422,
-    "kare": 30
-   },
-   {
-    "dosya": "03.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 955,
-    "duygu": "panik",
-    "mek": "M2",
-    "kb": 106,
-    "kare": 8
-   },
-   {
-    "dosya": "04.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 961,
-    "duygu": "gergin",
-    "mek": "M2",
-    "kb": 389,
-    "kare": 26
-   },
-   {
-    "dosya": "05.webp",
-    "metin": "OOOH",
-    "kanal": "_sahipsiz2",
-    "no": 1028,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 496,
-    "kare": 30
-   },
-   {
-    "dosya": "06.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1246,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 362,
-    "kare": 30
-   },
-   {
-    "dosya": "07.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1251,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 364,
-    "kare": 30
-   },
-   {
-    "dosya": "08.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1253,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 333,
-    "kare": 22
-   },
-   {
-    "dosya": "09.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1254,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 206,
-    "kare": 14
-   },
-   {
-    "dosya": "10.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1408,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 448,
-    "kare": 30
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 2241,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 195,
-    "kare": 21
-   },
-   {
-    "dosya": "12.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 2388,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 96,
-    "kare": 7
-   },
-   {
-    "dosya": "13.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 2390,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 392,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 2391,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 207,
-    "kare": 13
-   },
-   {
-    "dosya": "15.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 3131,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 384,
-    "kare": 30
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "WHAT",
-    "kanal": "the_nseven",
-    "no": 34,
-    "duygu": "çene düşmesi",
-    "mek": "M2",
-    "kb": 289,
-    "kare": 30
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "huh",
-    "kanal": "the_nseven",
-    "no": 60,
-    "duygu": "\"huh?\"",
-    "mek": "M3",
-    "kb": 327,
-    "kare": 30
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "AAAAA",
-    "kanal": "soydavidfelipe",
-    "no": 8,
-    "duygu": "çığlık / coşku",
-    "mek": "M2",
-    "kb": 53,
-    "kare": 1
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "me?",
-    "kanal": "Elgatitolover",
-    "no": 13,
-    "duygu": "şaşkın masumiyet",
-    "mek": "M4",
-    "kb": 50,
-    "kare": 9
-   },
-   {
-    "dosya": "20.webp",
-    "metin": ":O",
-    "kanal": "notsyma",
-    "no": 47,
-    "duygu": "\":O\"",
-    "mek": "M2",
-    "kb": 118,
-    "kare": 30
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "AAAA",
-    "kanal": "_sahipsiz2",
-    "no": 37,
-    "duygu": "çığlık",
-    "mek": "M2",
-    "kb": 53,
-    "kare": 4
-   },
-   {
-    "dosya": "22.webp",
     "metin": "wow",
     "kanal": "mimi_barbar",
     "no": 33,
@@ -4839,17 +4022,146 @@
     "kare": 30
    },
    {
+    "dosya": "18.webp",
+    "metin": "wait wait wait",
+    "kanal": "soydavidfelipe",
+    "no": 13,
+    "duygu": "şaşkın savunma",
+    "mek": "M2",
+    "kb": 166,
+    "kare": 15
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "hold on",
+    "kanal": "Elgatitolover",
+    "no": 69,
+    "duygu": "şaşkın",
+    "mek": "M4",
+    "kb": 182,
+    "kare": 12
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "damn",
+    "kanal": "taviitoo_bv",
+    "no": 43,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 319,
+    "kare": 28
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "huh??",
+    "kanal": "_sahipsiz2",
+    "no": 41,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 119,
+    "kare": 22
+   },
+   {
+    "dosya": "22.webp",
+    "metin": "woah",
+    "kanal": "the_nseven",
+    "no": 87,
+    "duygu": "hayranlık",
+    "mek": "M3",
+    "kb": 55,
+    "kare": 4
+   },
+   {
     "dosya": "23.webp",
     "metin": "oh no",
-    "kanal": "soydavidfelipe",
-    "no": 16,
-    "duygu": "\"eyvah\"",
+    "kanal": "mimi_barbar",
+    "no": 39,
+    "duygu": "dehşet",
     "mek": "M2",
-    "kb": 9,
-    "kare": 1
+    "kb": 454,
+    "kare": 30
    },
    {
     "dosya": "24.webp",
+    "metin": "waos",
+    "kanal": "taviitoo_bv",
+    "no": 58,
+    "duygu": "Noel şapkalı şaşkınlık",
+    "mek": "M2",
+    "kb": 370,
+    "kare": 28
+   },
+   {
+    "dosya": "25.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 59,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 479,
+    "kare": 30
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "caught",
+    "kanal": "the_nseven",
+    "no": 96,
+    "duygu": "yakalanmış",
+    "mek": "M2",
+    "kb": 17,
+    "kare": 3
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "deal?",
+    "kanal": "mimi_barbar",
+    "no": 41,
+    "duygu": "şaşkın el sıkışma",
+    "mek": "M1",
+    "kb": 182,
+    "kare": 22
+   },
+   {
+    "dosya": "28.webp",
+    "metin": "here it is",
+    "kanal": "_sahipsiz2",
+    "no": 73,
+    "duygu": "sunum",
+    "mek": "M1",
+    "kb": 396,
+    "kare": 30
+   },
+   {
+    "dosya": "29.webp",
+    "metin": "",
+    "kanal": "the_nseven",
+    "no": 97,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 249,
+    "kare": 30
+   }
+  ]
+ },
+ {
+  "slug": "caught-in-4k-2",
+  "ad": "Caught in 4K Vol. 2",
+  "desc": "the moment it clicks",
+  "tema": "caught-in-4k",
+  "adet": 29,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
+    "metin": "wait.",
+    "kanal": "mimi_barbar",
+    "no": 45,
+    "duygu": "fark ediş",
+    "mek": "M3",
+    "kb": 238,
+    "kare": 30
+   },
+   {
+    "dosya": "02.webp",
     "metin": "uh oh",
     "kanal": "soydavidfelipe",
     "no": 22,
@@ -4859,7 +4171,924 @@
     "kare": 30
    },
    {
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 82,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 439,
+    "kare": 30
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "screaming",
+    "kanal": "the_nseven",
+    "no": 133,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 431,
+    "kare": 30
+   },
+   {
+    "dosya": "05.webp",
+    "metin": "",
+    "kanal": "the_nseven",
+    "no": 135,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 71,
+    "kare": 23
+   },
+   {
+    "dosya": "06.webp",
+    "metin": "wait",
+    "kanal": "_sahipsiz2",
+    "no": 92,
+    "duygu": "\"bir dakika\"",
+    "mek": "M1",
+    "kb": 376,
+    "kare": 20
+   },
+   {
+    "dosya": "07.webp",
+    "metin": "huh?",
+    "kanal": "_sahipsiz",
+    "no": 19,
+    "duygu": "soru",
+    "mek": "M3",
+    "kb": 282,
+    "kare": 24
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 114,
+    "duygu": "düşüş",
+    "mek": "M2",
+    "kb": 469,
+    "kare": 30
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "NOOO",
+    "kanal": "_sahipsiz",
+    "no": 29,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 256,
+    "kare": 14
+   },
+   {
+    "dosya": "10.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 138,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 255,
+    "kare": 30
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "HELP",
+    "kanal": "_sahipsiz",
+    "no": 105,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 209,
+    "kare": 5
+   },
+   {
+    "dosya": "12.webp",
+    "metin": "omg",
+    "kanal": "_sahipsiz",
+    "no": 31,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 460,
+    "kare": 30
+   },
+   {
+    "dosya": "13.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 213,
+    "duygu": "karışık",
+    "mek": "M3",
+    "kb": 437,
+    "kare": 28
+   },
+   {
+    "dosya": "14.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 228,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 480,
+    "kare": 30
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 39,
+    "duygu": "korku",
+    "mek": "M2",
+    "kb": 122,
+    "kare": 15
+   },
+   {
+    "dosya": "16.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 281,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 320,
+    "kare": 20
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "aaah",
+    "kanal": "_sahipsiz2",
+    "no": 285,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 266,
+    "kare": 16
+   },
+   {
+    "dosya": "18.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 96,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 103,
+    "kare": 7
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "wtf",
+    "kanal": "_sahipsiz",
+    "no": 138,
+    "duygu": "wtf",
+    "mek": "M3",
+    "kb": 426,
+    "kare": 30
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 301,
+    "duygu": "korku",
+    "mek": "M4",
+    "kb": 387,
+    "kare": 30
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 141,
+    "duygu": "kafa yatırma",
+    "mek": "M3",
+    "kb": 459,
+    "kare": 30
+   },
+   {
+    "dosya": "22.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 308,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 86,
+    "kare": 8
+   },
+   {
+    "dosya": "23.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 369,
+    "duygu": "kafa yatırma",
+    "mek": "M3",
+    "kb": 402,
+    "kare": 30
+   },
+   {
+    "dosya": "24.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 347,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 428,
+    "kare": 16
+   },
+   {
     "dosya": "25.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 263,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 58,
+    "kare": 5
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "gasp",
+    "kanal": "_sahipsiz2",
+    "no": 348,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 236,
+    "kare": 12
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 370,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 104,
+    "kare": 9
+   },
+   {
+    "dosya": "28.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 356,
+    "duygu": "soru",
+    "mek": "M3",
+    "kb": 46,
+    "kare": 3
+   },
+   {
+    "dosya": "29.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 364,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 358,
+    "kare": 30
+   }
+  ]
+ },
+ {
+  "slug": "caught-in-4k-3",
+  "ad": "Caught in 4K Vol. 3",
+  "desc": "the moment it clicks",
+  "tema": "caught-in-4k",
+  "adet": 29,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 766,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 43,
+    "kare": 2
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 430,
+    "duygu": "—",
+    "mek": "M3",
+    "kb": 185,
+    "kare": 25
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 767,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 31,
+    "kare": 2
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "uh oh...",
+    "kanal": "_sahipsiz2",
+    "no": 450,
+    "duygu": "endişe",
+    "mek": "M3",
+    "kb": 423,
+    "kare": 30
+   },
+   {
+    "dosya": "05.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 485,
+    "duygu": "—",
+    "mek": "M3",
+    "kb": 323,
+    "kare": 30
+   },
+   {
+    "dosya": "06.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 491,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 207,
+    "kare": 21
+   },
+   {
+    "dosya": "07.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 506,
+    "duygu": "şok / \"you can't see me\"",
+    "mek": "M2",
+    "kb": 339,
+    "kare": 30
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 507,
+    "duygu": "şok / \"you can't see me\"",
+    "mek": "M2",
+    "kb": 131,
+    "kare": 3
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 508,
+    "duygu": "şok / \"you can't see me\"",
+    "mek": "M2",
+    "kb": 138,
+    "kare": 30
+   },
+   {
+    "dosya": "10.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 509,
+    "duygu": "şok / \"you can't see me\"",
+    "mek": "M2",
+    "kb": 79,
+    "kare": 5
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 572,
+    "duygu": "korku",
+    "mek": "M2",
+    "kb": 422,
+    "kare": 22
+   },
+   {
+    "dosya": "12.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 577,
+    "duygu": "korku",
+    "mek": "M2",
+    "kb": 195,
+    "kare": 30
+   },
+   {
+    "dosya": "13.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 589,
+    "duygu": "korku",
+    "mek": "M2",
+    "kb": 154,
+    "kare": 30
+   },
+   {
+    "dosya": "14.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 613,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 54,
+    "kare": 4
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 887,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 448,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 893,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 229,
+    "kare": 9
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1323,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 392,
+    "kare": 30
+   },
+   {
+    "dosya": "18.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 697,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 453,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 782,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 128,
+    "kare": 26
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 784,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 160,
+    "kare": 17
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 785,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 295,
+    "kare": 12
+   },
+   {
+    "dosya": "22.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 765,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 475,
+    "kare": 25
+   },
+   {
+    "dosya": "23.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 767,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 293,
+    "kare": 30
+   },
+   {
+    "dosya": "24.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 777,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 24,
+    "kare": 2
+   },
+   {
+    "dosya": "25.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 778,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 196,
+    "kare": 17
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 835,
+    "duygu": "dehşet",
+    "mek": "M2",
+    "kb": 398,
+    "kare": 23
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 854,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 448,
+    "kare": 30
+   },
+   {
+    "dosya": "28.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 901,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 69,
+    "kare": 13
+   },
+   {
+    "dosya": "29.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 916,
+    "duygu": "şaşkın",
+    "mek": "M3",
+    "kb": 357,
+    "kare": 30
+   }
+  ]
+ },
+ {
+  "slug": "caught-in-4k-4",
+  "ad": "Caught in 4K Vol. 4",
+  "desc": "the moment it clicks",
+  "tema": "caught-in-4k",
+  "adet": 29,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 929,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 243,
+    "kare": 30
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 931,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 400,
+    "kare": 30
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 945,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 145,
+    "kare": 11
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 951,
+    "duygu": "panik",
+    "mek": "M2",
+    "kb": 422,
+    "kare": 30
+   },
+   {
+    "dosya": "05.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 955,
+    "duygu": "panik",
+    "mek": "M2",
+    "kb": 106,
+    "kare": 8
+   },
+   {
+    "dosya": "06.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 961,
+    "duygu": "gergin",
+    "mek": "M2",
+    "kb": 389,
+    "kare": 26
+   },
+   {
+    "dosya": "07.webp",
+    "metin": "OOOH",
+    "kanal": "_sahipsiz2",
+    "no": 1028,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 496,
+    "kare": 30
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1246,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 362,
+    "kare": 30
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1251,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 364,
+    "kare": 30
+   },
+   {
+    "dosya": "10.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1253,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 333,
+    "kare": 22
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1254,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 206,
+    "kare": 14
+   },
+   {
+    "dosya": "12.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1408,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 448,
+    "kare": 30
+   },
+   {
+    "dosya": "13.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 2241,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 195,
+    "kare": 21
+   },
+   {
+    "dosya": "14.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 2388,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 96,
+    "kare": 7
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 2390,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 392,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 2391,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 207,
+    "kare": 13
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 3131,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 384,
+    "kare": 30
+   },
+   {
+    "dosya": "18.webp",
+    "metin": "WHAT",
+    "kanal": "the_nseven",
+    "no": 34,
+    "duygu": "çene düşmesi",
+    "mek": "M2",
+    "kb": 289,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "huh",
+    "kanal": "the_nseven",
+    "no": 60,
+    "duygu": "\"huh?\"",
+    "mek": "M3",
+    "kb": 327,
+    "kare": 30
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "AAAAA",
+    "kanal": "soydavidfelipe",
+    "no": 8,
+    "duygu": "çığlık / coşku",
+    "mek": "M2",
+    "kb": 53,
+    "kare": 1
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "me?",
+    "kanal": "Elgatitolover",
+    "no": 13,
+    "duygu": "şaşkın masumiyet",
+    "mek": "M4",
+    "kb": 50,
+    "kare": 9
+   },
+   {
+    "dosya": "22.webp",
+    "metin": ":O",
+    "kanal": "notsyma",
+    "no": 47,
+    "duygu": "\":O\"",
+    "mek": "M2",
+    "kb": 118,
+    "kare": 30
+   },
+   {
+    "dosya": "23.webp",
+    "metin": "AAAA",
+    "kanal": "_sahipsiz2",
+    "no": 37,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 53,
+    "kare": 4
+   },
+   {
+    "dosya": "24.webp",
+    "metin": "wait what",
+    "kanal": "_sahipsiz",
+    "no": 5,
+    "duygu": "şaşkın köpek",
+    "mek": "M3",
+    "kb": 272,
+    "kare": 29
+   },
+   {
+    "dosya": "25.webp",
+    "metin": "come again",
+    "kanal": "soydavidfelipe",
+    "no": 14,
+    "duygu": "şaşkın \"ne?\"",
+    "mek": "M3",
+    "kb": 22,
+    "kare": 1
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "WOW",
+    "kanal": "_sahipsiz",
+    "no": 10,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 340,
+    "kare": 30
+   },
+   {
+    "dosya": "27.webp",
+    "metin": "oh no",
+    "kanal": "soydavidfelipe",
+    "no": 16,
+    "duygu": "\"eyvah\"",
+    "mek": "M2",
+    "kb": 9,
+    "kare": 1
+   },
+   {
+    "dosya": "28.webp",
+    "metin": "woah",
+    "kanal": "_sahipsiz",
+    "no": 42,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 115,
+    "kare": 8
+   },
+   {
+    "dosya": "29.webp",
+    "metin": "say what",
+    "kanal": "_sahipsiz2",
+    "no": 84,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 105,
+    "kare": 6
+   }
+  ]
+ },
+ {
+  "slug": "caught-in-4k-5",
+  "ad": "Caught in 4K Vol. 5",
+  "desc": "the moment it clicks",
+  "tema": "caught-in-4k",
+  "adet": 25,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
+    "metin": "uh oh",
+    "kanal": "_sahipsiz",
+    "no": 13,
+    "duygu": "gasp",
+    "mek": "M2",
+    "kb": 424,
+    "kare": 29
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "huh?",
+    "kanal": "_sahipsiz",
+    "no": 285,
+    "duygu": "soru",
+    "mek": "M3",
+    "kb": 492,
+    "kare": 23
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "hold on",
+    "kanal": "_sahipsiz2",
+    "no": 119,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 485,
+    "kare": 30
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "screaming",
+    "kanal": "_sahipsiz",
+    "no": 292,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 181,
+    "kare": 7
+   },
+   {
+    "dosya": "05.webp",
     "metin": "omg",
     "kanal": "_sahipsiz",
     "no": 278,
@@ -4869,7 +5098,7 @@
     "kare": 30
    },
    {
-    "dosya": "26.webp",
+    "dosya": "06.webp",
     "metin": "im scared",
     "kanal": "_sahipsiz",
     "no": 38,
@@ -4877,28 +5106,39 @@
     "mek": "M2",
     "kb": 114,
     "kare": 12
-   }
-  ]
- },
- {
-  "slug": "caught-in-4k-5",
-  "ad": "Caught in 4K Vol. 5",
-  "desc": "the moment it clicks",
-  "tema": "caught-in-4k",
-  "adet": 24,
-  "dosyalar": [
-   {
-    "dosya": "01.webp",
-    "metin": "HUH?",
-    "kanal": "_sahipsiz2",
-    "no": 363,
-    "duygu": "soru",
-    "mek": "M3",
-    "kb": 84,
-    "kare": 13
    },
    {
-    "dosya": "02.webp",
+    "dosya": "07.webp",
+    "metin": "NOOO",
+    "kanal": "_sahipsiz2",
+    "no": 289,
+    "duygu": "panik",
+    "mek": "M2",
+    "kb": 364,
+    "kare": 30
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "HELP",
+    "kanal": "_sahipsiz",
+    "no": 175,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 493,
+    "kare": 30
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "uh oh...",
+    "kanal": "_sahipsiz2",
+    "no": 682,
+    "duygu": "endişe",
+    "mek": "M3",
+    "kb": 451,
+    "kare": 30
+   },
+   {
+    "dosya": "10.webp",
     "metin": "gasp",
     "kanal": "_sahipsiz2",
     "no": 1249,
@@ -4908,7 +5148,7 @@
     "kare": 30
    },
    {
-    "dosya": "03.webp",
+    "dosya": "11.webp",
     "metin": "WHAT",
     "kanal": "taviitoo_bv",
     "no": 31,
@@ -4918,7 +5158,7 @@
     "kare": 28
    },
    {
-    "dosya": "04.webp",
+    "dosya": "12.webp",
     "metin": "huh",
     "kanal": "brown_giphy",
     "no": 122,
@@ -4928,47 +5168,67 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
-    "metin": "WOW",
-    "kanal": "_sahipsiz",
-    "no": 42,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 115,
-    "kare": 8
-   },
-   {
-    "dosya": "06.webp",
-    "metin": "AAAA",
+    "dosya": "13.webp",
+    "metin": "AAAAA",
     "kanal": "Elgatitolover",
-    "no": 82,
+    "no": 83,
     "duygu": "dehşet",
     "mek": "M2",
-    "kb": 330,
+    "kb": 303,
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "14.webp",
+    "metin": "WOW",
+    "kanal": "_sahipsiz",
+    "no": 92,
+    "duygu": "şok",
+    "mek": "M2",
+    "kb": 377,
+    "kare": 30
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "wait what",
+    "kanal": "the_nseven",
+    "no": 184,
+    "duygu": "kaş",
+    "mek": "M1",
+    "kb": 285,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
+    "metin": "huh?",
+    "kanal": "_sahipsiz2",
+    "no": 202,
+    "duygu": "\"ne?\"",
+    "mek": "M3",
+    "kb": 206,
+    "kare": 22
+   },
+   {
+    "dosya": "17.webp",
     "metin": "im scared",
     "kanal": "_sahipsiz",
-    "no": 39,
+    "no": 40,
     "duygu": "korku",
     "mek": "M2",
-    "kb": 125,
-    "kare": 15
-   },
-   {
-    "dosya": "08.webp",
-    "metin": "uh oh",
-    "kanal": "_sahipsiz2",
-    "no": 450,
-    "duygu": "endişe",
-    "mek": "M3",
-    "kb": 416,
+    "kb": 431,
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "18.webp",
+    "metin": "AAAA",
+    "kanal": "_sahipsiz2",
+    "no": 322,
+    "duygu": "—",
+    "mek": "M2",
+    "kb": 396,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
     "metin": "WHAT",
     "kanal": "TranslucentRunner",
     "no": 96,
@@ -4978,154 +5238,64 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
-    "metin": "AAAA",
+    "dosya": "20.webp",
+    "metin": "AAAAA",
     "kanal": "Elgatitolover",
-    "no": 83,
+    "no": 84,
     "duygu": "dehşet",
     "mek": "M2",
-    "kb": 302,
-    "kare": 30
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "huh",
-    "kanal": "_sahipsiz",
-    "no": 19,
-    "duygu": "soru",
-    "mek": "M3",
-    "kb": 277,
-    "kare": 24
-   },
-   {
-    "dosya": "12.webp",
-    "metin": "uh oh",
-    "kanal": "_sahipsiz2",
-    "no": 682,
-    "duygu": "endişe",
-    "mek": "M3",
-    "kb": 451,
-    "kare": 30
-   },
-   {
-    "dosya": "13.webp",
-    "metin": "what",
-    "kanal": "muntasermari",
-    "no": 21,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 418,
-    "kare": 12
-   },
-   {
-    "dosya": "14.webp",
-    "metin": "huh",
-    "kanal": "_sahipsiz",
-    "no": 284,
-    "duygu": "soru",
-    "mek": "M3",
-    "kb": 100,
-    "kare": 5
-   },
-   {
-    "dosya": "15.webp",
-    "metin": "AAAA",
-    "kanal": "the_nseven",
-    "no": 133,
-    "duygu": "çığlık",
-    "mek": "M2",
-    "kb": 435,
-    "kare": 30
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "WHAT",
-    "kanal": "_sahipsiz2",
-    "no": 18,
-    "duygu": "şok",
-    "mek": "M2",
-    "kb": 474,
-    "kare": 30
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "AAAA",
-    "kanal": "_sahipsiz",
-    "no": 29,
-    "duygu": "çığlık",
-    "mek": "M2",
-    "kb": 256,
-    "kare": 14
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "huh",
-    "kanal": "the_nseven",
-    "no": 184,
-    "duygu": "kaş",
-    "mek": "M1",
-    "kb": 276,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "what",
-    "kanal": "_sahipsiz",
-    "no": 4,
-    "duygu": "şaşkın köpek",
-    "mek": "M3",
-    "kb": 265,
-    "kare": 30
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "AAAA",
-    "kanal": "_sahipsiz",
-    "no": 105,
-    "duygu": "çığlık",
-    "mek": "M2",
-    "kb": 212,
-    "kare": 5
+    "kb": 132,
+    "kare": 6
    },
    {
     "dosya": "21.webp",
-    "metin": "what",
-    "kanal": "Elgatitolover",
-    "no": 69,
-    "duygu": "şaşkın",
-    "mek": "M4",
-    "kb": 181,
-    "kare": 12
+    "metin": "AAAA",
+    "kanal": "_sahipsiz",
+    "no": 514,
+    "duygu": "çığlık",
+    "mek": "M2",
+    "kb": 79,
+    "kare": 13
    },
    {
     "dosya": "22.webp",
-    "metin": "AAAA",
-    "kanal": "_sahipsiz2",
-    "no": 285,
-    "duygu": "dehşet",
+    "metin": "huh",
+    "kanal": "_sahipsiz",
+    "no": 780,
+    "duygu": "aptal",
     "mek": "M2",
-    "kb": 267,
-    "kare": 16
+    "kb": 349,
+    "kare": 30
    },
    {
     "dosya": "23.webp",
-    "metin": "WHAT",
-    "kanal": "_sahipsiz2",
-    "no": 41,
-    "duygu": "şaşkın",
-    "mek": "M2",
-    "kb": 119,
-    "kare": 22
+    "metin": "what",
+    "kanal": "_sahipsiz",
+    "no": 23,
+    "duygu": "şaşkın köpek",
+    "mek": "M3",
+    "kb": 396,
+    "kare": 30
    },
    {
     "dosya": "24.webp",
     "metin": "what",
-    "kanal": "soydavidfelipe",
-    "no": 14,
-    "duygu": "şaşkın \"ne?\"",
+    "kanal": "_sahipsiz2",
+    "no": 149,
+    "duygu": "şaşkın",
+    "mek": "M2",
+    "kb": 346,
+    "kare": 30
+   },
+   {
+    "dosya": "25.webp",
+    "metin": "what",
+    "kanal": "_sahipsiz2",
+    "no": 185,
+    "duygu": "şaşkın",
     "mek": "M3",
-    "kb": 21,
-    "kare": 1
+    "kb": 389,
+    "kare": 30
    }
   ]
  },
@@ -5427,6 +5597,16 @@
    },
    {
     "dosya": "04.webp",
+    "metin": "LMAOO",
+    "kanal": "_sahipsiz2",
+    "no": 144,
+    "duygu": "kahkaha",
+    "mek": "M2",
+    "kb": 48,
+    "kare": 11
+   },
+   {
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 163,
@@ -5434,16 +5614,6 @@
     "mek": "M2",
     "kb": 475,
     "kare": 23
-   },
-   {
-    "dosya": "05.webp",
-    "metin": "LMAOO",
-    "kanal": "_sahipsiz2",
-    "no": 260,
-    "duygu": "kahkaha",
-    "mek": "M2",
-    "kb": 92,
-    "kare": 6
    },
    {
     "dosya": "06.webp",
@@ -5786,16 +5956,26 @@
    },
    {
     "dosya": "14.webp",
-    "metin": "HAHAHA",
+    "metin": "hahaha",
     "kanal": "_sahipsiz2",
-    "no": 71,
+    "no": 65,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 499,
-    "kare": 23
+    "kb": 443,
+    "kare": 30
    },
    {
     "dosya": "15.webp",
+    "metin": "LMAOO",
+    "kanal": "_sahipsiz2",
+    "no": 164,
+    "duygu": "kahkaha",
+    "mek": "M2",
+    "kb": 450,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
     "metin": "you dont say",
     "kanal": "_sahipsiz2",
     "no": 191,
@@ -5805,7 +5985,7 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "17.webp",
     "metin": "bravo",
     "kanal": "_sahipsiz2",
     "no": 272,
@@ -5815,7 +5995,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "18.webp",
     "metin": "hehe",
     "kanal": "_sahipsiz2",
     "no": 447,
@@ -5825,7 +6005,7 @@
     "kare": 12
    },
    {
-    "dosya": "18.webp",
+    "dosya": "19.webp",
     "metin": "ROTFL",
     "kanal": "_sahipsiz2",
     "no": 723,
@@ -5835,7 +6015,7 @@
     "kare": 23
    },
    {
-    "dosya": "19.webp",
+    "dosya": "20.webp",
     "metin": "u mad?",
     "kanal": "_sahipsiz2",
     "no": 1472,
@@ -5845,63 +6025,53 @@
     "kare": 5
    },
    {
-    "dosya": "20.webp",
-    "metin": "HAHA",
-    "kanal": "_sahipsiz2",
-    "no": 65,
-    "duygu": "kahkaha",
-    "mek": "M2",
-    "kb": 442,
-    "kare": 30
-   },
-   {
     "dosya": "21.webp",
-    "metin": "LOL",
+    "metin": "HAHAHA",
     "kanal": "_sahipsiz2",
-    "no": 144,
+    "no": 71,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 47,
-    "kare": 11
+    "kb": 499,
+    "kare": 23
    },
    {
     "dosya": "22.webp",
-    "metin": "LMAO",
+    "metin": "HAHA",
     "kanal": "_sahipsiz2",
-    "no": 212,
+    "no": 129,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 451,
-    "kare": 30
+    "kb": 258,
+    "kare": 15
    },
    {
     "dosya": "23.webp",
-    "metin": "HAHAHA",
+    "metin": "lmao",
     "kanal": "_sahipsiz2",
-    "no": 400,
+    "no": 237,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 490,
-    "kare": 26
+    "kb": 234,
+    "kare": 14
    },
    {
     "dosya": "24.webp",
-    "metin": "HAHA",
+    "metin": "lol",
     "kanal": "_sahipsiz2",
-    "no": 105,
+    "no": 402,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 71,
-    "kare": 5
+    "kb": 409,
+    "kare": 27
    },
    {
     "dosya": "25.webp",
-    "metin": "lol",
+    "metin": "HAHA",
     "kanal": "_sahipsiz2",
-    "no": 164,
+    "no": 148,
     "duygu": "kahkaha",
     "mek": "M2",
-    "kb": 450,
+    "kb": 433,
     "kare": 30
    }
   ]
@@ -5911,7 +6081,7 @@
   "ad": "Unhinged Hours Vol. 1",
   "desc": "no thoughts, only chaos",
   "tema": "unhinged",
-  "adet": 18,
+  "adet": 20,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -6055,6 +6225,16 @@
    },
    {
     "dosya": "15.webp",
+    "metin": "ewww",
+    "kanal": "_sahipsiz2",
+    "no": 280,
+    "duygu": "iğrenme",
+    "mek": "M1",
+    "kb": 471,
+    "kare": 19
+   },
+   {
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 372,
@@ -6064,7 +6244,7 @@
     "kare": 22
    },
    {
-    "dosya": "16.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 481,
@@ -6074,7 +6254,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 499,
@@ -6084,7 +6264,7 @@
     "kare": 8
    },
    {
-    "dosya": "18.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 533,
@@ -6092,6 +6272,16 @@
     "mek": "M2",
     "kb": 285,
     "kare": 19
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 537,
+    "duygu": "tuhaf",
+    "mek": "M2",
+    "kb": 463,
+    "kare": 29
    }
   ]
  },
@@ -6100,20 +6290,10 @@
   "ad": "Unhinged Hours Vol. 2",
   "desc": "no thoughts, only chaos",
   "tema": "unhinged",
-  "adet": 17,
+  "adet": 19,
   "dosyalar": [
    {
     "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 537,
-    "duygu": "tuhaf",
-    "mek": "M2",
-    "kb": 463,
-    "kare": 29
-   },
-   {
-    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 937,
@@ -6123,7 +6303,7 @@
     "kare": 30
    },
    {
-    "dosya": "03.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1484,
@@ -6133,7 +6313,7 @@
     "kare": 30
    },
    {
-    "dosya": "04.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1639,
@@ -6143,7 +6323,7 @@
     "kare": 8
    },
    {
-    "dosya": "05.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2372,
@@ -6153,7 +6333,7 @@
     "kare": 9
    },
    {
-    "dosya": "06.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2377,
@@ -6163,7 +6343,7 @@
     "kare": 8
    },
    {
-    "dosya": "07.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2378,
@@ -6173,7 +6353,7 @@
     "kare": 5
    },
    {
-    "dosya": "08.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2384,
@@ -6183,7 +6363,7 @@
     "kare": 23
    },
    {
-    "dosya": "09.webp",
+    "dosya": "08.webp",
     "metin": "why so serious",
     "kanal": "_sahipsiz2",
     "no": 2616,
@@ -6191,6 +6371,16 @@
     "mek": "M2",
     "kb": 389,
     "kare": 30
+   },
+   {
+    "dosya": "09.webp",
+    "metin": "why so serious?",
+    "kanal": "_sahipsiz2",
+    "no": 2617,
+    "duygu": "manyak / kaos",
+    "mek": "M2",
+    "kb": 442,
+    "kare": 28
    },
    {
     "dosya": "10.webp",
@@ -6244,6 +6434,16 @@
    },
    {
     "dosya": "15.webp",
+    "metin": "ewww",
+    "kanal": "_sahipsiz2",
+    "no": 398,
+    "duygu": "iğrenme",
+    "mek": "M3",
+    "kb": 473,
+    "kare": 28
+   },
+   {
+    "dosya": "16.webp",
     "metin": "yikes",
     "kanal": "_sahipsiz2",
     "no": 465,
@@ -6253,24 +6453,34 @@
     "kare": 2
    },
    {
-    "dosya": "16.webp",
-    "metin": "why so serious",
+    "dosya": "17.webp",
+    "metin": "why so serious?",
     "kanal": "_sahipsiz2",
-    "no": 2617,
+    "no": 2618,
     "duygu": "manyak / kaos",
     "mek": "M2",
-    "kb": 442,
-    "kare": 28
+    "kb": 367,
+    "kare": 16
    },
    {
-    "dosya": "17.webp",
-    "metin": "ew",
+    "dosya": "18.webp",
+    "metin": "why so serious",
     "kanal": "_sahipsiz2",
-    "no": 280,
+    "no": 2619,
+    "duygu": "manyak / kaos",
+    "mek": "M2",
+    "kb": 343,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "EW",
+    "kanal": "_sahipsiz2",
+    "no": 452,
     "duygu": "iğrenme",
-    "mek": "M1",
-    "kb": 471,
-    "kare": 19
+    "mek": "M2",
+    "kb": 456,
+    "kare": 20
    }
   ]
  },
@@ -6279,7 +6489,7 @@
   "ad": "Big Brain Moment",
   "desc": "thinking about it",
   "tema": "big-brain",
-  "adet": 23,
+  "adet": 25,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -6343,6 +6553,26 @@
    },
    {
     "dosya": "07.webp",
+    "metin": "doing the math",
+    "kanal": "_sahipsiz2",
+    "no": 58,
+    "duygu": "hesaplıyor",
+    "mek": "M3",
+    "kb": 362,
+    "kare": 30
+   },
+   {
+    "dosya": "08.webp",
+    "metin": "as planned",
+    "kanal": "_sahipsiz",
+    "no": 195,
+    "duygu": "plan",
+    "mek": "M1",
+    "kb": 50,
+    "kare": 2
+   },
+   {
+    "dosya": "09.webp",
     "metin": "hmm",
     "kanal": "_sahipsiz2",
     "no": 24,
@@ -6352,7 +6582,7 @@
     "kare": 21
    },
    {
-    "dosya": "08.webp",
+    "dosya": "10.webp",
     "metin": "heh",
     "kanal": "_sahipsiz2",
     "no": 28,
@@ -6362,7 +6592,27 @@
     "kare": 15
    },
    {
-    "dosya": "09.webp",
+    "dosya": "11.webp",
+    "metin": "we move",
+    "kanal": "_sahipsiz2",
+    "no": 89,
+    "duygu": "plan",
+    "mek": "M1",
+    "kb": 293,
+    "kare": 30
+   },
+   {
+    "dosya": "12.webp",
+    "metin": "hmmm",
+    "kanal": "_sahipsiz2",
+    "no": 130,
+    "duygu": "düşünüyor",
+    "mek": "M3",
+    "kb": 217,
+    "kare": 30
+   },
+   {
+    "dosya": "13.webp",
     "metin": "big brain",
     "kanal": "_sahipsiz2",
     "no": 131,
@@ -6372,7 +6622,7 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
+    "dosya": "14.webp",
     "metin": "hmm interesting",
     "kanal": "_sahipsiz2",
     "no": 339,
@@ -6382,7 +6632,7 @@
     "kare": 16
    },
    {
-    "dosya": "11.webp",
+    "dosya": "15.webp",
     "metin": "here it is",
     "kanal": "_sahipsiz2",
     "no": 366,
@@ -6392,7 +6642,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 377,
@@ -6402,7 +6652,7 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 405,
@@ -6412,7 +6662,7 @@
     "kare": 4
    },
    {
-    "dosya": "14.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 483,
@@ -6422,7 +6672,7 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 484,
@@ -6432,7 +6682,37 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "20.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 795,
+    "duygu": "ukala",
+    "mek": "M1",
+    "kb": 120,
+    "kare": 14
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "noted",
+    "kanal": "_sahipsiz2",
+    "no": 1187,
+    "duygu": "plan",
+    "mek": "M1",
+    "kb": 84,
+    "kare": 10
+   },
+   {
+    "dosya": "22.webp",
+    "metin": "perfect",
+    "kanal": "_sahipsiz2",
+    "no": 1193,
+    "duygu": "plan",
+    "mek": "M1",
+    "kb": 144,
+    "kare": 19
+   },
+   {
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1945,
@@ -6442,74 +6722,24 @@
     "kare": 2
    },
    {
-    "dosya": "17.webp",
-    "metin": "excellent",
-    "kanal": "taviitoo_bv",
-    "no": 63,
-    "duygu": "ellerini ovuşturan kedi",
-    "mek": "M1",
-    "kb": 365,
-    "kare": 28
-   },
-   {
-    "dosya": "18.webp",
-    "metin": "calculating",
+    "dosya": "24.webp",
+    "metin": "hmmm",
     "kanal": "_sahipsiz2",
-    "no": 58,
-    "duygu": "hesaplıyor",
-    "mek": "M3",
-    "kb": 362,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": "hmm",
-    "kanal": "_sahipsiz2",
-    "no": 130,
+    "no": 192,
     "duygu": "düşünüyor",
     "mek": "M3",
-    "kb": 216,
-    "kare": 30
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "actually",
-    "kanal": "_sahipsiz2",
-    "no": 795,
-    "duygu": "ukala",
-    "mek": "M1",
-    "kb": 122,
-    "kare": 14
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "excellent",
-    "kanal": "_sahipsiz",
-    "no": 195,
-    "duygu": "plan",
-    "mek": "M1",
-    "kb": 50,
-    "kare": 2
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "excellent",
-    "kanal": "_sahipsiz2",
-    "no": 89,
-    "duygu": "plan",
-    "mek": "M1",
-    "kb": 292,
-    "kare": 30
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "excellent",
-    "kanal": "_sahipsiz2",
-    "no": 1187,
-    "duygu": "plan",
-    "mek": "M1",
-    "kb": 85,
+    "kb": 228,
     "kare": 10
+   },
+   {
+    "dosya": "25.webp",
+    "metin": "doing the math",
+    "kanal": "_sahipsiz2",
+    "no": 365,
+    "duygu": "hesaplıyor",
+    "mek": "M3",
+    "kb": 367,
+    "kare": 30
    }
   ]
  },
@@ -6632,6 +6862,16 @@
    },
    {
     "dosya": "12.webp",
+    "metin": "nope",
+    "kanal": "TranslucentRunner",
+    "no": 192,
+    "duygu": "ciddi elma-kedi",
+    "mek": "M1",
+    "kb": 31,
+    "kare": 11
+   },
+   {
+    "dosya": "13.webp",
     "metin": "no thanks",
     "kanal": "_sahipsiz",
     "no": 122,
@@ -6641,17 +6881,17 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
-    "metin": "type shiii",
+    "dosya": "14.webp",
+    "metin": "cmon",
     "kanal": "the_nseven",
-    "no": 185,
-    "duygu": "onay",
-    "mek": "M1",
-    "kb": 397,
+    "no": 131,
+    "duygu": "iri göz",
+    "mek": "M2",
+    "kb": 327,
     "kare": 30
    },
    {
-    "dosya": "14.webp",
+    "dosya": "15.webp",
     "metin": "hell no",
     "kanal": "_sahipsiz2",
     "no": 93,
@@ -6661,17 +6901,17 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
-    "metin": "deal",
+    "dosya": "16.webp",
+    "metin": "type shiii",
     "kanal": "the_nseven",
-    "no": 188,
-    "duygu": "sus anlaşma",
+    "no": 185,
+    "duygu": "onay",
     "mek": "M1",
-    "kb": 250,
+    "kb": 397,
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "17.webp",
     "metin": "no way",
     "kanal": "_sahipsiz2",
     "no": 94,
@@ -6681,7 +6921,27 @@
     "kare": 11
    },
    {
-    "dosya": "17.webp",
+    "dosya": "18.webp",
+    "metin": "yep",
+    "kanal": "_sahipsiz",
+    "no": 197,
+    "duygu": "evet/hayır",
+    "mek": "M1",
+    "kb": 75,
+    "kare": 4
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "deal",
+    "kanal": "the_nseven",
+    "no": 188,
+    "duygu": "sus anlaşma",
+    "mek": "M1",
+    "kb": 250,
+    "kare": 30
+   },
+   {
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 95,
@@ -6691,7 +6951,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "21.webp",
     "metin": "approved",
     "kanal": "_sahipsiz",
     "no": 495,
@@ -6701,7 +6961,17 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "22.webp",
+    "metin": "absolutely",
+    "kanal": "_sahipsiz2",
+    "no": 124,
+    "duygu": "onay",
+    "mek": "M1",
+    "kb": 184,
+    "kare": 30
+   },
+   {
+    "dosya": "23.webp",
     "metin": "let him cook",
     "kanal": "_sahipsiz2",
     "no": 160,
@@ -6711,7 +6981,7 @@
     "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "24.webp",
     "metin": "you're goddamn right",
     "kanal": "_sahipsiz2",
     "no": 172,
@@ -6721,7 +6991,7 @@
     "kare": 19
    },
    {
-    "dosya": "21.webp",
+    "dosya": "25.webp",
     "metin": "hell naw",
     "kanal": "_sahipsiz2",
     "no": 188,
@@ -6729,46 +6999,6 @@
     "mek": "M1",
     "kb": 329,
     "kare": 19
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "you.",
-    "kanal": "_sahipsiz2",
-    "no": 189,
-    "duygu": "\"sen!\"",
-    "mek": "M5",
-    "kb": 27,
-    "kare": 7
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "NO",
-    "kanal": "_sahipsiz2",
-    "no": 190,
-    "duygu": "ret",
-    "mek": "M1",
-    "kb": 123,
-    "kare": 11
-   },
-   {
-    "dosya": "24.webp",
-    "metin": "yes.",
-    "kanal": "_sahipsiz2",
-    "no": 327,
-    "duygu": "onay",
-    "mek": "M1",
-    "kb": 464,
-    "kare": 30
-   },
-   {
-    "dosya": "25.webp",
-    "metin": "denied",
-    "kanal": "_sahipsiz2",
-    "no": 379,
-    "duygu": "ret",
-    "mek": "M1",
-    "kb": 326,
-    "kare": 17
    }
   ]
  },
@@ -6781,6 +7011,56 @@
   "dosyalar": [
    {
     "dosya": "01.webp",
+    "metin": "you.",
+    "kanal": "_sahipsiz2",
+    "no": 189,
+    "duygu": "\"sen!\"",
+    "mek": "M5",
+    "kb": 27,
+    "kare": 7
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "NO",
+    "kanal": "_sahipsiz2",
+    "no": 190,
+    "duygu": "ret",
+    "mek": "M1",
+    "kb": 123,
+    "kare": 11
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "yes.",
+    "kanal": "_sahipsiz2",
+    "no": 327,
+    "duygu": "onay",
+    "mek": "M1",
+    "kb": 464,
+    "kare": 30
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "denied",
+    "kanal": "_sahipsiz2",
+    "no": 379,
+    "duygu": "ret",
+    "mek": "M1",
+    "kb": 326,
+    "kare": 17
+   },
+   {
+    "dosya": "05.webp",
+    "metin": "i saw that",
+    "kanal": "_sahipsiz2",
+    "no": 381,
+    "duygu": "gözetleme",
+    "mek": "M5",
+    "kb": 444,
+    "kare": 30
+   },
+   {
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 388,
@@ -6790,7 +7070,7 @@
     "kare": 30
    },
    {
-    "dosya": "02.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 482,
@@ -6800,7 +7080,7 @@
     "kare": 30
    },
    {
-    "dosya": "03.webp",
+    "dosya": "08.webp",
     "metin": "no signal",
     "kanal": "_sahipsiz2",
     "no": 564,
@@ -6810,7 +7090,7 @@
     "kare": 30
    },
    {
-    "dosya": "04.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 588,
@@ -6820,7 +7100,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 590,
@@ -6830,7 +7110,7 @@
     "kare": 27
    },
    {
-    "dosya": "06.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 591,
@@ -6840,7 +7120,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 899,
@@ -6850,7 +7130,7 @@
     "kare": 6
    },
    {
-    "dosya": "08.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1322,
@@ -6860,7 +7140,7 @@
     "kare": 13
    },
    {
-    "dosya": "09.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1324,
@@ -6870,7 +7150,7 @@
     "kare": 7
    },
    {
-    "dosya": "10.webp",
+    "dosya": "15.webp",
     "metin": "yes girl",
     "kanal": "_sahipsiz2",
     "no": 1334,
@@ -6880,7 +7160,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "16.webp",
     "metin": "NO GOD NO",
     "kanal": "_sahipsiz2",
     "no": 1341,
@@ -6890,7 +7170,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "17.webp",
     "metin": "NOOO",
     "kanal": "_sahipsiz2",
     "no": 1343,
@@ -6900,7 +7180,7 @@
     "kare": 22
    },
    {
-    "dosya": "13.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1344,
@@ -6910,7 +7190,7 @@
     "kare": 7
    },
    {
-    "dosya": "14.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1345,
@@ -6920,7 +7200,7 @@
     "kare": 17
    },
    {
-    "dosya": "15.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1346,
@@ -6930,7 +7210,7 @@
     "kare": 7
    },
    {
-    "dosya": "16.webp",
+    "dosya": "21.webp",
     "metin": "not today",
     "kanal": "_sahipsiz2",
     "no": 1350,
@@ -6940,7 +7220,7 @@
     "kare": 24
    },
    {
-    "dosya": "17.webp",
+    "dosya": "22.webp",
     "metin": "how about no",
     "kanal": "_sahipsiz2",
     "no": 1774,
@@ -6950,7 +7230,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "23.webp",
     "metin": "bye",
     "kanal": "_sahipsiz2",
     "no": 640,
@@ -6960,7 +7240,7 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 646,
@@ -6970,7 +7250,7 @@
     "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "25.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 647,
@@ -6978,9 +7258,18 @@
     "mek": "M1",
     "kb": 13,
     "kare": 1
-   },
+   }
+  ]
+ },
+ {
+  "slug": "hard-no-3",
+  "ad": "Respectfully No Vol. 3",
+  "desc": "yes, no, and absolutely not",
+  "tema": "hard-no",
+  "adet": 24,
+  "dosyalar": [
    {
-    "dosya": "21.webp",
+    "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 648,
@@ -6990,7 +7279,7 @@
     "kare": 12
    },
    {
-    "dosya": "22.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 652,
@@ -7000,7 +7289,7 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 666,
@@ -7010,7 +7299,7 @@
     "kare": 30
    },
    {
-    "dosya": "24.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 670,
@@ -7020,7 +7309,7 @@
     "kare": 11
    },
    {
-    "dosya": "25.webp",
+    "dosya": "05.webp",
     "metin": "true dat",
     "kanal": "_sahipsiz2",
     "no": 689,
@@ -7028,18 +7317,9 @@
     "mek": "M1",
     "kb": 164,
     "kare": 13
-   }
-  ]
- },
- {
-  "slug": "hard-no-3",
-  "ad": "Respectfully No Vol. 3",
-  "desc": "yes, no, and absolutely not",
-  "tema": "hard-no",
-  "adet": 23,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 742,
@@ -7049,7 +7329,7 @@
     "kare": 21
    },
    {
-    "dosya": "02.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 747,
@@ -7059,7 +7339,17 @@
     "kare": 12
    },
    {
-    "dosya": "03.webp",
+    "dosya": "08.webp",
+    "metin": "fine",
+    "kanal": "_sahipsiz2",
+    "no": 826,
+    "duygu": "teslim",
+    "mek": "M2",
+    "kb": 334,
+    "kare": 16
+   },
+   {
+    "dosya": "09.webp",
     "metin": "peace out",
     "kanal": "_sahipsiz2",
     "no": 1381,
@@ -7069,7 +7359,7 @@
     "kare": 27
    },
    {
-    "dosya": "04.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1407,
@@ -7079,7 +7369,7 @@
     "kare": 8
    },
    {
-    "dosya": "05.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2252,
@@ -7089,7 +7379,7 @@
     "kare": 14
    },
    {
-    "dosya": "06.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2253,
@@ -7099,7 +7389,7 @@
     "kare": 6
    },
    {
-    "dosya": "07.webp",
+    "dosya": "13.webp",
     "metin": "not bad",
     "kanal": "_sahipsiz2",
     "no": 2277,
@@ -7109,7 +7399,7 @@
     "kare": 17
    },
    {
-    "dosya": "08.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2823,
@@ -7119,7 +7409,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "15.webp",
     "metin": "no.",
     "kanal": "_sahipsiz",
     "no": 44,
@@ -7129,7 +7419,7 @@
     "kare": 8
    },
    {
-    "dosya": "10.webp",
+    "dosya": "16.webp",
     "metin": "yes",
     "kanal": "_sahipsiz2",
     "no": 53,
@@ -7139,7 +7429,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "17.webp",
     "metin": "ok",
     "kanal": "_sahipsiz2",
     "no": 120,
@@ -7149,7 +7439,7 @@
     "kare": 15
    },
    {
-    "dosya": "12.webp",
+    "dosya": "18.webp",
     "metin": "ok ok",
     "kanal": "_sahipsiz",
     "no": 536,
@@ -7159,7 +7449,7 @@
     "kare": 4
    },
    {
-    "dosya": "13.webp",
+    "dosya": "19.webp",
     "metin": "no signal",
     "kanal": "_sahipsiz2",
     "no": 565,
@@ -7169,7 +7459,7 @@
     "kare": 18
    },
    {
-    "dosya": "14.webp",
+    "dosya": "20.webp",
     "metin": "no",
     "kanal": "_sahipsiz2",
     "no": 573,
@@ -7179,7 +7469,7 @@
     "kare": 6
    },
    {
-    "dosya": "15.webp",
+    "dosya": "21.webp",
     "metin": "NO GOD NO",
     "kanal": "_sahipsiz2",
     "no": 1342,
@@ -7189,7 +7479,7 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "22.webp",
     "metin": "bye",
     "kanal": "_sahipsiz2",
     "no": 643,
@@ -7199,17 +7489,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
-    "metin": "NOOO",
-    "kanal": "_sahipsiz2",
-    "no": 669,
-    "duygu": "ret",
-    "mek": "M2",
-    "kb": 394,
-    "kare": 30
-   },
-   {
-    "dosya": "18.webp",
+    "dosya": "23.webp",
     "metin": "nah",
     "kanal": "_sahipsiz2",
     "no": 679,
@@ -7219,54 +7499,14 @@
     "kare": 30
    },
    {
-    "dosya": "19.webp",
-    "metin": "no.",
-    "kanal": "TranslucentRunner",
-    "no": 192,
-    "duygu": "ciddi elma-kedi",
-    "mek": "M1",
-    "kb": 30,
-    "kare": 11
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "yes",
+    "dosya": "24.webp",
+    "metin": "YES",
     "kanal": "_sahipsiz",
     "no": 196,
     "duygu": "evet/hayır",
     "mek": "M1",
     "kb": 203,
     "kare": 13
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "ok ok",
-    "kanal": "_sahipsiz2",
-    "no": 826,
-    "duygu": "teslim",
-    "mek": "M2",
-    "kb": 336,
-    "kare": 16
-   },
-   {
-    "dosya": "22.webp",
-    "metin": "yes",
-    "kanal": "_sahipsiz",
-    "no": 197,
-    "duygu": "evet/hayır",
-    "mek": "M1",
-    "kb": 75,
-    "kare": 4
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "yes",
-    "kanal": "_sahipsiz2",
-    "no": 124,
-    "duygu": "onay",
-    "mek": "M1",
-    "kb": 182,
-    "kare": 30
    }
   ]
  },
@@ -7275,7 +7515,7 @@
   "ad": "Certified Sigma Vol. 1",
   "desc": "built different",
   "tema": "certified-sigma",
-  "adet": 29,
+  "adet": 30,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -7566,6 +7806,16 @@
     "mek": "M1",
     "kb": 458,
     "kare": 30
+   },
+   {
+    "dosya": "30.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 419,
+    "duygu": "kibir / \"my pain is constant\"",
+    "mek": "M1",
+    "kb": 455,
+    "kare": 20
    }
   ]
  },
@@ -7574,20 +7824,10 @@
   "ad": "Certified Sigma Vol. 2",
   "desc": "built different",
   "tema": "certified-sigma",
-  "adet": 29,
+  "adet": 30,
   "dosyalar": [
    {
     "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 419,
-    "duygu": "kibir / \"my pain is constant\"",
-    "mek": "M1",
-    "kb": 455,
-    "kare": 20
-   },
-   {
-    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 420,
@@ -7597,7 +7837,7 @@
     "kare": 16
    },
    {
-    "dosya": "03.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 424,
@@ -7605,6 +7845,16 @@
     "mek": "M1",
     "kb": 88,
     "kare": 13
+   },
+   {
+    "dosya": "03.webp",
+    "metin": "YES",
+    "kanal": "_sahipsiz2",
+    "no": 475,
+    "duygu": "zafer",
+    "mek": "M2",
+    "kb": 47,
+    "kare": 14
    },
    {
     "dosya": "04.webp",
@@ -7758,6 +8008,16 @@
    },
    {
     "dosya": "19.webp",
+    "metin": "W",
+    "kanal": "_sahipsiz2",
+    "no": 1040,
+    "duygu": "zafer",
+    "mek": "M2",
+    "kb": 321,
+    "kare": 20
+   },
+   {
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1044,
@@ -7767,7 +8027,7 @@
     "kare": 25
    },
    {
-    "dosya": "20.webp",
+    "dosya": "21.webp",
     "metin": "yasss",
     "kanal": "_sahipsiz2",
     "no": 1045,
@@ -7777,7 +8037,7 @@
     "kare": 30
    },
    {
-    "dosya": "21.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1047,
@@ -7787,7 +8047,7 @@
     "kare": 30
    },
    {
-    "dosya": "22.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1389,
@@ -7797,7 +8057,7 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2238,
@@ -7807,7 +8067,7 @@
     "kare": 29
    },
    {
-    "dosya": "24.webp",
+    "dosya": "25.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2395,
@@ -7817,7 +8077,7 @@
     "kare": 18
    },
    {
-    "dosya": "25.webp",
+    "dosya": "26.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2399,
@@ -7827,7 +8087,7 @@
     "kare": 12
    },
    {
-    "dosya": "26.webp",
+    "dosya": "27.webp",
     "metin": "YEAH",
     "kanal": "_sahipsiz2",
     "no": 76,
@@ -7837,17 +8097,17 @@
     "kare": 15
    },
    {
-    "dosya": "27.webp",
-    "metin": "victory",
+    "dosya": "28.webp",
+    "metin": "W",
     "kanal": "_sahipsiz2",
-    "no": 1040,
+    "no": 1041,
     "duygu": "zafer",
     "mek": "M2",
-    "kb": 322,
-    "kare": 20
+    "kb": 379,
+    "kare": 21
    },
    {
-    "dosya": "28.webp",
+    "dosya": "29.webp",
     "metin": "pay up",
     "kanal": "_sahipsiz2",
     "no": 1646,
@@ -7857,7 +8117,7 @@
     "kare": 30
    },
    {
-    "dosya": "29.webp",
+    "dosya": "30.webp",
     "metin": "YESSS",
     "kanal": "_sahipsiz2",
     "no": 2394,
@@ -7873,7 +8133,7 @@
   "ad": "Soft Hours Vol. 1",
   "desc": "for the people you like",
   "tema": "soft-hours",
-  "adet": 21,
+  "adet": 23,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -7897,22 +8157,22 @@
    },
    {
     "dosya": "03.webp",
-    "metin": "this is for you :3",
-    "kanal": "mimi_barbar",
-    "no": 3,
-    "duygu": "utangaç aşk",
-    "mek": "M4",
-    "kb": 358,
-    "kare": 30
-   },
-   {
-    "dosya": "04.webp",
     "metin": ":)",
     "kanal": "_sahipsiz",
     "no": 60,
     "duygu": "mutlu",
     "mek": "M3",
     "kb": 352,
+    "kare": 30
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "this is for you :3",
+    "kanal": "mimi_barbar",
+    "no": 3,
+    "duygu": "utangaç aşk",
+    "mek": "M4",
+    "kb": 358,
     "kare": 30
    },
    {
@@ -7937,6 +8197,16 @@
    },
    {
     "dosya": "07.webp",
+    "metin": "",
+    "kanal": "guestEmma",
+    "no": 11,
+    "duygu": "masum Ragdoll",
+    "mek": "M4",
+    "kb": 281,
+    "kare": 30
+   },
+   {
+    "dosya": "08.webp",
     "metin": "smol",
     "kanal": "notsyma",
     "no": 4,
@@ -7946,7 +8216,7 @@
     "kare": 11
    },
    {
-    "dosya": "08.webp",
+    "dosya": "09.webp",
     "metin": "me?",
     "kanal": "TranslucentRunner",
     "no": 167,
@@ -7954,16 +8224,6 @@
     "mek": "M4",
     "kb": 126,
     "kare": 12
-   },
-   {
-    "dosya": "09.webp",
-    "metin": "",
-    "kanal": "guestEmma",
-    "no": 11,
-    "duygu": "masum Ragdoll",
-    "mek": "M4",
-    "kb": 281,
-    "kare": 30
    },
    {
     "dosya": "10.webp",
@@ -8047,6 +8307,16 @@
    },
    {
     "dosya": "18.webp",
+    "metin": "one more time",
+    "kanal": "guestEmma",
+    "no": 56,
+    "duygu": "bağıran turuncu",
+    "mek": "M5",
+    "kb": 370,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "notsyma",
     "no": 45,
@@ -8056,7 +8326,7 @@
     "kare": 6
    },
    {
-    "dosya": "19.webp",
+    "dosya": "20.webp",
     "metin": "ZAMN",
     "kanal": "TranslucentRunner",
     "no": 100,
@@ -8064,16 +8334,6 @@
     "mek": "M2",
     "kb": 36,
     "kare": 11
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "hello",
-    "kanal": "guestEmma",
-    "no": 57,
-    "duygu": "selamlaşan",
-    "mek": "M1",
-    "kb": 353,
-    "kare": 24
    },
    {
     "dosya": "21.webp",
@@ -8084,18 +8344,9 @@
     "mek": "M3",
     "kb": 370,
     "kare": 30
-   }
-  ]
- },
- {
-  "slug": "soft-hours-2",
-  "ad": "Soft Hours Vol. 2",
-  "desc": "for the people you like",
-  "tema": "soft-hours",
-  "adet": 21,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "22.webp",
     "metin": "oh stop it",
     "kanal": "_sahipsiz2",
     "no": 218,
@@ -8105,7 +8356,26 @@
     "kare": 15
    },
    {
-    "dosya": "02.webp",
+    "dosya": "23.webp",
+    "metin": "thank you",
+    "kanal": "_sahipsiz",
+    "no": 146,
+    "duygu": "teşekkür",
+    "mek": "M4",
+    "kb": 487,
+    "kare": 30
+   }
+  ]
+ },
+ {
+  "slug": "soft-hours-2",
+  "ad": "Soft Hours Vol. 2",
+  "desc": "for the people you like",
+  "tema": "soft-hours",
+  "adet": 23,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
     "metin": "",
     "kanal": "mimi_barbar",
     "no": 10,
@@ -8115,17 +8385,7 @@
     "kare": 30
    },
    {
-    "dosya": "03.webp",
-    "metin": "thank you",
-    "kanal": "_sahipsiz",
-    "no": 146,
-    "duygu": "teşekkür",
-    "mek": "M4",
-    "kb": 487,
-    "kare": 30
-   },
-   {
-    "dosya": "04.webp",
+    "dosya": "02.webp",
     "metin": "help",
     "kanal": "brown_giphy",
     "no": 86,
@@ -8135,7 +8395,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "goddamghonzo",
     "no": 7,
@@ -8145,7 +8405,17 @@
     "kare": 19
    },
    {
-    "dosya": "06.webp",
+    "dosya": "04.webp",
+    "metin": "hello",
+    "kanal": "guestEmma",
+    "no": 57,
+    "duygu": "selamlaşan",
+    "mek": "M1",
+    "kb": 353,
+    "kare": 24
+   },
+   {
+    "dosya": "05.webp",
     "metin": "o7",
     "kanal": "notsyma",
     "no": 48,
@@ -8155,7 +8425,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "06.webp",
     "metin": "thanks",
     "kanal": "TranslucentRunner",
     "no": 177,
@@ -8165,7 +8435,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "07.webp",
     "metin": "aww shucks",
     "kanal": "_sahipsiz2",
     "no": 251,
@@ -8175,7 +8445,7 @@
     "kare": 14
    },
    {
-    "dosya": "09.webp",
+    "dosya": "08.webp",
     "metin": "hi :)",
     "kanal": "mimi_barbar",
     "no": 14,
@@ -8185,7 +8455,7 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
+    "dosya": "09.webp",
     "metin": "did i do that?",
     "kanal": "_sahipsiz2",
     "no": 282,
@@ -8195,7 +8465,7 @@
     "kare": 24
    },
    {
-    "dosya": "11.webp",
+    "dosya": "10.webp",
     "metin": "for you",
     "kanal": "the_nseven",
     "no": 100,
@@ -8203,6 +8473,16 @@
     "mek": "M4",
     "kb": 44,
     "kare": 3
+   },
+   {
+    "dosya": "11.webp",
+    "metin": "meh",
+    "kanal": "_sahipsiz",
+    "no": 435,
+    "duygu": "keçi",
+    "mek": "M1 M2",
+    "kb": 396,
+    "kare": 24
    },
    {
     "dosya": "12.webp",
@@ -8216,13 +8496,13 @@
    },
    {
     "dosya": "13.webp",
-    "metin": "meh",
-    "kanal": "_sahipsiz",
-    "no": 435,
-    "duygu": "keçi",
-    "mek": "M1 M2",
-    "kb": 396,
-    "kare": 24
+    "metin": "ty",
+    "kanal": "_sahipsiz2",
+    "no": 318,
+    "duygu": "teşekkür",
+    "mek": "M4",
+    "kb": 311,
+    "kare": 22
    },
    {
     "dosya": "14.webp",
@@ -8236,13 +8516,13 @@
    },
    {
     "dosya": "15.webp",
-    "metin": "",
+    "metin": "sorry",
     "kanal": "_sahipsiz",
-    "no": 773,
+    "no": 550,
     "duygu": "masum",
     "mek": "M4",
-    "kb": 73,
-    "kare": 13
+    "kb": 473,
+    "kare": 30
    },
    {
     "dosya": "16.webp",
@@ -8256,6 +8536,36 @@
    },
    {
     "dosya": "17.webp",
+    "metin": "muah",
+    "kanal": "the_nseven",
+    "no": 183,
+    "duygu": "öpücük",
+    "mek": "M4",
+    "kb": 214,
+    "kare": 30
+   },
+   {
+    "dosya": "18.webp",
+    "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 773,
+    "duygu": "masum",
+    "mek": "M4",
+    "kb": 73,
+    "kare": 13
+   },
+   {
+    "dosya": "19.webp",
+    "metin": "all good",
+    "kanal": "_sahipsiz2",
+    "no": 584,
+    "duygu": "mutlu",
+    "mek": "M3",
+    "kb": 457,
+    "kare": 30
+   },
+   {
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 677,
@@ -8265,7 +8575,7 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 678,
@@ -8275,7 +8585,7 @@
     "kare": 13
    },
    {
-    "dosya": "19.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 870,
@@ -8285,7 +8595,7 @@
     "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 986,
@@ -8293,16 +8603,6 @@
     "mek": "M4",
     "kb": 89,
     "kare": 13
-   },
-   {
-    "dosya": "21.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 1083,
-    "duygu": "sevgi",
-    "mek": "M4",
-    "kb": 66,
-    "kare": 9
    }
   ]
  },
@@ -8317,6 +8617,16 @@
     "dosya": "01.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
+    "no": 1083,
+    "duygu": "sevgi",
+    "mek": "M4",
+    "kb": 66,
+    "kare": 9
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
     "no": 1086,
     "duygu": "sevgi",
     "mek": "M4",
@@ -8324,7 +8634,17 @@
     "kare": 12
    },
    {
-    "dosya": "02.webp",
+    "dosya": "03.webp",
+    "metin": "kiss",
+    "kanal": "_sahipsiz2",
+    "no": 1090,
+    "duygu": "öpücük",
+    "mek": "M4",
+    "kb": 239,
+    "kare": 12
+   },
+   {
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1097,
@@ -8334,7 +8654,7 @@
     "kare": 7
    },
    {
-    "dosya": "03.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1102,
@@ -8344,7 +8664,7 @@
     "kare": 4
    },
    {
-    "dosya": "04.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1103,
@@ -8354,7 +8674,7 @@
     "kare": 7
    },
    {
-    "dosya": "05.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1105,
@@ -8364,7 +8684,7 @@
     "kare": 22
    },
    {
-    "dosya": "06.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1106,
@@ -8374,7 +8694,7 @@
     "kare": 6
    },
    {
-    "dosya": "07.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1638,
@@ -8384,7 +8704,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "10.webp",
     "metin": ":)",
     "kanal": "_sahipsiz",
     "no": 61,
@@ -8394,7 +8714,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "11.webp",
     "metin": "hehe",
     "kanal": "the_nseven",
     "no": 73,
@@ -8404,7 +8724,7 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
+    "dosya": "12.webp",
     "metin": "o7",
     "kanal": "the_nseven",
     "no": 93,
@@ -8414,7 +8734,7 @@
     "kare": 3
    },
    {
-    "dosya": "11.webp",
+    "dosya": "13.webp",
     "metin": "thank you",
     "kanal": "_sahipsiz",
     "no": 160,
@@ -8424,7 +8744,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "14.webp",
     "metin": "mwah",
     "kanal": "mimi_barbar",
     "no": 20,
@@ -8434,7 +8754,7 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "15.webp",
     "metin": "hi",
     "kanal": "_sahipsiz2",
     "no": 383,
@@ -8444,7 +8764,37 @@
     "kare": 30
    },
    {
-    "dosya": "14.webp",
+    "dosya": "16.webp",
+    "metin": "all good",
+    "kanal": "_sahipsiz2",
+    "no": 586,
+    "duygu": "mutlu",
+    "mek": "M3",
+    "kb": 289,
+    "kare": 20
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "love u",
+    "kanal": "_sahipsiz2",
+    "no": 1092,
+    "duygu": "öpücük",
+    "mek": "M1",
+    "kb": 237,
+    "kare": 21
+   },
+   {
+    "dosya": "18.webp",
+    "metin": "muah",
+    "kanal": "_sahipsiz2",
+    "no": 1094,
+    "duygu": "öpücük",
+    "mek": "M2",
+    "kb": 447,
+    "kare": 30
+   },
+   {
+    "dosya": "19.webp",
     "metin": "for you",
     "kanal": "_sahipsiz2",
     "no": 1098,
@@ -8454,7 +8804,7 @@
     "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "20.webp",
     "metin": "nom",
     "kanal": "_sahipsiz2",
     "no": 1636,
@@ -8464,64 +8814,14 @@
     "kare": 15
    },
    {
-    "dosya": "16.webp",
-    "metin": "thank you",
-    "kanal": "_sahipsiz2",
-    "no": 318,
-    "duygu": "teşekkür",
-    "mek": "M4",
-    "kb": 319,
-    "kare": 22
-   },
-   {
-    "dosya": "17.webp",
-    "metin": "mwah",
-    "kanal": "the_nseven",
-    "no": 183,
-    "duygu": "öpücük",
-    "mek": "M4",
-    "kb": 215,
-    "kare": 30
-   },
-   {
-    "dosya": "18.webp",
-    "metin": ":)",
-    "kanal": "_sahipsiz2",
-    "no": 583,
-    "duygu": "mutlu",
-    "mek": "M3",
-    "kb": 313,
-    "kare": 30
-   },
-   {
-    "dosya": "19.webp",
-    "metin": ":)",
-    "kanal": "_sahipsiz2",
-    "no": 584,
-    "duygu": "mutlu",
-    "mek": "M3",
-    "kb": 438,
-    "kare": 30
-   },
-   {
-    "dosya": "20.webp",
-    "metin": "mwah",
-    "kanal": "_sahipsiz2",
-    "no": 1090,
-    "duygu": "öpücük",
-    "mek": "M4",
-    "kb": 242,
-    "kare": 12
-   },
-   {
     "dosya": "21.webp",
-    "metin": "mwah",
+    "metin": ":)",
     "kanal": "_sahipsiz2",
-    "no": 1092,
-    "duygu": "öpücük",
-    "mek": "M1",
-    "kb": 237,
-    "kare": 21
+    "no": 587,
+    "duygu": "mutlu",
+    "mek": "M3",
+    "kb": 228,
+    "kare": 14
    }
   ]
  },
@@ -8530,20 +8830,10 @@
   "ad": "Work Mode",
   "desc": "sent from my desk",
   "tema": "work-mode",
-  "adet": 19,
+  "adet": 21,
   "dosyalar": [
    {
     "dosya": "01.webp",
-    "metin": "its been 84 years",
-    "kanal": "_sahipsiz2",
-    "no": 123,
-    "duygu": "bekleme",
-    "mek": "M2",
-    "kb": 420,
-    "kare": 23
-   },
-   {
-    "dosya": "02.webp",
     "metin": "working",
     "kanal": "_sahipsiz",
     "no": 88,
@@ -8551,6 +8841,16 @@
     "mek": "M3",
     "kb": 494,
     "kare": 30
+   },
+   {
+    "dosya": "02.webp",
+    "metin": "its been 84 years",
+    "kanal": "_sahipsiz2",
+    "no": 123,
+    "duygu": "bekleme",
+    "mek": "M2",
+    "kb": 420,
+    "kare": 23
    },
    {
     "dosya": "03.webp",
@@ -8564,6 +8864,26 @@
    },
    {
     "dosya": "04.webp",
+    "metin": "still working",
+    "kanal": "the_nseven",
+    "no": 109,
+    "duygu": "dil dışarı yorgun",
+    "mek": "M3",
+    "kb": 393,
+    "kare": 30
+   },
+   {
+    "dosya": "05.webp",
+    "metin": "wfh",
+    "kanal": "9mc",
+    "no": 18,
+    "duygu": "çalışıyor",
+    "mek": "M3",
+    "kb": 261,
+    "kare": 22
+   },
+   {
+    "dosya": "06.webp",
     "metin": "3am",
     "kanal": "goddamghonzo",
     "no": 11,
@@ -8573,7 +8893,17 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "07.webp",
+    "metin": "on it",
+    "kanal": "_sahipsiz",
+    "no": 230,
+    "duygu": "çalışıyor",
+    "mek": "M3",
+    "kb": 73,
+    "kare": 3
+   },
+   {
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 200,
@@ -8583,17 +8913,27 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
-    "metin": "hello?",
-    "kanal": "_sahipsiz",
-    "no": 165,
-    "duygu": "ofis",
-    "mek": "M1",
-    "kb": 375,
+    "dosya": "09.webp",
+    "metin": "in a meeting",
+    "kanal": "notsyma",
+    "no": 138,
+    "duygu": "laptop başında",
+    "mek": "M3",
+    "kb": 138,
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "10.webp",
+    "metin": "deadline",
+    "kanal": "the_nseven",
+    "no": 110,
+    "duygu": "dil dışarı yorgun",
+    "mek": "M3",
+    "kb": 497,
+    "kare": 30
+   },
+   {
+    "dosya": "11.webp",
     "metin": "typing",
     "kanal": "_sahipsiz2",
     "no": 579,
@@ -8603,48 +8943,8 @@
     "kare": 8
    },
    {
-    "dosya": "08.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 971,
-    "duygu": "—",
-    "mek": "M2",
-    "kb": 138,
-    "kare": 8
-   },
-   {
-    "dosya": "09.webp",
-    "metin": "waiting",
-    "kanal": "_sahipsiz",
-    "no": 305,
-    "duygu": "bekleme",
-    "mek": "M3",
-    "kb": 477,
-    "kare": 30
-   },
-   {
-    "dosya": "10.webp",
-    "metin": "working",
-    "kanal": "the_nseven",
-    "no": 109,
-    "duygu": "dil dışarı yorgun",
-    "mek": "M3",
-    "kb": 376,
-    "kare": 30
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "hello?",
-    "kanal": "_sahipsiz",
-    "no": 266,
-    "duygu": "ofis",
-    "mek": "M1",
-    "kb": 447,
-    "kare": 30
-   },
-   {
     "dosya": "12.webp",
-    "metin": "typing",
+    "metin": "typing...",
     "kanal": "_sahipsiz2",
     "no": 581,
     "duygu": "—",
@@ -8654,72 +8954,92 @@
    },
    {
     "dosya": "13.webp",
-    "metin": "morning",
+    "metin": "hello?",
     "kanal": "_sahipsiz",
-    "no": 232,
-    "duygu": "sabah",
-    "mek": "M3",
-    "kb": 406,
+    "no": 165,
+    "duygu": "ofis",
+    "mek": "M1",
+    "kb": 375,
     "kare": 30
    },
    {
     "dosya": "14.webp",
-    "metin": "waiting",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 971,
+    "duygu": "—",
+    "mek": "M2",
+    "kb": 138,
+    "kare": 8
+   },
+   {
+    "dosya": "15.webp",
+    "metin": "hi?",
+    "kanal": "_sahipsiz",
+    "no": 266,
+    "duygu": "ofis",
+    "mek": "M1",
+    "kb": 446,
+    "kare": 30
+   },
+   {
+    "dosya": "16.webp",
+    "metin": "still waiting",
     "kanal": "_sahipsiz2",
     "no": 987,
     "duygu": "bekleme",
     "mek": "M3",
-    "kb": 40,
+    "kb": 41,
     "kare": 14
    },
    {
-    "dosya": "15.webp",
-    "metin": "working",
-    "kanal": "9mc",
-    "no": 18,
-    "duygu": "çalışıyor",
-    "mek": "M3",
-    "kb": 264,
-    "kare": 22
-   },
-   {
-    "dosya": "16.webp",
-    "metin": "working",
-    "kanal": "_sahipsiz",
-    "no": 230,
-    "duygu": "çalışıyor",
-    "mek": "M3",
-    "kb": 74,
-    "kare": 3
-   },
-   {
     "dosya": "17.webp",
-    "metin": "working",
-    "kanal": "notsyma",
-    "no": 138,
-    "duygu": "laptop başında",
+    "metin": "good morning",
+    "kanal": "_sahipsiz",
+    "no": 232,
+    "duygu": "sabah",
     "mek": "M3",
-    "kb": 137,
+    "kb": 417,
     "kare": 30
    },
    {
     "dosya": "18.webp",
-    "metin": "working",
-    "kanal": "the_nseven",
-    "no": 110,
-    "duygu": "dil dışarı yorgun",
+    "metin": "waiting",
+    "kanal": "_sahipsiz",
+    "no": 305,
+    "duygu": "bekleme",
     "mek": "M3",
-    "kb": 498,
+    "kb": 477,
     "kare": 30
    },
    {
     "dosya": "19.webp",
-    "metin": "working",
-    "kanal": "_sahipsiz2",
-    "no": 571,
-    "duygu": "—",
+    "metin": "still working",
+    "kanal": "_sahipsiz",
+    "no": 231,
+    "duygu": "çalışıyor",
     "mek": "M3",
-    "kb": 455,
+    "kb": 27,
+    "kare": 2
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "working",
+    "kanal": "_sahipsiz",
+    "no": 337,
+    "duygu": "çalışıyor",
+    "mek": "M3",
+    "kb": 365,
+    "kare": 25
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "hi?",
+    "kanal": "_sahipsiz",
+    "no": 269,
+    "duygu": "ofis",
+    "mek": "M1",
+    "kb": 431,
     "kare": 30
    }
   ]
@@ -8729,7 +9049,7 @@
   "ad": "Tea Time",
   "desc": "the drama is delicious",
   "tema": "tea-time",
-  "adet": 19,
+  "adet": 21,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -8913,13 +9233,33 @@
    },
    {
     "dosya": "19.webp",
-    "metin": "you get a ___",
+    "metin": "everybody gets one",
     "kanal": "_sahipsiz2",
     "no": 2264,
     "duygu": "cömertlik",
     "mek": "M1",
-    "kb": 236,
+    "kb": 238,
     "kare": 22
+   },
+   {
+    "dosya": "20.webp",
+    "metin": "everybody gets one",
+    "kanal": "_sahipsiz2",
+    "no": 2265,
+    "duygu": "cömertlik",
+    "mek": "M1",
+    "kb": 383,
+    "kare": 30
+   },
+   {
+    "dosya": "21.webp",
+    "metin": "you get a ___",
+    "kanal": "_sahipsiz2",
+    "no": 2266,
+    "duygu": "cömertlik",
+    "mek": "M1",
+    "kb": 384,
+    "kare": 30
    }
   ]
  },
@@ -9207,7 +9547,7 @@
   "ad": "Canon Classics",
   "desc": "the ones everyone already knows",
   "tema": "canon-classics",
-  "adet": 22,
+  "adet": 24,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -9251,6 +9591,16 @@
    },
    {
     "dosya": "05.webp",
+    "metin": "woah",
+    "kanal": "_sahipsiz2",
+    "no": 152,
+    "duygu": "doge",
+    "mek": "M1",
+    "kb": 129,
+    "kare": 12
+   },
+   {
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 498,
@@ -9260,7 +9610,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "07.webp",
     "metin": "hey",
     "kanal": "the_nseven",
     "no": 170,
@@ -9270,7 +9620,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "08.webp",
     "metin": "im dead",
     "kanal": "TranslucentRunner",
     "no": 179,
@@ -9278,16 +9628,6 @@
     "mek": "M2",
     "kb": 34,
     "kare": 9
-   },
-   {
-    "dosya": "08.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 317,
-    "duygu": "—",
-    "mek": "M2",
-    "kb": 295,
-    "kare": 22
    },
    {
     "dosya": "09.webp",
@@ -9302,16 +9642,6 @@
    {
     "dosya": "10.webp",
     "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 410,
-    "duygu": "—",
-    "mek": "M1",
-    "kb": 404,
-    "kare": 30
-   },
-   {
-    "dosya": "11.webp",
-    "metin": "",
     "kanal": "_sahipsiz",
     "no": 510,
     "duygu": "emoji",
@@ -9320,17 +9650,17 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
-    "no": 411,
+    "no": 317,
     "duygu": "—",
-    "mek": "M1",
-    "kb": 422,
-    "kare": 30
+    "mek": "M2",
+    "kb": 295,
+    "kare": 22
    },
    {
-    "dosya": "13.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 204,
@@ -9340,17 +9670,17 @@
     "kare": 8
    },
    {
-    "dosya": "14.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
-    "no": 412,
+    "no": 410,
     "duygu": "—",
     "mek": "M1",
-    "kb": 82,
-    "kare": 18
+    "kb": 404,
+    "kare": 30
    },
    {
-    "dosya": "15.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz",
     "no": 205,
@@ -9360,7 +9690,27 @@
     "kare": 2
    },
    {
+    "dosya": "15.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 411,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 422,
+    "kare": 30
+   },
+   {
     "dosya": "16.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 412,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 82,
+    "kare": 18
+   },
+   {
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 414,
@@ -9370,7 +9720,7 @@
     "kare": 13
    },
    {
-    "dosya": "17.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 415,
@@ -9380,7 +9730,7 @@
     "kare": 23
    },
    {
-    "dosya": "18.webp",
+    "dosya": "19.webp",
     "metin": "gotta go fast",
     "kanal": "_sahipsiz2",
     "no": 417,
@@ -9390,7 +9740,7 @@
     "kare": 2
    },
    {
-    "dosya": "19.webp",
+    "dosya": "20.webp",
     "metin": "como se llama",
     "kanal": "_sahipsiz2",
     "no": 440,
@@ -9400,7 +9750,7 @@
     "kare": 11
    },
    {
-    "dosya": "20.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 513,
@@ -9410,7 +9760,7 @@
     "kare": 29
    },
    {
-    "dosya": "21.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 520,
@@ -9420,14 +9770,24 @@
     "kare": 27
    },
    {
-    "dosya": "22.webp",
-    "metin": "wow",
+    "dosya": "23.webp",
+    "metin": "woah",
     "kanal": "_sahipsiz2",
-    "no": 152,
+    "no": 153,
     "duygu": "doge",
     "mek": "M1",
-    "kb": 128,
-    "kare": 12
+    "kb": 344,
+    "kare": 21
+   },
+   {
+    "dosya": "24.webp",
+    "metin": "wow",
+    "kanal": "_sahipsiz2",
+    "no": 154,
+    "duygu": "doge",
+    "mek": "M1",
+    "kb": 37,
+    "kare": 2
    }
   ]
  },
@@ -9436,7 +9796,7 @@
   "ad": "Oops My Bad",
   "desc": "caught, guilty, moving on",
   "tema": "oops",
-  "adet": 26,
+  "adet": 25,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -9510,6 +9870,16 @@
    },
    {
     "dosya": "08.webp",
+    "metin": "my bad",
+    "kanal": "_sahipsiz",
+    "no": 484,
+    "duygu": "utanç",
+    "mek": "M4",
+    "kb": 393,
+    "kare": 30
+   },
+   {
+    "dosya": "09.webp",
     "metin": "hiding",
     "kanal": "_sahipsiz2",
     "no": 267,
@@ -9519,7 +9889,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 270,
@@ -9529,7 +9899,7 @@
     "kare": 30
    },
    {
-    "dosya": "10.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 273,
@@ -9539,7 +9909,7 @@
     "kare": 12
    },
    {
-    "dosya": "11.webp",
+    "dosya": "12.webp",
     "metin": "oops",
     "kanal": "_sahipsiz2",
     "no": 283,
@@ -9549,7 +9919,7 @@
     "kare": 7
    },
    {
-    "dosya": "12.webp",
+    "dosya": "13.webp",
     "metin": "as if",
     "kanal": "_sahipsiz2",
     "no": 284,
@@ -9559,7 +9929,17 @@
     "kare": 21
    },
    {
-    "dosya": "13.webp",
+    "dosya": "14.webp",
+    "metin": "nope",
+    "kanal": "_sahipsiz2",
+    "no": 395,
+    "duygu": "saklanma",
+    "mek": "M3",
+    "kb": 260,
+    "kare": 30
+   },
+   {
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 467,
@@ -9569,7 +9949,7 @@
     "kare": 30
    },
    {
-    "dosya": "14.webp",
+    "dosya": "16.webp",
     "metin": "oh god",
     "kanal": "_sahipsiz2",
     "no": 758,
@@ -9579,7 +9959,7 @@
     "kare": 23
    },
    {
-    "dosya": "15.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 774,
@@ -9589,7 +9969,7 @@
     "kare": 13
    },
    {
-    "dosya": "16.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 909,
@@ -9599,7 +9979,7 @@
     "kare": 7
    },
    {
-    "dosya": "17.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 910,
@@ -9609,7 +9989,7 @@
     "kare": 23
    },
    {
-    "dosya": "18.webp",
+    "dosya": "20.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 911,
@@ -9619,7 +9999,7 @@
     "kare": 4
    },
    {
-    "dosya": "19.webp",
+    "dosya": "21.webp",
     "metin": "wtf",
     "kanal": "_sahipsiz2",
     "no": 932,
@@ -9629,7 +10009,7 @@
     "kare": 22
    },
    {
-    "dosya": "20.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 934,
@@ -9639,7 +10019,7 @@
     "kare": 30
    },
    {
-    "dosya": "21.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 936,
@@ -9649,7 +10029,7 @@
     "kare": 16
    },
    {
-    "dosya": "22.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 938,
@@ -9659,7 +10039,7 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "25.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 2833,
@@ -9667,36 +10047,6 @@
     "mek": "M3",
     "kb": 469,
     "kare": 29
-   },
-   {
-    "dosya": "24.webp",
-    "metin": "sorry",
-    "kanal": "_sahipsiz",
-    "no": 484,
-    "duygu": "utanç",
-    "mek": "M4",
-    "kb": 393,
-    "kare": 30
-   },
-   {
-    "dosya": "25.webp",
-    "metin": "hiding",
-    "kanal": "_sahipsiz2",
-    "no": 395,
-    "duygu": "saklanma",
-    "mek": "M3",
-    "kb": 260,
-    "kare": 30
-   },
-   {
-    "dosya": "26.webp",
-    "metin": "oops",
-    "kanal": "_sahipsiz2",
-    "no": 1643,
-    "duygu": "yaramaz",
-    "mek": "M1",
-    "kb": 430,
-    "kare": 30
    }
   ]
  },
@@ -9749,6 +10099,16 @@
    },
    {
     "dosya": "05.webp",
+    "metin": "all mine",
+    "kanal": "guestEmma",
+    "no": 47,
+    "duygu": "pankekli",
+    "mek": "M3",
+    "kb": 422,
+    "kare": 30
+   },
+   {
+    "dosya": "06.webp",
     "metin": "WHAT",
     "kanal": "notsyma",
     "no": 89,
@@ -9758,7 +10118,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 527,
@@ -9768,7 +10128,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "08.webp",
     "metin": "hello?",
     "kanal": "the_nseven",
     "no": 52,
@@ -9778,7 +10138,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "09.webp",
     "metin": "hydrate",
     "kanal": "txiqs",
     "no": 69,
@@ -9788,7 +10148,17 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "10.webp",
+    "metin": "nom nom",
+    "kanal": "_sahipsiz",
+    "no": 265,
+    "duygu": "yeme",
+    "mek": "M3",
+    "kb": 324,
+    "kare": 30
+   },
+   {
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 578,
@@ -9798,7 +10168,7 @@
     "kare": 17
    },
    {
-    "dosya": "10.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 176,
@@ -9808,7 +10178,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "txiqs",
     "no": 71,
@@ -9818,33 +10188,13 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 653,
     "duygu": "—",
     "mek": "M1",
     "kb": 477,
-    "kare": 30
-   },
-   {
-    "dosya": "13.webp",
-    "metin": "mine",
-    "kanal": "guestEmma",
-    "no": 47,
-    "duygu": "pankekli",
-    "mek": "M3",
-    "kb": 422,
-    "kare": 30
-   },
-   {
-    "dosya": "14.webp",
-    "metin": "nom",
-    "kanal": "_sahipsiz",
-    "no": 265,
-    "duygu": "yeme",
-    "mek": "M3",
-    "kb": 319,
     "kare": 30
    }
   ]
@@ -9854,7 +10204,7 @@
   "ad": "Mixed Reactions Vol. 1",
   "desc": "the everything drawer",
   "tema": "mixed-reactions",
-  "adet": 25,
+  "adet": 26,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -9868,13 +10218,13 @@
    },
    {
     "dosya": "02.webp",
-    "metin": "",
+    "metin": "come again",
     "kanal": "_sahipsiz",
-    "no": 242,
-    "duygu": "kafa yatırma",
+    "no": 284,
+    "duygu": "soru",
     "mek": "M3",
-    "kb": 495,
-    "kare": 30
+    "kb": 104,
+    "kare": 5
    },
    {
     "dosya": "03.webp",
@@ -9908,6 +10258,16 @@
    },
    {
     "dosya": "06.webp",
+    "metin": "processing…",
+    "kanal": "taviitoo_bv",
+    "no": 29,
+    "duygu": "beyin yükleniyor",
+    "mek": "M1",
+    "kb": 278,
+    "kare": 28
+   },
+   {
+    "dosya": "07.webp",
     "metin": "arrest me",
     "kanal": "brown_giphy",
     "no": 45,
@@ -9917,7 +10277,7 @@
     "kare": 30
    },
    {
-    "dosya": "07.webp",
+    "dosya": "08.webp",
     "metin": "take a shower",
     "kanal": "goddamghonzo",
     "no": 15,
@@ -9927,7 +10287,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "09.webp",
     "metin": "hey ;)",
     "kanal": "mimi_barbar",
     "no": 31,
@@ -9937,7 +10297,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "10.webp",
     "metin": "scoop me",
     "kanal": "muntasermari",
     "no": 11,
@@ -9945,16 +10305,6 @@
     "mek": "M2",
     "kb": 400,
     "kare": 30
-   },
-   {
-    "dosya": "10.webp",
-    "metin": "processing…",
-    "kanal": "taviitoo_bv",
-    "no": 29,
-    "duygu": "beyin yükleniyor",
-    "mek": "M1",
-    "kb": 278,
-    "kare": 28
    },
    {
     "dosya": "11.webp",
@@ -9988,16 +10338,6 @@
    },
    {
     "dosya": "14.webp",
-    "metin": "very demure",
-    "kanal": "_sahipsiz",
-    "no": 163,
-    "duygu": "ciddi makyaj",
-    "mek": "M1",
-    "kb": 464,
-    "kare": 30
-   },
-   {
-    "dosya": "15.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 55,
@@ -10007,7 +10347,7 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "15.webp",
     "metin": "mmmmm",
     "kanal": "TranslucentRunner",
     "no": 158,
@@ -10017,7 +10357,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "txiqs",
     "no": 7,
@@ -10025,6 +10365,16 @@
     "mek": "M2",
     "kb": 375,
     "kare": 21
+   },
+   {
+    "dosya": "17.webp",
+    "metin": "",
+    "kanal": "taviitoo_bv",
+    "no": 59,
+    "duygu": "sırıtan kedi",
+    "mek": "M1",
+    "kb": 275,
+    "kare": 28
    },
    {
     "dosya": "18.webp",
@@ -10069,16 +10419,6 @@
    {
     "dosya": "22.webp",
     "metin": "",
-    "kanal": "taviitoo_bv",
-    "no": 59,
-    "duygu": "sırıtan kedi",
-    "mek": "M1",
-    "kb": 275,
-    "kare": 28
-   },
-   {
-    "dosya": "23.webp",
-    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 96,
     "duygu": "literally me",
@@ -10087,17 +10427,17 @@
     "kare": 30
    },
    {
-    "dosya": "24.webp",
-    "metin": ";)",
+    "dosya": "23.webp",
+    "metin": "",
     "kanal": "_sahipsiz",
-    "no": 200,
-    "duygu": "flört",
-    "mek": "M1",
-    "kb": 311,
-    "kare": 23
+    "no": 242,
+    "duygu": "kafa yatırma",
+    "mek": "M3",
+    "kb": 495,
+    "kare": 30
    },
    {
-    "dosya": "25.webp",
+    "dosya": "24.webp",
     "metin": "mmm",
     "kanal": "the_nseven",
     "no": 77,
@@ -10105,18 +10445,9 @@
     "mek": "M3",
     "kb": 52,
     "kare": 4
-   }
-  ]
- },
- {
-  "slug": "mixed-reactions-2",
-  "ad": "Mixed Reactions Vol. 2",
-  "desc": "the everything drawer",
-  "tema": "mixed-reactions",
-  "adet": 25,
-  "dosyalar": [
+   },
    {
-    "dosya": "01.webp",
+    "dosya": "25.webp",
     "metin": "",
     "kanal": "TranslucentRunner",
     "no": 193,
@@ -10126,7 +10457,7 @@
     "kare": 11
    },
    {
-    "dosya": "02.webp",
+    "dosya": "26.webp",
     "metin": "im looking 👀",
     "kanal": "txiqs",
     "no": 21,
@@ -10134,9 +10465,28 @@
     "mek": "M1",
     "kb": 373,
     "kare": 29
+   }
+  ]
+ },
+ {
+  "slug": "mixed-reactions-2",
+  "ad": "Mixed Reactions Vol. 2",
+  "desc": "the everything drawer",
+  "tema": "mixed-reactions",
+  "adet": 26,
+  "dosyalar": [
+   {
+    "dosya": "01.webp",
+    "metin": "perfect",
+    "kanal": "taviitoo_bv",
+    "no": 63,
+    "duygu": "ellerini ovuşturan kedi",
+    "mek": "M1",
+    "kb": 366,
+    "kare": 28
    },
    {
-    "dosya": "03.webp",
+    "dosya": "02.webp",
     "metin": "better call saul",
     "kanal": "_sahipsiz2",
     "no": 174,
@@ -10146,17 +10496,17 @@
     "kare": 12
    },
    {
-    "dosya": "04.webp",
-    "metin": "",
+    "dosya": "03.webp",
+    "metin": "very demure",
     "kanal": "_sahipsiz",
-    "no": 332,
-    "duygu": "kötü",
-    "mek": "M5",
-    "kb": 85,
-    "kare": 5
+    "no": 163,
+    "duygu": "ciddi makyaj",
+    "mek": "M1",
+    "kb": 464,
+    "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "04.webp",
     "metin": "you cannot ragebait me",
     "kanal": "the_nseven",
     "no": 125,
@@ -10166,7 +10516,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "05.webp",
     "metin": "4k",
     "kanal": "TranslucentRunner",
     "no": 194,
@@ -10176,7 +10526,7 @@
     "kare": 12
    },
    {
-    "dosya": "07.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "txiqs",
     "no": 55,
@@ -10186,7 +10536,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "07.webp",
     "metin": "my honest reaction",
     "kanal": "_sahipsiz2",
     "no": 199,
@@ -10196,17 +10546,17 @@
     "kare": 1
    },
    {
-    "dosya": "09.webp",
-    "metin": "",
+    "dosya": "08.webp",
+    "metin": ";)",
     "kanal": "_sahipsiz",
-    "no": 426,
-    "duygu": "tombul sıçan",
-    "mek": "M2",
-    "kb": 497,
-    "kare": 30
+    "no": 200,
+    "duygu": "flört",
+    "mek": "M1",
+    "kb": 311,
+    "kare": 23
    },
    {
-    "dosya": "10.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "the_nseven",
     "no": 132,
@@ -10216,7 +10566,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "10.webp",
     "metin": "yay",
     "kanal": "TranslucentRunner",
     "no": 200,
@@ -10226,7 +10576,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "11.webp",
     "metin": "listen…",
     "kanal": "txiqs",
     "no": 74,
@@ -10236,7 +10586,7 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 201,
@@ -10246,17 +10596,17 @@
     "kare": 18
    },
    {
-    "dosya": "14.webp",
-    "metin": "u jelly?",
+    "dosya": "13.webp",
+    "metin": "",
     "kanal": "_sahipsiz",
-    "no": 459,
-    "duygu": "kıskanç",
-    "mek": "M1",
-    "kb": 413,
-    "kare": 30
+    "no": 332,
+    "duygu": "kötü",
+    "mek": "M5",
+    "kb": 85,
+    "kare": 5
    },
    {
-    "dosya": "15.webp",
+    "dosya": "14.webp",
     "metin": "for u",
     "kanal": "the_nseven",
     "no": 156,
@@ -10266,7 +10616,7 @@
     "kare": 30
    },
    {
-    "dosya": "16.webp",
+    "dosya": "15.webp",
     "metin": ":3",
     "kanal": "TranslucentRunner",
     "no": 231,
@@ -10276,7 +10626,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 217,
@@ -10286,17 +10636,17 @@
     "kare": 30
    },
    {
-    "dosya": "18.webp",
-    "metin": "too many choices",
+    "dosya": "17.webp",
+    "metin": "",
     "kanal": "_sahipsiz",
-    "no": 465,
-    "duygu": "bunalmış",
-    "mek": "M3",
-    "kb": 421,
-    "kare": 22
+    "no": 426,
+    "duygu": "tombul sıçan",
+    "mek": "M2",
+    "kb": 497,
+    "kare": 30
    },
    {
-    "dosya": "19.webp",
+    "dosya": "18.webp",
     "metin": "i did that",
     "kanal": "the_nseven",
     "no": 178,
@@ -10306,7 +10656,7 @@
     "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "19.webp",
     "metin": "aww",
     "kanal": "_sahipsiz2",
     "no": 240,
@@ -10316,17 +10666,17 @@
     "kare": 24
    },
    {
-    "dosya": "21.webp",
-    "metin": "o shit waddup",
+    "dosya": "20.webp",
+    "metin": "u jelly?",
     "kanal": "_sahipsiz",
-    "no": 407,
-    "duygu": "—",
-    "mek": "M2",
-    "kb": 71,
-    "kare": 5
+    "no": 459,
+    "duygu": "kıskanç",
+    "mek": "M1",
+    "kb": 413,
+    "kare": 30
    },
    {
-    "dosya": "22.webp",
+    "dosya": "21.webp",
     "metin": "lowkenuinely",
     "kanal": "the_nseven",
     "no": 186,
@@ -10336,14 +10686,24 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
-    "no": 373,
-    "duygu": "heyecan",
-    "mek": "M2",
-    "kb": 342,
-    "kare": 30
+    "no": 363,
+    "duygu": "soru",
+    "mek": "M3",
+    "kb": 82,
+    "kare": 13
+   },
+   {
+    "dosya": "23.webp",
+    "metin": "too many choices",
+    "kanal": "_sahipsiz",
+    "no": 465,
+    "duygu": "bunalmış",
+    "mek": "M3",
+    "kb": 421,
+    "kare": 22
    },
    {
     "dosya": "24.webp",
@@ -10359,11 +10719,21 @@
     "dosya": "25.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
-    "no": 413,
+    "no": 373,
+    "duygu": "heyecan",
+    "mek": "M2",
+    "kb": 342,
+    "kare": 30
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "o shit waddup",
+    "kanal": "_sahipsiz",
+    "no": 407,
     "duygu": "—",
-    "mek": "M1",
-    "kb": 117,
-    "kare": 7
+    "mek": "M2",
+    "kb": 71,
+    "kare": 5
    }
   ]
  },
@@ -10372,17 +10742,17 @@
   "ad": "Mixed Reactions Vol. 3",
   "desc": "the everything drawer",
   "tema": "mixed-reactions",
-  "adet": 25,
+  "adet": 26,
   "dosyalar": [
    {
     "dosya": "01.webp",
     "metin": "",
-    "kanal": "_sahipsiz",
-    "no": 758,
-    "duygu": "tanıma",
-    "mek": "M3",
-    "kb": 76,
-    "kare": 3
+    "kanal": "_sahipsiz2",
+    "no": 413,
+    "duygu": "—",
+    "mek": "M1",
+    "kb": 117,
+    "kare": 7
    },
    {
     "dosya": "02.webp",
@@ -10397,6 +10767,16 @@
    {
     "dosya": "03.webp",
     "metin": "",
+    "kanal": "_sahipsiz",
+    "no": 758,
+    "duygu": "tanıma",
+    "mek": "M3",
+    "kb": 76,
+    "kare": 3
+   },
+   {
+    "dosya": "04.webp",
+    "metin": "",
     "kanal": "_sahipsiz2",
     "no": 423,
     "duygu": "—",
@@ -10405,7 +10785,7 @@
     "kare": 12
    },
    {
-    "dosya": "04.webp",
+    "dosya": "05.webp",
     "metin": "como se llama",
     "kanal": "_sahipsiz2",
     "no": 439,
@@ -10415,7 +10795,7 @@
     "kare": 26
    },
    {
-    "dosya": "05.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 443,
@@ -10425,7 +10805,7 @@
     "kare": 13
    },
    {
-    "dosya": "06.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 480,
@@ -10435,7 +10815,7 @@
     "kare": 17
    },
    {
-    "dosya": "07.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 505,
@@ -10445,7 +10825,7 @@
     "kare": 30
    },
    {
-    "dosya": "08.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 510,
@@ -10455,7 +10835,7 @@
     "kare": 30
    },
    {
-    "dosya": "09.webp",
+    "dosya": "10.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 512,
@@ -10465,7 +10845,7 @@
     "kare": 14
    },
    {
-    "dosya": "10.webp",
+    "dosya": "11.webp",
     "metin": "cooking",
     "kanal": "_sahipsiz2",
     "no": 514,
@@ -10475,7 +10855,7 @@
     "kare": 30
    },
    {
-    "dosya": "11.webp",
+    "dosya": "12.webp",
     "metin": "coward",
     "kanal": "_sahipsiz2",
     "no": 519,
@@ -10485,7 +10865,7 @@
     "kare": 30
    },
    {
-    "dosya": "12.webp",
+    "dosya": "13.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 522,
@@ -10495,7 +10875,7 @@
     "kare": 30
    },
    {
-    "dosya": "13.webp",
+    "dosya": "14.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 531,
@@ -10505,7 +10885,7 @@
     "kare": 21
    },
    {
-    "dosya": "14.webp",
+    "dosya": "15.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 541,
@@ -10515,7 +10895,7 @@
     "kare": 20
    },
    {
-    "dosya": "15.webp",
+    "dosya": "16.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 542,
@@ -10525,7 +10905,7 @@
     "kare": 10
    },
    {
-    "dosya": "16.webp",
+    "dosya": "17.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 543,
@@ -10535,7 +10915,7 @@
     "kare": 30
    },
    {
-    "dosya": "17.webp",
+    "dosya": "18.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 559,
@@ -10545,7 +10925,7 @@
     "kare": 13
    },
    {
-    "dosya": "18.webp",
+    "dosya": "19.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 562,
@@ -10555,7 +10935,7 @@
     "kare": 2
    },
    {
-    "dosya": "19.webp",
+    "dosya": "20.webp",
     "metin": "do it",
     "kanal": "_sahipsiz2",
     "no": 576,
@@ -10565,7 +10945,7 @@
     "kare": 30
    },
    {
-    "dosya": "20.webp",
+    "dosya": "21.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 598,
@@ -10575,7 +10955,7 @@
     "kare": 20
    },
    {
-    "dosya": "21.webp",
+    "dosya": "22.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 600,
@@ -10585,7 +10965,7 @@
     "kare": 30
    },
    {
-    "dosya": "22.webp",
+    "dosya": "23.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 609,
@@ -10595,7 +10975,7 @@
     "kare": 30
    },
    {
-    "dosya": "23.webp",
+    "dosya": "24.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 617,
@@ -10605,7 +10985,7 @@
     "kare": 30
    },
    {
-    "dosya": "24.webp",
+    "dosya": "25.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 619,
@@ -10615,7 +10995,7 @@
     "kare": 30
    },
    {
-    "dosya": "25.webp",
+    "dosya": "26.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 625,
@@ -10631,7 +11011,7 @@
   "ad": "Mixed Reactions Vol. 4",
   "desc": "the everything drawer",
   "tema": "mixed-reactions",
-  "adet": 25,
+  "adet": 26,
   "dosyalar": [
    {
     "dosya": "01.webp",
@@ -10882,6 +11262,16 @@
     "mek": "M1",
     "kb": 486,
     "kare": 30
+   },
+   {
+    "dosya": "26.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 867,
+    "duygu": "—",
+    "mek": "M2",
+    "kb": 136,
+    "kare": 30
    }
   ]
  },
@@ -10890,20 +11280,10 @@
   "ad": "Mixed Reactions Vol. 5",
   "desc": "the everything drawer",
   "tema": "mixed-reactions",
-  "adet": 25,
+  "adet": 26,
   "dosyalar": [
    {
     "dosya": "01.webp",
-    "metin": "",
-    "kanal": "_sahipsiz2",
-    "no": 867,
-    "duygu": "—",
-    "mek": "M2",
-    "kb": 136,
-    "kare": 30
-   },
-   {
-    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 926,
@@ -10913,7 +11293,7 @@
     "kare": 13
    },
    {
-    "dosya": "03.webp",
+    "dosya": "02.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 927,
@@ -10923,7 +11303,7 @@
     "kare": 30
    },
    {
-    "dosya": "04.webp",
+    "dosya": "03.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 954,
@@ -10933,7 +11313,7 @@
     "kare": 30
    },
    {
-    "dosya": "05.webp",
+    "dosya": "04.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 970,
@@ -10943,7 +11323,7 @@
     "kare": 30
    },
    {
-    "dosya": "06.webp",
+    "dosya": "05.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 976,
@@ -10953,7 +11333,7 @@
     "kare": 20
    },
    {
-    "dosya": "07.webp",
+    "dosya": "06.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 981,
@@ -10963,7 +11343,7 @@
     "kare": 9
    },
    {
-    "dosya": "08.webp",
+    "dosya": "07.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 982,
@@ -10973,7 +11353,7 @@
     "kare": 7
    },
    {
-    "dosya": "09.webp",
+    "dosya": "08.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1031,
@@ -10983,7 +11363,7 @@
     "kare": 26
    },
    {
-    "dosya": "10.webp",
+    "dosya": "09.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1184,
@@ -10993,7 +11373,7 @@
     "kare": 2
    },
    {
-    "dosya": "11.webp",
+    "dosya": "10.webp",
     "metin": "dunzo",
     "kanal": "_sahipsiz2",
     "no": 1388,
@@ -11003,7 +11383,7 @@
     "kare": 12
    },
    {
-    "dosya": "12.webp",
+    "dosya": "11.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1490,
@@ -11013,7 +11393,7 @@
     "kare": 26
    },
    {
-    "dosya": "13.webp",
+    "dosya": "12.webp",
     "metin": "",
     "kanal": "_sahipsiz2",
     "no": 1634,
@@ -11021,6 +11401,16 @@
     "mek": "M2",
     "kb": 326,
     "kare": 12
+   },
+   {
+    "dosya": "13.webp",
+    "metin": "",
+    "kanal": "_sahipsiz2",
+    "no": 1643,
+    "duygu": "yaramaz",
+    "mek": "M1",
+    "kb": 409,
+    "kare": 30
    },
    {
     "dosya": "14.webp",
@@ -11134,6 +11524,16 @@
    },
    {
     "dosya": "25.webp",
+    "metin": "come again",
+    "kanal": "_sahipsiz",
+    "no": 102,
+    "duygu": "\"hı?\"",
+    "mek": "M3",
+    "kb": 156,
+    "kare": 30
+   },
+   {
+    "dosya": "26.webp",
     "metin": "o shit waddup",
     "kanal": "_sahipsiz",
     "no": 411,

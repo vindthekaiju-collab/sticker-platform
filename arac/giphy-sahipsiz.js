@@ -34,13 +34,25 @@ for (const x of liste.slice(0, 40)) console.log(`${String(x.sorgular.length).pad
 // Sözde kanal olarak kanallar-2.json'a yaz (giphy-kontak.js / galeri için)
 const k2yol = path.join(__dirname, '..', 'veri', 'giphy', 'kanallar-2.json');
 const k2 = JSON.parse(fs.readFileSync(k2yol, 'utf8'));
+// NUMARA SABİTLİĞİ: sıra "kaç sorguda göründüğü"ne göre kuruluyor; yeni sorgu
+// turu eklenince sıra değişir ve daha önce verilmiş numaralar başka kareye kayar
+// (2026-09-23'te 1.067 kayıt kaydı). Bu yüzden ÖNCEKİ numaralar korunur,
+// yeni kareler sondan eklenir.
+const eski = (k2[kanalAdi] && k2[kanalAdi].gifler) || [];
+const eskiNo = new Map(eski.map(g => [g.id, g.no]));
+const azamiNo = eski.reduce((a, g) => Math.max(a, g.no || 0), 0);
+let siradaki = azamiNo;
+const sirali = [
+  ...liste.filter(x => eskiNo.has(x.id)).sort((a, b) => eskiNo.get(a.id) - eskiNo.get(b.id)),
+  ...liste.filter(x => !eskiNo.has(x.id)),
+];
 k2[kanalAdi] = {
   id: 0, slug: kanalAdi, display: 'Anonim (yükleyeni yok) — ' + (disi ? 'hayvan dışı' : 'hayvan/emoji'), tur: 'sanal', verified: false,
-  gifler: liste.map((x, i) => ({
+  gifler: sirali.map((x, i) => ({
     id: x.id, title: x.title, tags: [...x.tags, ...x.sorgular.map(s => 'q:' + s)], url: x.url, sticker: !!x.sticker, video: false,
     tarih: '', rating: '', kaynak: '', alt: '', w: 0, h: 0, frames: 0,
     gif: `https://media.giphy.com/media/${x.id}/giphy.gif`, still: `https://media.giphy.com/media/${x.id}/giphy_s.gif`,
-    kucuk: `https://media.giphy.com/media/${x.id}/200.gif`, mp4: '', no: i + 1,
+    kucuk: `https://media.giphy.com/media/${x.id}/200.gif`, mp4: '', no: eskiNo.has(x.id) ? eskiNo.get(x.id) : ++siradaki,
   })),
 };
 fs.writeFileSync(k2yol, JSON.stringify(k2, null, 1));
