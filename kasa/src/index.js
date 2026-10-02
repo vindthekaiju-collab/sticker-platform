@@ -121,7 +121,8 @@ export default {
         const ad = `${kayit.slug}.${bicim}`;
         return `${url.origin}/dosya/${ad}?exp=${exp}&sig=${await baglantiImzala(env.IMZA_SIRRI, ad, exp)}`;
       };
-      return json({ ad: meta.ad, slug: kayit.slug, sticker: meta.sticker, exp, wastickers: await baglanti('wastickers'), zip: await baglanti('zip') }, 200, ek);
+      // telegram: t.me/addstickers bağlantısı (yayınlandıysa) — gerçek tek tık.
+      return json({ ad: meta.ad, slug: kayit.slug, sticker: meta.sticker, exp, telegram: meta.telegram || null, wastickers: await baglanti('wastickers'), zip: await baglanti('zip') }, 200, ek);
     }
 
     const dosya = url.pathname.startsWith('/dosya/') && url.pathname.slice(7).match(DOSYA);

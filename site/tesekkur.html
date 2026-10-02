@@ -15,7 +15,8 @@
   .indirmeler a.al { justify-content: space-between; font-size: 16px; padding: 16px 22px; }
   .indirmeler small { color: #dfe6ff; font-weight: 600; }
   .kimlik { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; }
-  .kimlik[hidden], .indirmeler[hidden] { display: none; }
+  .kimlik[hidden], .indirmeler[hidden], .indirmeler a[hidden] { display: none; }
+  .indirmeler a#tg { background: var(--pembe); }
   .kimlik input { flex: 1 1 240px; min-height: 46px; border: var(--kontur); border-radius: 999px; padding: 0 16px; font: inherit; font-weight: 700; }
   .durum { margin-top: 18px; font-weight: 700; }
 </style>
@@ -35,9 +36,10 @@
   <p id="aciklama">Confirming your payment and fetching your pack…</p>
 
   <div class="indirmeler" id="indirmeler" hidden>
+    <a class="al" id="tg" href="#" target="_blank" rel="noopener" hidden>Add to Telegram <small>one tap</small></a>
     <a class="al" id="wa" href="#" download>WhatsApp pack <small>.wastickers</small></a>
     <a class="al" id="zip" href="#" download>Everywhere else <small>.zip · 512×512 WebP</small></a>
-    <p>WhatsApp: open the .wastickers file with a sticker app (e.g. “Sticker Maker”) and tap Add. Telegram, Discord, Signal, keyboards: use the files in the zip. Links stay valid for 24 hours; come back with your order ID any time.</p>
+    <p>Telegram: the link opens the pack inside Telegram — tap Add. WhatsApp: open the .wastickers file with a sticker app (e.g. “Sticker Maker”) and tap Add. Discord, Signal, keyboards: use the files in the zip. Download links stay valid for 24 hours; come back with your order ID any time.</p>
   </div>
 
   <form class="kimlik" id="kimlik" hidden>
@@ -60,6 +62,8 @@
   function goster(v) {
     document.getElementById('baslik').textContent = v.ad ? v.ad.toLowerCase() + ' is yours.' : 'thank you.';
     document.getElementById('aciklama').textContent = (v.sticker ? v.sticker + ' animated stickers. ' : '') + 'Pick where it goes:';
+    const tg = document.getElementById('tg');
+    tg.hidden = !v.telegram; if (v.telegram) tg.href = v.telegram;
     document.getElementById('wa').href = v.wastickers;
     document.getElementById('zip').href = v.zip;
     document.getElementById('indirmeler').hidden = false;

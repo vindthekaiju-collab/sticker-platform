@@ -39,6 +39,9 @@ const sha = d => crypto.createHash('sha256').update(fs.readFileSync(d)).digest('
 
 const setler = JSON.parse(fs.readFileSync(path.join(KOK, 'cikti', 'setler', 'setler.json'), 'utf8')).filter(s => !s.raf && (!yalniz || s.slug === yalniz));
 const rapor = JSON.parse(fs.readFileSync(path.join(KOK, 'cikti', 'paketler', 'rapor.json'), 'utf8'));
+// Telegram set bağlantıları (arac/telegram-yayinla.js yazdı) → meta.telegram
+const tgYol = path.join(KOK, 'cikti', 'setler', 'telegram.json');
+const tg = fs.existsSync(tgYol) ? JSON.parse(fs.readFileSync(tgYol, 'utf8')) : {};
 
 // 1) ne yüklenecek
 const isler = [];   // { slug, meta, dosyalar:[{bicim, yol, bayt}] }
@@ -47,7 +50,7 @@ for (const s of setler) {
   const r = rapor.find(x => x.slug === s.slug) || {};
   const dosyalar = ['wastickers', 'zip'].map(b => ({ bicim: b, yol: path.join(KOK, 'cikti', 'paketler', `${s.slug}.${b}`) }));
   if (dosyalar.some(d => !fs.existsSync(d.yol))) { console.log(`  ! ${s.slug}: paket dosyası eksik, atlandı`); continue; }
-  const meta = { ad: s.ad, desc: s.desc, sticker: r.sticker || s.adet, sha: Object.fromEntries(dosyalar.map(d => [d.bicim, sha(d.yol)])) };
+  const meta = { ad: s.ad, desc: s.desc, sticker: r.sticker || s.adet, telegram: (tg[s.slug] && tg[s.slug].link) || null, sha: Object.fromEntries(dosyalar.map(d => [d.bicim, sha(d.yol)])) };
   const eski = yuklenen[s.slug];
   const degisen = dosyalar.filter(d => !eski || !eski.sha || eski.sha[d.bicim] !== meta.sha[d.bicim]).map(d => ({ ...d, bayt: fs.statSync(d.yol).size }));
   if (!degisen.length && eski && JSON.stringify(eski) === JSON.stringify(meta)) { atlanan++; continue; }
