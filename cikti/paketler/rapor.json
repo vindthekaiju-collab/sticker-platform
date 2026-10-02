@@ -1,252 +1,369 @@
 [
  {
-  "slug": "side-eye-1",
-  "ad": "Side Eye Season Vol. 1",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 5860
- },
- {
-  "slug": "side-eye-2",
-  "ad": "Side Eye Season Vol. 2",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 8597
- },
- {
-  "slug": "side-eye-3",
-  "ad": "Side Eye Season Vol. 3",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 8838
- },
- {
-  "slug": "side-eye-4",
-  "ad": "Side Eye Season Vol. 4",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 7883
- },
- {
-  "slug": "side-eye-5",
-  "ad": "Side Eye Season Vol. 5",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 8363
- },
- {
-  "slug": "side-eye-6",
-  "ad": "Side Eye Season Vol. 6",
-  "sticker": 23,
-  "atlanan": 0,
-  "wastickersKB": 6945
- },
- {
-  "slug": "say-it-again-1",
-  "ad": "Say It Again Vol. 1",
-  "sticker": 23,
-  "atlanan": 0,
-  "wastickersKB": 6993
- },
- {
-  "slug": "say-it-again-2",
-  "ad": "Say It Again Vol. 2",
-  "sticker": 23,
-  "atlanan": 0,
-  "wastickersKB": 8402
- },
- {
-  "slug": "say-it-again-3",
-  "ad": "Say It Again Vol. 3",
-  "sticker": 21,
-  "atlanan": 0,
-  "wastickersKB": 7056
- },
- {
-  "slug": "dead-inside-1",
-  "ad": "Dead Inside Vol. 1",
+  "slug": "side-eye",
+  "ad": "Side Eye Season",
+  "desc": "the look that says everything",
+  "raf": false,
   "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 9398
+  "wastickersKB": 7785
  },
  {
-  "slug": "dead-inside-2",
-  "ad": "Dead Inside Vol. 2",
+  "slug": "side-eye-the-look",
+  "ad": "The Look",
+  "desc": "the look that says everything",
+  "raf": false,
   "sticker": 29,
   "atlanan": 0,
-  "wastickersKB": 9158
+  "wastickersKB": 8720
  },
  {
-  "slug": "crying-rights-1",
-  "ad": "Crying Rights Vol. 1",
-  "sticker": 26,
-  "atlanan": 0,
-  "wastickersKB": 6232
- },
- {
-  "slug": "crying-rights-2",
-  "ad": "Crying Rights Vol. 2",
-  "sticker": 26,
-  "atlanan": 0,
-  "wastickersKB": 6700
- },
- {
-  "slug": "crying-rights-3",
-  "ad": "Crying Rights Vol. 3",
-  "sticker": 26,
-  "atlanan": 0,
-  "wastickersKB": 6848
- },
- {
-  "slug": "crying-rights-4",
-  "ad": "Crying Rights Vol. 4",
+  "slug": "side-eye-sus",
+  "ad": "That's Sus",
+  "desc": "something is not adding up",
+  "raf": false,
   "sticker": 25,
   "atlanan": 0,
-  "wastickersKB": 6769
+  "wastickersKB": 6964
  },
  {
-  "slug": "caught-in-4k-1",
-  "ad": "Caught in 4K Vol. 1",
-  "sticker": 30,
+  "slug": "side-eye-sus-suspicious-activity",
+  "ad": "Suspicious Activity",
+  "desc": "something is not adding up",
+  "raf": false,
+  "sticker": 24,
   "atlanan": 0,
-  "wastickersKB": 7397
+  "wastickersKB": 6790
  },
  {
-  "slug": "caught-in-4k-2",
-  "ad": "Caught in 4K Vol. 2",
-  "sticker": 30,
+  "slug": "side-eye-really",
+  "ad": "Really?",
+  "desc": "disbelief, with eyebrows",
+  "raf": false,
+  "sticker": 15,
   "atlanan": 0,
-  "wastickersKB": 9599
+  "wastickersKB": 4607
  },
  {
-  "slug": "caught-in-4k-3",
-  "ad": "Caught in 4K Vol. 3",
-  "sticker": 30,
+  "slug": "side-eye-unimpressed",
+  "ad": "Unimpressed",
+  "desc": "not mad, just bored",
+  "raf": false,
+  "sticker": 18,
   "atlanan": 0,
-  "wastickersKB": 6811
+  "wastickersKB": 5651
  },
  {
-  "slug": "caught-in-4k-4",
-  "ad": "Caught in 4K Vol. 4",
-  "sticker": 30,
+  "slug": "side-eye-unimpressed-whatever",
+  "ad": "Whatever.",
+  "desc": "not mad, just bored",
+  "raf": false,
+  "sticker": 18,
   "atlanan": 0,
-  "wastickersKB": 8217
+  "wastickersKB": 5977
  },
  {
-  "slug": "caught-in-4k-5",
-  "ad": "Caught in 4K Vol. 5",
-  "sticker": 29,
-  "atlanan": 0,
-  "wastickersKB": 8892
- },
- {
-  "slug": "not-funny-1",
-  "ad": "Not Funny Did Not Laugh Vol. 1",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 5402
- },
- {
-  "slug": "not-funny-2",
-  "ad": "Not Funny Did Not Laugh Vol. 2",
-  "sticker": 27,
-  "atlanan": 0,
-  "wastickersKB": 7950
- },
- {
-  "slug": "not-funny-3",
-  "ad": "Not Funny Did Not Laugh Vol. 3",
-  "sticker": 25,
-  "atlanan": 0,
-  "wastickersKB": 6721
- },
- {
-  "slug": "unhinged-1",
-  "ad": "Unhinged Hours Vol. 1",
+  "slug": "say-it-again",
+  "ad": "Say It Again",
+  "desc": "small creature, big threat",
+  "raf": false,
   "sticker": 21,
   "atlanan": 0,
-  "wastickersKB": 7350
+  "wastickersKB": 6064
  },
  {
-  "slug": "unhinged-2",
-  "ad": "Unhinged Hours Vol. 2",
+  "slug": "say-it-again-say-that-again",
+  "ad": "Say That Again",
+  "desc": "small creature, big threat",
+  "raf": false,
+  "sticker": 21,
+  "atlanan": 0,
+  "wastickersKB": 7853
+ },
+ {
+  "slug": "say-it-again-square-up",
+  "ad": "Square Up",
+  "desc": "the threat is real",
+  "raf": false,
+  "sticker": 25,
+  "atlanan": 0,
+  "wastickersKB": 8532
+ },
+ {
+  "slug": "dead-inside",
+  "ad": "Dead Inside",
+  "desc": "running on zero",
+  "raf": false,
+  "sticker": 21,
+  "atlanan": 0,
+  "wastickersKB": 6609
+ },
+ {
+  "slug": "dead-inside-i-m-done",
+  "ad": "I'm Done",
+  "desc": "running on zero",
+  "raf": false,
+  "sticker": 21,
+  "atlanan": 0,
+  "wastickersKB": 6544
+ },
+ {
+  "slug": "dead-inside-do-not-disturb",
+  "ad": "Do Not Disturb",
+  "desc": "horizontal and staying that way",
+  "raf": false,
+  "sticker": 16,
+  "atlanan": 0,
+  "wastickersKB": 5406
+ },
+ {
+  "slug": "crying-rights",
+  "ad": "Crying Rights",
+  "desc": "feelings, loudly",
+  "raf": false,
+  "sticker": 27,
+  "atlanan": 0,
+  "wastickersKB": 6749
+ },
+ {
+  "slug": "crying-rights-sobbing-hours",
+  "ad": "Sobbing Hours",
+  "desc": "feelings, loudly",
+  "raf": false,
+  "sticker": 27,
+  "atlanan": 0,
+  "wastickersKB": 7231
+ },
+ {
+  "slug": "crying-rights-pretty-please",
+  "ad": "Pretty Please",
+  "desc": "begging, but make it cute",
+  "raf": false,
+  "sticker": 13,
+  "atlanan": 0,
+  "wastickersKB": 3769
+ },
+ {
+  "slug": "crying-rights-im-fine",
+  "ad": "I'm Fine",
+  "desc": "not fine",
+  "raf": false,
+  "sticker": 18,
+  "atlanan": 0,
+  "wastickersKB": 3874
+ },
+ {
+  "slug": "crying-rights-im-fine-left-on-read",
+  "ad": "Left on Read",
+  "desc": "not fine",
+  "raf": false,
+  "sticker": 18,
+  "atlanan": 0,
+  "wastickersKB": 4936
+ },
+ {
+  "slug": "caught-in-4k",
+  "ad": "Caught in 4K",
+  "desc": "the moment it clicks",
+  "raf": false,
+  "sticker": 21,
+  "atlanan": 0,
+  "wastickersKB": 6503
+ },
+ {
+  "slug": "caught-in-4k-jaw-drop",
+  "ad": "Jaw Drop",
+  "desc": "the moment it clicks",
+  "raf": false,
+  "sticker": 21,
+  "atlanan": 0,
+  "wastickersKB": 4864
+ },
+ {
+  "slug": "caught-in-4k-oh-no",
+  "ad": "Oh No",
+  "desc": "the moment it clicks",
+  "raf": false,
   "sticker": 20,
   "atlanan": 0,
-  "wastickersKB": 5965
+  "wastickersKB": 6255
+ },
+ {
+  "slug": "caught-in-4k-wait-what",
+  "ad": "Wait, What?",
+  "desc": "processing…",
+  "raf": false,
+  "sticker": 24,
+  "atlanan": 0,
+  "wastickersKB": 7076
+ },
+ {
+  "slug": "caught-in-4k-wait-what-come-again",
+  "ad": "Come Again?",
+  "desc": "processing…",
+  "raf": false,
+  "sticker": 23,
+  "atlanan": 0,
+  "wastickersKB": 6255
+ },
+ {
+  "slug": "caught-in-4k-aaaaa",
+  "ad": "AAAAA",
+  "desc": "screaming internally and externally",
+  "raf": false,
+  "sticker": 20,
+  "atlanan": 0,
+  "wastickersKB": 5422
+ },
+ {
+  "slug": "caught-in-4k-aaaaa-nooo",
+  "ad": "NOOO",
+  "desc": "screaming internally and externally",
+  "raf": false,
+  "sticker": 20,
+  "atlanan": 0,
+  "wastickersKB": 4552
+ },
+ {
+  "slug": "not-funny",
+  "ad": "Not Funny Did Not Laugh",
+  "desc": "laughing at you, not with you",
+  "raf": false,
+  "sticker": 29,
+  "atlanan": 0,
+  "wastickersKB": 8840
+ },
+ {
+  "slug": "not-funny-lmao",
+  "ad": "LMAO",
+  "desc": "actually laughing",
+  "raf": false,
+  "sticker": 30,
+  "atlanan": 0,
+  "wastickersKB": 6818
+ },
+ {
+  "slug": "not-funny-slow-clap",
+  "ad": "Slow Clap",
+  "desc": "bravo. truly.",
+  "raf": false,
+  "sticker": 20,
+  "atlanan": 0,
+  "wastickersKB": 4416
+ },
+ {
+  "slug": "unhinged",
+  "ad": "Unhinged Hours",
+  "desc": "no thoughts, only chaos",
+  "raf": false,
+  "sticker": 29,
+  "atlanan": 0,
+  "wastickersKB": 9334
+ },
+ {
+  "slug": "unhinged-ew",
+  "ad": "Ew.",
+  "desc": "visibly disgusted",
+  "raf": false,
+  "sticker": 12,
+  "atlanan": 0,
+  "wastickersKB": 3983
  },
  {
   "slug": "big-brain",
   "ad": "Big Brain Moment",
+  "desc": "thinking about it",
+  "raf": false,
   "sticker": 25,
   "atlanan": 0,
   "wastickersKB": 5665
  },
  {
-  "slug": "hard-no-1",
-  "ad": "Respectfully No Vol. 1",
+  "slug": "hard-no",
+  "ad": "Respectfully No",
+  "desc": "yes, no, and absolutely not",
+  "raf": false,
   "sticker": 28,
   "atlanan": 0,
-  "wastickersKB": 7092
+  "wastickersKB": 6535
  },
  {
-  "slug": "hard-no-2",
-  "ad": "Respectfully No Vol. 2",
-  "sticker": 28,
-  "atlanan": 0,
-  "wastickersKB": 8135
- },
- {
-  "slug": "hard-no-3",
-  "ad": "Respectfully No Vol. 3",
+  "slug": "hard-no-absolutely-not",
+  "ad": "Absolutely Not",
+  "desc": "yes, no, and absolutely not",
+  "raf": false,
   "sticker": 27,
   "atlanan": 0,
-  "wastickersKB": 7309
+  "wastickersKB": 8456
  },
  {
-  "slug": "certified-sigma-1",
-  "ad": "Certified Sigma Vol. 1",
+  "slug": "hard-no-say-less",
+  "ad": "Say Less",
+  "desc": "yes, ok, deal",
+  "raf": false,
+  "sticker": 28,
+  "atlanan": 0,
+  "wastickersKB": 7540
+ },
+ {
+  "slug": "certified-sigma",
+  "ad": "Certified Sigma",
+  "desc": "built different",
+  "raf": false,
+  "sticker": 25,
+  "atlanan": 0,
+  "wastickersKB": 6909
+ },
+ {
+  "slug": "certified-sigma-built-different",
+  "ad": "Built Different",
+  "desc": "built different",
+  "raf": false,
+  "sticker": 25,
+  "atlanan": 0,
+  "wastickersKB": 6887
+ },
+ {
+  "slug": "certified-sigma-lets-go",
+  "ad": "LET'S GO",
+  "desc": "winning, loudly",
+  "raf": false,
+  "sticker": 18,
+  "atlanan": 0,
+  "wastickersKB": 5600
+ },
+ {
+  "slug": "soft-hours",
+  "ad": "Soft Hours",
+  "desc": "for the people you like",
+  "raf": false,
   "sticker": 23,
   "atlanan": 0,
-  "wastickersKB": 6307
+  "wastickersKB": 5075
  },
  {
-  "slug": "certified-sigma-2",
-  "ad": "Certified Sigma Vol. 2",
-  "sticker": 23,
+  "slug": "soft-hours-love-u",
+  "ad": "Love U",
+  "desc": "sent with a kiss",
+  "raf": false,
+  "sticker": 20,
   "atlanan": 0,
-  "wastickersKB": 6571
+  "wastickersKB": 4492
  },
  {
-  "slug": "certified-sigma-3",
-  "ad": "Certified Sigma Vol. 3",
-  "sticker": 22,
+  "slug": "soft-hours-hi",
+  "ad": "Hi :)",
+  "desc": "small, warm, daily",
+  "raf": false,
+  "sticker": 25,
   "atlanan": 0,
-  "wastickersKB": 6522
- },
- {
-  "slug": "soft-hours-1",
-  "ad": "Soft Hours Vol. 1",
-  "sticker": 23,
-  "atlanan": 0,
-  "wastickersKB": 5652
- },
- {
-  "slug": "soft-hours-2",
-  "ad": "Soft Hours Vol. 2",
-  "sticker": 23,
-  "atlanan": 0,
-  "wastickersKB": 5959
- },
- {
-  "slug": "soft-hours-3",
-  "ad": "Soft Hours Vol. 3",
-  "sticker": 22,
-  "atlanan": 0,
-  "wastickersKB": 5711
+  "wastickersKB": 7760
  },
  {
   "slug": "work-mode",
   "ad": "Work Mode",
+  "desc": "sent from my desk",
+  "raf": false,
   "sticker": 25,
   "atlanan": 0,
   "wastickersKB": 7307
@@ -254,6 +371,8 @@
  {
   "slug": "tea-time",
   "ad": "Tea Time",
+  "desc": "the drama is delicious",
+  "raf": false,
   "sticker": 24,
   "atlanan": 0,
   "wastickersKB": 6093
@@ -261,20 +380,26 @@
  {
   "slug": "dance-floor",
   "ad": "Dance Floor",
+  "desc": "it moves, therefore it vibes",
+  "raf": false,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 8718
  },
  {
-  "slug": "canon-classics-1",
-  "ad": "Canon Classics Vol. 1",
+  "slug": "canon-classics",
+  "ad": "Canon Classics",
+  "desc": "the ones everyone already knows",
+  "raf": false,
   "sticker": 17,
   "atlanan": 0,
   "wastickersKB": 4897
  },
  {
-  "slug": "canon-classics-2",
-  "ad": "Canon Classics Vol. 2",
+  "slug": "canon-classics-internet-elders",
+  "ad": "Internet Elders",
+  "desc": "the ones everyone already knows",
+  "raf": false,
   "sticker": 17,
   "atlanan": 0,
   "wastickersKB": 3805
@@ -282,6 +407,8 @@
  {
   "slug": "oops",
   "ad": "Oops My Bad",
+  "desc": "caught, guilty, moving on",
+  "raf": false,
   "sticker": 26,
   "atlanan": 0,
   "wastickersKB": 7655
@@ -289,55 +416,71 @@
  {
   "slug": "snack-time",
   "ad": "Snack Time",
+  "desc": "eating is an emotion",
+  "raf": false,
   "sticker": 14,
   "atlanan": 0,
   "wastickersKB": 4434
  },
  {
-  "slug": "mixed-reactions-1",
-  "ad": "Mixed Reactions Vol. 1",
+  "slug": "mixed-reactions-idk",
+  "ad": "Mixed Reactions · \"idk\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 8859
  },
  {
-  "slug": "mixed-reactions-2",
-  "ad": "Mixed Reactions Vol. 2",
+  "slug": "mixed-reactions-you-cannot-ragebait-me",
+  "ad": "Mixed Reactions · \"you cannot ragebait me\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 8005
  },
  {
-  "slug": "mixed-reactions-3",
-  "ad": "Mixed Reactions Vol. 3",
+  "slug": "mixed-reactions-como-se-llama",
+  "ad": "Mixed Reactions · \"como se llama\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 9259
  },
  {
-  "slug": "mixed-reactions-4",
-  "ad": "Mixed Reactions Vol. 4",
+  "slug": "mixed-reactions-bloop",
+  "ad": "Mixed Reactions · \"bloop\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 7650
  },
  {
-  "slug": "mixed-reactions-5",
-  "ad": "Mixed Reactions Vol. 5",
+  "slug": "mixed-reactions-pay-up",
+  "ad": "Mixed Reactions · \"pay up\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 7078
  },
  {
-  "slug": "mixed-reactions-6",
-  "ad": "Mixed Reactions Vol. 6",
+  "slug": "mixed-reactions-me-gusta",
+  "ad": "Mixed Reactions · \"me gusta\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 29,
   "atlanan": 0,
   "wastickersKB": 9768
  },
  {
-  "slug": "mixed-reactions-7",
-  "ad": "Mixed Reactions Vol. 7",
+  "slug": "mixed-reactions-signing",
+  "ad": "Mixed Reactions · \"signing\"",
+  "desc": "the everything drawer",
+  "raf": true,
   "sticker": 26,
   "atlanan": 0,
   "wastickersKB": 6962

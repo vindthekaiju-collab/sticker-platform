@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanks — stickky</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23EC4899'/%3E%3Cpath d='M20 8H12a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4l8-8v-4a4 4 0 0 0-4-4Z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="stil.css">
+<style>
+  .tesekkur { max-width: 640px; margin: 0 auto; padding: 48px 20px 80px; }
+  .tesekkur h1 { font-family: Anton, Impact, sans-serif; font-size: clamp(40px, 8vw, 64px); line-height: 1; text-transform: lowercase; margin: 0 0 14px; }
+  .tesekkur p { color: var(--gri); font-size: 16px; font-weight: 600; }
+  .indirmeler { display: flex; flex-direction: column; gap: 14px; margin-top: 26px; }
+  .indirmeler a.al { justify-content: space-between; font-size: 16px; padding: 16px 22px; }
+  .indirmeler small { color: var(--gri); font-weight: 600; }
+  .kimlik { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .kimlik input { flex: 1 1 240px; min-height: 46px; border: var(--kontur); border-radius: 999px; padding: 0 16px; font: inherit; font-weight: 700; }
+  .durum { margin-top: 18px; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header class="ust">
+  <a class="marka" href="./">stick<span>ky</span></a>
+  <nav class="sekmeler">
+    <a href="./">Home</a>
+    <a href="setler.html">Packs</a>
+  </nav>
+</header>
+
+<main class="tuval tesekkur">
+  <h1 id="baslik">thank you.</h1>
+  <p id="aciklama">Confirming your payment and fetching your pack…</p>
+
+  <div class="indirmeler" id="indirmeler" hidden>
+    <a class="al" id="wa" href="#" download>WhatsApp pack <small>.wastickers</small></a>
+    <a class="al" id="zip" href="#" download>Everywhere else <small>.zip · 512×512 WebP</small></a>
+    <p>WhatsApp: open the .wastickers file with a sticker app (e.g. “Sticker Maker”) and tap Add. Telegram, Discord, Signal, keyboards: use the files in the zip. Links stay valid for 24 hours; come back with your order ID any time.</p>
+  </div>
+
+  <form class="kimlik" id="kimlik" hidden>
+    <input id="txn" placeholder="Order ID from your receipt (txn_…)" autocomplete="off">
+    <button type="submit" class="al">Get my pack</button>
+  </form>
+  <p class="durum" id="durum"></p>
+</main>
+
+<footer class="dip">© stickky · <a href="legal.html#terms">terms</a> · <a href="legal.html#privacy">privacy</a> · <a href="mailto:hello@stickky.xyz">hello@stickky.xyz</a></footer>
+
+<script>
+(function () {
+  const durum = document.getElementById('durum');
+  const form = document.getElementById('kimlik');
+  const q = new URLSearchParams(location.search);
+  let txn = q.get('_ptxn') || q.get('txn') || '';
+  try { txn = txn || sessionStorage.getItem('stickky-txn') || ''; } catch (e) {}
+
+  function goster(v) {
+    document.getElementById('baslik').textContent = v.ad ? v.ad.toLowerCase() + ' is yours.' : 'thank you.';
+    document.getElementById('aciklama').textContent = (v.sticker ? v.sticker + ' animated stickers. ' : '') + 'Pick where it goes:';
+    document.getElementById('wa').href = v.wastickers;
+    document.getElementById('zip').href = v.zip;
+    document.getElementById('indirmeler').hidden = false;
+    form.hidden = true; durum.textContent = '';
+  }
+  function sor(kimlik, deneme) {
+    fetch('satis.json', { cache: 'no-store' }).then(r => r.json()).then(ayar => {
+      if (!ayar.kasa) throw new Error('kasa yok');
+      return fetch(ayar.kasa.replace(/\/$/, '') + '/indir?txn=' + encodeURIComponent(kimlik));
+    }).then(r => r.json().then(v => ({ ok: r.ok, v }))).then(({ ok, v }) => {
+      if (ok) return goster(v);
+      // Webhook birkaç saniye gecikebilir: 4 kez, 3 sn arayla yeniden dene.
+      if (deneme < 4) { durum.textContent = 'Still confirming with the payment provider…'; return setTimeout(() => sor(kimlik, deneme + 1), 3000); }
+      durum.textContent = 'We could not find a completed payment for this order ID yet. If you just paid, wait a minute and try again — or write to hello@stickky.xyz with your receipt.';
+      form.hidden = false;
+    }).catch(() => { durum.textContent = 'Something went wrong on our side. Write to hello@stickky.xyz with your receipt and we will send the pack by hand.'; form.hidden = false; });
+  }
+  form.addEventListener('submit', e => { e.preventDefault(); const k = document.getElementById('txn').value.trim(); if (k) sor(k, 0); });
+  if (txn) sor(txn, 0);
+  else { document.getElementById('aciklama').textContent = 'Paste the order ID from your Paddle receipt to get your pack.'; form.hidden = false; }
+})();
+</script>
+</body>
+</html>

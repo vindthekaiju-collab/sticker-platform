@@ -1,0 +1,23 @@
+# stickky-kasa — ödeme doğrulama + paket teslimi (Cloudflare Worker)
+#
+# Paketler KV'de durur (Workers Free: 1 GB depo, 25 MiB/değer, 1.000 yazma/gün —
+# 47 set × 2 biçim ≈ 580 MB, 94 yazma). R2 bu hesapta açık değil ve OAuth
+# kapsamında yok; KV ikisini de karşılıyor.
+#
+# Sırlar (wrangler secret put):
+#   IMZA_SIRRI             indirme bağlantılarının HMAC'i — kendi ürettiğimiz
+#   PADDLE_API_KEY         Paddle > Developer tools > Authentication (işlem doğrulama)
+#   PADDLE_WEBHOOK_SECRET  Paddle > Developer tools > Notifications (webhook imzası)
+# İkisinden biri yeter: webhook gelirse KV'ye yazılır, gelmezse API'den sorulur.
+name = "stickky-kasa"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+PADDLE_API_BASE = "https://api.paddle.com"
+IZINLI_KOKENLER = "https://stickky.xyz,https://www.stickky.xyz,http://localhost:8765"
+BAGLANTI_OMRU_SN = "86400"
+
+[[kv_namespaces]]
+binding = "PAKET"
+id = "21c412e1f1a74563aff62e614f327148"

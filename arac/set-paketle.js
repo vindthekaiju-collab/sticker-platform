@@ -26,13 +26,7 @@ const hedefDiz = path.resolve(sec('--hedef', path.join(KOK, 'cikti', 'paketler')
 const setler = JSON.parse(fs.readFileSync(path.join(setDiz, 'setler.json'), 'utf8'));
 
 /** Tema → tepsi/arama emojisi (WhatsApp her sticker için en az bir emoji ister). */
-const EMOJI = {
-  'side-eye': '👀', 'say-it-again': '😠', 'dead-inside': '😵', 'crying-rights': '😭',
-  'caught-in-4k': '😱', 'not-funny': '😂', 'unhinged': '🤪', 'big-brain': '🤔',
-  'hard-no': '🙅', 'certified-sigma': '😎', 'soft-hours': '🥰', 'work-mode': '💻',
-  'tea-time': '☕', 'dance-floor': '💃', 'canon-classics': '🐸', 'oops': '😬',
-  'snack-time': '😋', 'mixed-reactions': '🙂',
-};
+const { EMOJI } = require('../lib/temalar');
 
 async function tepsi(dosya) {
   const t = sinirlar.whatsapp.tepsi;
@@ -94,9 +88,22 @@ async function tepsi(dosya) {
     ]));
 
     const wa = fs.statSync(path.join(hedefDiz, s.slug + '.wastickers')).size;
-    rapor.push({ slug: s.slug, ad: s.ad, sticker: stickerlar.length, atlanan: buyuk, wastickersKB: Math.round(wa / 1024) });
-    console.log(`${s.slug.padEnd(22)} ${String(stickerlar.length).padStart(3)} sticker · ${Math.round(wa / 1024)} KB${buyuk ? ' · ' + buyuk + ' büyük atlandı' : ''}`);
+    rapor.push({ slug: s.slug, ad: s.ad, desc: s.desc, raf: !!s.raf, sticker: stickerlar.length, atlanan: buyuk, wastickersKB: Math.round(wa / 1024) });
+    console.log(`${s.slug.padEnd(22)} ${String(stickerlar.length).padStart(3)} sticker · ${Math.round(wa / 1024)} KB${buyuk ? ' · ' + buyuk + ' büyük atlandı' : ''}${s.raf ? ' · raf' : ''}`);
   }
   fs.writeFileSync(path.join(hedefDiz, 'rapor.json'), JSON.stringify(rapor, null, 1));
-  console.log(`\n${rapor.length} paket → ${hedefDiz}`);
+
+  // Vitrin listesi (site/paketler/index.html'e kopyalanır): ad · adet · önizleme ·
+  // iki indirme bağlantısı. Raftaki setler ayrı başlıkta, vitrin sayımına girmez.
+  const kacar = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  const satir = r => `<tr><td><b>${kacar(r.ad)}</b><br><small>${kacar(r.desc)}</small></td><td>${r.sticker}</td><td><a href="../setler/${r.slug}/index.html">önizleme</a></td><td><a href="${r.slug}.wastickers">.wastickers</a></td><td><a href="${r.slug}.zip">.zip</a></td><td>${r.wastickersKB} KB</td></tr>`;
+  const vitrin = rapor.filter(r => !r.raf), rafta = rapor.filter(r => r.raf);
+  const toplam = l => l.reduce((a, b) => a + b.sticker, 0);
+  fs.writeFileSync(path.join(hedefDiz, 'index.html'), `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>stickky · ${vitrin.length} paket</title>
+<style>body{margin:0;background:#0d0d0d;color:#eee;font:14px system-ui,sans-serif}h1{padding:14px 16px;margin:0;font-size:18px;border-bottom:1px solid #333}h1.raf{color:#888;margin-top:24px}
+table{border-collapse:collapse;width:100%}td{padding:9px 14px;border-bottom:1px solid #222;vertical-align:top}small{color:#888}a{color:#ff2d87}</style></head><body>
+<h1>stickky · ${vitrin.length} paket · ${toplam(vitrin)} sticker</h1><table>${vitrin.map(satir).join('')}</table>
+${rafta.length ? `<h1 class="raf">Rafta — vitrine çıkmaz · ${rafta.length} paket · ${toplam(rafta)} sticker</h1><table>${rafta.map(satir).join('')}</table>` : ''}
+</body></html>`);
+  console.log(`\n${vitrin.length} paket vitrin + ${rafta.length} rafta → ${hedefDiz}`);
 })();

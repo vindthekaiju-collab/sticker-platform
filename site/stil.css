@@ -442,6 +442,12 @@ body:not(.ana) .ust { background: var(--kagit); border-bottom-color: var(--murek
 
 .liste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 22px; }
 
+/* bölüm başlığı: "Meme packs" / "Free packs" — satır değil, kutusuz */
+.bolum { padding: 18px 0 2px; }
+.bolum h2 { font-family: Anton, Impact, sans-serif; font-size: 34px; line-height: 1; text-transform: lowercase; margin: 0; }
+.bolum p { color: var(--gri); font-size: 14.5px; font-weight: 600; margin: 6px 0 0; }
+.bolum + .satir { margin-top: 6px; }
+
 .satir {
   background: #fff;
   border: var(--kontur);
