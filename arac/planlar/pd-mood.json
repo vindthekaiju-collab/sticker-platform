@@ -1,0 +1,17 @@
+{
+  "setler": { "Sunday Mood": "bored, tired, dreaming. 19th-century edition." },
+  "stickerlar": [
+    { "parti": "duygu", "no": 33, "kirp": [0.05, 0.02, 0.9, 0.75], "metin": "waiting", "emoji": "🕰️", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 36, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "thinking about it", "emoji": "🌊", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 31, "kirp": [0.05, 0.15, 0.9, 0.8], "metin": "homework", "emoji": "📚", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 14, "kirp": [0.1, 0.05, 0.8, 0.8], "metin": "monday", "emoji": "😐", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 41, "kirp": [0.0, 0.02, 0.5, 0.85], "metin": "bored", "emoji": "🥱", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 41, "kirp": [0.5, 0.02, 0.5, 0.85], "metin": "so bored", "emoji": "😩", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 44, "kirp": [0.15, 0.15, 0.7, 0.55], "metin": "big yawn", "emoji": "🥱", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 38, "kirp": [0.15, 0.05, 0.7, 0.7], "metin": "good morning", "emoji": "🌅", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 45, "kirp": [0.6, 0.15, 0.4, 0.7], "metin": "this meeting", "emoji": "😫", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 50, "kirp": [0.2, 0.02, 0.75, 0.75], "metin": "what now", "emoji": "😯", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 13, "kirp": [0.15, 0.2, 0.6, 0.55], "metin": "boys talking", "emoji": "🙄", "set": "Sunday Mood" },
+    { "parti": "duygu", "no": 9, "kirp": [0.1, 0.05, 0.85, 0.7], "metin": "daydreaming", "emoji": "💭", "set": "Sunday Mood" }
+  ]
+}

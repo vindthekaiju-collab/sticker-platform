@@ -1,0 +1,21 @@
+{
+  "setler": { "Daumier's Parliament": "honoré daumier's caricatures, paris 1830s. politicians, unchanged." },
+  "stickerlar": [
+    { "parti": "daumier", "no": 3, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "very important", "emoji": "🎩", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 4, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "well fed", "emoji": "🍖", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 6, "kirp": [0.15, 0.08, 0.7, 0.8], "metin": "not amused", "emoji": "😒", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 7, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "after lunch", "emoji": "🍷", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 9, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "explain", "emoji": "🤨", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 10, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "the boss", "emoji": "💼", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 12, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "moment of silence", "emoji": "🤐", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 14, "kirp": [0.15, 0.05, 0.7, 0.7], "metin": "delighted", "emoji": "😁", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 24, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "outraged", "emoji": "😠", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 25, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "wiping my hands of this", "emoji": "🧻", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 28, "kirp": [0.1, 0.05, 0.8, 0.9], "metin": "onward", "emoji": "🐴", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 35, "kirp": [0.2, 0.05, 0.6, 0.85], "metin": "distinguished", "emoji": "🧐", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 37, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "nap in progress", "emoji": "😴", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 39, "kirp": [0.15, 0.1, 0.7, 0.8], "metin": "homework", "emoji": "📚", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 31, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "monday", "emoji": "🛋️", "set": "Daumier's Parliament" },
+    { "parti": "daumier", "no": 15, "kirp": [0.05, 0.1, 0.9, 0.8], "metin": "the dream", "emoji": "💭", "set": "Daumier's Parliament" }
+  ]
+}

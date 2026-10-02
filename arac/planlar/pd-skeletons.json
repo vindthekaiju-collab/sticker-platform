@@ -1,0 +1,16 @@
+{
+  "setler": { "Skeleton Crew": "posada calaveras and anatomy plates. dead inside, still texting." },
+  "stickerlar": [
+    { "parti": "iskelet", "no": 3, "kirp": [0.1, 0.02, 0.8, 0.9], "metin": "still waiting", "emoji": "💀", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 4, "kirp": [0.1, 0.02, 0.8, 0.9], "metin": "thinking", "emoji": "🤔", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 14, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "party", "emoji": "🎉", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 15, "kirp": [0.1, 0.1, 0.8, 0.8], "metin": "groceries", "emoji": "🛒", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 16, "kirp": [0.1, 0.1, 0.8, 0.8], "metin": "cooking", "emoji": "🍲", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 18, "kirp": [0.2, 0.25, 0.6, 0.5], "metin": "surprise", "emoji": "😱", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 20, "kirp": [0.1, 0.1, 0.8, 0.8], "metin": "market day", "emoji": "🧺", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 23, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "fashionably late", "emoji": "🎩", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 33, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "please", "emoji": "🙏", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 40, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "family photo", "emoji": "👨‍👩‍👧‍👦", "set": "Skeleton Crew" },
+    { "parti": "iskelet", "no": 32, "kirp": [0.2, 0.0, 0.6, 1.0], "metin": "charge!", "emoji": "⚔️", "set": "Skeleton Crew" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "setler": { "Animal Society": "grandville, paris 1840s. animals in suits, drama in progress." },
+  "stickerlar": [
+    { "parti": "grandville", "no": 45, "kirp": [0.2, 0.22, 0.6, 0.62], "metin": "sign here", "emoji": "✍️", "set": "Animal Society" },
+    { "parti": "grandville", "no": 46, "kirp": [0.2, 0.2, 0.6, 0.62], "metin": "meal prep", "emoji": "🍳", "set": "Animal Society" },
+    { "parti": "grandville", "no": 47, "kirp": [0.15, 0.22, 0.7, 0.6], "metin": "family dinner", "emoji": "🍽️", "set": "Animal Society" },
+    { "parti": "grandville", "no": 51, "kirp": [0.15, 0.22, 0.7, 0.6], "metin": "board meeting", "emoji": "🦌", "set": "Animal Society" },
+    { "parti": "grandville", "no": 53, "kirp": [0.2, 0.22, 0.6, 0.6], "metin": "spill the tea", "emoji": "☕", "set": "Animal Society" },
+    { "parti": "grandville", "no": 54, "kirp": [0.2, 0.22, 0.6, 0.6], "metin": "the introduction", "emoji": "🤝", "set": "Animal Society" },
+    { "parti": "grandville", "no": 55, "kirp": [0.2, 0.2, 0.6, 0.65], "metin": "we're late", "emoji": "🏃", "set": "Animal Society" },
+    { "parti": "grandville", "no": 58, "kirp": [0.15, 0.22, 0.7, 0.6], "metin": "caught", "emoji": "😳", "set": "Animal Society" },
+    { "parti": "grandville", "no": 59, "kirp": [0.15, 0.22, 0.7, 0.6], "metin": "shopping", "emoji": "🛍️", "set": "Animal Society" },
+    { "parti": "grandville", "no": 60, "kirp": [0.2, 0.15, 0.6, 0.7], "metin": "breaking in", "emoji": "🪜", "set": "Animal Society" },
+    { "parti": "grandville", "no": 63, "kirp": [0.1, 0.2, 0.8, 0.62], "metin": "road trip", "emoji": "🚌", "set": "Animal Society" },
+    { "parti": "grandville", "no": 64, "kirp": [0.15, 0.22, 0.7, 0.6], "metin": "court is in session", "emoji": "⚖️", "set": "Animal Society" },
+    { "parti": "grandville", "no": 66, "kirp": [0.2, 0.22, 0.6, 0.6], "metin": "lecture", "emoji": "📚", "set": "Animal Society" },
+    { "parti": "grandville", "no": 67, "kirp": [0.15, 0.2, 0.7, 0.62], "metin": "run", "emoji": "🐺", "set": "Animal Society" },
+    { "parti": "grandville", "no": 68, "kirp": [0.2, 0.22, 0.6, 0.62], "metin": "the doctor is in", "emoji": "🩺", "set": "Animal Society" },
+    { "parti": "grandville", "no": 69, "kirp": [0.15, 0.22, 0.7, 0.62], "metin": "gossip club", "emoji": "🗣️", "set": "Animal Society" },
+    { "parti": "grandville", "no": 73, "kirp": [0.05, 0.1, 0.9, 0.85], "metin": "the boys", "emoji": "🎩", "set": "Animal Society" },
+    { "parti": "grandville", "no": 22, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "en garde", "emoji": "🤺", "set": "Animal Society" }
+  ]
+}

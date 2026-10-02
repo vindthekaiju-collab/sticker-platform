@@ -1,0 +1,17 @@
+{
+  "setler": { "Black Cat Energy": "steinlen's black cats, paris 1890s. pure line, pure attitude." },
+  "stickerlar": [
+    { "parti": "steinlen", "no": 3, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "we did it", "emoji": "🙌", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 4, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "investigating", "emoji": "🔍", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 5, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "committed", "emoji": "🎯", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 6, "kirp": [0.1, 0.02, 0.8, 0.96], "metin": "excuse me??", "emoji": "😾", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 8, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "listening", "emoji": "👂", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 9, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "hmm.", "emoji": "🐸", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 10, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "one sip", "emoji": "🐟", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 11, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "snooping", "emoji": "🛢️", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 1, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "temptation", "emoji": "😈", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 7, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "besties", "emoji": "💕", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 24, "kirp": [0.1, 0.05, 0.85, 0.9], "metin": "not moving", "emoji": "🛋️", "set": "Black Cat Energy" },
+    { "parti": "steinlen", "no": 31, "kirp": [0.3, 0.02, 0.68, 0.7], "metin": "i own this", "emoji": "👑", "set": "Black Cat Energy" }
+  ]
+}

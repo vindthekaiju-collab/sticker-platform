@@ -1,0 +1,21 @@
+{
+  "setler": { "Poster Vibes": "wartime posters, 1917-1943. propaganda, now for your group chat." },
+  "stickerlar": [
+    { "parti": "afis", "no": 22, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "we can do it", "emoji": "💪", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 25, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "any questions?", "emoji": "❓", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 51, "kirp": [0.1, 0.02, 0.8, 0.7], "metin": "beware", "emoji": "🎩", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 54, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "help", "emoji": "🆘", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 59, "kirp": [0.1, 0.05, 0.8, 0.85], "metin": "not till quitting time", "emoji": "⏰", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 60, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "a black mark", "emoji": "📋", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 65, "kirp": [0.1, 0.02, 0.8, 0.85], "metin": "oh boy!", "emoji": "🎉", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 44, "kirp": [0.05, 0.02, 0.9, 0.5], "metin": "have pity", "emoji": "🙏", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 48, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "help swell the fund", "emoji": "💰", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 50, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "join", "emoji": "➕", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 35, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "eat more cottage cheese", "emoji": "🧀", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 36, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "raise pigs", "emoji": "🐖", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 37, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "hunger breeds madness", "emoji": "🍽️", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 63, "kirp": [0.1, 0.02, 0.8, 0.85], "metin": "reporting for duty", "emoji": "🫡", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 45, "kirp": [0.1, 0.02, 0.8, 0.9], "metin": "keep at it", "emoji": "✋", "set": "Poster Vibes" },
+    { "parti": "afis", "no": 49, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "merry christmas", "emoji": "🎅", "set": "Poster Vibes" }
+  ]
+}

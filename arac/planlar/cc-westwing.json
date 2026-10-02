@@ -1,0 +1,17 @@
+{
+  "setler": { "West Wing Moments": "official white house photos, public domain. the situation room, the bromance, the aviators." },
+  "stickerlar": [
+    { "parti": "obama", "no": 144, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "watching", "emoji": "👀", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 143, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "oh no", "emoji": "😧", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 141, "kirp": [0.0, 0.02, 0.55, 0.96], "metin": "not good", "emoji": "😬", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 147, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "same", "emoji": "🤝", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 78, "kirp": [0.3, 0.05, 0.7, 0.9], "metin": "cool cool cool", "emoji": "🕶️", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 56, "kirp": [0.2, 0.05, 0.6, 0.9], "metin": "aviators on", "emoji": "😎", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 55, "kirp": [0.3, 0.05, 0.55, 0.9], "metin": "i see you", "emoji": "🫡", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 133, "kirp": [0.1, 0.05, 0.8, 0.9], "metin": "let me call you back", "emoji": "☎️", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 137, "kirp": [0.1, 0.02, 0.8, 0.96], "metin": "one moment", "emoji": "🚪", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 118, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "the handshake", "emoji": "🤝", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 21, "kirp": [0.05, 0.02, 0.9, 0.96], "metin": "we did it", "emoji": "🙌", "set": "West Wing Moments" },
+    { "parti": "obama", "no": 125, "kirp": [0.1, 0.05, 0.8, 0.9], "metin": "mirror check", "emoji": "🪞", "set": "West Wing Moments" }
+  ]
+}

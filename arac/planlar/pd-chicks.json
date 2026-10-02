@@ -1,0 +1,15 @@
+{
+  "setler": { "Chick Squad": "dressed-up chickens from vintage prints and postcards." },
+  "stickerlar": [
+    { "parti": "tavuk", "no": 3, "kirp": [0.05, 0.02, 0.9, 0.8], "metin": "dressed up", "emoji": "🐓", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 16, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "get well soon", "emoji": "🤒", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 17, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "team lift", "emoji": "💪", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 18, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "road trip", "emoji": "🚆", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 27, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "dance off", "emoji": "🎶", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 14, "kirp": [0.0, 0.05, 0.5, 0.9], "metin": "chicken in the rough", "emoji": "🍗", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 24, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "morning", "emoji": "🌅", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 8, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "brawl", "emoji": "🥊", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 9, "kirp": [0.1, 0.05, 0.8, 0.9], "metin": "i see you", "emoji": "👁️", "set": "Chick Squad" },
+    { "parti": "tavuk", "no": 4, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "the ball", "emoji": "💃", "set": "Chick Squad" }
+  ]
+}

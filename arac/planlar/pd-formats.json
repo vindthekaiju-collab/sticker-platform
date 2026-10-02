@@ -1,0 +1,23 @@
+{
+  "setler": { "Meme Formats, Museum Edition": "the formats you know, rebuilt from public-domain art." },
+  "stickerlar": [
+    { "paneller": [ { "parti": "unlu", "no": 56, "kirp": [0.02, 0.02, 0.96, 0.9], "metin": "no" }, { "parti": "unlu", "no": 52, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "yes" } ], "yon": "dikey", "metin": "no / yes", "emoji": "🙅", "set": "Meme Formats, Museum Edition" },
+    { "paneller": [ { "parti": "ifade", "no": 24, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "" }, { "parti": "hayvan-resim", "no": 9, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "" } ], "yon": "yatay", "metin": "woman yelling at cat", "emoji": "🐱", "set": "Meme Formats, Museum Edition" },
+    { "paneller": [ { "parti": "ifade", "no": 13, "kirp": [0.05, 0.02, 0.9, 0.8], "metin": "me" }, { "parti": "kopek", "no": 18, "kirp": [0.1, 0.02, 0.85, 0.9], "metin": "also me" } ], "yon": "yatay", "metin": "me / also me", "emoji": "🪞", "set": "Meme Formats, Museum Edition" },
+    { "paneller": [ { "parti": "duygu", "no": 14, "kirp": [0.1, 0.05, 0.8, 0.8], "metin": "before coffee" }, { "parti": "ifade", "no": 42, "kirp": [0.05, 0.02, 0.9, 0.8], "metin": "after coffee" } ], "yon": "dikey", "metin": "before / after coffee", "emoji": "☕", "set": "Meme Formats, Museum Edition" },
+    { "paneller": [ { "parti": "ifade", "no": 8, "kirp": [0.08, 0.02, 0.85, 0.7], "metin": "expectation" }, { "parti": "duygu", "no": 33, "kirp": [0.05, 0.02, 0.9, 0.75], "metin": "reality" } ], "yon": "dikey", "metin": "expectation / reality", "emoji": "📉", "set": "Meme Formats, Museum Edition" },
+    { "parti": "daumier", "no": 4, "kirp": [0.15, 0.05, 0.7, 0.85], "metin": "stonks", "emoji": "📈", "set": "Meme Formats, Museum Edition" },
+    { "parti": "tronies", "no": 10, "kirp": [0.02, 0.02, 0.9, 0.85], "metin": "hide the pain", "emoji": "🙂", "set": "Meme Formats, Museum Edition" },
+    { "parti": "ifade", "no": 32, "kirp": [0.1, 0.05, 0.8, 0.7], "metin": "surprised.", "emoji": "😮", "set": "Meme Formats, Museum Edition" },
+    { "parti": "kopek", "no": 18, "kirp": [0.1, 0.02, 0.85, 0.9], "metin": "such wow", "emoji": "🐕", "set": "Meme Formats, Museum Edition" },
+    { "parti": "hayvan-resim", "no": 17, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "no.", "emoji": "😾", "set": "Meme Formats, Museum Edition" },
+    { "parti": "duygu", "no": 45, "kirp": [0.6, 0.15, 0.4, 0.7], "metin": "facepalm", "emoji": "🤦", "set": "Meme Formats, Museum Edition" },
+    { "parti": "iskelet", "no": 4, "kirp": [0.1, 0.02, 0.8, 0.9], "metin": "but what if", "emoji": "🦖", "set": "Meme Formats, Museum Edition" },
+    { "parti": "grandville", "no": 54, "kirp": [0.2, 0.22, 0.6, 0.6], "metin": "distracted", "emoji": "👀", "set": "Meme Formats, Museum Edition" },
+    { "parti": "messerschmidt", "no": 3, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "galaxy brain", "emoji": "🌌", "set": "Meme Formats, Museum Edition" },
+    { "parti": "unlu", "no": 64, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "nailed it", "emoji": "✅", "set": "Meme Formats, Museum Edition" },
+    { "parti": "lear", "no": 12, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "y u no reply", "emoji": "📵", "set": "Meme Formats, Museum Edition" },
+    { "parti": "unlu", "no": 89, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "one does not simply", "emoji": "🐎", "set": "Meme Formats, Museum Edition" },
+    { "parti": "unlu", "no": 80, "kirp": [0.15, 0.05, 0.7, 0.9], "metin": "roll safe", "emoji": "🧠", "set": "Meme Formats, Museum Edition" }
+  ]
+}

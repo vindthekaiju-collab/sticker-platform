@@ -1,0 +1,17 @@
+{
+  "setler": { "Monkey Business": "19th-century monkeys doing human things. relatable." },
+  "stickerlar": [
+    { "parti": "maymun", "no": 7, "kirp": [0.1, 0.02, 0.85, 0.8], "metin": "reviewing your work", "emoji": "🔍", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 12, "kirp": [0.05, 0.02, 0.9, 0.8], "metin": "gossip", "emoji": "🗣️", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 13, "kirp": [0.1, 0.02, 0.85, 0.85], "metin": "practicing", "emoji": "🎻", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 24, "kirp": [0.05, 0.02, 0.9, 0.75], "metin": "hmm", "emoji": "🤔", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 29, "kirp": [0.15, 0.12, 0.7, 0.75], "metin": "science", "emoji": "🧪", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 32, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "reading the terms", "emoji": "📖", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 33, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "studying", "emoji": "📚", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 34, "kirp": [0.02, 0.05, 0.9, 0.9], "metin": "networking", "emoji": "🤝", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 37, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "i have thoughts", "emoji": "🙂", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 14, "kirp": [0.05, 0.02, 0.9, 0.7], "metin": "team meeting", "emoji": "👔", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 16, "kirp": [0.05, 0.1, 0.9, 0.85], "metin": "dinner party", "emoji": "🍽️", "set": "Monkey Business" },
+    { "parti": "maymun", "no": 23, "kirp": [0.05, 0.05, 0.9, 0.85], "metin": "art critics", "emoji": "🖼️", "set": "Monkey Business" }
+  ]
+}

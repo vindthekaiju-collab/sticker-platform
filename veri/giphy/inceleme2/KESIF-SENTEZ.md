@@ -1,0 +1,224 @@
+# Gece keşif turu — sentez (2026-09-22, 06:40 → sabah)
+
+Görev: on kanaldan çıkan "tek duygu anı + sohbet cevabı" damarını Giphy'de
+**yeni kanallarda** bulmak; sabah galeri + bu belge.
+
+Galeri: `site/giphy-kesif.html` → http://127.0.0.1:8765/giphy-kesif.html
+(kanal / mekanizma / duygu süzgeçli; üstüne gel: cümle önerisi + not;
+tıkla: Giphy sayfası). Kanal başı ayrıntı: bu klasördeki `*.md`.
+
+## 1. Sayılar
+
+| Adım | Sonuç |
+|---|---|
+| Arama sorgusu (3 tur: duygu+hayvan, viral an, gen-z argo) | 655 |
+| Sorgularda görülen hesap | 7.703 |
+| Komşuluk (235 seçimin "ilgili GIF" bloğu) | 235 sayfa → 459 hesap |
+| Triyaj (meta + ilk 100 GIF, sayısal profil) | ~700 hesap |
+| Tam dökülen kanal (`kanallar-2.json`) | 60 kanal, ~9.500 GIF |
+| Kare kare incelenen | 14 kanal + anonim havuz 510 kare = ~2.400 kare |
+| ✅ seçim | **404** (56'sı şeffaf sticker) |
+
+Mekanizma dağılımı (404): M3 tanıma 124 · M2 abartı 114 · M1 yanlış ağız
+99 · M4 masumiyet 46 · M5 tehdit 29. Yazısız önerilen: 84. Beş mekanizma
+tüm seçimi kapsadı; "hiçbiri çalışmıyor" diye eleyip yazmadığım kare
+sayısı ~2.000. Süzgeç çalışıyor.
+
+## 2. Ne buldum: dört damar, dördü farklı hukuk
+
+| Damar | Örnek kanal | Verim | Hukuk |
+|---|---|---|---|
+| **A. Yazısız an kesicisi** | mimi_barbar (%56), the_nseven (%32) | en yüksek | anonim viral video; sahibi peşinde değil |
+| **B. Dil-yerel meme sayfası** | taviitoo_bv (İsp.), guestEmma (Çin), brown_giphy (Bangla), soydavidfelipe (Kol.), shrey_hu (Hint) | %13-43 | aynı viral anlar; altyazı kırpılır, İngilizce yazılır |
+| **C. Klasik canon (2012-2018)** | "_sahipsiz" havuzu, MOODMAN/imoji küratörleri | %27 | monkey puppet, doge, screaming hamster, awkward seal; herkes tanıyor |
+| **D. Tek viral yüz → varyant** | Elgatitolover (El Gatito 130 varyant) | ~15 | kedi kamuya mal olmuş; 3-5 asset alınır, set yapılmaz |
+
+## 3. Ne eledim (ve neden) — bu, bulduğum kadar önemli
+
+| Sınıf | Örnek | Neden alınmaz |
+|---|---|---|
+| **Sanatçı sticker paketi** | jerseydemic (Demic), Jinzhan, Kennymays, justin, BichiMao, aminalstickers, hanamuradesign, Felini, lordtofucat, pusheen, Ketnipz, tontonfriends | Giphy "artist" hesabı; ürün onların. Tam da "brand IP yapan ekip". Arama sonuçlarının tepesini bunlar tutuyor (sticker sekmesi %90 bunlar). |
+| **Karakter + cümle varyantı** | thenopecat (Nope Cat), myemotionalsupportanimal (MESA), Toshithecat | Tek çizim karakter, 300 cümle. IP. Ama **cümle ustalığı** ders: "Immeasurable disappointment", "Dear diary: today I chose violence", "Adding your name to the hit list". |
+| **Yapay zekâ kedi** | OrbitPaws, Montyland_ | Gerçek an yok; kullanıcı "rastgele kare işe yaramaz" dedi, AI kare hiç yaramaz. |
+| **Sahipli evcil hayvan hesabı** | countgoobula, iamrigbycat, nubcat (sillynub), leonfritzkitties, cultofbiscuit, mrfluffyandfelicity, PokiTheHamster | Sahibi kendi kedisini yüklüyor, filigranlı, merch satıyor. **Karar sana:** viral kedi (El Gatito) ile sahipli kedi (Rigby) arasındaki çizgi. Bence: filigran varsa alma. |
+| **Gerçek kişi / influencer** | byomid, Pera01, ikilljr, Naaayj, Windpress, RealBrokuza | Kişilik hakkı riskini kabul ettin ama bunlar "meme olmuş kişi" değil, kendi yüzünü yükleyen kişi. |
+| **Marka / TV** | cbc, theoffice, netflix, southpark, fallontonight, Bounce_TV, VeeFriends | Telifli. |
+| **Sanatçı OC** | o03do, FrigmorTheRizzler tarzı | Kendi karakteri. |
+
+Ders: Giphy aramasının ilk 25 sonucu **marka + sanatçı + TV** ağırlıklı.
+Bizim damar (anonim viral an) arama sonucunda **yükleyeni boş** ya da
+küçük hesap olarak görünüyor. Komşuluk (ilgili GIF bloğu) küçük hesaplara
+aramadan daha iyi ulaştı: en verimli iki kanal (mimi_barbar, the_nseven)
+komşuluktan geldi.
+
+## 4. Mekanizma modelini ne teyit etti, ne çürüttü
+
+**Teyit:**
+- Yazısız kanal (mimi_barbar) %56 verdi: kanal sahibi "anı" doğru
+  kesmiş, cümleyi bize bırakmış. "Video değil an" tezi doğru.
+- Aynı viral anlar 5 dilde dolaşıyor (İsp/Çin/Bangla/Kol/Hint). Yani an
+  **dilden bağımsız**, cümle dile bağlı. Kaynak = an; cümle bizim işimiz.
+- M4 (masumiyet silahı) saf örneği bulundu: beyaz kedi yoncada
+  "you cannot ragebait me" (the_nseven 125). Huzurlu yüz + meydan okuma.
+- M5 hep hayvan dişi/pençesi: kızgın Shiba, terlikli kedi, yumruklu kedi.
+  Hayvanın "gerçekten zarar veremeyecek" olması mekanizmanın şartı.
+
+**Çürüyen / düzelen:**
+- "Sahipsiz havuz" diye aradığım şey büyük ölçüde **Giphy küratör hesapları**
+  (MOODMAN, imoji, Messenger) çıktı; kullanıcı alanı boş geliyor ama sahibi
+  var. Gerçek anonimler eski Tumblr devri.
+- Emoji kareleri (3D sarı emoji, TBH yaratığı, Twitch emote) **yazısız
+  sticker** olarak çalışıyor; Aile B'yi küçümsemişim. the_nseven'da 12
+  emoji karesi var, hepsi M2/M3.
+- "Hayvan/insan" ayrımı ölçüt değil demiştim; doğru ama **pratik süzgeç**
+  olarak hayvan etiketi işe yarıyor: hayvan payı %30 üstü hesapların
+  verimi %13-56, altı olanların %5-9.
+
+## 5. Duygu sözlüğü — 404 seçimden çıkan ilk 30
+
+dehşet · tükenmiş · kahkaha · yan bakış · üzgün · mutlu · şok · çığlık ·
+"çalışıyorum" (laptop) · dokunaklı/yalvaran · tuhaf-sevimli · bakış (boş) ·
+öfke dişleri · şaşkın masumiyet · keyif · uyku · flört/sırıtış · korku ·
+ofis/telefon · evet · selam · ağlama · şüphe/sus · onay · alay · ret ·
+soru (huh) · kafa yatırma · havalı · kutlama · sus işareti
+
+Gen-z argo sorguları (tur 3: sybau, aura, cooked, 67, type shii) yeni
+**kanal** çıkarmadı ama etiket sözlüğünü büyüttü: `huh, sus, ayo, eyebrow,
+offended, intense, concerned, void, eepy, freaky, goofy, peak, tuff,
+lowkenuinely, type shiii, ragebait`. Bunlar duygu değil **cümle tohumu**.
+
+## 6. Cümle ustalığı — elenen IP'lerden çalınan ders
+
+Nope Cat ve MESA'nın cümleleri neden iyi: (1) sohbette söylenebilir,
+(2) duyguyu adlandırmıyor, **sonucunu** söylüyor ("Where is the chicken?"
+değil "Immeasurable disappointment"), (3) kurumsal/hukuki dil hayvan
+ağzında (M1): "Filing a formal complaint", "Forced reconciliation",
+"Signing your death warrant". Bizim cümle kalıbımız bu: **duygu + resmi
+dil** ya da **duygu + tehdit** ya da **duygu + tek kelime**.
+
+## 7. Sabah soruları için hazır cevaplar
+
+- "Bunlar sticker olur mu?" → 404'ün 56'sı zaten şeffaf; kalanı kare
+  kesim, arka plan sade (tek yüz). Kırpma + arka plan silme gerekir.
+- "Filigranlılar?" → taviitoo_bv, guestEmma (küçük, kırpılır), countgoobula
+  (büyük, kırpılamaz → alma).
+- "Neden 235'ten az verim?" → az değil: on kanal 1.947 → 235 (%12);
+  bu tur ~2.400 → 404 (%17). Süzgeç sıkılaştı, verim arttı.
+- "Bakılmayan ne kaldı?" → anonim havuzun 511-1102 arası; 60 kanaldan
+  46'sının tam sayfaları (triyaj + ilk sayfa ile elendi, tek tek bakılmadı:
+  Pera01, ikilljr, RedPeace, Drzs, Ut1106, rechoes66, erennren, KinneyA,
+  frommemetoyou, wectiee, scribbellz, Masterhooks, Benzotoast…). Bunların
+  ilk sayfası gerçek kişi/dizi ağırlıklıydı.
+
+## 8. Sırada ne var (önerim)
+
+1. Komşuluk keşfini **404 yeni seçim** üzerinden bir tur daha koştur
+   (`giphy-komsu.js` secim2.json ile) — küçük hesaplar oradan çıkıyor.
+2. Çin kedi-sticker vektörü ayrı taranmalı (guestEmma %43): "表情包",
+   "mikachu", "hrgojob" etiketleri.
+3. İlk deneme seti: 404'ten 30 kare, kırp + arka plan sil + cümle; senin
+   WhatsApp setlerinle yan yana koy. "Bu benim setime girer mi?" testi.
+
+## 9. Ek tur (sabaha karşı): komşuluk 2 ve triyaj 4
+
+- 423 yeni seçimin komşuluğu (634 sayfa → 1.490 hesap): **ağ kendi içine
+  kapandı** — ilk 15 sıra zaten dökülmüş kanallar. Yeni çıkanlar elendi:
+  Thejax88 (Roblox), FredGorji (İran futbolu), bhengmellomida (sanatçı),
+  TheOdiecat (sahipli kedi), clogu (emote karışık).
+- Triyaj 4 (737 hesap): hayvan payı yüksek 73 hesabın çoğu sanatçı paketi
+  ya da sahipli hayvan. Yeni alınan: **goddamghonzo** (%44, protest-kedi
+  formatı). Elenen: tteoknyangs (çizim), ashandscarlett (sahipli),
+  mrplaceofpower (kişisel), Akash_sidhu (filigranlı Pencap sayfası).
+- Sonuç: **Giphy'de bu damarın sınırı görüldü.** Seçim 445 kare, 14 kanal.
+  Daha fazlası için kaynak Giphy değil: kanalların kendi kaynak videoları
+  (TikTok/IG "cat meme" derleme hesapları) ve Çin WeChat sticker havuzu.
+- Son sayı: **445 seçim** (M3 131 · M2 124 · M1 105 · M4 50 · M5 33).
+
+## 10. Tur 4 — hayvan dışı (kullanıcı: "kedi köpek yoğunluğu aşırı")
+
+Kullanıcı sabah iki düzeltme verdi: (1) sahipli hesap / filigran elenmez,
+yalnız marka-sanatçı IP elenir — katma değer alanımız farklı (indirilebilir,
+app'e entegre); (2) aynı mizahla diğer içerik tarzlarına yönel.
+
+Yapılan: 387 hayvan dışı sorgu (emoji/emote/yaratık, kamuya mal olmuş kişi
+meme'leri, bebek/çocuk/insan anı, nesne/absürt/heykel) → toplam 1.042
+sorgu, 10.494 hesap. Hayvan dışı anonim havuz ayrı çıkarıldı
+(`_sahipsiz2`, 3.144 kare; ilk 27 sayfa + örnekleme bakıldı).
+
+| Vektör | Sonuç |
+|---|---|
+| Anonim havuz (kişi meme, rage/troll, film anı) | **544 ✅** — en verimli kaynak, ~%45 |
+| Hesap vektörü (24 kanal döküldü) | hepsi elendi: 3D tasarım stüdyosu (ThreeDee, RobinAdlung), kripto pepe ($BORED), OC çizim (SummerGuyOG, boneyone), İran/Kore/Azeri sayfalar, futbol, blinkies |
+| Kişi meme sorguları (Harold, disaster girl, blinking guy, Elmo fire…) | sonuçlar ya anonim ya marka hesabı (Aeromexico, CMN Hospitals, BuzzFeed); küçük "kişi meme küratörü" hesap yok |
+
+**Sonuç: Giphy'de hayvan dışı damar hesaplarda değil, anonim canon'da.**
+Kanal keşfi burada bitti; bundan sonrası anonim havuzu derinleştirmek
+(kalan 78 sayfa) ya da Giphy dışı kaynak.
+
+Seçim dengesi (1.246 kare): tur 1 = 235 (71 hayvan), keşif = 1.011
+(345 hayvan, **666 hayvan dışı**). Hayvan payı %33'e indi.
+
+Hayvan dışı damarın mekanizma profili: M1 çok baskın (yanlış ağızdan cümle
+= ünlü yüz + resmi/kibirli söz), M3 (tanıma: blinking guy, math lady),
+M2 (kahkaha, şok). M4/M5 hayvanlarda kalıyor — insan yüzü "masum" ya da
+"zararsız tehdit" kurmuyor; bu iki mekanizma hayvanın alanı.
+
+Elenen ama not düşülen: Disney/Pixar/Nick/Sesame/Simpsons çizgi karakteri
+(kullanıcının "telifli olan elendi" çizgisi); dizi sıradan sahnesi
+(The Office/Friends) — ama karenin kendisi meme olmuşsa alındı (Michael
+Scott "NO", Bateman, Gosling Drive, Leo pointing).
+
+## 11. Deneme seti — seçimden gerçek sticker'a (67 adet)
+
+`site/deneme/index.html` (http://127.0.0.1:8765/deneme/index.html) ·
+kaynak plan `arac/planlar/deneme-3.json` · araç `arac/deneme-set.js`.
+
+67 sticker: **512×512 animasyonlu WebP**, hepsi WhatsApp'ın 500 KB sınırı
+altında (en büyüğü 497 KB, ortanca ~300 KB), 1-30 kare. Altyazı Impact
+beyaz + siyah kontur, altta ortalı — arpecx stili.
+
+**Bu makinede ffmpeg yok**, o yüzden altyazı sharp ile basılıyor: animasyonlu
+girdi sharp'ta "sayfa şeridi" (yükseklik = kare × sayfa), bindirme de aynı
+şeritte her sayfaya tekrarlanıyor. Üç tuzak ölçüldü:
+1. Araya PNG girerse sayfa bilgisi kaybolur, animasyon **sessizce düzleşir**.
+2. WebP azami 16.383 piksel → 512 px karede en çok **30 kare** (fazlası
+   "too large for WebP").
+3. sharp zincirde **yalnız son resize'ı uygular**; kırpma + ölçekleme yan yana
+   yazılınca kırpma sessizce düşüyor. Kırpma ayrı geçiş olmalı.
+   Dikey kırpma `fit:'cover' + position:'top'` ile sayfa-farkında çalışıyor
+   (extract çalışmaz, şeridi keser).
+
+**Üretimde çıkan kalite kuralı:** kaynakta zaten yazı varsa üstüne cümle
+yazma. İlk turda 11 karede çift yazı oldu (Jordan "it became personal",
+Obama "not bad", Jackie Chan "are you serious"). Bunlar yazısız bırakıldı —
+zaten kendi cümlesini taşıyorlar. Plan dosyasında `"metin": ""`.
+
+Filigranlı kaynaklar (guestEmma %28, taviitoo_bv %16) alttan kırpıldı;
+filigran kalktı, kadraj sıkılaştı.
+
+Sıradaki: bu 67'yi kullanıcının kendi WhatsApp setleriyle yan yana koymak
+ve "hangisi setime girer" testi.
+
+## 12. Toplu üretim — 1.366 sticker
+
+Seçimin tamamı (1.369 tekil kare) hatta verildi: `arac/planlar/toplu-1.json`,
+dört paralel süreç (`toplu-1-1..4.json`), birleştirme `arac/toplu-birlestir.js`.
+Sonuç: **1.366 sticker** (512×512 animasyonlu WebP, hepsi ≤500 KB, toplam
+~384 MB), 3 kare düştü (ikisi 500 KB'a inmedi, biri 25 MB'ı aşan kaynak).
+
+Galeri: `site/havuz/index.html` → http://127.0.0.1:8765/havuz/index.html
+Kontak: `cikti/havuz/kontak-1..23.jpg` (60'ar kare).
+
+Süre: tek süreçte ~70 dk tahmin ediliyordu, dörde bölününce **~12 dk**.
+
+**Üretimde çıkan ikinci kalite kuralı:** inceleme tablosundaki "cümle"
+hücresi ham alınınca not sızdı — "tabela boş → cümle", "me?" / "…",
+"AAAA" (84)". 28 karede oldu, süzgeçle temizlendi (Türkçe karakter,
+alternatif eğik çizgi, parantezli numara, 32 karakterden uzun → yazısız).
+Süzgeç `temizle` betiğinde; bir sonraki turda inceleme tablosuna yazarken
+cümle hücresine yalnız cümle yazılmalı.
+
+Dağılım: _sahipsiz2 907 · _sahipsiz 173 · the_nseven 67 · TranslucentRunner
+31 · mimi_barbar 30 · guestEmma 27 · goddamghonzo 21 · Elgatitolover 20 ·
+brown_giphy 16 · muntasermari/soydavidfelipe 15 · taviitoo_bv 12 · txiqs 11 ·
+notsyma 10 · 9mc 8 · boneyone 2 · kamrat 1.

@@ -1,0 +1,16 @@
+{
+  "setler": { "Yokai Parade": "kyosai's hundred demons, 1889. chaos, japanese edition." },
+  "stickerlar": [
+    { "parti": "kyosai", "no": 10, "kirp": [0.12, 0.3, 0.76, 0.5], "metin": "band practice", "emoji": "🎶", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 11, "kirp": [0.15, 0.2, 0.7, 0.6], "metin": "incoming", "emoji": "🐉", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 14, "kirp": [0.2, 0.2, 0.6, 0.6], "metin": "fight!", "emoji": "⚔️", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 15, "kirp": [0.15, 0.25, 0.7, 0.55], "metin": "ride or die", "emoji": "🐗", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 18, "kirp": [0.1, 0.2, 0.8, 0.6], "metin": "party crashers", "emoji": "🎉", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 20, "kirp": [0.15, 0.2, 0.65, 0.6], "metin": "you rang?", "emoji": "👹", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 21, "kirp": [0.15, 0.2, 0.7, 0.6], "metin": "sneak attack", "emoji": "🥷", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 26, "kirp": [0.1, 0.1, 0.8, 0.8], "metin": "haunted", "emoji": "👻", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 27, "kirp": [0.1, 0.2, 0.8, 0.6], "metin": "here we go", "emoji": "🏃", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 28, "kirp": [0.1, 0.15, 0.8, 0.7], "metin": "run away", "emoji": "💨", "set": "Yokai Parade" },
+    { "parti": "kyosai", "no": 32, "kirp": [0.2, 0.2, 0.6, 0.6], "metin": "night shift", "emoji": "🌙", "set": "Yokai Parade" }
+  ]
+}

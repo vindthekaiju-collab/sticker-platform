@@ -1,0 +1,16 @@
+{
+  "setler": { "Edo Cats": "kuniyoshi's cats, 1840s edo. still judging you." },
+  "stickerlar": [
+    { "parti": "kuniyoshi", "no": 11, "kirp": null, "metin": "leaving. don't call.", "emoji": "🚶", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 13, "kirp": null, "metin": "do not disturb", "emoji": "😴", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 14, "kirp": [0.02, 0.0, 0.96, 1.0], "metin": "the audacity", "emoji": "🙀", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 15, "kirp": [0.05, 0.0, 0.9, 1.0], "metin": "put me down", "emoji": "😤", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 10, "kirp": [0.0, 0.1, 0.5, 0.6], "metin": "we need to talk", "emoji": "🗣️", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 10, "kirp": [0.45, 0.2, 0.55, 0.75], "metin": "party mode", "emoji": "🎉", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 8, "kirp": [0.45, 0.5, 0.5, 0.45], "metin": "pls", "emoji": "🥺", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 8, "kirp": [0.02, 0.05, 0.42, 0.45], "metin": "excuse me?", "emoji": "❓", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 1, "kirp": [0.05, 0.0, 0.9, 1.0], "metin": "band practice", "emoji": "🎸", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 17, "kirp": [0.25, 0.42, 0.6, 0.5], "metin": "unleashed", "emoji": "😈", "set": "Edo Cats" },
+    { "parti": "kuniyoshi", "no": 9, "kirp": [0.02, 0.12, 0.96, 0.85], "metin": "monday", "emoji": "⚔️", "set": "Edo Cats" }
+  ]
+}

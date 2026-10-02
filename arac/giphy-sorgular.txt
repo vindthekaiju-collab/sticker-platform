@@ -1,0 +1,311 @@
+# Kanal keşfi sorguları — duygu odaklı (MIZAH-MEKANIZMASI.md)
+# Her satır bir sorgu; hem GIF hem sticker sayfası okunur.
+
+# --- duygu + hayvan (tepe an) ---
+cat judging
+cat side eye
+cat staring
+cat shocked
+cat crying
+cat angry
+cat scared
+cat confused
+cat disgusted
+cat smug
+cat sad
+cat screaming
+cat caught
+cat thinking
+cat nodding
+cat no
+cat yes
+cat waiting
+cat tired
+cat bored
+cat offended
+cat suspicious
+cat unimpressed
+cat laughing
+cat evil
+cat menacing
+cat pointing
+cat slap
+cat typing
+cat listening
+kitten crying
+kitten scared
+kitten angry
+dog side eye
+dog judging
+dog confused
+dog shocked
+dog caught
+dog guilty
+dog smiling
+dog crying
+dog angry
+dog sad
+dog staring
+dog waiting
+dog nodding
+dog disappointed
+puppy sad
+puppy scared
+hamster staring
+monkey side eye
+monkey laughing
+monkey sad
+monkey angry
+raccoon meme
+frog meme
+capybara meme
+duck meme
+goose meme
+bird meme
+possum meme
+rat meme
+
+# --- sohbet cümlesi kalıpları (M1/M4/M5) ---
+say it again
+fine ignore me then
+you are being mean to me
+i can explain
+this you
+correct yourself
+not funny
+ok bye
+whatever
+i said what i said
+who asked
+respectfully no
+wait what
+thats crazy
+no way
+oh really
+nah
+excuse me
+are you serious
+so true
+my honest reaction
+me when
+pov
+locked in
+lets go
+let him cook
+sybau
+touch grass
+ratio
+cope
+skill issue
+delulu
+slay
+its giving
+rizz
+sigma
+aura
+lowkey
+bruh
+sus
+lol
+crying laughing
+dead
+im done
+mood
+same
+relatable
+vibe
+goat
+
+# --- duygu kelimesi tek başına ---
+side eye
+judging you
+disappointed
+unimpressed
+suspicious
+smug
+offended
+awkward
+nervous
+embarrassed
+flustered
+shy
+blushing
+annoyed
+irritated
+furious
+rage
+tantrum
+sulking
+pouting
+jealous
+envy
+petty
+passive aggressive
+sarcastic
+eye roll
+facepalm
+cringe
+disgust
+ew
+yikes
+oops
+guilty
+innocent
+caught
+busted
+panic
+stressed
+overwhelmed
+exhausted
+burnout
+sleepy
+lazy
+bored
+waiting
+impatient
+excited
+hyped
+proud
+flex
+confident
+cocky
+victory
+celebration
+happy dance
+wholesome
+cute
+affection
+hug
+kiss
+love you
+miss you
+thank you
+sorry
+please
+begging
+pleading
+crying
+sobbing
+heartbroken
+lonely
+depressed
+numb
+staring into void
+existential
+thinking
+plotting
+scheming
+evil laugh
+menacing
+threat
+warning
+watching you
+listening
+eavesdropping
+gossip
+tea
+drama
+shocked
+gasp
+jaw drop
+mind blown
+surprised
+confused
+what
+huh
+thinking hard
+math
+calculating
+nodding
+agree
+approve
+thumbs up
+clapping
+yes
+no
+nope
+refuse
+denied
+rejected
+ignore
+blocked
+leave me alone
+go away
+bye
+peace out
+done
+over it
+tired of this
+sigh
+whatever
+shrug
+idk
+maybe
+hmm
+smirk
+wink
+sneaky
+sly
+mischievous
+trolling
+teasing
+mocking
+laughing at you
+pointing and laughing
+lmao
+haha
+giggle
+chuckle
+snort
+holding laugh
+
+# --- sticker damarı (şeffaf) ---
+cat sticker
+dog sticker
+reaction sticker
+meme sticker
+emoji sticker
+crying emoji
+skull emoji
+side eye emoji
+cat face sticker
+smiley sticker
+hand drawn sticker
+doodle sticker
+pixel sticker
+transparent cat
+transparent dog
+transparent reaction
+
+# --- kalıp/format isimleri ---
+side eye cat
+crying cat
+screaming cat
+smudge cat
+polite cat
+huh cat
+sad hamster
+staring dog
+suspicious dog
+bombastic side eye
+criminal offensive side eye
+chipi chipi
+oh no cat
+banana cat
+maxwell cat
+apple cat
+uncanny
+mewing
+sigma face
+gigachad
+wojak
+pepe
+doge
+cheems
+shrek
+sonic
+bateman
+haaland
+squidward
+spongebob
+patrick

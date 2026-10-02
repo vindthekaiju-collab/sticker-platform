@@ -1,0 +1,17 @@
+{
+  "setler": { "Frog Life": "frogs from 1800s prints. wet, loud, unbothered." },
+  "stickerlar": [
+    { "parti": "kurbaga", "no": 9, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "let's dance", "emoji": "💃", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 12, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "watch your step", "emoji": "👣", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 18, "kirp": [0.02, 0.2, 0.96, 0.75], "metin": "marching", "emoji": "🥁", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 28, "kirp": [0.05, 0.02, 0.9, 0.9], "metin": "fancy", "emoji": "🍃", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 30, "kirp": [0.2, 0.15, 0.7, 0.7], "metin": "chilling", "emoji": "🌿", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 40, "kirp": [0.1, 0.1, 0.8, 0.75], "metin": "serenade", "emoji": "🎻", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 15, "kirp": [0.05, 0.02, 0.9, 0.85], "metin": "storytime", "emoji": "📖", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 32, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "peeking", "emoji": "👀", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 4, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "frog fight", "emoji": "🥊", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 5, "kirp": [0.25, 0.1, 0.7, 0.8], "metin": "royalty", "emoji": "👑", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 11, "kirp": [0.05, 0.05, 0.9, 0.9], "metin": "shopping", "emoji": "🛒", "set": "Frog Life" },
+    { "parti": "kurbaga", "no": 29, "kirp": [0.02, 0.05, 0.96, 0.9], "metin": "look what we found", "emoji": "🥚", "set": "Frog Life" }
+  ]
+}

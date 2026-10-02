@@ -1,0 +1,19 @@
+{
+  "setler": { "Medieval Nonsense": "marginalia from 1300s manuscripts. the monks were bored too." },
+  "stickerlar": [
+    { "parti": "drolleries", "no": 22, "kirp": [0.0, 0.25, 1.0, 0.5], "metin": "you.", "emoji": "👉", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 2, "kirp": [0.05, 0.0, 0.9, 0.85], "metin": "reading the group chat", "emoji": "📖", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 3, "kirp": [0.02, 0.02, 0.96, 0.96], "metin": "vibing", "emoji": "🎶", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 6, "kirp": null, "metin": "hanging in there", "emoji": "🙃", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 9, "kirp": [0.0, 0.05, 1.0, 0.9], "metin": "coworkers", "emoji": "👷", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 10, "kirp": [0.02, 0.12, 0.96, 0.85], "metin": "grinding", "emoji": "⚙️", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 13, "kirp": [0.5, 0.0, 0.5, 0.4], "metin": "ok bye", "emoji": "👋", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 18, "kirp": [0.02, 0.15, 0.8, 0.8], "metin": "on my way", "emoji": "🏹", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 21, "kirp": [0.05, 0.15, 0.9, 0.8], "metin": "announcement", "emoji": "📯", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 28, "kirp": [0.02, 0.1, 0.96, 0.85], "metin": "the rabbits won", "emoji": "🐰", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 33, "kirp": null, "metin": "sailing into monday", "emoji": "🛶", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 36, "kirp": [0.5, 0.55, 0.5, 0.45], "metin": "cutting ties", "emoji": "✂️", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 39, "kirp": [0.0, 0.1, 1.0, 0.9], "metin": "carrying the team", "emoji": "💪", "set": "Medieval Nonsense" },
+    { "parti": "drolleries", "no": 40, "kirp": [0.05, 0.62, 0.9, 0.38], "metin": "fight me", "emoji": "🦞", "set": "Medieval Nonsense" }
+  ]
+}

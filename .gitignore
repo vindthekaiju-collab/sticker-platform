@@ -13,3 +13,13 @@ cikti/
 # site/ ÜRETILEN DOSYALARI DA DEPODA: Vercel Git deploy'u yalnız depodakini
 # görür; yoksayılınca otomatik deploy mağaza sayfası olmadan yayına giriyordu.
 # (site/s/ ve site/setler.html'i magaza.js üretir ama commit'lenir.)
+
+# tarama partileri (ham aday listeleri) — havuza girenler veri/ ile aynı kaderde
+veri/tarama/
+
+# Üretilen sticker havuzu ve paketleri ÖNIZLEME içindir, depoya girmez
+# (1.366 webp ≈ 384 MB, 45 paket ≈ 600 MB). Üretim betikleri depoda:
+# arac/deneme-set.js → arac/set-kur.js → arac/set-paketle.js ile yeniden kurulur.
+site/havuz/*.webp
+site/setler/
+site/paketler/
