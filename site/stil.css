@@ -84,7 +84,7 @@ a { color: inherit; }
 .pul img {
   width: 100%; height: 100%; object-fit: cover; display: block;
   border-radius: 18%;
-  background: var(--dama);
+  background: #fff;
 }
 
 /* Marka etiketi: küçük, eğik, asma delikli bir fiyat etiketi gibi. */
@@ -636,7 +636,8 @@ body:not(.ana) .ust { background: var(--kagit); border-bottom-color: var(--murek
 .kare:nth-child(odd)  { transform: rotate(-1.5deg); }
 .kare:nth-child(even) { transform: rotate(1.5deg); }
 .kare:hover { transform: translate(-2px, -3px) rotate(0deg) scale(1.03); box-shadow: 6px 8px 0 var(--pembe); z-index: 2; }
-.kare img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; border-radius: 14px; background: var(--dama); }
+/* Düz beyaz zemin: dama deseni "saydam/boş" izlenimi veriyordu (kullanıcı 2026-10-02). */
+.kare img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; border-radius: 14px; background: #fff; }
 .kare-emoji {
   position: absolute; right: -6px; top: -8px;
   background: #fff; border: var(--kontur);
@@ -670,7 +671,7 @@ body:not(.ana) .ust { background: var(--kagit); border-bottom-color: var(--murek
   padding: 12px; width: min(540px, 76vw);
   display: flex; align-items: center; justify-content: center;
 }
-.sahne img { width: 100%; height: auto; max-height: 66vh; object-fit: contain; display: block; border-radius: 18px; background: var(--dama); }
+.sahne img { width: 100%; height: auto; max-height: 66vh; object-fit: contain; display: block; border-radius: 18px; background: #fff; }
 .tekli figcaption {
   display: flex; align-items: center; gap: 12px;
   background: #fff; border: var(--kontur); border-radius: 999px;

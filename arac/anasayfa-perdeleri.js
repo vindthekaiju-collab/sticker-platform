@@ -30,7 +30,7 @@ function kacar(s) {
   return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-const PERDE_TAVAN = 24;   // kaydırmalı perde sayısı; 80 set perde olunca sayfa bitmiyor
+const PERDE_TAVAN = 6;    // kaydırmalı perde sayısı — kullanıcı 2026-10-02: "5-6 yeter, 20'sini öne çıkarmaya gerek yok"
 
 function perde(set, sira, toplam, siteSira) {
   const [renk, yazi] = RENKLER[sira % RENKLER.length];
