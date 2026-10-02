@@ -7,5 +7,419 @@
    "wastickers": "544c654a18642468",
    "zip": "293ea5e28538bc61"
   }
+ },
+ "side-eye-the-look": {
+  "ad": "The Look",
+  "desc": "the look that says everything",
+  "sticker": 29,
+  "sha": {
+   "wastickers": "c3f1c601584a6b7f",
+   "zip": "4f3f20f460843d48"
+  }
+ },
+ "side-eye-sus": {
+  "ad": "That's Sus",
+  "desc": "something is not adding up",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "50d719de03b17a31",
+   "zip": "6ce99c075affd2e6"
+  }
+ },
+ "side-eye-sus-suspicious-activity": {
+  "ad": "Suspicious Activity",
+  "desc": "something is not adding up",
+  "sticker": 24,
+  "sha": {
+   "wastickers": "b0e7ac5349c996fe",
+   "zip": "f8823175cfb9d83f"
+  }
+ },
+ "side-eye-really": {
+  "ad": "Really?",
+  "desc": "disbelief, with eyebrows",
+  "sticker": 15,
+  "sha": {
+   "wastickers": "994ac7b87c0c3568",
+   "zip": "809d493a60100118"
+  }
+ },
+ "side-eye-unimpressed": {
+  "ad": "Unimpressed",
+  "desc": "not mad, just bored",
+  "sticker": 18,
+  "sha": {
+   "wastickers": "960a4b0f4efca35c",
+   "zip": "cdb23e4ee4d3bdf4"
+  }
+ },
+ "side-eye-unimpressed-whatever": {
+  "ad": "Whatever.",
+  "desc": "not mad, just bored",
+  "sticker": 18,
+  "sha": {
+   "wastickers": "6d66d59b6f5f8fa1",
+   "zip": "2157814bb5f12fc0"
+  }
+ },
+ "say-it-again": {
+  "ad": "Say It Again",
+  "desc": "small creature, big threat",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "872908e834b0633e",
+   "zip": "498a92b118ff3103"
+  }
+ },
+ "say-it-again-say-that-again": {
+  "ad": "Say That Again",
+  "desc": "small creature, big threat",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "bf9b14cd2cd69490",
+   "zip": "937af0e384ba56cc"
+  }
+ },
+ "say-it-again-square-up": {
+  "ad": "Square Up",
+  "desc": "the threat is real",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "aa8d532e0f97f4f8",
+   "zip": "6d9dae573fedcc71"
+  }
+ },
+ "dead-inside": {
+  "ad": "Dead Inside",
+  "desc": "running on zero",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "0565c87b66929db2",
+   "zip": "823992b5c2f1ebe2"
+  }
+ },
+ "dead-inside-i-m-done": {
+  "ad": "I'm Done",
+  "desc": "running on zero",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "97509047ccebf627",
+   "zip": "fc7b7ed92eb0a90f"
+  }
+ },
+ "dead-inside-do-not-disturb": {
+  "ad": "Do Not Disturb",
+  "desc": "horizontal and staying that way",
+  "sticker": 16,
+  "sha": {
+   "wastickers": "78ec02b2373f5fec",
+   "zip": "a0ea9aedc34795cd"
+  }
+ },
+ "crying-rights": {
+  "ad": "Crying Rights",
+  "desc": "feelings, loudly",
+  "sticker": 27,
+  "sha": {
+   "wastickers": "a6df412a085cd05e",
+   "zip": "43adceba52223937"
+  }
+ },
+ "crying-rights-sobbing-hours": {
+  "ad": "Sobbing Hours",
+  "desc": "feelings, loudly",
+  "sticker": 27,
+  "sha": {
+   "wastickers": "a9f242e3d55d1e19",
+   "zip": "5719e83094e1f085"
+  }
+ },
+ "crying-rights-pretty-please": {
+  "ad": "Pretty Please",
+  "desc": "begging, but make it cute",
+  "sticker": 13,
+  "sha": {
+   "wastickers": "34dbb383af73e9ec",
+   "zip": "c6eefdb2eaa1806c"
+  }
+ },
+ "crying-rights-im-fine": {
+  "ad": "I'm Fine",
+  "desc": "not fine",
+  "sticker": 18,
+  "sha": {
+   "wastickers": "d4673a01aecd66a5",
+   "zip": "8f62282f186149d7"
+  }
+ },
+ "crying-rights-im-fine-left-on-read": {
+  "ad": "Left on Read",
+  "desc": "not fine",
+  "sticker": 18,
+  "sha": {
+   "wastickers": "3c4f38f6195c5b0b",
+   "zip": "8409ef70a89285ff"
+  }
+ },
+ "caught-in-4k": {
+  "ad": "Caught in 4K",
+  "desc": "the moment it clicks",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "0805f42b35228a88",
+   "zip": "ce971d4bc3cbb147"
+  }
+ },
+ "caught-in-4k-jaw-drop": {
+  "ad": "Jaw Drop",
+  "desc": "the moment it clicks",
+  "sticker": 21,
+  "sha": {
+   "wastickers": "415c4abe638a9630",
+   "zip": "3f09659df279404a"
+  }
+ },
+ "caught-in-4k-oh-no": {
+  "ad": "Oh No",
+  "desc": "the moment it clicks",
+  "sticker": 20,
+  "sha": {
+   "wastickers": "f94807eb3db11e48",
+   "zip": "0fa31b4c0e87cfa7"
+  }
+ },
+ "caught-in-4k-wait-what": {
+  "ad": "Wait, What?",
+  "desc": "processing…",
+  "sticker": 24,
+  "sha": {
+   "wastickers": "b83fe8cf00e8292d",
+   "zip": "9c517f8596eda6ce"
+  }
+ },
+ "caught-in-4k-wait-what-come-again": {
+  "ad": "Come Again?",
+  "desc": "processing…",
+  "sticker": 23,
+  "sha": {
+   "wastickers": "3e2947607a008ba3",
+   "zip": "2ca97e22a881b813"
+  }
+ },
+ "caught-in-4k-aaaaa": {
+  "ad": "AAAAA",
+  "desc": "screaming internally and externally",
+  "sticker": 20,
+  "sha": {
+   "wastickers": "f4fa195a22d5c427",
+   "zip": "80005f22100145a9"
+  }
+ },
+ "caught-in-4k-aaaaa-nooo": {
+  "ad": "NOOO",
+  "desc": "screaming internally and externally",
+  "sticker": 20,
+  "sha": {
+   "wastickers": "63fa4c3030db30a6",
+   "zip": "c3ddcc55d2ac444e"
+  }
+ },
+ "not-funny": {
+  "ad": "Not Funny Did Not Laugh",
+  "desc": "laughing at you, not with you",
+  "sticker": 29,
+  "sha": {
+   "wastickers": "18fefb0bc753bbeb",
+   "zip": "dbe2d26f8eb19443"
+  }
+ },
+ "not-funny-lmao": {
+  "ad": "LMAO",
+  "desc": "actually laughing",
+  "sticker": 30,
+  "sha": {
+   "wastickers": "d4bb819db9ee12a4",
+   "zip": "046390d1f679ae03"
+  }
+ },
+ "not-funny-slow-clap": {
+  "ad": "Slow Clap",
+  "desc": "bravo. truly.",
+  "sticker": 20,
+  "sha": {
+   "wastickers": "23a5c9ef6d0cd781",
+   "zip": "d676aa9c327c994f"
+  }
+ },
+ "unhinged": {
+  "ad": "Unhinged Hours",
+  "desc": "no thoughts, only chaos",
+  "sticker": 29,
+  "sha": {
+   "wastickers": "255b754fac9209d4",
+   "zip": "4692c5182e3173e2"
+  }
+ },
+ "unhinged-ew": {
+  "ad": "Ew.",
+  "desc": "visibly disgusted",
+  "sticker": 12,
+  "sha": {
+   "wastickers": "2be8cd3a5658a944",
+   "zip": "054b7e136f161907"
+  }
+ },
+ "big-brain": {
+  "ad": "Big Brain Moment",
+  "desc": "thinking about it",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "205b8e0a231e33e8",
+   "zip": "d4b4dbdf81bcfe66"
+  }
+ },
+ "hard-no": {
+  "ad": "Respectfully No",
+  "desc": "yes, no, and absolutely not",
+  "sticker": 28,
+  "sha": {
+   "wastickers": "0051998a31b2638b",
+   "zip": "c3ab9d9aa8045a21"
+  }
+ },
+ "hard-no-absolutely-not": {
+  "ad": "Absolutely Not",
+  "desc": "yes, no, and absolutely not",
+  "sticker": 27,
+  "sha": {
+   "wastickers": "caa8d65a52a1a3f3",
+   "zip": "3b01388bd687c080"
+  }
+ },
+ "hard-no-say-less": {
+  "ad": "Say Less",
+  "desc": "yes, ok, deal",
+  "sticker": 28,
+  "sha": {
+   "wastickers": "47b4b9496361c614",
+   "zip": "a5c525ed0d9dbb64"
+  }
+ },
+ "certified-sigma": {
+  "ad": "Certified Sigma",
+  "desc": "built different",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "e85f44251b507763",
+   "zip": "415108917137d6bd"
+  }
+ },
+ "certified-sigma-built-different": {
+  "ad": "Built Different",
+  "desc": "built different",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "451a5a20ad8f0105",
+   "zip": "b01302142846e67a"
+  }
+ },
+ "certified-sigma-lets-go": {
+  "ad": "LET'S GO",
+  "desc": "winning, loudly",
+  "sticker": 18,
+  "sha": {
+   "wastickers": "34557b0b54359ce8",
+   "zip": "d75ab216c7891a41"
+  }
+ },
+ "soft-hours": {
+  "ad": "Soft Hours",
+  "desc": "for the people you like",
+  "sticker": 23,
+  "sha": {
+   "wastickers": "227e8e997e16d765",
+   "zip": "8b09efbf7ee74b09"
+  }
+ },
+ "soft-hours-love-u": {
+  "ad": "Love U",
+  "desc": "sent with a kiss",
+  "sticker": 20,
+  "sha": {
+   "wastickers": "fec7c34a68df098e",
+   "zip": "06c1c7266d8c152b"
+  }
+ },
+ "soft-hours-hi": {
+  "ad": "Hi :)",
+  "desc": "small, warm, daily",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "98e8196340e38dc1",
+   "zip": "4ff43478d712e8ae"
+  }
+ },
+ "work-mode": {
+  "ad": "Work Mode",
+  "desc": "sent from my desk",
+  "sticker": 25,
+  "sha": {
+   "wastickers": "6d7b1d61d2dfdc3b",
+   "zip": "39dd2ed61d1d9ebe"
+  }
+ },
+ "tea-time": {
+  "ad": "Tea Time",
+  "desc": "the drama is delicious",
+  "sticker": 24,
+  "sha": {
+   "wastickers": "e9f0d5c083fd45fb",
+   "zip": "8c1ef362caefcbb9"
+  }
+ },
+ "dance-floor": {
+  "ad": "Dance Floor",
+  "desc": "it moves, therefore it vibes",
+  "sticker": 29,
+  "sha": {
+   "wastickers": "ba636d8473116bfe",
+   "zip": "6ac198b8f570e77d"
+  }
+ },
+ "canon-classics": {
+  "ad": "Canon Classics",
+  "desc": "the ones everyone already knows",
+  "sticker": 17,
+  "sha": {
+   "wastickers": "2768e487b2e9719b",
+   "zip": "78a7c340fae93c00"
+  }
+ },
+ "canon-classics-internet-elders": {
+  "ad": "Internet Elders",
+  "desc": "the ones everyone already knows",
+  "sticker": 17,
+  "sha": {
+   "wastickers": "2ee064f3b192f921",
+   "zip": "fae55040a5defe15"
+  }
+ },
+ "oops": {
+  "ad": "Oops My Bad",
+  "desc": "caught, guilty, moving on",
+  "sticker": 26,
+  "sha": {
+   "wastickers": "655848fd5ecbfcb3",
+   "zip": "8a84221a1113521b"
+  }
+ },
+ "snack-time": {
+  "ad": "Snack Time",
+  "desc": "eating is an emotion",
+  "sticker": 14,
+  "sha": {
+   "wastickers": "9a43eb373f79e11a",
+   "zip": "f37b9d82582b9f7a"
+  }
  }
 }
